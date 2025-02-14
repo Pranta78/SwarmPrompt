@@ -1175,3 +1175,16 @@ TL;DR:
 Hannah: Hey, do you have Betty's number? Amanda: Lemme check Hannah: <file_gif> Amanda: Sorry, can't find it. Amanda: Ask Larry Amanda: He called her last time we were at the park together Hannah: I don't know him well Hannah: <file_gif> Amanda: Don't be shy, he's very nice Hannah: If you say so.. Hannah: I'd rather you texted him Amanda: Just text him 🙂 Hannah: Urgh.. Alright Hannah: Bye Amanda: Bye bye
 TL;DR: 
 
+[2025-02-14 16:21:15,807] - ### dataset example: How would you rephrase that in a few words?
+Hannah: Hey, do you have Betty's number? Amanda: Lemme check Hannah: <file_gif> Amanda: Sorry, can't find it. Amanda: Ask Larry Amanda: He called her last time we were at the park together Hannah: I don't know him well Hannah: <file_gif> Amanda: Don't be shy, he's very nice Hannah: If you say so.. Hannah: I'd rather you texted him Amanda: Just text him 🙂 Hannah: Urgh.. Alright Hannah: Bye Amanda: Bye bye
+TL;DR: 
+
+[2025-02-14 16:57:48,996] - ### dataset example: Summarize the given context.
+Hannah: Hey, do you have Betty's number? Amanda: Lemme check Hannah: <file_gif> Amanda: Sorry, can't find it. Amanda: Ask Larry Amanda: He called her last time we were at the park together Hannah: I don't know him well Hannah: <file_gif> Amanda: Don't be shy, he's very nice Hannah: If you say so.. Hannah: I'd rather you texted him Amanda: Just text him 🙂 Hannah: Urgh.. Alright Hannah: Bye Amanda: Bye bye
+TL;DR: 
+
+[2025-02-14 17:36:59,013] - Final Best Score: 0.32004295089143514
+Prompt: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+[2025-02-14 17:36:59,077] - PSO Optimization Complete
+[2025-02-14 17:36:59,077] - Best Scores History: [0.28918252531965033, 0.28918252531965033, 0.28918252531965033, 0.28918252531965033, 0.28918252531965033, 0.28918252531965033, 0.28918252531965033, 0.28918252531965033, 0.28918252531965033, 0.28918252531965033]
+[2025-02-14 17:36:59,077] - Average Scores History: [0.1658341330780147, 0.16623738319812573, 0.16623738319812573, 0.1671934302968469, 0.1671934302968469, 0.1671934302968469, 0.1671934302968469, 0.1671934302968469, 0.1671934302968469, 0.1671934302968469]

@@ -1,12 +1,12 @@
-evoluted	"Transform complex sentences by converting the provided text while simplifying it without altering its meaning."	47.6253
-evoluted	Streamline the provided sentences by condensing and simplifying the content to clarify while keeping the essence, and rewrite it using more straightforward language.	51.4165
-evoluted	Your task is to make simpler the supplied statements by simplifying and restating the information using more accessible language.	50.9978
-evoluted	Summarize and reword the information from the given material into simpler text.	49.1118
-evoluted	"Simplify complicated statements by altering the provided text, focusing on clarifying complex sentences and streamlining it without changing its essence."	49.5494
-para	Rephrase the sentence to make it simpler while retaining its original meaning.	50.9978
-evoluted	Transform complex phrases by rewriting the provided sentences in a simpler form while eliminating unnecessary words to maintain the core message.	49.0093
-para	Condense and rephrase the details in the provided text.	51.4226
-evoluted	Simplify the provided content by transforming the given phrases into more accessible wording.	53.3361
-evoluted	Revise the provided text by streamlining complicated sentences and removing excess words, making the phrases easier to understand while preserving the original meaning.	51.6977
-best score: 53.336088304404846
-average score: 50.516438258317876
+evoluted	Transform the given statement into simpler terms by simplifying complex sentences and eliminating unnecessary words, all while maintaining its core meaning and expressing the provided text in a straightforward manner.	47.1243
+evoluted	Rephrase the provided information by streamlining intricate sentences and removing superfluous words to transform the given statement into a clearer form while maintaining its core message.	48.8157
+evoluted	Clarify and restate the information in the given input by rewriting the submitted phrases clearly.	47.8613
+evoluted	Restate the content shared to rewrite the input text into a clearer and more succinct way.	46.288
+evoluted	Convert the provided statement into a clearer form while retaining its essence by simplifying complex sentences and eliminating unnecessary words or phrases.	50.7275
+para	Make the above sentence easier to understand while preserving its meaning.	48.5925
+para	Rephrase the provided sentences in a more straightforward manner.	48.9496
+evoluted	Make the supplied text easier to understand by rewording the sentences while keeping the initial meaning intact, and rewrite the information in a more straightforward and concise manner.	47.2967
+evoluted	Refine the provided text by transforming it into a more understandable version, enhancing the clarity of the statements while ensuring that the original meaning is preserved.	50.6392
+evoluted	Clarify the provided statements by streamlining intricate sentences and eliminating superfluous words while retaining their original meaning.	47.2518
+best score: 50.72753988765859
+average score: 48.35467377156376

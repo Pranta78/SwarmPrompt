@@ -1,8 +1,8 @@
-pso	Rephrase the sentence to improve clarity and simplify its structure while preserving the original meaning. Aim for conciseness and straightforwardness by eliminating unnecessary words or expressions.	46.9831
-para	Rephrase intricate sentences to make them clearer and remove any extraneous words or expressions.	46.5969
-pso	Revise the provided information to improve clarity and conciseness by simplifying complex sentences and eliminating unnecessary words or expressions.	46.5692
+pso	Revise the following text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and creating a straightforward and concise version. Your aim is to make the text as clear and easily understandable as possible.	47.8247
+pso	Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.	47.8941
+pso	Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise presentation. Your objective is to make the text as clear and easy to read as possible for all audiences.	48.3214
 
 ----------sorted results----------
-pso	Rephrase the sentence to improve clarity and simplify its structure while preserving the original meaning. Aim for conciseness and straightforwardness by eliminating unnecessary words or expressions.	46.9831
-para	Rephrase intricate sentences to make them clearer and remove any extraneous words or expressions.	46.5969
-pso	Revise the provided information to improve clarity and conciseness by simplifying complex sentences and eliminating unnecessary words or expressions.	46.5692
+pso	Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise presentation. Your objective is to make the text as clear and easy to read as possible for all audiences.	48.3214
+pso	Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.	47.8941
+pso	Revise the following text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and creating a straightforward and concise version. Your aim is to make the text as clear and easily understandable as possible.	47.8247

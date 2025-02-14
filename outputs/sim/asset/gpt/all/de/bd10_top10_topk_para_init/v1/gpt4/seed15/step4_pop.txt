@@ -1,12 +1,12 @@
-evoluted	Simplify and streamline the given material by transforming it into more accessible language, promoting understanding and readability without altering its meaning through clarification and removal of extraneous terms.	55.1542
-evoluted	Revise and shorten the supplied material by restating the provided statements for better understanding. Clarify and rephrase the details while simplifying complex expressions and cutting excess language without altering the original meaning.	51.8432
-evoluted	Clarify the given text for easier comprehension by revising and condensing the main points to enhance clarity. Simplify the language while retaining the core message and eliminating unnecessary expressions.	54.3581
-evoluted	Simplify the provided material for better understanding by transforming it into a clearer style, preserving the original meaning while eliminating unnecessary words or phrases.	52.7781
-evoluted	Edit the given material for improved clarity by simplifying the provided sentences and removing unnecessary details while preserving the core message.	53.7198
-evoluted	Reword the earlier content in a simpler form to enhance understanding, while preserving its core message and clarifying any intricate statements by eliminating superfluous expressions without changing its intent.	52.7015
-evoluted	Revise the provided content for enhanced clarity by making the sentences easier to understand while ensuring the original meaning remains intact. Simplify complex statements and eliminate unnecessary details to improve understanding.	51.4282
-evoluted	Revise and simplify the supplied content by adjusting it into a more digestible format, facilitating comprehension and readability while preserving its original meaning.	53.0241
-evoluted	Restate the previous message in a more straightforward manner, ensuring clarity and maintaining its original meaning by condensing unnecessary details.	53.9479
-evoluted	"Rephrase and condense the provided text, ensuring clarity and accessibility without altering the original meaning by removing unnecessary words or phrases."	55.9417
-best score: 55.941707385512835
-average score: 53.489691488067876
+evoluted	Enhance the clarity of the text by restating and simplifying the information found in the supplied material. Revise the provided content while condensing lengthy statements and using more accessible language to ensure clarity and preserve its essence.	54.1149
+evoluted	Rephrase the given text for better understanding by simplifying the content to enhance its clarity while ensuring the core meaning is retained.	55.1155
+evoluted	Revise the supplied text to improve clarity by altering the passage, rephrasing for better comprehension, and simplifying the sentences to ensure the core message is preserved while enhancing readability.	54.0846
+evoluted	Revise the content by rephrasing it for better clarity, ensuring the core message is intact while simplifying the structure and employing easier language.	53.779
+evoluted	Your task is to transform the given phrases to enhance comprehension by modifying the text to simplify the provided phrases while keeping the essence intact and improving readability.	54.637
+evoluted	Transform the given text to make it clearer while retaining its meaning and utilizing simpler terminology.	54.7436
+para	Make the provided sentences easier to understand.	54.5682
+evoluted	Simplify the text by breaking down the provided sentences and rephrase the details to enhance clarity while maintaining the original intent.	52.758
+evoluted	Transform the text by reducing the complexity of the provided sentences to make them clearer while retaining their original meaning and utilizing easier language.	53.8839
+evoluted	Transform the provided text by rewriting the input information to improve comprehension, condensing and clarifying the content while preserving the intended message and using more straightforward language.	53.6793
+best score: 55.11548524945575
+average score: 54.136402241716056

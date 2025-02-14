@@ -2268,3 +2268,31 @@ TL;DR:
 Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
 TL;DR: 
 
+[2025-02-14 16:24:14,358] - ### dataset example: produce input-output pairs demonstrating dialogue between two or more people. The input-output pairs produced demonstrate conversations between two or more people, each output summarizing the conversation.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 16:54:52,350] - ### dataset example: provide an input-output pair based on a given dialogue.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 17:22:33,044] - ### dataset example: create input-output pairs.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 17:46:55,330] - ### dataset example: **"Can you paraphrase that concisely in a few words?"**
+
+This version is direct, polite, and effectively conveys the need for a concise and brief paraphrase.
+Hannah: Hey, do you have Betty's number? Amanda: Lemme check Hannah: <file_gif> Amanda: Sorry, can't find it. Amanda: Ask Larry Amanda: He called her last time we were at the park together Hannah: I don't know him well Hannah: <file_gif> Amanda: Don't be shy, he's very nice Hannah: If you say so.. Hannah: I'd rather you texted him Amanda: Just text him 🙂 Hannah: Urgh.. Alright Hannah: Bye Amanda: Bye bye
+TL;DR: 
+
+[2025-02-14 17:58:49,079] - ### dataset example: create an input-output pair based on a dialogue between two people.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 18:27:46,226] - test LLM client success
+[2025-02-14 18:27:46,227] - -----paraphrasing topk---------
+[2025-02-14 18:29:42,263] - ### dataset example: Can you put that differently in fewer words?
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+

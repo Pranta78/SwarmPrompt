@@ -1,0 +1,1 @@
+para	Can you paraphrase that concisely?	0.3534	0.1059	0.3099	0.2564
