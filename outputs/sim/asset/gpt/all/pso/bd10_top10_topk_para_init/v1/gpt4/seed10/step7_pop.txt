@@ -1,12 +1,12 @@
-pso	Revise the provided sentence to enhance clarity and understanding by simplifying the language and breaking it down into more straightforward concepts, while preserving its original meaning.	41.5184
-pso	Revise the given sentences to make them clearer and easier to understand by breaking down the information into simpler language.	46.3883
-pso	Revise the provided information to improve clarity and understanding by simplifying the language and breaking it down into easy-to-understand concepts. Focus on making the content accessible to a broad audience.	47.7907
-pso	Revise the provided information to enhance clarity and understanding by simplifying the language and breaking it down into clear, straightforward concepts. Strive for an engaging and accessible format that appeals to all readers, ensuring the content is easy to understand and remember. Focus on creating a relatable tone that facilitates comprehension and retention.	48.1542
-pso	Revise the provided information to improve clarity and understanding by simplifying complex sentences, removing unnecessary words and phrases, and breaking down concepts into clear, straightforward ideas.	41.5184
-pso	Revise the sentence above to improve clarity and understanding by simplifying the language and breaking it down into more straightforward concepts, while ensuring that the original meaning remains intact.	41.5184
-pso	Revise the provided information to enhance clarity and understanding by simplifying the language and breaking it down into clear, straightforward concepts. Strive for an engaging and accessible format that appeals to a broad audience, ensuring the content is easy to comprehend and remember. Focus on creating a relatable tone that facilitates both understanding and retention, making the information easily accessible to all readers.	47.6923
-pso	Revise the provided information to improve clarity and understanding by simplifying the language and breaking it down into straightforward concepts.	47.7907
-pso	Revise the provided text to improve clarity and understanding by simplifying the language. Break down complex ideas into straightforward concepts, making it accessible and easier to read.	38.6227
-pso	Revise the provided text to enhance clarity and understanding by simplifying complex sentences and eliminating unnecessary words. Break down the content into straightforward concepts for improved comprehension.	41.5184
-best score: 48.15418410477097
-average score: 44.251259000100966
+pso	Revise the given sentences to make them simpler and more understandable, while ensuring that their original meaning remains intact.	48.346
+pso	Revise the given sentences to make them simpler and more understandable, while maintaining their original meaning.	48.0009
+pso	Revise the provided information to make it simpler and easier to understand, while preserving the original meaning.	47.6698
+pso	Revise the provided text to enhance simplicity and clarity, while maintaining its original meaning.	48.062
+pso	Revise the given sentences to simplify complex structures and remove any unnecessary words or phrases, while ensuring that the original meaning remains clear and intact. Aim for clarity and understandability.	47.4382
+pso	Revise the given sentences to simplify their structure and improve clarity, ensuring that the original meaning is preserved.	48.1605
+pso	Revise the provided sentences to make them simpler and more understandable, while ensuring the original meaning is preserved.	48.2564
+pso	Revise and simplify the provided information to enhance clarity and understanding while preserving the original meaning. Aim to make the content more accessible and straightforward without altering its essential message.	46.969
+pso	Revise the provided text to make it simpler and more understandable, while preserving the original meaning.	48.2244
+pso	Revise the provided sentences to enhance clarity and simplicity. Eliminate unnecessary words and expressions while preserving the original meaning. Aim to make the text easily understandable for a wider audience.	46.9235
+best score: 48.346038147547915
+average score: 47.8050594868314

@@ -12,7 +12,7 @@ LLM_TYPE=gpt4
 
 for dataset in asset
 do
-OUT_PATH=outputs/sim/$dataset/gpt/$initial/de/bd${BUDGET}_top${POPSIZE}_topk_para_init/$template/$LLM_TYPE
+OUT_PATH=outputs/sim/$dataset/gpt/$initial/de/bd${BUDGET}_top${POPSIZE}_topk_para_init/$template/$LLM_TYPE_20_samples
 for SEED in 5 10 15
 do
 python run.py \
@@ -21,7 +21,7 @@ python run.py \
     --task sim \
     --batch-size 20 \
     --prompt-num 0 \
-    --sample_num 10 \
+    --sample_num 20 \
     --language_model gpt \
     --budget $BUDGET \
     --popsize $POPSIZE \

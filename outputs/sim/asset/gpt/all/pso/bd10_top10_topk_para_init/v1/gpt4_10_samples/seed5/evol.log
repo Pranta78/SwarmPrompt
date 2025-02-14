@@ -1156,3 +1156,81 @@ Prompt: Revise the provided text to enhance simplicity and clarity, while preser
 [2025-02-14 15:20:41,531] - PSO Optimization Complete
 [2025-02-14 15:20:41,531] - Best Scores History: [49.82520768887161, 50.50677596604171, 50.50677596604171, 50.50677596604171, 50.50677596604171, 50.50677596604171, 50.50677596604171, 50.50677596604171, 50.50677596604171, 50.50677596604171]
 [2025-02-14 15:20:41,532] - Average Scores History: [48.65537782856605, 48.82191160751653, 49.190250772534796, 49.335810546141296, 49.63813357778421, 49.63813357778421, 49.650305989585085, 49.650305989585085, 49.72644872900581, 49.7497167487329]
+[2025-02-14 20:43:08,321] - ==================================================
+[2025-02-14 20:43:08,322] - dev data: None
+[2025-02-14 20:43:08,322] - test data: None
+[2025-02-14 20:43:08,322] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/gpt4_10_samples/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 20
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = gpt4
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-14 20:43:08,322] - ==================================================
+[2025-02-14 20:43:08,322] - Instruction placeholder: <prompt>
+[2025-02-14 20:43:08,334] - ---------------------Evolving prompt-------------------
+
+[2025-02-14 20:43:08,336] - ==================================================
+[2025-02-14 20:43:08,336] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_20.txt
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/gpt4_10_samples/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 20
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = gpt4
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-14 20:43:08,336] - ==================================================
+[2025-02-14 20:43:08,336] - ---loading prompts from data/sim/asset/prompts.json
+[2025-02-14 20:43:10,028] - test LLM client success
+[2025-02-14 20:43:10,028] - -----paraphrasing topk---------
+[2025-02-14 20:43:23,048] - ### dataset example: Rephrase the sentence above to make it simpler while retaining its meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+

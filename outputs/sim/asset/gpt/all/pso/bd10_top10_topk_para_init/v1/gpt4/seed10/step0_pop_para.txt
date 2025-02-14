@@ -3,8 +3,8 @@ ape	simplify the given sentences.	35.174
 ape	simplify and restate the information in the given input.	33.9913
 manual	Rewrite the input text into simpler text.	33.8711
 ape	simplify complex sentences and eliminate unnecessary words or phrases.	33.6792
-para	Rephrase the sentence above to make it simpler while maintaining its meaning.	26.5613
-para	Rewrite the provided sentences in a simpler form.	26.5613
-para	Break down the information provided and express it in a more straightforward manner.	38.6227
-para	Rephrase the given text using easier language.	26.5613
-para	Rephrase intricate sentences to make them clearer and remove superfluous words or expressions.	38.6227
+para	Rephrase the sentence above in simpler terms while maintaining its meaning.	46.9983
+para	Rewrite the provided sentences in a simpler form.	47.7864
+para	Condense and rephrase the information provided in the input.	44.9275
+para	Transform the given text into easier-to-understand language.	45.868
+para	Streamline intricate sentences by removing superfluous words or expressions.	45.3832

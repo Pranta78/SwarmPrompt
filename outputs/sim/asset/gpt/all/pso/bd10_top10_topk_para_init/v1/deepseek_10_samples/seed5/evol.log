@@ -2377,3 +2377,16 @@ The Simplification of the sentence is:
 One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.
 The Simplification of the sentence is: 
 
+[2025-02-14 19:45:36,189] - ### dataset example: Clarify, simplify, restate, and rephrase the information in the given input, enhancing clarity while preserving the original meaning, and ensuring the output is both accurate and concise.
+One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:26:40,830] - ### dataset example: Clarify, simplify, restate, and rephrase the information in the given input, enhancing clarity while preserving the original meaning, and ensuring the output is both accurate and concise.
+One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.
+The Simplification of the sentence is: 
+
+[2025-02-14 23:11:33,355] - Final Best Score: 45.40291915121943
+Prompt: Clarify, simplify, restate, and rephrase the information in the given input, enhancing clarity while preserving the original meaning, and ensuring the output is both accurate and concise.
+[2025-02-14 23:11:33,355] - PSO Optimization Complete
+[2025-02-14 23:11:33,355] - Best Scores History: [46.006277147521665, 46.006277147521665, 46.1829506743098, 47.853809712300254, 47.853809712300254, 47.853809712300254, 47.853809712300254, 47.853809712300254, 47.853809712300254, 47.853809712300254]
+[2025-02-14 23:11:33,355] - Average Scores History: [44.80858786246988, 45.104216406818715, 45.187669651002246, 45.99031456278252, 46.10992990524714, 46.246312532872835, 46.533907654161254, 46.589624389389726, 46.616807677579885, 46.815376023043605]

@@ -8419,3 +8419,14 @@ The Simplification of the sentence is:
 One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.
 The Simplification of the sentence is: 
 
+[2025-02-14 18:51:44,308] - ### dataset example: Edit the provided material to simplify the statements for easier understanding, transforming the text to improve clarity while retaining its original meaning and utilizing simpler terminology.
+One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.
+The Simplification of the sentence is: 
+
+[2025-02-14 19:05:44,863] - ### dataset example: Edit the given text for clearer communication, streamlining the wording while ensuring the main idea remains intact and employing simpler language for better comprehension.
+One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.
+The Simplification of the sentence is: 
+
+[2025-02-14 19:21:41,380] - ----------step 9 best score: 48.47378463030185, best prompt: Edit the provided material to simplify the statements for easier understanding, transforming the text to improve clarity while retaining its original meaning and utilizing simpler terminology.----------
+[2025-02-14 19:21:41,380] - best_scores: 54.743570571340875,54.743570571340875,54.743570571340875,55.11548524945575,55.11548524945575,55.11548524945575,55.11548524945575,55.11548524945575,55.11548524945575,55.11548524945575
+[2025-02-14 19:21:41,380] - avg_scores: 51.9892,52.6017,53.5238,54.1262,54.1364,54.1591,54.2533,54.2573,54.271,54.271

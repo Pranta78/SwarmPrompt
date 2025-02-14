@@ -1,12 +1,12 @@
-pso	Revise the provided sentence to enhance clarity and understanding by simplifying the language and breaking it down into more straightforward concepts, while preserving its original meaning.	41.5184
-pso	Revise the given sentences to make them clearer and easier to understand by breaking down the information into simpler language.	46.3883
-pso	Revise the provided information to enhance clarity and understanding by simplifying the language and breaking it down into more straightforward concepts.	46.6296
-pso	Revise the provided information to enhance clarity and understanding by simplifying the language and breaking it down into clear, straightforward concepts. Aim for an engaging and accessible format that makes the content easy to grasp for all readers.	46.3883
-pso	Revise the provided information to improve clarity and understanding by simplifying complex sentences, removing unnecessary words and phrases, and breaking down concepts into clear, straightforward ideas.	41.5184
-pso	Revise the sentence above to improve clarity and understanding by simplifying the language and breaking it down into more straightforward concepts, while ensuring that the original meaning remains intact.	41.5184
-pso	Revise the provided information to enhance clarity and comprehension by simplifying the language and breaking it down into clear, straightforward concepts. Aim to make the content easily accessible and understandable for a broad audience.	46.3883
-pso	Revise the provided information to improve clarity and understanding by simplifying the language and breaking it down into straightforward concepts.	47.7907
-pso	Revise the provided text to improve clarity and understanding by simplifying the language. Break down complex ideas into straightforward concepts, making it accessible and easier to read.	38.6227
-pso	Revise the provided text to enhance clarity and understanding by simplifying complex sentences and eliminating unnecessary words. Break down the content into straightforward concepts for improved comprehension.	41.5184
-best score: 47.790728387520325
-average score: 43.82815598694829
+pso	Revise the given sentences to make them simpler and more understandable, while ensuring that their original meaning remains intact.	48.346
+pso	Revise the given sentences to make them simpler and more understandable, while maintaining their original meaning.	48.0009
+pso	Revise the provided information to make it simpler and easier to understand, while preserving the original meaning.	47.6698
+pso	Revise the provided text to enhance simplicity and clarity, while maintaining its original meaning.	48.062
+pso	Revise the provided sentences to simplify complex structures and eliminate unnecessary words or phrases, ensuring that the original meaning remains clear and intact.	47.2884
+pso	Revise the provided sentences to simplify their structure and enhance clarity, while maintaining their original meaning.	47.5148
+pso	Revise the provided sentences to make them simpler and clearer, ensuring that the original meaning is preserved.	48.1056
+pso	Revise and simplify the provided information to enhance clarity and understanding while preserving the original meaning. Aim to make the content more accessible and straightforward without altering its essential message.	46.969
+pso	Revise the provided text to make it simpler and more understandable, while preserving the original meaning.	48.2244
+pso	Revise the provided sentences to enhance clarity and simplicity. Eliminate unnecessary words and expressions while preserving the original meaning. Aim to make the text easily understandable for a wider audience.	46.9235
+best score: 48.346038147547915
+average score: 47.71043167144312

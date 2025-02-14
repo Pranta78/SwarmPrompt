@@ -1,25 +1,10 @@
-manual	Use concise language to summarize the main points, avoiding any unnecessary details or repetition.	0.0841	0.0	0.0841	0.0561
-ape	discuss a dream or a goal.	0.0795	0.0054	0.0795	0.0548
-manual	How would you rephrase that in a few words?	0.0779	0.0	0.0779	0.0519
-ape	create input-output pairs.	0.0642	0.0118	0.0642	0.0467
-manual	Edit the summary if necessary to ensure clarity and coherence.	0.0652	0.0	0.0652	0.0435
-para	State your ideas clearly and concisely, highlighting the key points while eliminating any superfluous information or repetition.	0.0444	0.0	0.0444	0.0296
-para	Explore a vision or an aspiration.	0.0683	0.0	0.0683	0.0455
-para	Can you paraphrase that concisely?	0.0894	0.0091	0.0894	0.0626
-para	Generate input-output examples.	0.0578	0.0	0.0578	0.0385
-para	Alright, so I need to figure out how to generate a variation of the given instruction while keeping the same meaning. The original instruction is: "Edit the summary if necessary to ensure clarity and coherence." 
-
-First, I should understand what this instruction is asking. It's telling someone to make changes to a summary if needed, with the goal of making it clear and coherent. So, the key points are editing, clarity, and coherence.
-
-Now, to create a variation, I need to rephrase this without changing the meaning. Maybe I can start by changing "Edit" to a synonym like "Revise" or "Modify." Then, instead of "if necessary," I could say "as needed" or "when required." 
-
-Also, "ensure clarity and coherence" can be rephrased. Maybe "to make it clear and coherent" or "to enhance clarity and coherence." 
-
-Putting it all together, I could say something like: "Revise the summary as needed to enhance clarity and coherence." That seems to capture the same meaning but uses different words.
-
-Wait, let me check if I'm missing anything. The original instruction is about editing the summary, so the variation should also imply making changes. "Revise" works because it means to make changes. "As needed" is a good substitute for "if necessary." 
-
-For the clarity and coherence part, "enhance" is a good verb because it implies improving those aspects. So, overall, the variation should be clear and maintain the original intent.
-
-I think that's a solid variation. It uses different wording but keeps the same message. I don't see any parts that change the meaning, so this should work.
-Revise the summary as needed to enhance clarity and coherence.	0.051	0.0	0.051	0.034
+manual	How would you rephrase that in a few words?	0.3515	0.0951	0.2942	0.2469
+manual	Use concise language to summarize the main points, avoiding any unnecessary details or repetition.	0.3364	0.1034	0.2981	0.246
+manual	Summarize the given context.	0.3279	0.1002	0.2929	0.2404
+manual	Please summarize the main context.	0.2953	0.0795	0.2626	0.2125
+manual	Edit the summary if necessary to ensure clarity and coherence.	0.2797	0.0894	0.2531	0.2074
+para	Can you put that differently in fewer words?	0.3387	0.1035	0.3048	0.249
+para	Condense the information by highlighting the key points and omitting superfluous content.	0.3385	0.1146	0.3124	0.2551
+para		0.2844	0.0777	0.2501	0.2041
+para	Please provide a concise overview of the key points.	0.2541	0.0762	0.2324	0.1876
+para	Revise the summary as needed to ensure it is clear and coherent.	0.2771	0.0783	0.25	0.2018

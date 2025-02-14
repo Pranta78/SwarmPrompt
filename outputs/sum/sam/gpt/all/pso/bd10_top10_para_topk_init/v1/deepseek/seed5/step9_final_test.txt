@@ -1,1 +1,4 @@
 para	Can you paraphrase that concisely?	0.3534	0.1059	0.3099	0.2564
+pso	**"Can you paraphrase that concisely in a few words?"**
+
+This version is direct, polite, and effectively conveys the need for a concise and brief paraphrase.	0.329	0.0959	0.2847	0.2365
