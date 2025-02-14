@@ -1,0 +1,82 @@
+[2025-02-13 02:01:17,865] - ==================================================
+[2025-02-13 02:01:17,865] - dev data: None
+[2025-02-13 02:01:17,865] - test data: None
+[2025-02-13 02:01:17,865] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/pso/bd5_top5_topk_para_init/v1/deepseek_100/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 5
+	popsize = 5
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 02:01:17,865] - ==================================================
+[2025-02-13 02:01:17,865] - Instruction placeholder: <prompt>
+[2025-02-13 02:01:17,877] - ---------------------Evolving prompt-------------------
+
+[2025-02-13 02:01:17,879] - ==================================================
+[2025-02-13 02:01:17,880] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/pso/bd5_top5_topk_para_init/v1/deepseek_100/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 5
+	popsize = 5
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 02:01:17,880] - ==================================================
+[2025-02-13 02:01:17,880] - ---loading prompts from data/sim/asset/prompts.json
+[2025-02-13 02:01:28,070] - test LLM client success
+[2025-02-13 02:01:28,070] - -----paraphrasing topk---------
+[2025-02-13 02:01:42,814] - ### dataset example: Paraphrase the above sentence without altering its meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 02:34:54,519] - ### dataset example: Condense the provided text.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+

@@ -1,0 +1,304 @@
+[2025-02-11 21:06:50,754] - ==================================================
+[2025-02-11 21:06:50,754] - dev data: None
+[2025-02-11 21:06:50,754] - test data: None
+[2025-02-11 21:06:50,754] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/mistral/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 50
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = mistral
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 21:06:50,755] - ==================================================
+[2025-02-11 21:06:50,755] - Instruction placeholder: <prompt>
+[2025-02-11 21:06:50,774] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 21:06:50,776] - ==================================================
+[2025-02-11 21:06:50,776] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_50.txt
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/mistral/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 50
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = mistral
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 21:06:50,777] - ==================================================
+[2025-02-11 21:06:50,777] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 21:06:50,777] - ### dataset example: Given the English sentence, the simplification of the sentence is
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-11 21:12:08,265] - ==================================================
+[2025-02-11 21:12:08,265] - dev data: None
+[2025-02-11 21:12:08,265] - test data: None
+[2025-02-11 21:12:08,265] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/mistral/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 50
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = mistral
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 21:12:08,265] - ==================================================
+[2025-02-11 21:12:08,265] - Instruction placeholder: <prompt>
+[2025-02-11 21:12:08,283] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 21:12:08,285] - ==================================================
+[2025-02-11 21:12:08,285] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_50.txt
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/mistral/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 50
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = mistral
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 21:12:08,285] - ==================================================
+[2025-02-11 21:12:08,285] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 21:12:08,286] - ### dataset example: Given the English sentence, the simplification of the sentence is
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-11 21:13:42,508] - ==================================================
+[2025-02-11 21:13:42,508] - dev data: None
+[2025-02-11 21:13:42,508] - test data: None
+[2025-02-11 21:13:42,509] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/mistral/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 50
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = mistral
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 21:13:42,509] - ==================================================
+[2025-02-11 21:13:42,509] - Instruction placeholder: <prompt>
+[2025-02-11 21:13:42,524] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 21:13:42,526] - ==================================================
+[2025-02-11 21:13:42,526] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_50.txt
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/mistral/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 50
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = mistral
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 21:13:42,526] - ==================================================
+[2025-02-11 21:13:42,527] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 21:13:42,527] - ### dataset example: Given the English sentence, the simplification of the sentence is
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-11 21:14:56,053] - ==================================================
+[2025-02-11 21:14:56,053] - dev data: None
+[2025-02-11 21:14:56,053] - test data: None
+[2025-02-11 21:14:56,054] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/mistral/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 50
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = mistral
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 21:14:56,054] - ==================================================
+[2025-02-11 21:14:56,054] - Instruction placeholder: <prompt>
+[2025-02-11 21:14:56,072] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 21:14:56,074] - ==================================================
+[2025-02-11 21:14:56,074] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_50.txt
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/mistral/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 50
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = mistral
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 21:14:56,074] - ==================================================
+[2025-02-11 21:14:56,074] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 21:14:56,075] - ### dataset example: Given the English sentence, the simplification of the sentence is
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+

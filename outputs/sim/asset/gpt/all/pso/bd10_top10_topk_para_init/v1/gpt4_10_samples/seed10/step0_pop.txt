@@ -1,0 +1,12 @@
+pso	Revise the above sentence for clarity and conciseness while preserving its original meaning.	49.0938
+pso	Revise and simplify the provided sentences by eliminating unnecessary words or phrases for clarity and conciseness.	47.6827
+pso	New Optimized Prompt: Simplify and restate the information in the provided input by streamlining complex sentences and removing unnecessary words or phrases for clarity.	46.9171
+pso	Rewrite the input text in a simpler and clearer manner by streamlining complex sentences and eliminating unnecessary words or phrases.	49.1084
+pso	Streamline complex sentences by removing unnecessary words and phrases for clarity and conciseness.	49.2318
+pso	Revise the sentence to simplify it while maintaining its original meaning and enhancing clarity by removing any unnecessary words and phrases.	49.1623
+pso	Revise the provided sentences to simplify their structure and enhance clarity by removing unnecessary words and phrases.	47.5607
+pso	Rephrase and condense the provided information by streamlining complex sentences and eliminating unnecessary words for enhanced clarity and conciseness.	46.5819
+pso	Rephrase the provided text using simpler language while streamlining complex sentences by removing unnecessary words and phrases for better clarity and conciseness.	49.912
+para	Streamline intricate sentences by removing superfluous words or phrases.	49.1927
+best score: 49.912046084893554
+average score: 48.44433791511428

@@ -1,0 +1,12 @@
+evoluted	Your role is to simplify the provided phrases by clarifying and shortening the information while retaining its core meaning, transforming complex sentences into clearer and more accessible language.	54.4321
+evoluted	Your task is to clarify the given information by streamlining the provided sentences, rewording intricate expressions and simplifying them while preserving their essence in straightforward language.	54.0621
+evoluted	Your task is to make simpler the supplied statements by simplifying and restating the information using more accessible language.	50.9978
+evoluted	Summarize and reword the information from the given material into simpler text.	49.1118
+evoluted	"Simplify complicated statements by altering the provided text, focusing on clarifying complex sentences and streamlining it without changing its essence."	49.5494
+evoluted	Your mission is to paraphrase the details from the given material by refining the statements, making the content clearer while preserving its main idea, and restating it in simpler terms.	52.2402
+evoluted	Transform complex phrases by rewriting the provided sentences in a simpler form while eliminating unnecessary words to maintain the core message.	49.0093
+para	Condense and rephrase the details in the provided text.	51.4226
+evoluted	Simplify the provided content by transforming the given phrases into more accessible wording.	53.3361
+evoluted	Revise the provided text by streamlining complicated sentences and removing excess words, making the phrases easier to understand while preserving the original meaning.	51.6977
+best score: 54.43211026869769
+average score: 51.585918342752294

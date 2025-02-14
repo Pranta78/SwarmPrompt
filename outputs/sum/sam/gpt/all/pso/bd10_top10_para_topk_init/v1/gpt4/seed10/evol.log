@@ -1,0 +1,1202 @@
+[2025-02-14 11:42:21,778] - ==================================================
+[2025-02-14 11:42:21,779] - dev data: None
+[2025-02-14 11:42:21,779] - test data: None
+[2025-02-14 11:42:21,779] - 
+	dataset = sam
+	task = sum
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sum/sam/gpt/all/pso/bd10_top10_para_topk_init/v1/gpt4/seed10
+	language_model = gpt
+	position = pre
+	sample_num = 10
+	seed = 10
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = gpt4
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sum/sam/prompts_auto.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-14 11:42:21,779] - ==================================================
+[2025-02-14 11:42:21,779] - Instruction placeholder: <prompt>
+[2025-02-14 11:42:21,784] - ---------------------Evolving prompt-------------------
+
+[2025-02-14 11:42:21,785] - ==================================================
+[2025-02-14 11:42:21,785] - 
+	dataset = sam
+	task = sum
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sum/sam/gpt/all/pso/bd10_top10_para_topk_init/v1/gpt4/seed10
+	language_model = gpt
+	position = pre
+	sample_num = 10
+	seed = 10
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = gpt4
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sum/sam/prompts_auto.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-14 11:42:21,785] - ==================================================
+[2025-02-14 11:42:21,785] - ---loading prompts from data/sum/sam/prompts_auto.json
+[2025-02-14 11:42:23,755] - test LLM client success
+[2025-02-14 11:42:23,756] - -----paraphrasing topk---------
+[2025-02-14 11:42:39,242] - ### dataset example: Employ clear and brief language to outline the key points, steering clear of superfluous information or redundancy.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:43:15,479] - ### dataset example: Can you express that differently in just a few words?
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:44:05,419] - ### dataset example: Provide a concise summary of the provided information.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:44:36,044] - ### dataset example: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:44:58,225] - ### dataset example: Kindly provide a summary of the key context.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:45:25,014] - Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+[2025-02-14 11:45:25,014] - How would you rephrase that in a few words?
+[2025-02-14 11:45:25,014] - Summarize the given context.
+[2025-02-14 11:45:25,014] - Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+[2025-02-14 11:45:25,014] - Please summarize the main context.
+[2025-02-14 11:45:25,014] - Employ clear and brief language to outline the key points, steering clear of superfluous information or redundancy.
+[2025-02-14 11:45:25,014] - Can you express that differently in just a few words?
+[2025-02-14 11:45:25,014] - Provide a concise summary of the provided information.
+[2025-02-14 11:45:25,014] - Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+[2025-02-14 11:45:25,014] - Kindly provide a summary of the key context.
+[2025-02-14 11:45:25,014] - Step 0 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+2. Personal Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:45:26,668] - Generated Prompt: Optimize your summary by using concise language to clearly articulate the main points, while eliminating unnecessary details and repetition.
+[2025-02-14 11:45:26,668] - ### dataset example: Optimize your summary by using concise language to clearly articulate the main points, while eliminating unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:45:53,304] - Step 0 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: How would you rephrase that in a few words?
+2. Personal Best: How would you rephrase that in a few words?
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:45:54,932] - Generated Prompt: Rephrase that succinctly, capturing the main points while eliminating unnecessary details or repetition.
+[2025-02-14 11:45:54,933] - ### dataset example: Rephrase that succinctly, capturing the main points while eliminating unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:46:23,795] - Step 0 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the given context.
+2. Personal Best: Summarize the given context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:46:25,873] - Generated Prompt: Summarize the provided context using clear and concise language, highlighting the main points while avoiding unnecessary details and repetition.
+[2025-02-14 11:46:25,873] - ### dataset example: Summarize the provided context using clear and concise language, highlighting the main points while avoiding unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:46:53,968] - Step 0 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+2. Personal Best: Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:46:58,210] - Generated Prompt: Read the text or listen to the dialogue attentively to identify and summarize the main idea and key points clearly and concisely, avoiding unnecessary details or repetition.
+[2025-02-14 11:46:58,210] - ### dataset example: Read the text or listen to the dialogue attentively to identify and summarize the main idea and key points clearly and concisely, avoiding unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:47:25,766] - Step 0 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please summarize the main context.
+2. Personal Best: Please summarize the main context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:47:27,703] - Generated Prompt: Please provide a concise summary of the main context, focusing on the essential points and eliminating any unnecessary details or repetition.
+[2025-02-14 11:47:27,703] - ### dataset example: Please provide a concise summary of the main context, focusing on the essential points and eliminating any unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:47:57,330] - Step 0 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Employ clear and brief language to outline the key points, steering clear of superfluous information or redundancy.
+2. Personal Best: Employ clear and brief language to outline the key points, steering clear of superfluous information or redundancy.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:47:59,497] - Generated Prompt: Utilize clear and concise language to summarize the key points, ensuring to avoid unnecessary details and repetition.
+[2025-02-14 11:47:59,497] - ### dataset example: Utilize clear and concise language to summarize the key points, ensuring to avoid unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:48:27,311] - Step 0 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Can you express that differently in just a few words?
+2. Personal Best: Can you express that differently in just a few words?
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:48:29,191] - Generated Prompt: Can you summarize the main points in a few concise words, avoiding unnecessary details or repetition?
+[2025-02-14 11:48:29,191] - ### dataset example: Can you summarize the main points in a few concise words, avoiding unnecessary details or repetition?
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:48:51,088] - Step 0 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Provide a concise summary of the provided information.
+2. Personal Best: Provide a concise summary of the provided information.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:48:53,484] - Generated Prompt: Summarize the provided information using clear and concise language, focusing on the main points while avoiding unnecessary details or repetition.
+[2025-02-14 11:48:53,484] - ### dataset example: Summarize the provided information using clear and concise language, focusing on the main points while avoiding unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:49:23,607] - Step 0 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+2. Personal Best: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:49:25,975] - Generated Prompt: Listen to the audio or read the text carefully to identify the central theme and key details. Summarize the main points using concise language, avoiding unnecessary information and repetition.
+[2025-02-14 11:49:25,976] - ### dataset example: Listen to the audio or read the text carefully to identify the central theme and key details. Summarize the main points using concise language, avoiding unnecessary information and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:50:02,598] - Step 0 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Kindly provide a summary of the key context.
+2. Personal Best: Kindly provide a summary of the key context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:50:04,397] - Generated Prompt: Please provide a concise summary of the key context, focusing on the main points while avoiding unnecessary details or repetition.
+[2025-02-14 11:50:04,398] - ### dataset example: Please provide a concise summary of the key context, focusing on the main points while avoiding unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:50:33,642] - Step 1 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+2. Personal Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:50:35,445] - Generated Prompt: New Optimized Prompt: Summarize the main points using clear and concise language, eliminating unnecessary details and repetition for maximum clarity and impact.
+[2025-02-14 11:50:35,446] - ### dataset example: New Optimized Prompt: Summarize the main points using clear and concise language, eliminating unnecessary details and repetition for maximum clarity and impact.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:51:00,962] - Step 1 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: How would you rephrase that in a few words?
+2. Personal Best: How would you rephrase that in a few words?
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:51:02,645] - Generated Prompt: How would you succinctly summarize the main points in just a few words, ensuring clarity while avoiding unnecessary details or repetition?
+[2025-02-14 11:51:02,646] - ### dataset example: How would you succinctly summarize the main points in just a few words, ensuring clarity while avoiding unnecessary details or repetition?
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:51:29,168] - Step 1 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the given context.
+2. Personal Best: Summarize the given context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:51:31,964] - Generated Prompt: **New Optimized Prompt:** Summarize the provided context using concise language to highlight the main points, eliminating any unnecessary details or repetition.
+[2025-02-14 11:51:31,964] - ### dataset example: **New Optimized Prompt:** Summarize the provided context using concise language to highlight the main points, eliminating any unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:52:06,312] - Step 1 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+2. Personal Best: Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:52:08,293] - Generated Prompt: Carefully read the text or listen to the dialogue to identify and summarize the main idea and key points, using concise language and avoiding unnecessary details or repetition.
+[2025-02-14 11:52:08,294] - ### dataset example: Carefully read the text or listen to the dialogue to identify and summarize the main idea and key points, using concise language and avoiding unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:52:35,423] - Step 1 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please summarize the main context.
+2. Personal Best: Please summarize the main context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:52:37,499] - Generated Prompt: Please provide a concise summary of the main context, highlighting the key points while eliminating any unnecessary details or repetition.
+[2025-02-14 11:52:37,499] - ### dataset example: Please provide a concise summary of the main context, highlighting the key points while eliminating any unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:53:12,822] - Step 1 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Utilize clear and concise language to summarize the key points, ensuring to avoid unnecessary details and repetition.
+2. Personal Best: Utilize clear and concise language to summarize the key points, ensuring to avoid unnecessary details and repetition.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:53:14,878] - Generated Prompt: Use clear and concise language to effectively summarize the key points, while avoiding unnecessary details and repetition.
+[2025-02-14 11:53:14,878] - ### dataset example: Use clear and concise language to effectively summarize the key points, while avoiding unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:53:41,920] - Step 1 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Can you express that differently in just a few words?
+2. Personal Best: Can you express that differently in just a few words?
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:53:43,651] - Generated Prompt: Can you summarize the main points concisely, using just a few words and avoiding unnecessary details or repetition?
+[2025-02-14 11:53:43,652] - ### dataset example: Can you summarize the main points concisely, using just a few words and avoiding unnecessary details or repetition?
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:54:05,573] - Step 1 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the provided information using clear and concise language, focusing on the main points while avoiding unnecessary details or repetition.
+2. Personal Best: Summarize the provided information using clear and concise language, focusing on the main points while avoiding unnecessary details or repetition.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:54:07,228] - Generated Prompt: Summarize the provided information using clear and concise language, highlighting the main points while omitting unnecessary details and repetition for an effective overview.
+[2025-02-14 11:54:07,228] - ### dataset example: Summarize the provided information using clear and concise language, highlighting the main points while omitting unnecessary details and repetition for an effective overview.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:54:34,980] - Step 1 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+2. Personal Best: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:54:36,864] - Generated Prompt: Analyze the text or audio conversation carefully to identify the central theme and key details, then provide a concise summary of the main points while avoiding unnecessary details or repetition.
+[2025-02-14 11:54:36,864] - ### dataset example: Analyze the text or audio conversation carefully to identify the central theme and key details, then provide a concise summary of the main points while avoiding unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:55:08,878] - Step 1 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please provide a concise summary of the key context, focusing on the main points while avoiding unnecessary details or repetition.
+2. Personal Best: Please provide a concise summary of the key context, focusing on the main points while avoiding unnecessary details or repetition.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:55:10,981] - Generated Prompt: Please provide a concise summary of the key context, highlighting the main points with clarity while avoiding unnecessary details and repetition.
+[2025-02-14 11:55:10,981] - ### dataset example: Please provide a concise summary of the key context, highlighting the main points with clarity while avoiding unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:55:42,899] - Step 2 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+2. Personal Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:55:51,425] - Generated Prompt: Use concise language to clearly summarize the main points, eliminating unnecessary details and repetition for a focused understanding.
+[2025-02-14 11:55:51,425] - ### dataset example: Use concise language to clearly summarize the main points, eliminating unnecessary details and repetition for a focused understanding.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:56:38,346] - Step 2 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: How would you rephrase that in a few words?
+2. Personal Best: How would you rephrase that in a few words?
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:56:40,971] - Generated Prompt: How would you concisely summarize the main points while avoiding unnecessary details or repetition?
+[2025-02-14 11:56:40,971] - ### dataset example: How would you concisely summarize the main points while avoiding unnecessary details or repetition?
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:57:04,616] - Step 2 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the given context.
+2. Personal Best: Summarize the given context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:57:06,786] - Generated Prompt: New Optimized Prompt: Provide a concise summary of the given context, focusing on the main points while omitting unnecessary details and repetition.
+[2025-02-14 11:57:06,786] - ### dataset example: New Optimized Prompt: Provide a concise summary of the given context, focusing on the main points while omitting unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:57:33,825] - Step 2 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+2. Personal Best: Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:57:35,657] - Generated Prompt: Carefully read the text or listen to the dialogue to identify and summarize the main idea and key points concisely, avoiding unnecessary details and repetition.
+[2025-02-14 11:57:35,657] - ### dataset example: Carefully read the text or listen to the dialogue to identify and summarize the main idea and key points concisely, avoiding unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:58:16,421] - Step 2 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please summarize the main context.
+2. Personal Best: Please summarize the main context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:58:19,060] - Generated Prompt: Please provide a concise summary of the main context, focusing on the key points while avoiding unnecessary details or repetition.
+[2025-02-14 11:58:19,060] - ### dataset example: Please provide a concise summary of the main context, focusing on the key points while avoiding unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:58:46,194] - Step 2 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Use clear and concise language to effectively summarize the key points, while avoiding unnecessary details and repetition.
+2. Personal Best: Use clear and concise language to effectively summarize the key points, while avoiding unnecessary details and repetition.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:58:48,019] - Generated Prompt: New Optimized Prompt: Utilize clear and concise language to summarize the main points effectively, eliminating any unnecessary details and repetition for a focused presentation.
+[2025-02-14 11:58:48,020] - ### dataset example: New Optimized Prompt: Utilize clear and concise language to summarize the main points effectively, eliminating any unnecessary details and repetition for a focused presentation.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:59:11,457] - Step 2 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Can you express that differently in just a few words?
+2. Personal Best: Can you express that differently in just a few words?
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:59:13,208] - Generated Prompt: Can you summarize the main points using concise language, avoiding unnecessary details or repetition?
+[2025-02-14 11:59:13,209] - ### dataset example: Can you summarize the main points using concise language, avoiding unnecessary details or repetition?
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 11:59:41,021] - Step 2 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the provided information using clear and concise language, highlighting the main points while omitting unnecessary details and repetition for an effective overview.
+2. Personal Best: Summarize the provided information using clear and concise language, highlighting the main points while omitting unnecessary details and repetition for an effective overview.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 11:59:43,445] - Generated Prompt: Summarize the provided information using clear and concise language, focusing on the key points while eliminating any unnecessary details or repetition for a coherent and effective overview.
+[2025-02-14 11:59:43,446] - ### dataset example: Summarize the provided information using clear and concise language, focusing on the key points while eliminating any unnecessary details or repetition for a coherent and effective overview.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:00:08,272] - Step 2 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+2. Personal Best: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:00:10,125] - Generated Prompt: Pay close attention to the text or audio conversation to effectively grasp the central theme and key details. Use concise language to summarize the main points, ensuring clarity while avoiding unnecessary details or repetition.
+[2025-02-14 12:00:10,125] - ### dataset example: Pay close attention to the text or audio conversation to effectively grasp the central theme and key details. Use concise language to summarize the main points, ensuring clarity while avoiding unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:00:33,752] - Step 2 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please provide a concise summary of the key context, focusing on the main points while avoiding unnecessary details or repetition.
+2. Personal Best: Please provide a concise summary of the key context, focusing on the main points while avoiding unnecessary details or repetition.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:00:35,670] - Generated Prompt: Please provide a concise summary of the key context, highlighting the main points clearly while eliminating any unnecessary details or repetition.
+[2025-02-14 12:00:35,670] - ### dataset example: Please provide a concise summary of the key context, highlighting the main points clearly while eliminating any unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:00:59,561] - Step 3 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+2. Personal Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:01:01,425] - Generated Prompt: Use clear and concise language to summarize the key points, eliminating unnecessary details and repetition for an effective and focused overview.
+[2025-02-14 12:01:01,426] - ### dataset example: Use clear and concise language to summarize the key points, eliminating unnecessary details and repetition for an effective and focused overview.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:01:24,584] - Step 3 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: How would you rephrase that in a few words?
+2. Personal Best: How would you rephrase that in a few words?
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:01:26,375] - Generated Prompt: How would you succinctly summarize the main points in a few words, avoiding unnecessary details and repetition?
+[2025-02-14 12:01:26,375] - ### dataset example: How would you succinctly summarize the main points in a few words, avoiding unnecessary details and repetition?
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:01:48,825] - Step 3 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the given context.
+2. Personal Best: Summarize the given context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:01:50,612] - Generated Prompt: Summarize the provided context using concise language to highlight the main points, while avoiding unnecessary details and repetition.
+[2025-02-14 12:01:50,612] - ### dataset example: Summarize the provided context using concise language to highlight the main points, while avoiding unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:02:18,648] - Step 3 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+2. Personal Best: Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:02:21,249] - Generated Prompt: Read the text or listen to the dialogue attentively to grasp the main idea and key points discussed. Summarize these findings using concise language, ensuring to exclude any unnecessary details or repetition for a clear and focused understanding.
+[2025-02-14 12:02:21,249] - ### dataset example: Read the text or listen to the dialogue attentively to grasp the main idea and key points discussed. Summarize these findings using concise language, ensuring to exclude any unnecessary details or repetition for a clear and focused understanding.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:02:51,969] - Step 3 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please summarize the main context.
+2. Personal Best: Please summarize the main context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:02:53,677] - Generated Prompt: Please provide a concise summary of the main context, highlighting key points while avoiding unnecessary details and repetition.
+[2025-02-14 12:02:53,678] - ### dataset example: Please provide a concise summary of the main context, highlighting key points while avoiding unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:03:22,647] - Step 3 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: New Optimized Prompt: Utilize clear and concise language to summarize the main points effectively, eliminating any unnecessary details and repetition for a focused presentation.
+2. Personal Best: New Optimized Prompt: Utilize clear and concise language to summarize the main points effectively, eliminating any unnecessary details and repetition for a focused presentation.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:03:24,687] - Generated Prompt: **New Optimized Prompt:** Use clear and concise language to effectively summarize the main points, avoiding unnecessary details and repetition for a focused and impactful presentation.
+[2025-02-14 12:03:24,688] - ### dataset example: **New Optimized Prompt:** Use clear and concise language to effectively summarize the main points, avoiding unnecessary details and repetition for a focused and impactful presentation.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:03:52,924] - Step 3 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Can you express that differently in just a few words?
+2. Personal Best: Can you express that differently in just a few words?
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:03:54,776] - Generated Prompt: Can you summarize the main points using concise language and rephrase them in just a few words, avoiding unnecessary details or repetition?
+[2025-02-14 12:03:54,777] - ### dataset example: Can you summarize the main points using concise language and rephrase them in just a few words, avoiding unnecessary details or repetition?
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:04:15,725] - Step 3 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the provided information using clear and concise language, highlighting the main points while omitting unnecessary details and repetition for an effective overview.
+2. Personal Best: Summarize the provided information using clear and concise language, highlighting the main points while omitting unnecessary details and repetition for an effective overview.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:04:17,739] - Generated Prompt: Summarize the provided information using clear and concise language. Highlight the key points while eliminating unnecessary details and repetition for a coherent and effective overview.
+[2025-02-14 12:04:17,740] - ### dataset example: Summarize the provided information using clear and concise language. Highlight the key points while eliminating unnecessary details and repetition for a coherent and effective overview.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:04:44,843] - Step 3 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+2. Personal Best: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:04:46,828] - Generated Prompt: Carefully analyze the text or audio conversation to identify the central theme and key details. Summarize the main points using concise language, while avoiding unnecessary details or repetition.
+[2025-02-14 12:04:46,829] - ### dataset example: Carefully analyze the text or audio conversation to identify the central theme and key details. Summarize the main points using concise language, while avoiding unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:05:27,851] - Step 3 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please provide a concise summary of the key context, highlighting the main points clearly while eliminating any unnecessary details or repetition.
+2. Personal Best: Please provide a concise summary of the key context, highlighting the main points clearly while eliminating any unnecessary details or repetition.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:05:30,239] - Generated Prompt: Please provide a concise summary of the key context, clearly highlighting the main points while eliminating unnecessary details and repetition for a streamlined and effective overview.
+[2025-02-14 12:05:30,240] - ### dataset example: Please provide a concise summary of the key context, clearly highlighting the main points while eliminating unnecessary details and repetition for a streamlined and effective overview.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:05:57,104] - Step 4 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+2. Personal Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:05:59,236] - Generated Prompt: Summarize the main points clearly and concisely, eliminating unnecessary details and repetition for maximum clarity and impact.
+[2025-02-14 12:05:59,236] - ### dataset example: Summarize the main points clearly and concisely, eliminating unnecessary details and repetition for maximum clarity and impact.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:06:23,397] - Step 4 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: How would you rephrase that in a few words?
+2. Personal Best: How would you rephrase that in a few words?
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:06:25,158] - Generated Prompt: How would you succinctly summarize the main points using concise language, avoiding unnecessary details or repetition?
+[2025-02-14 12:06:25,158] - ### dataset example: How would you succinctly summarize the main points using concise language, avoiding unnecessary details or repetition?
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:06:46,850] - Step 4 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the given context.
+2. Personal Best: Summarize the given context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:06:48,655] - Generated Prompt: Provide a clear and concise summary of the given context, highlighting the main points while omitting unnecessary details and repetition.
+[2025-02-14 12:06:48,655] - ### dataset example: Provide a clear and concise summary of the given context, highlighting the main points while omitting unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:07:13,625] - Step 4 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+2. Personal Best: Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:07:16,412] - Generated Prompt: Read the text or listen to the dialogue attentively to grasp the main idea and key points. Then, use concise language to summarize these elements, avoiding unnecessary details and repetition.
+[2025-02-14 12:07:16,412] - ### dataset example: Read the text or listen to the dialogue attentively to grasp the main idea and key points. Then, use concise language to summarize these elements, avoiding unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:07:43,705] - Step 4 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please summarize the main context.
+2. Personal Best: Please summarize the main context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:07:45,446] - Generated Prompt: Please provide a concise summary of the main context, highlighting the key points while avoiding unnecessary details and repetition.
+[2025-02-14 12:07:45,446] - ### dataset example: Please provide a concise summary of the main context, highlighting the key points while avoiding unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:08:12,329] - Step 4 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: New Optimized Prompt: Utilize clear and concise language to summarize the main points effectively, eliminating any unnecessary details and repetition for a focused presentation.
+2. Personal Best: New Optimized Prompt: Utilize clear and concise language to summarize the main points effectively, eliminating any unnecessary details and repetition for a focused presentation.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:08:14,113] - Generated Prompt: New Optimized Prompt: Summarize the main points clearly and concisely, avoiding unnecessary details and repetition to ensure a focused presentation.
+[2025-02-14 12:08:14,114] - ### dataset example: New Optimized Prompt: Summarize the main points clearly and concisely, avoiding unnecessary details and repetition to ensure a focused presentation.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:08:41,749] - Step 4 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Can you summarize the main points using concise language and rephrase them in just a few words, avoiding unnecessary details or repetition?
+2. Personal Best: Can you summarize the main points using concise language and rephrase them in just a few words, avoiding unnecessary details or repetition?
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:08:43,514] - Generated Prompt: Please summarize the main points using concise language and rephrase them in just a few words, ensuring clarity while avoiding unnecessary details and repetition.
+[2025-02-14 12:08:43,514] - ### dataset example: Please summarize the main points using concise language and rephrase them in just a few words, ensuring clarity while avoiding unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:09:12,723] - Step 4 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the provided information using clear and concise language, highlighting the main points while omitting unnecessary details and repetition for an effective overview.
+2. Personal Best: Summarize the provided information using clear and concise language, highlighting the main points while omitting unnecessary details and repetition for an effective overview.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:09:14,547] - Generated Prompt: Create a clear and concise summary of the provided information, emphasizing the main points while eliminating unnecessary details and repetition for an effective overview.
+[2025-02-14 12:09:14,547] - ### dataset example: Create a clear and concise summary of the provided information, emphasizing the main points while eliminating unnecessary details and repetition for an effective overview.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:09:43,239] - Step 4 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+2. Personal Best: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:09:44,858] - Generated Prompt: Carefully analyze the text or audio conversation to identify the central theme and key details, and then succinctly summarize the main points while eliminating any unnecessary information or repetition.
+[2025-02-14 12:09:44,859] - ### dataset example: Carefully analyze the text or audio conversation to identify the central theme and key details, and then succinctly summarize the main points while eliminating any unnecessary information or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:10:11,991] - Step 4 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please provide a concise summary of the key context, highlighting the main points clearly while eliminating any unnecessary details or repetition.
+2. Personal Best: Please provide a concise summary of the key context, highlighting the main points clearly while eliminating any unnecessary details or repetition.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:10:13,625] - Generated Prompt: Please provide a concise summary that clearly highlights the main points, while eliminating any unnecessary details or repetition. Use precise language for clarity.
+[2025-02-14 12:10:13,625] - ### dataset example: Please provide a concise summary that clearly highlights the main points, while eliminating any unnecessary details or repetition. Use precise language for clarity.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:10:40,772] - Step 5 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+2. Personal Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:10:42,963] - Generated Prompt: Use clear and concise language to summarize the key points, ensuring to eliminate any unnecessary details or repetition for a focused and effective overview.
+[2025-02-14 12:10:42,963] - ### dataset example: Use clear and concise language to summarize the key points, ensuring to eliminate any unnecessary details or repetition for a focused and effective overview.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:11:08,309] - Step 5 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: How would you rephrase that in a few words?
+2. Personal Best: How would you rephrase that in a few words?
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:11:10,678] - Generated Prompt: Rephrase the main points concisely, using clear language and avoiding unnecessary details or repetition.
+[2025-02-14 12:11:10,678] - ### dataset example: Rephrase the main points concisely, using clear language and avoiding unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:11:42,596] - Step 5 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the given context.
+2. Personal Best: Summarize the given context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:11:44,325] - Generated Prompt: Summarize the provided context using concise language that highlights the main points, while avoiding unnecessary details and repetition.
+[2025-02-14 12:11:44,326] - ### dataset example: Summarize the provided context using concise language that highlights the main points, while avoiding unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:12:09,301] - Step 5 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+2. Personal Best: Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:12:11,421] - Generated Prompt: Carefully read the text or listen to the dialogue to identify and understand the main idea and key points. Then, use concise language to summarize these insights, avoiding unnecessary details and repetition.
+[2025-02-14 12:12:11,421] - ### dataset example: Carefully read the text or listen to the dialogue to identify and understand the main idea and key points. Then, use concise language to summarize these insights, avoiding unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:12:37,247] - Step 5 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please summarize the main context.
+2. Personal Best: Please summarize the main context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:12:38,969] - Generated Prompt: Please provide a concise summary of the main context, highlighting the key points without unnecessary details or repetition.
+[2025-02-14 12:12:38,969] - ### dataset example: Please provide a concise summary of the main context, highlighting the key points without unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:13:04,821] - Step 5 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: New Optimized Prompt: Utilize clear and concise language to summarize the main points effectively, eliminating any unnecessary details and repetition for a focused presentation.
+2. Personal Best: New Optimized Prompt: Utilize clear and concise language to summarize the main points effectively, eliminating any unnecessary details and repetition for a focused presentation.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:13:06,744] - Generated Prompt: New Optimized Prompt: Employ clear and concise language to effectively summarize the main points, ensuring a focused presentation by eliminating unnecessary details and repetition.
+[2025-02-14 12:13:06,745] - ### dataset example: New Optimized Prompt: Employ clear and concise language to effectively summarize the main points, ensuring a focused presentation by eliminating unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:13:33,853] - Step 5 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Can you summarize the main points using concise language and rephrase them in just a few words, avoiding unnecessary details or repetition?
+2. Personal Best: Can you summarize the main points using concise language and rephrase them in just a few words, avoiding unnecessary details or repetition?
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:13:35,462] - Generated Prompt: Can you succinctly summarize the main points in just a few words, ensuring clarity and avoiding any unnecessary details or repetition?
+[2025-02-14 12:13:35,462] - ### dataset example: Can you succinctly summarize the main points in just a few words, ensuring clarity and avoiding any unnecessary details or repetition?
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:13:57,773] - Step 5 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the provided information using clear and concise language, highlighting the main points while omitting unnecessary details and repetition for an effective overview.
+2. Personal Best: Summarize the provided information using clear and concise language, highlighting the main points while omitting unnecessary details and repetition for an effective overview.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:13:59,576] - Generated Prompt: Create a clear and concise summary of the provided information, emphasizing the main points while eliminating unnecessary details and repetition for an effective overview.
+[2025-02-14 12:13:59,577] - Step 5 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+2. Personal Best: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:14:01,928] - Generated Prompt: **Optimized Prompt:** Carefully analyze the text or audio conversation to identify the central theme and key details. Use concise language to summarize the main points, eliminating any unnecessary details or repetition.
+[2025-02-14 12:14:01,928] - ### dataset example: **Optimized Prompt:** Carefully analyze the text or audio conversation to identify the central theme and key details. Use concise language to summarize the main points, eliminating any unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:14:27,744] - Step 5 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please provide a concise summary that clearly highlights the main points, while eliminating any unnecessary details or repetition. Use precise language for clarity.
+2. Personal Best: Please provide a concise summary that clearly highlights the main points, while eliminating any unnecessary details or repetition. Use precise language for clarity.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:14:29,664] - Generated Prompt: Please provide a concise summary that clearly highlights the main points, using precise language to enhance clarity. Eliminate any unnecessary details or repetition to ensure the information is straightforward and easy to understand.
+[2025-02-14 12:14:29,665] - ### dataset example: Please provide a concise summary that clearly highlights the main points, using precise language to enhance clarity. Eliminate any unnecessary details or repetition to ensure the information is straightforward and easy to understand.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:14:53,666] - Step 6 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+2. Personal Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:14:55,360] - Generated Prompt: Summarize the main points using concise language, ensuring clarity by eliminating unnecessary details and repetition.
+[2025-02-14 12:14:55,360] - ### dataset example: Summarize the main points using concise language, ensuring clarity by eliminating unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:15:23,365] - Step 6 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: How would you rephrase that in a few words?
+2. Personal Best: How would you rephrase that in a few words?
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:15:24,962] - Generated Prompt: Please summarize the main points using concise language, avoiding unnecessary details or repetition.
+[2025-02-14 12:15:24,963] - ### dataset example: Please summarize the main points using concise language, avoiding unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:15:47,119] - Step 6 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the given context.
+2. Personal Best: Summarize the given context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:15:49,008] - Generated Prompt: Summarize the provided context using concise language to capture the main points while avoiding unnecessary details or repetition.
+[2025-02-14 12:15:49,008] - ### dataset example: Summarize the provided context using concise language to capture the main points while avoiding unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:16:11,301] - Step 6 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+2. Personal Best: Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:16:13,192] - Generated Prompt: Read the text or listen to the dialogue attentively to grasp the main idea and key points discussed. Then, summarize the information using concise language, avoiding unnecessary details or repetition.
+[2025-02-14 12:16:13,192] - ### dataset example: Read the text or listen to the dialogue attentively to grasp the main idea and key points discussed. Then, summarize the information using concise language, avoiding unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:16:38,899] - Step 6 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please summarize the main context.
+2. Personal Best: Please summarize the main context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:16:40,498] - Generated Prompt: Please provide a concise summary of the main context, focusing on the key points while avoiding unnecessary details or repetition.
+[2025-02-14 12:16:40,498] - Step 6 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: New Optimized Prompt: Utilize clear and concise language to summarize the main points effectively, eliminating any unnecessary details and repetition for a focused presentation.
+2. Personal Best: New Optimized Prompt: Utilize clear and concise language to summarize the main points effectively, eliminating any unnecessary details and repetition for a focused presentation.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:16:42,289] - Generated Prompt: New Optimized Prompt: Employ clear and concise language to effectively summarize the main points, ensuring a focused presentation by eliminating unnecessary details and repetition.
+[2025-02-14 12:16:42,290] - Step 6 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Can you summarize the main points using concise language and rephrase them in just a few words, avoiding unnecessary details or repetition?
+2. Personal Best: Can you summarize the main points using concise language and rephrase them in just a few words, avoiding unnecessary details or repetition?
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:16:43,905] - Generated Prompt: Summarize the main points using concise language in just a few words, while avoiding unnecessary details and repetition.
+[2025-02-14 12:16:43,906] - ### dataset example: Summarize the main points using concise language in just a few words, while avoiding unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:17:03,386] - Step 6 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the provided information using clear and concise language, highlighting the main points while omitting unnecessary details and repetition for an effective overview.
+2. Personal Best: Summarize the provided information using clear and concise language, highlighting the main points while omitting unnecessary details and repetition for an effective overview.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:17:05,194] - Generated Prompt: Summarize the provided information using clear and concise language, focusing on the key points while omitting unnecessary details and repetition for an effective and comprehensive overview.
+[2025-02-14 12:17:05,195] - ### dataset example: Summarize the provided information using clear and concise language, focusing on the key points while omitting unnecessary details and repetition for an effective and comprehensive overview.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:17:29,076] - Step 6 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+2. Personal Best: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:17:31,020] - Generated Prompt: Carefully analyze the text or audio conversation to identify the central theme and key details, then summarize these main points using clear and concise language, avoiding unnecessary information or repetition.
+[2025-02-14 12:17:31,021] - ### dataset example: Carefully analyze the text or audio conversation to identify the central theme and key details, then summarize these main points using clear and concise language, avoiding unnecessary information or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:17:55,343] - Step 6 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please provide a concise summary that clearly highlights the main points, using precise language to enhance clarity. Eliminate any unnecessary details or repetition to ensure the information is straightforward and easy to understand.
+2. Personal Best: Please provide a concise summary that clearly highlights the main points, using precise language to enhance clarity. Eliminate any unnecessary details or repetition to ensure the information is straightforward and easy to understand.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:17:57,404] - Generated Prompt: Please provide a concise summary that clearly highlights the main points using precise language for enhanced clarity. Avoid unnecessary details and repetition to ensure the information is straightforward and easy to understand.
+[2025-02-14 12:17:57,404] - ### dataset example: Please provide a concise summary that clearly highlights the main points using precise language for enhanced clarity. Avoid unnecessary details and repetition to ensure the information is straightforward and easy to understand.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:18:24,933] - Step 7 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+2. Personal Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:18:26,733] - Generated Prompt: Use concise language to summarize the key points, eliminating unnecessary details and repetition for clarity and precision.
+[2025-02-14 12:18:26,734] - ### dataset example: Use concise language to summarize the key points, eliminating unnecessary details and repetition for clarity and precision.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:18:50,302] - Step 7 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: How would you rephrase that in a few words?
+2. Personal Best: How would you rephrase that in a few words?
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:18:51,986] - Generated Prompt: Rephrase that succinctly, summarizing the main points while avoiding unnecessary details or repetition.
+[2025-02-14 12:18:51,987] - ### dataset example: Rephrase that succinctly, summarizing the main points while avoiding unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:19:17,692] - Step 7 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the given context.
+2. Personal Best: Summarize the given context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:19:19,432] - Generated Prompt: **Optimized Prompt:** Summarize the provided context using concise language to highlight the main points, while avoiding unnecessary details and repetition.
+[2025-02-14 12:19:19,432] - ### dataset example: **Optimized Prompt:** Summarize the provided context using concise language to highlight the main points, while avoiding unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:19:41,996] - Step 7 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+2. Personal Best: Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:19:44,097] - Generated Prompt: Carefully read the text or listen to the dialogue to grasp the main idea and key points discussed. Then, use concise language to summarize these essential elements, ensuring clarity and avoiding unnecessary details or repetition.
+[2025-02-14 12:19:44,097] - ### dataset example: Carefully read the text or listen to the dialogue to grasp the main idea and key points discussed. Then, use concise language to summarize these essential elements, ensuring clarity and avoiding unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:20:07,741] - Step 7 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please summarize the main context.
+2. Personal Best: Please summarize the main context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:20:09,271] - Generated Prompt: Please provide a concise summary of the main context, highlighting the key points while avoiding unnecessary details and repetition.
+[2025-02-14 12:20:09,272] - Step 7 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: New Optimized Prompt: Utilize clear and concise language to summarize the main points effectively, eliminating any unnecessary details and repetition for a focused presentation.
+2. Personal Best: New Optimized Prompt: Utilize clear and concise language to summarize the main points effectively, eliminating any unnecessary details and repetition for a focused presentation.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:20:11,456] - Generated Prompt: New Optimized Prompt: Use clear and concise language to effectively summarize the main points, ensuring a focused presentation by eliminating unnecessary details and repetition.
+[2025-02-14 12:20:11,456] - ### dataset example: New Optimized Prompt: Use clear and concise language to effectively summarize the main points, ensuring a focused presentation by eliminating unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:20:36,870] - Step 7 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Can you summarize the main points using concise language and rephrase them in just a few words, avoiding unnecessary details or repetition?
+2. Personal Best: Can you summarize the main points using concise language and rephrase them in just a few words, avoiding unnecessary details or repetition?
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:20:38,614] - Generated Prompt: Please summarize the main points using concise language in just a few words, ensuring that you avoid unnecessary details and repetition.
+[2025-02-14 12:20:38,614] - ### dataset example: Please summarize the main points using concise language in just a few words, ensuring that you avoid unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:20:58,179] - Step 7 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the provided information using clear and concise language, focusing on the key points while omitting unnecessary details and repetition for an effective and comprehensive overview.
+2. Personal Best: Summarize the provided information using clear and concise language, focusing on the key points while omitting unnecessary details and repetition for an effective and comprehensive overview.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:20:59,811] - Generated Prompt: Summarize the provided information using clear and concise language, emphasizing the key points while eliminating unnecessary details and repetition for an effective and comprehensive overview.
+[2025-02-14 12:20:59,811] - ### dataset example: Summarize the provided information using clear and concise language, emphasizing the key points while eliminating unnecessary details and repetition for an effective and comprehensive overview.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:21:27,478] - Step 7 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+2. Personal Best: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:21:30,113] - Generated Prompt: Carefully analyze the text or audio conversation to identify and summarize the central theme and key details using concise language, while avoiding unnecessary information or repetition.
+[2025-02-14 12:21:30,114] - ### dataset example: Carefully analyze the text or audio conversation to identify and summarize the central theme and key details using concise language, while avoiding unnecessary information or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:21:54,782] - Step 7 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please provide a concise summary that clearly highlights the main points using precise language for enhanced clarity. Avoid unnecessary details and repetition to ensure the information is straightforward and easy to understand.
+2. Personal Best: Please provide a concise summary that clearly highlights the main points using precise language for enhanced clarity. Avoid unnecessary details and repetition to ensure the information is straightforward and easy to understand.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:21:56,520] - Generated Prompt: Please provide a concise summary that clearly emphasizes the main points using precise language for optimal clarity. Avoid unnecessary details and repetition to ensure the information is straightforward and easily understood.
+[2025-02-14 12:21:56,521] - ### dataset example: Please provide a concise summary that clearly emphasizes the main points using precise language for optimal clarity. Avoid unnecessary details and repetition to ensure the information is straightforward and easily understood.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:22:23,736] - Step 8 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+2. Personal Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:22:25,532] - Generated Prompt: New Optimized Prompt: Summarize the main points using concise language, eliminating unnecessary details and repetition for clarity and effectiveness.
+[2025-02-14 12:22:25,533] - ### dataset example: New Optimized Prompt: Summarize the main points using concise language, eliminating unnecessary details and repetition for clarity and effectiveness.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:22:52,177] - Step 8 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: How would you rephrase that in a few words?
+2. Personal Best: How would you rephrase that in a few words?
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:22:54,088] - Generated Prompt: How can you succinctly summarize the main points in a few clear and concise words, avoiding unnecessary details or repetition?
+[2025-02-14 12:22:54,089] - ### dataset example: How can you succinctly summarize the main points in a few clear and concise words, avoiding unnecessary details or repetition?
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:23:17,862] - Step 8 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the given context.
+2. Personal Best: Summarize the given context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:23:19,618] - Generated Prompt: Summarize the provided context using concise language, highlighting the main points while avoiding unnecessary details and repetition.
+[2025-02-14 12:23:19,619] - ### dataset example: Summarize the provided context using concise language, highlighting the main points while avoiding unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:23:44,088] - Step 8 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+2. Personal Best: Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:23:45,915] - Generated Prompt: Read the text or listen to the dialogue attentively to grasp the main idea and key points. Then, summarize these insights using concise language, ensuring clarity while avoiding unnecessary details or repetition.
+[2025-02-14 12:23:45,916] - ### dataset example: Read the text or listen to the dialogue attentively to grasp the main idea and key points. Then, summarize these insights using concise language, ensuring clarity while avoiding unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:24:10,642] - Step 8 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please summarize the main context.
+2. Personal Best: Please summarize the main context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:24:12,414] - Generated Prompt: Please provide a concise summary of the main context, focusing on the key points while avoiding unnecessary details and repetition.
+[2025-02-14 12:24:12,415] - ### dataset example: Please provide a concise summary of the main context, focusing on the key points while avoiding unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:24:37,068] - Step 8 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: New Optimized Prompt: Utilize clear and concise language to summarize the main points effectively, eliminating any unnecessary details and repetition for a focused presentation.
+2. Personal Best: New Optimized Prompt: Utilize clear and concise language to summarize the main points effectively, eliminating any unnecessary details and repetition for a focused presentation.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:24:38,752] - Generated Prompt: New Optimized Prompt: Employ clear and concise language to effectively summarize the main points, ensuring focus by eliminating unnecessary details and repetition.
+[2025-02-14 12:24:38,753] - ### dataset example: New Optimized Prompt: Employ clear and concise language to effectively summarize the main points, ensuring focus by eliminating unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:25:05,121] - Step 8 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Can you summarize the main points using concise language and rephrase them in just a few words, avoiding unnecessary details or repetition?
+2. Personal Best: Can you summarize the main points using concise language and rephrase them in just a few words, avoiding unnecessary details or repetition?
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:25:06,979] - Generated Prompt: Summarize the main points using concise language in just a few words, ensuring clarity while avoiding unnecessary details and repetition.
+[2025-02-14 12:25:06,980] - ### dataset example: Summarize the main points using concise language in just a few words, ensuring clarity while avoiding unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:25:27,623] - Step 8 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the provided information using clear and concise language, focusing on the key points while omitting unnecessary details and repetition for an effective and comprehensive overview.
+2. Personal Best: Summarize the provided information using clear and concise language, focusing on the key points while omitting unnecessary details and repetition for an effective and comprehensive overview.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:25:29,496] - Generated Prompt: Summarize the provided information in clear and concise language, emphasizing the key points while omitting unnecessary details and repetition for a comprehensive and effective overview.
+[2025-02-14 12:25:29,496] - ### dataset example: Summarize the provided information in clear and concise language, emphasizing the key points while omitting unnecessary details and repetition for a comprehensive and effective overview.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:25:53,796] - Step 8 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+2. Personal Best: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:25:55,848] - Generated Prompt: Listen closely to the text or audio conversation to clearly identify the central theme and key details, then summarize these main points concisely, omitting any unnecessary information or repetition.
+[2025-02-14 12:25:55,849] - ### dataset example: Listen closely to the text or audio conversation to clearly identify the central theme and key details, then summarize these main points concisely, omitting any unnecessary information or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:26:17,779] - Step 8 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please provide a concise summary that clearly highlights the main points using precise language for enhanced clarity. Avoid unnecessary details and repetition to ensure the information is straightforward and easy to understand.
+2. Personal Best: Please provide a concise summary that clearly highlights the main points using precise language for enhanced clarity. Avoid unnecessary details and repetition to ensure the information is straightforward and easy to understand.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:26:20,102] - Generated Prompt: Please provide a clear and concise summary that emphasizes the main points using precise language. Avoid unnecessary details and repetition to ensure the information is straightforward and easily understood.
+[2025-02-14 12:26:20,103] - ### dataset example: Please provide a clear and concise summary that emphasizes the main points using precise language. Avoid unnecessary details and repetition to ensure the information is straightforward and easily understood.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:26:41,534] - Step 9 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+2. Personal Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:26:43,342] - Generated Prompt: Use clear and concise language to summarize the main points, eliminating any unnecessary details or repetition.
+[2025-02-14 12:26:43,342] - ### dataset example: Use clear and concise language to summarize the main points, eliminating any unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:27:07,706] - Step 9 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: How would you rephrase that in a few words?
+2. Personal Best: How would you rephrase that in a few words?
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:27:09,625] - Generated Prompt: Rephrase the main points concisely, using a few words and avoiding unnecessary details or repetition.
+[2025-02-14 12:27:09,625] - ### dataset example: Rephrase the main points concisely, using a few words and avoiding unnecessary details or repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:27:31,180] - Step 9 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the given context.
+2. Personal Best: Summarize the given context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:27:32,816] - Generated Prompt: Optimize the summary of the provided context by highlighting the main points clearly and concisely, while omitting unnecessary details and repetitions.
+[2025-02-14 12:27:32,816] - ### dataset example: Optimize the summary of the provided context by highlighting the main points clearly and concisely, while omitting unnecessary details and repetitions.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:27:56,590] - Step 9 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+2. Personal Best: Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:27:58,658] - Generated Prompt: Carefully read the text or listen to the dialogue to grasp the main idea and key points discussed. Then, use concise language to summarize these points, eliminating any unnecessary details or repetition for clarity.
+[2025-02-14 12:27:58,659] - ### dataset example: Carefully read the text or listen to the dialogue to grasp the main idea and key points discussed. Then, use concise language to summarize these points, eliminating any unnecessary details or repetition for clarity.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:28:21,183] - Step 9 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please summarize the main context.
+2. Personal Best: Please summarize the main context.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:28:22,912] - Generated Prompt: Please provide a concise summary of the main context, highlighting the key points while eliminating any unnecessary details or repetition.
+[2025-02-14 12:28:22,913] - Step 9 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: New Optimized Prompt: Employ clear and concise language to effectively summarize the main points, ensuring focus by eliminating unnecessary details and repetition.
+2. Personal Best: New Optimized Prompt: Employ clear and concise language to effectively summarize the main points, ensuring focus by eliminating unnecessary details and repetition.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:28:24,827] - Generated Prompt: New Optimized Prompt: Utilize clear and concise language to effectively summarize the key points, maintaining focus by eliminating unnecessary details and repetition.
+[2025-02-14 12:28:24,828] - ### dataset example: New Optimized Prompt: Utilize clear and concise language to effectively summarize the key points, maintaining focus by eliminating unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:28:48,652] - Step 9 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Can you summarize the main points using concise language and rephrase them in just a few words, avoiding unnecessary details or repetition?
+2. Personal Best: Can you summarize the main points using concise language and rephrase them in just a few words, avoiding unnecessary details or repetition?
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:28:50,401] - Generated Prompt: Summarize the main points using clear and concise language, rephrased in a few words, while eliminating unnecessary details and repetition.
+[2025-02-14 12:28:50,401] - ### dataset example: Summarize the main points using clear and concise language, rephrased in a few words, while eliminating unnecessary details and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:29:11,419] - Step 9 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the provided information in clear and concise language, emphasizing the key points while omitting unnecessary details and repetition for a comprehensive and effective overview.
+2. Personal Best: Summarize the provided information in clear and concise language, emphasizing the key points while omitting unnecessary details and repetition for a comprehensive and effective overview.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:29:13,245] - Generated Prompt: Summarize the provided information in clear and concise language, focusing on the main points while eliminating unnecessary details and repetition for an effective and comprehensive overview.
+[2025-02-14 12:29:13,245] - ### dataset example: Summarize the provided information in clear and concise language, focusing on the main points while eliminating unnecessary details and repetition for an effective and comprehensive overview.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:29:37,430] - Step 9 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+2. Personal Best: Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:29:39,333] - Generated Prompt: Carefully analyze the text or audio conversation to clearly identify the central theme and key details, summarizing the main points in concise language while avoiding unnecessary information and repetition.
+[2025-02-14 12:29:39,334] - ### dataset example: Carefully analyze the text or audio conversation to clearly identify the central theme and key details, summarizing the main points in concise language while avoiding unnecessary information and repetition.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:30:08,822] - Step 9 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please provide a concise summary that clearly highlights the main points using precise language for enhanced clarity. Avoid unnecessary details and repetition to ensure the information is straightforward and easy to understand.
+2. Personal Best: Please provide a concise summary that clearly highlights the main points using precise language for enhanced clarity. Avoid unnecessary details and repetition to ensure the information is straightforward and easy to understand.
+3. Global Best: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+New Optimized Prompt:
+[2025-02-14 12:30:10,695] - Generated Prompt: Please provide a concise summary that effectively highlights the main points using precise language for maximum clarity. Eliminate unnecessary details and repetition to ensure the information is straightforward and easy to understand.
+[2025-02-14 12:30:10,696] - ### dataset example: Please provide a concise summary that effectively highlights the main points using precise language for maximum clarity. Eliminate unnecessary details and repetition to ensure the information is straightforward and easy to understand.
+Rose: omg, you won't believe it Rose: I don't believe it XD Connor: what happened? Rose: Mark and Monica got engaged! Connor: haha, no way! She has achieved the impossible XD Rose: <file_gif>
+TL;DR: 
+
+[2025-02-14 12:30:34,743] - Final Evaluation Phase
+[2025-02-14 12:30:34,746] - ### dataset example: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+Hannah: Hey, do you have Betty's number? Amanda: Lemme check Hannah: <file_gif> Amanda: Sorry, can't find it. Amanda: Ask Larry Amanda: He called her last time we were at the park together Hannah: I don't know him well Hannah: <file_gif> Amanda: Don't be shy, he's very nice Hannah: If you say so.. Hannah: I'd rather you texted him Amanda: Just text him 🙂 Hannah: Urgh.. Alright Hannah: Bye Amanda: Bye bye
+TL;DR: 
+
+[2025-02-14 13:02:24,876] - ### dataset example: How would you rephrase that in a few words?
+Hannah: Hey, do you have Betty's number? Amanda: Lemme check Hannah: <file_gif> Amanda: Sorry, can't find it. Amanda: Ask Larry Amanda: He called her last time we were at the park together Hannah: I don't know him well Hannah: <file_gif> Amanda: Don't be shy, he's very nice Hannah: If you say so.. Hannah: I'd rather you texted him Amanda: Just text him 🙂 Hannah: Urgh.. Alright Hannah: Bye Amanda: Bye bye
+TL;DR: 
+
+[2025-02-14 13:32:22,252] - ### dataset example: Summarize the given context.
+Hannah: Hey, do you have Betty's number? Amanda: Lemme check Hannah: <file_gif> Amanda: Sorry, can't find it. Amanda: Ask Larry Amanda: He called her last time we were at the park together Hannah: I don't know him well Hannah: <file_gif> Amanda: Don't be shy, he's very nice Hannah: If you say so.. Hannah: I'd rather you texted him Amanda: Just text him 🙂 Hannah: Urgh.. Alright Hannah: Bye Amanda: Bye bye
+TL;DR: 
+
+[2025-02-14 14:12:06,805] - Final Best Score: 0.3189299467556375
+Prompt: Use concise language to summarize the main points, avoiding any unnecessary details or repetition.
+[2025-02-14 14:12:06,806] - PSO Optimization Complete
+[2025-02-14 14:12:06,806] - Best Scores History: [0.28918252531965033, 0.28918252531965033, 0.28918252531965033, 0.28918252531965033, 0.28918252531965033, 0.28918252531965033, 0.28918252531965033, 0.28918252531965033, 0.28918252531965033, 0.28918252531965033]
+[2025-02-14 14:12:06,806] - Average Scores History: [0.16283361718452782, 0.16323200583742142, 0.16400536604980542, 0.16419765497353395, 0.16429906148015147, 0.1644323582688278, 0.1658099554420741, 0.1658099554420741, 0.1659705938195099, 0.16615519714524263]

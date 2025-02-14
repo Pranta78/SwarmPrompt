@@ -1,0 +1,12 @@
+pso	Revise the above sentence to make it clearer and more straightforward while preserving its original meaning.	38.6227
+pso	Revise the given sentences to make them clearer and easier to understand by breaking down the information into simpler language.	46.3883
+pso	Revise the provided information to enhance clarity and understanding by simplifying the language and breaking it down into more straightforward concepts.	46.6296
+manual	Rewrite the input text into simpler text.	33.8711
+ape	simplify complex sentences and eliminate unnecessary words or phrases.	33.6792
+pso	Rephrase the sentence above to make it clearer and easier to understand while keeping its original meaning intact.	38.6227
+pso	Revise the provided sentences to enhance clarity and understanding by simplifying the language and breaking them down into straightforward concepts.	38.6227
+para	Break down the information provided and express it in a more straightforward manner.	38.6227
+para	Rephrase the given text using easier language.	26.5613
+para	Rephrase intricate sentences to make them clearer and remove superfluous words or expressions.	38.6227
+best score: 46.629571493200594
+average score: 38.024307123400476

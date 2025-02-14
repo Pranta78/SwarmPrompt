@@ -1,0 +1,36 @@
+manual	Simplify the above sentence without changing meaning.	35.287
+ape	simplify the given sentences.	35.174
+ape	simplify and restate the information in the given input.	33.9913
+manual	Rewrite the input text into simpler text.	33.8711
+ape	simplify complex sentences and eliminate unnecessary words or phrases.	33.6792
+para	Here are some variation options while keeping the semantic meaning:
+
+1. Simplify it while keeping its original meaning.  
+2. Condense it without changing its clarity.  
+3. Make it clearer.  
+4. Present it in a more straightforward manner.  
+5. Express it clearly.  
+6. Redesign it to be simpler.  
+7. Simplify it while retaining its original meaning.  
+8. Keep it concise while maintaining its original intent.  
+9. Clarify it in a way that doesn’t alter its original meaning.  
+10. Simplify it without losing its core importance.  
+
+Each variation keeps the instruction focused on simplifying the sentence without altering its meaning while varying the wording or structure.	36.0138
+para	Simplify the sentences.	40.1069
+para	Clarify the details by simplifying and restate them from the provided information.	39.4683
+para	1. "Teller the input text in a straightforward manner."
+2. "Make the text as simple as possible."
+3. "Provide a clear explanation of the input text."
+4. "Present the text in a way that's easier to understand."
+5. "Rephrase the input text for better comprehension."
+6. "Simplify the input text to aid in better understanding."
+7. "Explain the input text to someone with minimal mathematical background."
+8. "Break down the input text into simpler components."
+9. "Make the input text understandable by using simple language."
+10. "Present the text in a way that's easy to grasp and comprehend."	37.2556
+para	Simplify complex sentences by removing redundant phrases and unnecessary words.  
+Reorganize sentences to make them more straightforward by eliminating redundant words.  
+Develyinate complex sentences with minimal redundancy by removing unnecessary phrases.  
+Simplify sentences by removing phrases that do not add meaning.  
+Prune sentences to reduce complexity by eliminating redundant words and phrases.	37.8486

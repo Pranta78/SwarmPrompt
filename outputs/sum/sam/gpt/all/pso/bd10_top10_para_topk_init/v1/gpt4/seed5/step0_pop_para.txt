@@ -1,0 +1,10 @@
+manual	Use concise language to summarize the main points, avoiding any unnecessary details or repetition.	0.3867	0.1325	0.3484	0.2892
+manual	How would you rephrase that in a few words?	0.3802	0.1115	0.3277	0.2731
+manual	Summarize the given context.	0.3573	0.1139	0.3188	0.2633
+manual	Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.	0.3472	0.1193	0.3139	0.2601
+manual	Please summarize the main context.	0.3368	0.106	0.3079	0.2502
+para	Utilize clear and succinct language to highlight the key points, steering clear of extraneous details or redundancy.	0.3851	0.1272	0.3514	0.2879
+para	Can you summarize that in a few words?	0.391	0.118	0.3242	0.2777
+para	Provide a summary of the provided context.	0.3267	0.0968	0.2937	0.2391
+para	Examine the text or pay close attention to the conversation in order to grasp the main concept and the essential points that have been addressed.	0.3353	0.1106	0.3013	0.249
+para	Kindly provide a summary of the key context.	0.3139	0.0941	0.2857	0.2313

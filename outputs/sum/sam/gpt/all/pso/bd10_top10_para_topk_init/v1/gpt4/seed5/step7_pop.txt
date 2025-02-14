@@ -1,0 +1,12 @@
+pso	Summarize the main points concisely in a few words, eliminating unnecessary details and repetition.	0.1038	0.0065	0.1038	0.0714
+pso	Generate a concise input-output pair that captures the essential points clearly, eliminating any unnecessary details or repetition.	0.0897	0.0054	0.0897	0.0616
+pso	Summarize the key points clearly and concisely in just a few words, eliminating any unnecessary details and avoiding repetition.	0.1025	0.0074	0.1025	0.0708
+pso	Summarize the main points of the provided context concisely, using minimal words while eliminating unnecessary details and repetition for enhanced clarity and precision.	0.0924	0.0069	0.0924	0.0639
+ape	discuss a dream or aspiration.	0.0726	0.0054	0.0726	0.0502
+para	Summarize the key points clearly and succinctly, steering clear of extraneous information or redundancy.	0.083	0.0059	0.083	0.0573
+pso	Develop a concise set of inputs and their corresponding outputs, summarizing the main points effectively while eliminating unnecessary details and repetition.	0.057	0.0062	0.057	0.0401
+pso	Summarize the key points clearly and concisely in just a few words, avoiding unnecessary details and repetition.	0.101	0.0074	0.101	0.0698
+pso	Summarize the key points of the provided context clearly and succinctly, concentrating solely on essential information while removing any unnecessary details and repetition. Aim for brevity and clarity in your response.	0.0798	0.0051	0.0798	0.0549
+para	share a hope or ambition.	0.0785	0.0061	0.0785	0.0543
+best score: 0.07138051874702943
+average score: 0.059426887544940535

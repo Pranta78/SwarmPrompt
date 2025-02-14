@@ -1,0 +1,390 @@
+[2025-02-14 15:20:47,049] - ==================================================
+[2025-02-14 15:20:47,049] - dev data: None
+[2025-02-14 15:20:47,049] - test data: None
+[2025-02-14 15:20:47,049] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/gpt4_10_samples/seed10
+	language_model = gpt
+	position = pre
+	sample_num = 10
+	seed = 10
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = gpt4
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-14 15:20:47,049] - ==================================================
+[2025-02-14 15:20:47,049] - Instruction placeholder: <prompt>
+[2025-02-14 15:20:47,066] - ---------------------Evolving prompt-------------------
+
+[2025-02-14 15:20:47,068] - ==================================================
+[2025-02-14 15:20:47,068] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_10.txt
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/gpt4_10_samples/seed10
+	language_model = gpt
+	position = pre
+	sample_num = 10
+	seed = 10
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = gpt4
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-14 15:20:47,068] - ==================================================
+[2025-02-14 15:20:47,069] - ---loading prompts from data/sim/asset/prompts.json
+[2025-02-14 15:20:51,361] - test LLM client success
+[2025-02-14 15:20:51,362] - -----paraphrasing topk---------
+[2025-02-14 15:22:14,254] - ### dataset example: Make the sentence simpler while preserving its meaning.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:22:35,430] - ### dataset example: Rewrite the provided sentences in a simpler form.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:22:53,408] - ### dataset example: Rephrase and condense the information provided in the input.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:23:14,731] - ### dataset example: Rephrase the provided text using easier language.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:23:33,881] - ### dataset example: Streamline intricate sentences by removing superfluous words or phrases.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:23:55,143] - Simplify the above sentence without changing meaning.
+[2025-02-14 15:23:55,143] - simplify the given sentences.
+[2025-02-14 15:23:55,143] - simplify and restate the information in the given input.
+[2025-02-14 15:23:55,143] - Rewrite the input text into simpler text.
+[2025-02-14 15:23:55,143] - simplify complex sentences and eliminate unnecessary words or phrases.
+[2025-02-14 15:23:55,143] - Make the sentence simpler while preserving its meaning.
+[2025-02-14 15:23:55,143] - Rewrite the provided sentences in a simpler form.
+[2025-02-14 15:23:55,143] - Rephrase and condense the information provided in the input.
+[2025-02-14 15:23:55,143] - Rephrase the provided text using easier language.
+[2025-02-14 15:23:55,143] - Streamline intricate sentences by removing superfluous words or phrases.
+[2025-02-14 15:23:55,144] - Step 0 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Simplify the above sentence without changing meaning.
+2. Personal Best: Simplify the above sentence without changing meaning.
+3. Global Best: Streamline intricate sentences by removing superfluous words or phrases.
+New Optimized Prompt:
+[2025-02-14 15:23:56,910] - Generated Prompt: Revise the above sentence for clarity and conciseness while preserving its original meaning.
+[2025-02-14 15:23:56,910] - ### dataset example: Revise the above sentence for clarity and conciseness while preserving its original meaning.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:24:14,842] - Step 0 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: simplify the given sentences.
+2. Personal Best: simplify the given sentences.
+3. Global Best: Streamline intricate sentences by removing superfluous words or phrases.
+New Optimized Prompt:
+[2025-02-14 15:24:16,495] - Generated Prompt: Revise and simplify the provided sentences by eliminating unnecessary words or phrases for clarity and conciseness.
+[2025-02-14 15:24:16,496] - ### dataset example: Revise and simplify the provided sentences by eliminating unnecessary words or phrases for clarity and conciseness.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:24:38,185] - Step 0 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: simplify and restate the information in the given input.
+2. Personal Best: simplify and restate the information in the given input.
+3. Global Best: Streamline intricate sentences by removing superfluous words or phrases.
+New Optimized Prompt:
+[2025-02-14 15:24:40,288] - Generated Prompt: New Optimized Prompt: Simplify and restate the information in the provided input by streamlining complex sentences and removing unnecessary words or phrases for clarity.
+[2025-02-14 15:24:40,288] - ### dataset example: New Optimized Prompt: Simplify and restate the information in the provided input by streamlining complex sentences and removing unnecessary words or phrases for clarity.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:24:58,394] - Step 0 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the input text into simpler text.
+2. Personal Best: Rewrite the input text into simpler text.
+3. Global Best: Streamline intricate sentences by removing superfluous words or phrases.
+New Optimized Prompt:
+[2025-02-14 15:25:00,207] - Generated Prompt: Rewrite the input text in a simpler and clearer manner by streamlining complex sentences and eliminating unnecessary words or phrases.
+[2025-02-14 15:25:00,208] - ### dataset example: Rewrite the input text in a simpler and clearer manner by streamlining complex sentences and eliminating unnecessary words or phrases.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:25:20,366] - Step 0 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: simplify complex sentences and eliminate unnecessary words or phrases.
+2. Personal Best: simplify complex sentences and eliminate unnecessary words or phrases.
+3. Global Best: Streamline intricate sentences by removing superfluous words or phrases.
+New Optimized Prompt:
+[2025-02-14 15:25:21,964] - Generated Prompt: Streamline complex sentences by removing unnecessary words and phrases for clarity and conciseness.
+[2025-02-14 15:25:21,965] - ### dataset example: Streamline complex sentences by removing unnecessary words and phrases for clarity and conciseness.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:25:42,291] - Step 0 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Make the sentence simpler while preserving its meaning.
+2. Personal Best: Make the sentence simpler while preserving its meaning.
+3. Global Best: Streamline complex sentences by removing unnecessary words and phrases for clarity and conciseness.
+New Optimized Prompt:
+[2025-02-14 15:25:44,283] - Generated Prompt: Revise the sentence to simplify it while maintaining its original meaning and enhancing clarity by removing any unnecessary words and phrases.
+[2025-02-14 15:25:44,283] - ### dataset example: Revise the sentence to simplify it while maintaining its original meaning and enhancing clarity by removing any unnecessary words and phrases.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:26:02,962] - Step 0 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the provided sentences in a simpler form.
+2. Personal Best: Rewrite the provided sentences in a simpler form.
+3. Global Best: Streamline complex sentences by removing unnecessary words and phrases for clarity and conciseness.
+New Optimized Prompt:
+[2025-02-14 15:26:04,771] - Generated Prompt: Revise the provided sentences to simplify their structure and enhance clarity by removing unnecessary words and phrases.
+[2025-02-14 15:26:04,771] - ### dataset example: Revise the provided sentences to simplify their structure and enhance clarity by removing unnecessary words and phrases.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:26:24,400] - Step 0 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and condense the information provided in the input.
+2. Personal Best: Rephrase and condense the information provided in the input.
+3. Global Best: Streamline complex sentences by removing unnecessary words and phrases for clarity and conciseness.
+New Optimized Prompt:
+[2025-02-14 15:26:26,508] - Generated Prompt: Rephrase and condense the provided information by streamlining complex sentences and eliminating unnecessary words for enhanced clarity and conciseness.
+[2025-02-14 15:26:26,508] - ### dataset example: Rephrase and condense the provided information by streamlining complex sentences and eliminating unnecessary words for enhanced clarity and conciseness.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:36:50,508] - Step 0 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the provided text using easier language.
+2. Personal Best: Rephrase the provided text using easier language.
+3. Global Best: Streamline complex sentences by removing unnecessary words and phrases for clarity and conciseness.
+New Optimized Prompt:
+[2025-02-14 15:36:52,414] - Generated Prompt: Rephrase the provided text using simpler language while streamlining complex sentences by removing unnecessary words and phrases for better clarity and conciseness.
+[2025-02-14 15:36:52,414] - ### dataset example: Rephrase the provided text using simpler language while streamlining complex sentences by removing unnecessary words and phrases for better clarity and conciseness.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:37:11,432] - Step 0 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Streamline intricate sentences by removing superfluous words or phrases.
+2. Personal Best: Streamline intricate sentences by removing superfluous words or phrases.
+3. Global Best: Rephrase the provided text using simpler language while streamlining complex sentences by removing unnecessary words and phrases for better clarity and conciseness.
+New Optimized Prompt:
+[2025-02-14 15:37:14,452] - Generated Prompt: Revise the provided text by simplifying the language and streamlining complex sentences, removing unnecessary words and phrases to enhance clarity and conciseness.
+[2025-02-14 15:37:14,453] - ### dataset example: Revise the provided text by simplifying the language and streamlining complex sentences, removing unnecessary words and phrases to enhance clarity and conciseness.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:37:36,655] - Step 1 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the above sentence for clarity and conciseness while preserving its original meaning.
+2. Personal Best: Revise the above sentence for clarity and conciseness while preserving its original meaning.
+3. Global Best: Rephrase the provided text using simpler language while streamlining complex sentences by removing unnecessary words and phrases for better clarity and conciseness.
+New Optimized Prompt:
+[2025-02-14 15:37:38,797] - Generated Prompt: Revise the provided sentence for clarity and conciseness by using simpler language and eliminating unnecessary words, all while maintaining its original meaning.
+[2025-02-14 15:37:38,797] - ### dataset example: Revise the provided sentence for clarity and conciseness by using simpler language and eliminating unnecessary words, all while maintaining its original meaning.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:37:57,066] - Step 1 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise and simplify the provided sentences by eliminating unnecessary words or phrases for clarity and conciseness.
+2. Personal Best: Revise and simplify the provided sentences by eliminating unnecessary words or phrases for clarity and conciseness.
+3. Global Best: Revise the provided sentence for clarity and conciseness by using simpler language and eliminating unnecessary words, all while maintaining its original meaning.
+New Optimized Prompt:
+[2025-02-14 15:37:58,997] - Generated Prompt: Revise the provided sentences for clarity and conciseness by using simpler language and eliminating unnecessary words, while preserving their original meaning.
+[2025-02-14 15:37:58,997] - ### dataset example: Revise the provided sentences for clarity and conciseness by using simpler language and eliminating unnecessary words, while preserving their original meaning.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:38:17,820] - Step 1 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: New Optimized Prompt: Simplify and restate the information in the provided input by streamlining complex sentences and removing unnecessary words or phrases for clarity.
+2. Personal Best: New Optimized Prompt: Simplify and restate the information in the provided input by streamlining complex sentences and removing unnecessary words or phrases for clarity.
+3. Global Best: Revise the provided sentence for clarity and conciseness by using simpler language and eliminating unnecessary words, all while maintaining its original meaning.
+New Optimized Prompt:
+[2025-02-14 15:38:19,787] - Generated Prompt: Revise the provided text for clarity and conciseness by simplifying complex sentences, using straightforward language, and removing any unnecessary words or phrases, while preserving the original meaning.
+[2025-02-14 15:38:19,788] - ### dataset example: Revise the provided text for clarity and conciseness by simplifying complex sentences, using straightforward language, and removing any unnecessary words or phrases, while preserving the original meaning.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:38:39,994] - Step 1 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the input text in a simpler and clearer manner by streamlining complex sentences and eliminating unnecessary words or phrases.
+2. Personal Best: Rewrite the input text in a simpler and clearer manner by streamlining complex sentences and eliminating unnecessary words or phrases.
+3. Global Best: Revise the provided sentence for clarity and conciseness by using simpler language and eliminating unnecessary words, all while maintaining its original meaning.
+New Optimized Prompt:
+[2025-02-14 15:38:42,008] - Generated Prompt: Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words, ensuring that the original meaning is preserved.
+[2025-02-14 15:38:42,009] - ### dataset example: Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words, ensuring that the original meaning is preserved.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:39:01,445] - Step 1 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Streamline complex sentences by removing unnecessary words and phrases for clarity and conciseness.
+2. Personal Best: Streamline complex sentences by removing unnecessary words and phrases for clarity and conciseness.
+3. Global Best: Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words, ensuring that the original meaning is preserved.
+New Optimized Prompt:
+[2025-02-14 15:39:03,562] - Generated Prompt: Revise the provided text for clarity and conciseness by simplifying complex sentences and eliminating unnecessary words and phrases, all while ensuring the original meaning is preserved.
+[2025-02-14 15:39:03,562] - ### dataset example: Revise the provided text for clarity and conciseness by simplifying complex sentences and eliminating unnecessary words and phrases, all while ensuring the original meaning is preserved.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:39:25,081] - Step 1 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the sentence to simplify it while maintaining its original meaning and enhancing clarity by removing any unnecessary words and phrases.
+2. Personal Best: Revise the sentence to simplify it while maintaining its original meaning and enhancing clarity by removing any unnecessary words and phrases.
+3. Global Best: Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words, ensuring that the original meaning is preserved.
+New Optimized Prompt:
+[2025-02-14 15:39:26,891] - Generated Prompt: Revise the provided text for clarity and conciseness by simplifying complex sentences and eliminating unnecessary words, while ensuring that the original meaning remains intact.
+[2025-02-14 15:39:26,892] - ### dataset example: Revise the provided text for clarity and conciseness by simplifying complex sentences and eliminating unnecessary words, while ensuring that the original meaning remains intact.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:39:45,615] - Step 1 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided sentences to simplify their structure and enhance clarity by removing unnecessary words and phrases.
+2. Personal Best: Revise the provided sentences to simplify their structure and enhance clarity by removing unnecessary words and phrases.
+3. Global Best: Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words, ensuring that the original meaning is preserved.
+New Optimized Prompt:
+[2025-02-14 15:39:48,027] - Generated Prompt: Revise the provided text to enhance clarity and conciseness by simplifying complex sentences and eliminating unnecessary words, while ensuring that the original meaning is preserved.
+[2025-02-14 15:39:48,028] - ### dataset example: Revise the provided text to enhance clarity and conciseness by simplifying complex sentences and eliminating unnecessary words, while ensuring that the original meaning is preserved.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:40:05,655] - Step 1 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and condense the provided information by streamlining complex sentences and eliminating unnecessary words for enhanced clarity and conciseness.
+2. Personal Best: Rephrase and condense the provided information by streamlining complex sentences and eliminating unnecessary words for enhanced clarity and conciseness.
+3. Global Best: Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words, ensuring that the original meaning is preserved.
+New Optimized Prompt:
+[2025-02-14 15:40:07,421] - Generated Prompt: Revise the provided text to enhance clarity and conciseness by simplifying complex sentences and removing extraneous words, while ensuring the original meaning remains intact.
+[2025-02-14 15:40:07,421] - ### dataset example: Revise the provided text to enhance clarity and conciseness by simplifying complex sentences and removing extraneous words, while ensuring the original meaning remains intact.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:40:27,875] - Step 1 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the provided text using simpler language while streamlining complex sentences by removing unnecessary words and phrases for better clarity and conciseness.
+2. Personal Best: Rephrase the provided text using simpler language while streamlining complex sentences by removing unnecessary words and phrases for better clarity and conciseness.
+3. Global Best: Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words, ensuring that the original meaning is preserved.
+New Optimized Prompt:
+[2025-02-14 15:40:29,889] - Generated Prompt: Revise the provided text to enhance clarity and conciseness by simplifying complex sentences and eliminating unnecessary words, while ensuring the original meaning remains intact.
+[2025-02-14 15:40:29,890] - ### dataset example: Revise the provided text to enhance clarity and conciseness by simplifying complex sentences and eliminating unnecessary words, while ensuring the original meaning remains intact.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:40:50,534] - Step 1 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Streamline intricate sentences by removing superfluous words or phrases.
+2. Personal Best: Streamline intricate sentences by removing superfluous words or phrases.
+3. Global Best: Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words, ensuring that the original meaning is preserved.
+New Optimized Prompt:
+[2025-02-14 15:40:52,733] - Generated Prompt: Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words while preserving the original meaning. Focus on streamlining intricate sentences to enhance readability.
+[2025-02-14 15:40:52,734] - ### dataset example: Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words while preserving the original meaning. Focus on streamlining intricate sentences to enhance readability.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:41:15,842] - Step 2 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided sentence for clarity and conciseness by using simpler language and eliminating unnecessary words, all while maintaining its original meaning.
+2. Personal Best: Revise the provided sentence for clarity and conciseness by using simpler language and eliminating unnecessary words, all while maintaining its original meaning.
+3. Global Best: Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words, ensuring that the original meaning is preserved.
+New Optimized Prompt:
+[2025-02-14 15:41:17,809] - Generated Prompt: Revise the provided sentence for clarity and conciseness by simplifying complex language, removing unnecessary words, and ensuring the original meaning is preserved.
+[2025-02-14 15:41:17,810] - ### dataset example: Revise the provided sentence for clarity and conciseness by simplifying complex language, removing unnecessary words, and ensuring the original meaning is preserved.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:41:35,362] - Step 2 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided sentences for clarity and conciseness by using simpler language and eliminating unnecessary words, while preserving their original meaning.
+2. Personal Best: Revise the provided sentences for clarity and conciseness by using simpler language and eliminating unnecessary words, while preserving their original meaning.
+3. Global Best: Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words, ensuring that the original meaning is preserved.
+New Optimized Prompt:
+[2025-02-14 15:41:37,534] - Generated Prompt: Revise the provided text for clarity and conciseness by simplifying complex sentences, using straightforward language, and removing unnecessary words, while ensuring the original meaning is retained.
+[2025-02-14 15:41:37,534] - ### dataset example: Revise the provided text for clarity and conciseness by simplifying complex sentences, using straightforward language, and removing unnecessary words, while ensuring the original meaning is retained.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:41:56,464] - Step 2 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text for clarity and conciseness by simplifying complex sentences, using straightforward language, and removing any unnecessary words or phrases, while preserving the original meaning.
+2. Personal Best: Revise the provided text for clarity and conciseness by simplifying complex sentences, using straightforward language, and removing any unnecessary words or phrases, while preserving the original meaning.
+3. Global Best: Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words, ensuring that the original meaning is preserved.
+New Optimized Prompt:
+[2025-02-14 15:41:58,774] - Generated Prompt: Revise the provided text for clarity and conciseness by simplifying complex sentences, using clear and straightforward language, and eliminating unnecessary words or phrases, all while ensuring the original meaning is preserved.
+[2025-02-14 15:41:58,774] - ### dataset example: Revise the provided text for clarity and conciseness by simplifying complex sentences, using clear and straightforward language, and eliminating unnecessary words or phrases, all while ensuring the original meaning is preserved.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:42:21,816] - Step 2 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words, ensuring that the original meaning is preserved.
+2. Personal Best: Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words, ensuring that the original meaning is preserved.
+3. Global Best: Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words, ensuring that the original meaning is preserved.
+New Optimized Prompt:
+[2025-02-14 15:42:24,205] - Generated Prompt: Revise the provided text to enhance clarity and conciseness. Simplify complex sentences and eliminate unnecessary words while ensuring that the original meaning is maintained.
+[2025-02-14 15:42:24,205] - ### dataset example: Revise the provided text to enhance clarity and conciseness. Simplify complex sentences and eliminate unnecessary words while ensuring that the original meaning is maintained.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:42:48,041] - Step 2 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Streamline complex sentences by removing unnecessary words and phrases for clarity and conciseness.
+2. Personal Best: Streamline complex sentences by removing unnecessary words and phrases for clarity and conciseness.
+3. Global Best: Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words, ensuring that the original meaning is preserved.
+New Optimized Prompt:
+[2025-02-14 15:42:50,987] - Generated Prompt: Revise the provided text to enhance clarity and conciseness by simplifying complex sentences and removing unnecessary words, while preserving the original meaning.
+[2025-02-14 15:42:50,987] - ### dataset example: Revise the provided text to enhance clarity and conciseness by simplifying complex sentences and removing unnecessary words, while preserving the original meaning.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:44:52,903] - Step 2 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text for clarity and conciseness by simplifying complex sentences and eliminating unnecessary words, while ensuring that the original meaning remains intact.
+2. Personal Best: Revise the provided text for clarity and conciseness by simplifying complex sentences and eliminating unnecessary words, while ensuring that the original meaning remains intact.
+3. Global Best: Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words, ensuring that the original meaning is preserved.
+New Optimized Prompt:
+[2025-02-14 15:44:56,213] - Generated Prompt: Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words, while preserving the original meaning.
+[2025-02-14 15:44:56,214] - ### dataset example: Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words, while preserving the original meaning.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+

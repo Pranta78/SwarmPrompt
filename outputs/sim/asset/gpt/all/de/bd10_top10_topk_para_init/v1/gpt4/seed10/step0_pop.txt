@@ -1,0 +1,12 @@
+evoluted	"Transform complex sentences by converting the provided text while simplifying it without altering its meaning."	47.6253
+evoluted	Streamline the given sentences by clarifying the content and rewriting it with simpler vocabulary.	48.2959
+evoluted	Your task is to make simpler the supplied statements by simplifying and restating the information using more accessible language.	50.9978
+evoluted	Summarize and reword the information from the given material into simpler text.	49.1118
+evoluted	Rewrite the provided text in simpler language, focusing on clarifying complex sentences and eliminating unnecessary words while preserving its original intent.	46.6144
+para	Rephrase the sentence to make it simpler while retaining its original meaning.	50.9978
+para	Rewrite the provided sentences in a simpler form.	48.5056
+para	Condense and rephrase the details in the provided text.	51.4226
+evoluted	Simplify the provided content by transforming the given phrases into more accessible wording.	53.3361
+para	Reword intricate sentences and remove any superfluous words or expressions.	48.0375
+best score: 53.336088304404846
+average score: 49.49449256894387

@@ -1,0 +1,12 @@
+evoluted	Your role is to simplify the provided phrases by clarifying and shortening the information while retaining its core meaning, transforming complex sentences into clearer and more accessible language.	54.4321
+evoluted	Your task is to clarify the given information by streamlining the provided sentences, rewording intricate expressions and simplifying them while preserving their essence in straightforward language.	54.0621
+evoluted	Your goal is to enhance the given phrases by editing the text to simplify it, eliminating unnecessary words while keeping its original intent. Your task is to make simpler the supplied statements by clarifying and restating the information using more accessible language.	54.5761
+evoluted	Your task is to clarify the submitted phrases by summarizing and rewording the information, reformulating elaborate expressions into simpler text while omitting redundant phrases to preserve the central idea.	54.9877
+evoluted	Your mission is to simplify the presented details by modifying intricate expressions and rewriting complicated sentences to enhance clarity and brevity, ensuring that the fundamental message remains intact.	51.7085
+evoluted	Your mission is to paraphrase the details from the given material by refining the statements, making the content clearer while preserving its main idea, and restating it in simpler terms.	52.2402
+evoluted	Transform complex phrases by rewriting the provided sentences in a simpler form while eliminating unnecessary words to maintain the core message.	49.0093
+evoluted	Your task is to consolidate and express the details from the provided text by simplifying the provided sentences, rephrasing the information while ensuring clarity and retaining its core message.	54.9877
+evoluted	Simplify the provided content by transforming the given phrases into more accessible wording.	53.3361
+evoluted	Your objective is to clarify the provided information by refining the text through condensing and simplifying it, removing unnecessary words while ensuring that the core meaning is preserved and the statements are easier to understand.	54.4143
+best score: 54.98766582425324
+average score: 53.37539973285625

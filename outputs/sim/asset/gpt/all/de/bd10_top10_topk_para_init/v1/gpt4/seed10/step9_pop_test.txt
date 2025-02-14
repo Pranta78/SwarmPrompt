@@ -1,0 +1,8 @@
+evoluted	Your task is to clarify the submitted phrases by summarizing and rewording the information, reformulating elaborate expressions into simpler text while omitting redundant phrases to preserve the central idea.	46.7757
+evoluted	Your task is to consolidate and express the details from the provided text by simplifying the provided sentences, rephrasing the information while ensuring clarity and retaining its core message.	47.0904
+evoluted	Your goal is to enhance the given phrases by editing the text to simplify it, eliminating unnecessary words while keeping its original intent. Your task is to make simpler the supplied statements by clarifying and restating the information using more accessible language.	47.3735
+
+----------sorted results----------
+evoluted	Your goal is to enhance the given phrases by editing the text to simplify it, eliminating unnecessary words while keeping its original intent. Your task is to make simpler the supplied statements by clarifying and restating the information using more accessible language.	47.3735
+evoluted	Your task is to consolidate and express the details from the provided text by simplifying the provided sentences, rephrasing the information while ensuring clarity and retaining its core message.	47.0904
+evoluted	Your task is to clarify the submitted phrases by summarizing and rewording the information, reformulating elaborate expressions into simpler text while omitting redundant phrases to preserve the central idea.	46.7757

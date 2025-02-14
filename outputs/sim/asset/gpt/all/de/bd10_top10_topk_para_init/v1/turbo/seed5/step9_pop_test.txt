@@ -1,0 +1,8 @@
+evoluted	Rephrase complex text by making it easier to understand and removing unnecessary words to provide a more straightforward explanation from an alternative perspective.	34.1758
+evoluted	Simplify the phrase provided using more straightforward words without altering its meaning.	34.344
+evoluted	Make the information easier to understand by condensing it and keeping the core message intact, while removing unnecessary elements.	33.615
+
+----------sorted results----------
+evoluted	Simplify the phrase provided using more straightforward words without altering its meaning.	34.344
+evoluted	Rephrase complex text by making it easier to understand and removing unnecessary words to provide a more straightforward explanation from an alternative perspective.	34.1758
+evoluted	Make the information easier to understand by condensing it and keeping the core message intact, while removing unnecessary elements.	33.615

@@ -1,0 +1,1126 @@
+[2025-02-12 13:10:51,960] - ==================================================
+[2025-02-12 13:10:51,960] - dev data: None
+[2025-02-12 13:10:51,960] - test data: None
+[2025-02-12 13:10:51,960] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-12 13:10:51,960] - ==================================================
+[2025-02-12 13:10:51,960] - Instruction placeholder: <prompt>
+[2025-02-12 13:10:51,979] - ---------------------Evolving prompt-------------------
+
+[2025-02-12 13:10:51,982] - ==================================================
+[2025-02-12 13:10:51,982] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-12 13:10:51,982] - ==================================================
+[2025-02-12 13:10:51,983] - ---loading prompts from data/sim/asset/prompts.json
+[2025-02-12 13:24:36,451] - ==================================================
+[2025-02-12 13:24:36,451] - dev data: None
+[2025-02-12 13:24:36,451] - test data: None
+[2025-02-12 13:24:36,451] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-12 13:24:36,451] - ==================================================
+[2025-02-12 13:24:36,451] - Instruction placeholder: <prompt>
+[2025-02-12 13:24:36,465] - ---------------------Evolving prompt-------------------
+
+[2025-02-12 13:24:36,466] - ==================================================
+[2025-02-12 13:24:36,466] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-12 13:24:36,466] - ==================================================
+[2025-02-12 13:24:36,467] - ---loading prompts from data/sim/asset/prompts.json
+[2025-02-12 13:24:45,251] - test LLM client success
+[2025-02-12 13:24:45,251] - -----paraphrasing topk---------
+[2025-02-12 13:25:37,857] - ### dataset example: Condense the above sentence while preserving the original meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-12 13:47:00,458] - ### dataset example: **Clarify the sentences.**
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-12 14:12:08,622] - ### dataset example: Clarify and condense the given information.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-12 14:32:17,865] - ### dataset example: Paraphrase the input text using simpler terms.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-12 14:52:51,292] - ### dataset example: Refine intricate sentences by trimming redundant words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-12 15:18:32,600] - Simplify the above sentence without changing meaning.
+[2025-02-12 15:18:32,600] - simplify the given sentences.
+[2025-02-12 15:18:32,600] - simplify and restate the information in the given input.
+[2025-02-12 15:18:32,600] - Rewrite the input text into simpler text.
+[2025-02-12 15:18:32,600] - simplify complex sentences and eliminate unnecessary words or phrases.
+[2025-02-12 15:18:32,600] - Condense the above sentence while preserving the original meaning.
+[2025-02-12 15:18:32,601] - **Clarify the sentences.**
+[2025-02-12 15:18:32,601] - Clarify and condense the given information.
+[2025-02-12 15:18:32,601] - Paraphrase the input text using simpler terms.
+[2025-02-12 15:18:32,601] - Refine intricate sentences by trimming redundant words or phrases.
+[2025-02-12 15:18:32,601] - step: 0
+[2025-02-12 15:18:32,601] - cur dev set size: 100
+[2025-02-12 15:18:32,601] - step0, pop 0
+[2025-02-12 15:18:32,601] - original: Simplify the above sentence without changing meaning.
+[2025-02-12 15:18:32,601] - old_score: 35.28699960303816
+[2025-02-12 15:18:32,602] - evolution example:
+[2025-02-12 15:18:32,602] - Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt.
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+
+1. Identifying the different parts between Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+Different parts:
+"classify the comment" vs "classify a sentence"
+"Your task is to" vs "In this task, you are given sentences from movie reviews. The task is to"
+
+2. Randomly mutate the different parts:
+"classify the comment" -> "categorize the statement"
+"classify a sentence" -> "evaluate the review"
+"Your task is to" -> "Your mission is to"
+"In this task, you are given sentences from movie reviews. The task is to" -> "In this assignment, you will receive movie review sentences. Your job is to"
+
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt:
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+New Prompt: In this assignment, you will receive movie review sentences. Your job is to evaluate the review and determine the sentiment, choosing from terrible, bad, okay, good, and great to describe the movie.
+
+4. Crossover the prompt in step 3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+Final Prompt: <prompt>Your mission is to categorize the statement from a movie review by understanding its meaning and context, and then classify it as one of the following categories: terrible, bad, okay, good, or great.</prompt>
+
+Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Rewrite the input text into simpler text.
+Prompt 2: Condense the above sentence while preserving the original meaning.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step2 and generate a new prompt.
+Prompt 3: Paraphrase the input text using simpler terms.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: Simplify the above sentence without changing meaning.
+
+1. 
+[2025-02-12 15:18:32,602] - parents:
+[2025-02-12 15:18:32,602] - Rewrite the input text into simpler text.
+[2025-02-12 15:18:32,602] - Condense the above sentence while preserving the original meaning.
+[2025-02-12 15:18:41,726] - de original prompt: < prompt > You must rewrite the given text into simpler terms while preserving its original meaning. < / prompt >
+[2025-02-12 15:18:41,727] - de prompt: < prompt > You must rewrite the given text into simpler terms while preserving its original meaning. < / prompt >
+[2025-02-12 15:18:41,727] - ### dataset example: < prompt > You must rewrite the given text into simpler terms while preserving its original meaning. < / prompt >
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-12 15:40:00,690] - de_score: 45.8729
+[2025-02-12 15:40:00,690] - 
+
+[2025-02-12 15:40:00,690] - step0, pop 1
+[2025-02-12 15:40:00,690] - original: simplify the given sentences.
+[2025-02-12 15:40:00,690] - old_score: 35.17401173723483
+[2025-02-12 15:40:00,691] - evolution example:
+[2025-02-12 15:40:00,691] - Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt.
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+
+1. Identifying the different parts between Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+Different parts:
+"classify the comment" vs "classify a sentence"
+"Your task is to" vs "In this task, you are given sentences from movie reviews. The task is to"
+
+2. Randomly mutate the different parts:
+"classify the comment" -> "categorize the statement"
+"classify a sentence" -> "evaluate the review"
+"Your task is to" -> "Your mission is to"
+"In this task, you are given sentences from movie reviews. The task is to" -> "In this assignment, you will receive movie review sentences. Your job is to"
+
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt:
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+New Prompt: In this assignment, you will receive movie review sentences. Your job is to evaluate the review and determine the sentiment, choosing from terrible, bad, okay, good, and great to describe the movie.
+
+4. Crossover the prompt in step 3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+Final Prompt: <prompt>Your mission is to categorize the statement from a movie review by understanding its meaning and context, and then classify it as one of the following categories: terrible, bad, okay, good, or great.</prompt>
+
+Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Rewrite the input text into simpler text.
+Prompt 2: simplify complex sentences and eliminate unnecessary words or phrases.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step2 and generate a new prompt.
+Prompt 3: < prompt > You must rewrite the given text into simpler terms while preserving its original meaning. < / prompt >
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: simplify the given sentences.
+
+1. 
+[2025-02-12 15:40:00,691] - parents:
+[2025-02-12 15:40:00,691] - Rewrite the input text into simpler text.
+[2025-02-12 15:40:00,691] - simplify complex sentences and eliminate unnecessary words or phrases.
+[2025-02-12 15:40:16,481] - de original prompt: 1. Identifying the different parts between Prompt 1 and Prompt 2:
+   - Prompt 1: "Rewrite the input text into simpler text."
+   - Prompt 2: "simplify complex sentences and eliminate unnecessary words or phrases."
+   - Different parts:
+     - "Rewrite the input text" vs "simplify complex sentences"
+     - "into simpler text" vs "and eliminate unnecessary words or phrases"
+
+2. Randomly mutate the different parts:
+   - "Rewrite the input text" → "Paraphrase the text"
+   - "simplify complex sentences" → "clarify complicated sentences"
+   - "into simpler text" → "in a more straightforward manner"
+   - "and eliminate unnecessary words or phrases" → "and remove redundant language"
+
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step2 and generate a new prompt:
+   - Prompt 3: "You must rewrite the given text into simpler terms while preserving its original meaning."
+   - New Prompt: "You must paraphrase the given text in a more straightforward manner, clarifying complicated sentences and removing redundant language while preserving its original meaning."
+
+4. Crossover the prompt in step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+   - Basic Prompt: "simplify the given sentences."
+   - Final Prompt: <prompt>You are a text simplifier. Simplify the given sentences by paraphrasing them in a more straightforward manner, clarifying complicated sentences and removing redundant language, while preserving the original meaning.</prompt>
+[2025-02-12 15:40:16,481] - de prompt: You are a text simplifier. Simplify the given sentences by paraphrasing them in a more straightforward manner, clarifying complicated sentences and removing redundant language, while preserving the original meaning.
+[2025-02-12 15:40:16,482] - ### dataset example: You are a text simplifier. Simplify the given sentences by paraphrasing them in a more straightforward manner, clarifying complicated sentences and removing redundant language, while preserving the original meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-12 15:58:29,253] - de_score: 45.8698
+[2025-02-12 15:58:29,254] - 
+
+[2025-02-12 15:58:29,254] - step0, pop 2
+[2025-02-12 15:58:29,254] - original: simplify and restate the information in the given input.
+[2025-02-12 15:58:29,254] - old_score: 33.991287217020094
+[2025-02-12 15:58:29,254] - evolution example:
+[2025-02-12 15:58:29,254] - Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt.
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+
+1. Identifying the different parts between Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+Different parts:
+"classify the comment" vs "classify a sentence"
+"Your task is to" vs "In this task, you are given sentences from movie reviews. The task is to"
+
+2. Randomly mutate the different parts:
+"classify the comment" -> "categorize the statement"
+"classify a sentence" -> "evaluate the review"
+"Your task is to" -> "Your mission is to"
+"In this task, you are given sentences from movie reviews. The task is to" -> "In this assignment, you will receive movie review sentences. Your job is to"
+
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt:
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+New Prompt: In this assignment, you will receive movie review sentences. Your job is to evaluate the review and determine the sentiment, choosing from terrible, bad, okay, good, and great to describe the movie.
+
+4. Crossover the prompt in step 3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+Final Prompt: <prompt>Your mission is to categorize the statement from a movie review by understanding its meaning and context, and then classify it as one of the following categories: terrible, bad, okay, good, or great.</prompt>
+
+Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Simplify the above sentence without changing meaning.
+Prompt 2: simplify complex sentences and eliminate unnecessary words or phrases.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step2 and generate a new prompt.
+Prompt 3: < prompt > You must rewrite the given text into simpler terms while preserving its original meaning. < / prompt >
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: simplify and restate the information in the given input.
+
+1. 
+[2025-02-12 15:58:29,254] - parents:
+[2025-02-12 15:58:29,254] - Simplify the above sentence without changing meaning.
+[2025-02-12 15:58:29,254] - simplify complex sentences and eliminate unnecessary words or phrases.
+[2025-02-12 15:58:51,080] - de original prompt: ### Step-by-Step Response:
+
+1. **Identify the different parts between Prompt 1 and Prompt 2:**
+   - **Prompt 1:** Simplify the above sentence without changing meaning.
+   - **Prompt 2:** Simplify complex sentences and eliminate unnecessary words or phrases.
+   - **Different parts:**
+     - "Simplify the above sentence" vs. "Simplify complex sentences."
+     - "without changing meaning" vs. "eliminate unnecessary words or phrases."
+
+2. **Randomly mutate the different parts:**
+   - "Simplify the above sentence" → "Rewrite the given sentence."
+   - "Simplify complex sentences" → "Clarify complex sentences."
+   - "without changing meaning" → "while preserving the original meaning."
+   - "eliminate unnecessary words or phrases" → "remove redundant words or phrases."
+
+3. **Combine the different parts with Prompt 3, selectively replace it with the different parts in Step 2, and generate a new prompt:**
+   - **Prompt 3:** <prompt>You must rewrite the given text into simpler terms while preserving its original meaning.</prompt>
+   - **New Prompt:** <prompt>Your task is to clarify complex sentences from a book or document and rewrite them in simpler terms, removing redundant words or phrases while preserving the original meaning.</prompt>
+
+4. **Crossover the prompt in Step 3 with the following basic prompt and generate a final prompt bracketed with `<prompt>` and `</prompt>`:**
+   - **Basic Prompt:** Simplify and restate the information in the given input.
+   - **Final Prompt:** <prompt>Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning.</prompt>
+[2025-02-12 15:58:51,080] - de prompt: Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning.
+[2025-02-12 15:58:51,081] - ### dataset example: Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-12 16:22:52,687] - de_score: 46.709
+[2025-02-12 16:22:52,688] - 
+
+[2025-02-12 16:22:52,688] - step0, pop 3
+[2025-02-12 16:22:52,688] - original: Rewrite the input text into simpler text.
+[2025-02-12 16:22:52,688] - old_score: 33.871107766029475
+[2025-02-12 16:22:52,688] - evolution example:
+[2025-02-12 16:22:52,688] - Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt.
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+
+1. Identifying the different parts between Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+Different parts:
+"classify the comment" vs "classify a sentence"
+"Your task is to" vs "In this task, you are given sentences from movie reviews. The task is to"
+
+2. Randomly mutate the different parts:
+"classify the comment" -> "categorize the statement"
+"classify a sentence" -> "evaluate the review"
+"Your task is to" -> "Your mission is to"
+"In this task, you are given sentences from movie reviews. The task is to" -> "In this assignment, you will receive movie review sentences. Your job is to"
+
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt:
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+New Prompt: In this assignment, you will receive movie review sentences. Your job is to evaluate the review and determine the sentiment, choosing from terrible, bad, okay, good, and great to describe the movie.
+
+4. Crossover the prompt in step 3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+Final Prompt: <prompt>Your mission is to categorize the statement from a movie review by understanding its meaning and context, and then classify it as one of the following categories: terrible, bad, okay, good, or great.</prompt>
+
+Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Refine intricate sentences by trimming redundant words or phrases.
+Prompt 2: Condense the above sentence while preserving the original meaning.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step2 and generate a new prompt.
+Prompt 3: Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: Rewrite the input text into simpler text.
+
+1. 
+[2025-02-12 16:22:52,688] - parents:
+[2025-02-12 16:22:52,688] - Refine intricate sentences by trimming redundant words or phrases.
+[2025-02-12 16:22:52,688] - Condense the above sentence while preserving the original meaning.
+[2025-02-12 16:23:11,701] - de original prompt: 1. Identify the different parts between Prompt 1 and Prompt 2:
+- Prompt 1: Refine intricate sentences by trimming redundant words or phrases.
+- Prompt 2: Condense the above sentence while preserving the original meaning.
+Different parts:
+"Refine intricate sentences" vs "Condense the above sentence"
+"by trimming redundant words or phrases" vs "while preserving the original meaning"
+
+2. Randomly mutate the different parts:
+"Refine intricate sentences" -> "Enhance complex sentences"
+"Condense the above sentence" -> "Shorten the following statement"
+"by trimming redundant words or phrases" -> "by eliminating unnecessary words or phrases"
+"while preserving the original meaning" -> "while maintaining the core message"
+
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step2 and generate a new prompt:
+Prompt 3: Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning.
+New Prompt: Your task is to enhance complex sentences from a book or document by eliminating unnecessary words or phrases, ensuring clarity and maintaining the core message.
+
+4. Crossover the prompt in step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: Rewrite the input text into simpler text.
+Final Prompt: <prompt>Your task is to rewrite the input text into simpler text by enhancing complex sentences and eliminating unnecessary words or phrases, ensuring clarity and maintaining the core message.</prompt>
+[2025-02-12 16:23:11,701] - de prompt: Your task is to rewrite the input text into simpler text by enhancing complex sentences and eliminating unnecessary words or phrases, ensuring clarity and maintaining the core message.
+[2025-02-12 16:23:11,701] - ### dataset example: Your task is to rewrite the input text into simpler text by enhancing complex sentences and eliminating unnecessary words or phrases, ensuring clarity and maintaining the core message.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-12 16:45:46,931] - de_score: 44.7917
+[2025-02-12 16:45:46,931] - 
+
+[2025-02-12 16:45:46,931] - step0, pop 4
+[2025-02-12 16:45:46,931] - original: simplify complex sentences and eliminate unnecessary words or phrases.
+[2025-02-12 16:45:46,931] - old_score: 33.6791701264558
+[2025-02-12 16:45:46,931] - evolution example:
+[2025-02-12 16:45:46,932] - Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt.
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+
+1. Identifying the different parts between Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+Different parts:
+"classify the comment" vs "classify a sentence"
+"Your task is to" vs "In this task, you are given sentences from movie reviews. The task is to"
+
+2. Randomly mutate the different parts:
+"classify the comment" -> "categorize the statement"
+"classify a sentence" -> "evaluate the review"
+"Your task is to" -> "Your mission is to"
+"In this task, you are given sentences from movie reviews. The task is to" -> "In this assignment, you will receive movie review sentences. Your job is to"
+
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt:
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+New Prompt: In this assignment, you will receive movie review sentences. Your job is to evaluate the review and determine the sentiment, choosing from terrible, bad, okay, good, and great to describe the movie.
+
+4. Crossover the prompt in step 3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+Final Prompt: <prompt>Your mission is to categorize the statement from a movie review by understanding its meaning and context, and then classify it as one of the following categories: terrible, bad, okay, good, or great.</prompt>
+
+Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: **Clarify the sentences.**
+Prompt 2: Paraphrase the input text using simpler terms.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step2 and generate a new prompt.
+Prompt 3: Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: simplify complex sentences and eliminate unnecessary words or phrases.
+
+1. 
+[2025-02-12 16:45:46,932] - parents:
+[2025-02-12 16:45:46,932] - **Clarify the sentences.**
+[2025-02-12 16:45:46,932] - Paraphrase the input text using simpler terms.
+[2025-02-12 16:46:02,611] - de original prompt: 1. Identifying the different parts between Prompt 1 and Prompt 2:  
+- Prompt 1: **Clarify the sentences.**  
+- Prompt 2: Paraphrase the input text using simpler terms.  
+Different parts:  
+- **Clarify the sentences** vs **Paraphrase the input text using simpler terms**
+
+2. Randomly mutate the different parts:  
+- **Clarify the sentences** → **Rewrite the text for better understanding**  
+- **Paraphrase the input text using simpler terms** → **Simplify the content using plain language**
+
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt:  
+Prompt 3: Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning.  
+New Prompt: Your task is to rewrite the text for better understanding and simplify the content using plain language, ensuring clarity and preserving the original meaning.
+
+4. Crossover the prompt in step 3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:  
+Basic Prompt: simplify complex sentences and eliminate unnecessary words or phrases.  
+Final Prompt: <prompt>Your task is to simplify complex sentences and eliminate unnecessary words or phrases, rephrasing the text for better understanding while preserving the original meaning.</prompt>
+[2025-02-12 16:46:02,611] - de prompt: Your task is to simplify complex sentences and eliminate unnecessary words or phrases, rephrasing the text for better understanding while preserving the original meaning.
+[2025-02-12 16:46:02,612] - ### dataset example: Your task is to simplify complex sentences and eliminate unnecessary words or phrases, rephrasing the text for better understanding while preserving the original meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-12 17:09:21,135] - de_score: 44.6084
+[2025-02-12 17:09:21,206] - 
+
+[2025-02-12 17:09:21,206] - step0, pop 5
+[2025-02-12 17:09:21,207] - original: Condense the above sentence while preserving the original meaning.
+[2025-02-12 17:09:21,207] - old_score: 44.671275197765986
+[2025-02-12 17:09:21,208] - evolution example:
+[2025-02-12 17:09:21,208] - Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt.
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+
+1. Identifying the different parts between Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+Different parts:
+"classify the comment" vs "classify a sentence"
+"Your task is to" vs "In this task, you are given sentences from movie reviews. The task is to"
+
+2. Randomly mutate the different parts:
+"classify the comment" -> "categorize the statement"
+"classify a sentence" -> "evaluate the review"
+"Your task is to" -> "Your mission is to"
+"In this task, you are given sentences from movie reviews. The task is to" -> "In this assignment, you will receive movie review sentences. Your job is to"
+
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt:
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+New Prompt: In this assignment, you will receive movie review sentences. Your job is to evaluate the review and determine the sentiment, choosing from terrible, bad, okay, good, and great to describe the movie.
+
+4. Crossover the prompt in step 3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+Final Prompt: <prompt>Your mission is to categorize the statement from a movie review by understanding its meaning and context, and then classify it as one of the following categories: terrible, bad, okay, good, or great.</prompt>
+
+Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Clarify and condense the given information.
+Prompt 2: Paraphrase the input text using simpler terms.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step2 and generate a new prompt.
+Prompt 3: Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: Condense the above sentence while preserving the original meaning.
+
+1. 
+[2025-02-12 17:09:21,208] - parents:
+[2025-02-12 17:09:21,209] - Clarify and condense the given information.
+[2025-02-12 17:09:21,209] - Paraphrase the input text using simpler terms.
+[2025-02-12 17:09:53,812] - de original prompt: <prompt>Rewrite the input details from a book or document using plain terms, condensing while preserving the original meaning.</prompt>
+[2025-02-12 17:09:53,813] - de prompt: Rewrite the input details from a book or document using plain terms, condensing while preserving the original meaning.
+[2025-02-12 17:09:53,814] - ### dataset example: Rewrite the input details from a book or document using plain terms, condensing while preserving the original meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-12 17:35:31,295] - de_score: 44.7432
+[2025-02-12 17:35:31,295] - 
+
+[2025-02-12 17:35:31,295] - step0, pop 6
+[2025-02-12 17:35:31,295] - original: **Clarify the sentences.**
+[2025-02-12 17:35:31,295] - old_score: 43.56241420547635
+[2025-02-12 17:35:31,295] - evolution example:
+[2025-02-12 17:35:31,295] - Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt.
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+
+1. Identifying the different parts between Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+Different parts:
+"classify the comment" vs "classify a sentence"
+"Your task is to" vs "In this task, you are given sentences from movie reviews. The task is to"
+
+2. Randomly mutate the different parts:
+"classify the comment" -> "categorize the statement"
+"classify a sentence" -> "evaluate the review"
+"Your task is to" -> "Your mission is to"
+"In this task, you are given sentences from movie reviews. The task is to" -> "In this assignment, you will receive movie review sentences. Your job is to"
+
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt:
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+New Prompt: In this assignment, you will receive movie review sentences. Your job is to evaluate the review and determine the sentiment, choosing from terrible, bad, okay, good, and great to describe the movie.
+
+4. Crossover the prompt in step 3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+Final Prompt: <prompt>Your mission is to categorize the statement from a movie review by understanding its meaning and context, and then classify it as one of the following categories: terrible, bad, okay, good, or great.</prompt>
+
+Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Simplify the above sentence without changing meaning.
+Prompt 2: Paraphrase the input text using simpler terms.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step2 and generate a new prompt.
+Prompt 3: Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: **Clarify the sentences.**
+
+1. 
+[2025-02-12 17:35:31,295] - parents:
+[2025-02-12 17:35:31,295] - Simplify the above sentence without changing meaning.
+[2025-02-12 17:35:31,295] - Paraphrase the input text using simpler terms.
+[2025-02-12 17:35:50,726] - de original prompt: <prompt>Your task is to rephrase the input content, ensuring clarity while preserving the original meaning.</prompt>
+[2025-02-12 17:35:50,727] - de prompt: Your task is to rephrase the input content, ensuring clarity while preserving the original meaning.
+[2025-02-12 17:35:50,728] - ### dataset example: Your task is to rephrase the input content, ensuring clarity while preserving the original meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-12 18:01:00,219] - de_score: 45.4714
+[2025-02-12 18:01:00,219] - 
+
+[2025-02-12 18:01:00,219] - step0, pop 7
+[2025-02-12 18:01:00,219] - original: Clarify and condense the given information.
+[2025-02-12 18:01:00,219] - old_score: 44.467969061409256
+[2025-02-12 18:01:00,220] - evolution example:
+[2025-02-12 18:01:00,220] - Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt.
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+
+1. Identifying the different parts between Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+Different parts:
+"classify the comment" vs "classify a sentence"
+"Your task is to" vs "In this task, you are given sentences from movie reviews. The task is to"
+
+2. Randomly mutate the different parts:
+"classify the comment" -> "categorize the statement"
+"classify a sentence" -> "evaluate the review"
+"Your task is to" -> "Your mission is to"
+"In this task, you are given sentences from movie reviews. The task is to" -> "In this assignment, you will receive movie review sentences. Your job is to"
+
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt:
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+New Prompt: In this assignment, you will receive movie review sentences. Your job is to evaluate the review and determine the sentiment, choosing from terrible, bad, okay, good, and great to describe the movie.
+
+4. Crossover the prompt in step 3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+Final Prompt: <prompt>Your mission is to categorize the statement from a movie review by understanding its meaning and context, and then classify it as one of the following categories: terrible, bad, okay, good, or great.</prompt>
+
+Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Rewrite the input text into simpler text.
+Prompt 2: simplify complex sentences and eliminate unnecessary words or phrases.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step2 and generate a new prompt.
+Prompt 3: Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: Clarify and condense the given information.
+
+1. 
+[2025-02-12 18:01:00,220] - parents:
+[2025-02-12 18:01:00,220] - Rewrite the input text into simpler text.
+[2025-02-12 18:01:00,220] - simplify complex sentences and eliminate unnecessary words or phrases.
+[2025-02-12 18:01:28,579] - de original prompt: 1. **Identify the different parts between Prompt 1 and Prompt 2:**
+   - Prompt 1: "Rewrite the input text into simpler text."
+   - Prompt 2: "simplify complex sentences and eliminate unnecessary words or phrases."
+   - Different parts:
+     - "Rewrite the input text into simpler text" vs "simplify complex sentences and eliminate unnecessary words or phrases."
+
+2. **Randomly mutate the different parts:**
+   - "Rewrite the input text into simpler text" → "Paraphrase the text to make it easier to understand."
+   - "simplify complex sentences and eliminate unnecessary words or phrases" → "Clarify convoluted sentences by removing redundant terms."
+
+3. **Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2, and generate a new prompt:**
+   - Prompt 3: "Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning."
+   - New Prompt: "Your task is to paraphrase the text to make it easier to understand, ensuring clarity and preserving the original meaning, while clarifying convoluted sentences by removing redundant terms."
+
+4. **Crossover the prompt in step 3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:**
+   - Basic Prompt: "Clarify and condense the given information."
+   - Final Prompt: <prompt>Clarify and condense the given information by paraphrasing the text to make it easier to understand, ensuring clarity and preserving the original meaning.</prompt>
+[2025-02-12 18:01:28,580] - de prompt: Clarify and condense the given information by paraphrasing the text to make it easier to understand, ensuring clarity and preserving the original meaning.
+[2025-02-12 18:01:28,581] - ### dataset example: Clarify and condense the given information by paraphrasing the text to make it easier to understand, ensuring clarity and preserving the original meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-12 18:52:23,483] - de_score: 44.7488
+[2025-02-12 18:52:23,483] - 
+
+[2025-02-12 18:52:23,483] - step0, pop 8
+[2025-02-12 18:52:23,484] - original: Paraphrase the input text using simpler terms.
+[2025-02-12 18:52:23,484] - old_score: 45.598067127940226
+[2025-02-12 18:52:23,484] - evolution example:
+[2025-02-12 18:52:23,484] - Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt.
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+
+1. Identifying the different parts between Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+Different parts:
+"classify the comment" vs "classify a sentence"
+"Your task is to" vs "In this task, you are given sentences from movie reviews. The task is to"
+
+2. Randomly mutate the different parts:
+"classify the comment" -> "categorize the statement"
+"classify a sentence" -> "evaluate the review"
+"Your task is to" -> "Your mission is to"
+"In this task, you are given sentences from movie reviews. The task is to" -> "In this assignment, you will receive movie review sentences. Your job is to"
+
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt:
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+New Prompt: In this assignment, you will receive movie review sentences. Your job is to evaluate the review and determine the sentiment, choosing from terrible, bad, okay, good, and great to describe the movie.
+
+4. Crossover the prompt in step 3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+Final Prompt: <prompt>Your mission is to categorize the statement from a movie review by understanding its meaning and context, and then classify it as one of the following categories: terrible, bad, okay, good, or great.</prompt>
+
+Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: simplify the given sentences.
+Prompt 2: Refine intricate sentences by trimming redundant words or phrases.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step2 and generate a new prompt.
+Prompt 3: Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: Paraphrase the input text using simpler terms.
+
+1. 
+[2025-02-12 18:52:23,484] - parents:
+[2025-02-12 18:52:23,484] - simplify the given sentences.
+[2025-02-12 18:52:23,484] - Refine intricate sentences by trimming redundant words or phrases.
+[2025-02-12 18:52:46,802] - de original prompt: The final prompt, combining the elements from the thought process, is:
+
+<prompt>Your mission is to condense and paraphrase the intricate sentences by eliminating unnecessary language, ensuring clarity and preserving the original meaning. Simplify the given sentences using simpler terms for a clear and concise expression.</prompt>
+
+This prompt integrates the mutations from the earlier steps, ensuring it is both comprehensive and effective.
+[2025-02-12 18:52:46,803] - de prompt: Your mission is to condense and paraphrase the intricate sentences by eliminating unnecessary language, ensuring clarity and preserving the original meaning. Simplify the given sentences using simpler terms for a clear and concise expression.
+[2025-02-12 18:52:46,804] - ### dataset example: Your mission is to condense and paraphrase the intricate sentences by eliminating unnecessary language, ensuring clarity and preserving the original meaning. Simplify the given sentences using simpler terms for a clear and concise expression.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-12 19:19:53,973] - de_score: 43.821
+[2025-02-12 19:19:53,973] - 
+
+[2025-02-12 19:19:53,973] - step0, pop 9
+[2025-02-12 19:19:53,973] - original: Refine intricate sentences by trimming redundant words or phrases.
+[2025-02-12 19:19:53,973] - old_score: 42.42784983839326
+[2025-02-12 19:19:53,973] - evolution example:
+[2025-02-12 19:19:53,973] - Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt.
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+
+1. Identifying the different parts between Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+Different parts:
+"classify the comment" vs "classify a sentence"
+"Your task is to" vs "In this task, you are given sentences from movie reviews. The task is to"
+
+2. Randomly mutate the different parts:
+"classify the comment" -> "categorize the statement"
+"classify a sentence" -> "evaluate the review"
+"Your task is to" -> "Your mission is to"
+"In this task, you are given sentences from movie reviews. The task is to" -> "In this assignment, you will receive movie review sentences. Your job is to"
+
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt:
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+New Prompt: In this assignment, you will receive movie review sentences. Your job is to evaluate the review and determine the sentiment, choosing from terrible, bad, okay, good, and great to describe the movie.
+
+4. Crossover the prompt in step 3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+Final Prompt: <prompt>Your mission is to categorize the statement from a movie review by understanding its meaning and context, and then classify it as one of the following categories: terrible, bad, okay, good, or great.</prompt>
+
+Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: simplify complex sentences and eliminate unnecessary words or phrases.
+Prompt 2: simplify the given sentences.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step2 and generate a new prompt.
+Prompt 3: Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: Refine intricate sentences by trimming redundant words or phrases.
+
+1. 
+[2025-02-12 19:19:53,973] - parents:
+[2025-02-12 19:19:53,973] - simplify complex sentences and eliminate unnecessary words or phrases.
+[2025-02-12 19:19:53,974] - simplify the given sentences.
+[2025-02-12 19:20:08,407] - de original prompt: **Final Prompt:**  
+<prompt>Your task is to [mutated part 1] while ensuring clarity and preserving the original meaning. You should [mutated part 2] and provide a concise yet accurate rephrasing of the sentences.</prompt>
+[2025-02-12 19:20:08,407] - de prompt: Your task is to [mutated part 1] while ensuring clarity and preserving the original meaning. You should [mutated part 2] and provide a concise yet accurate rephrasing of the sentences.
+[2025-02-12 19:20:08,409] - ### dataset example: Your task is to [mutated part 1] while ensuring clarity and preserving the original meaning. You should [mutated part 2] and provide a concise yet accurate rephrasing of the sentences.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-12 19:55:01,153] - de_score: 45.1806
+[2025-02-12 19:55:01,153] - 
+
+[2025-02-12 19:55:02,391] - step: 1
+[2025-02-12 19:55:02,392] - cur dev set size: 100
+[2025-02-12 19:55:02,393] - step1, pop 0
+[2025-02-12 19:55:02,393] - original: < prompt > You must rewrite the given text into simpler terms while preserving its original meaning. < / prompt >
+[2025-02-12 19:55:02,393] - old_score: 45.87286613194673
+[2025-02-12 19:55:02,394] - evolution example:
+[2025-02-12 19:55:02,394] - Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt.
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+
+1. Identifying the different parts between Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+Different parts:
+"classify the comment" vs "classify a sentence"
+"Your task is to" vs "In this task, you are given sentences from movie reviews. The task is to"
+
+2. Randomly mutate the different parts:
+"classify the comment" -> "categorize the statement"
+"classify a sentence" -> "evaluate the review"
+"Your task is to" -> "Your mission is to"
+"In this task, you are given sentences from movie reviews. The task is to" -> "In this assignment, you will receive movie review sentences. Your job is to"
+
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt:
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+New Prompt: In this assignment, you will receive movie review sentences. Your job is to evaluate the review and determine the sentiment, choosing from terrible, bad, okay, good, and great to describe the movie.
+
+4. Crossover the prompt in step 3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+Final Prompt: <prompt>Your mission is to categorize the statement from a movie review by understanding its meaning and context, and then classify it as one of the following categories: terrible, bad, okay, good, or great.</prompt>
+
+Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Your task is to simplify complex sentences and eliminate unnecessary words or phrases, rephrasing the text for better understanding while preserving the original meaning.
+Prompt 2: Clarify and condense the given information by paraphrasing the text to make it easier to understand, ensuring clarity and preserving the original meaning.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step2 and generate a new prompt.
+Prompt 3: Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: < prompt > You must rewrite the given text into simpler terms while preserving its original meaning. < / prompt >
+
+1. 
+[2025-02-12 19:55:02,395] - parents:
+[2025-02-12 19:55:02,395] - Your task is to simplify complex sentences and eliminate unnecessary words or phrases, rephrasing the text for better understanding while preserving the original meaning.
+[2025-02-12 19:55:02,395] - Clarify and condense the given information by paraphrasing the text to make it easier to understand, ensuring clarity and preserving the original meaning.
+[2025-02-12 19:55:19,108] - de original prompt: Here is the step-by-step explanation and final prompt:
+
+1. **Identify Differences:**
+   - **Prompt 1** focuses on simplifying complex sentences by eliminating unnecessary words and rephrasing for better understanding.
+   - **Prompt 2** emphasizes clarifying and condensing information through paraphrasing to enhance clarity.
+
+2. **Mutate Different Parts:**
+   - Replace "simplify" with "streamline."
+   - Replace "eliminate unnecessary words or phrases" with "cut out redundancies."
+   - Use "paraphrasing" instead of "rephrasing."
+
+3. **Combine with Prompt 3:**
+   - Modify Prompt 3 to include the mutated parts: "Your task is to streamline and restate the information in the given sentences from a book or document by cutting out redundancies, ensuring clarity and preserving the original meaning."
+
+4. **Crossover with Basic Prompt:**
+   - Merge the above with the Basic Prompt to emphasize rewriting into simpler terms while preserving meaning.
+
+**Final Prompt:**
+<prompt>Your task is to streamline and restate the information in the given sentences from a book or document by cutting out redundancies. Rewrite the text into simpler terms while preserving its original meaning, ensuring clarity and understanding.</prompt>
+[2025-02-12 19:55:19,108] - de prompt: Your task is to streamline and restate the information in the given sentences from a book or document by cutting out redundancies. Rewrite the text into simpler terms while preserving its original meaning, ensuring clarity and understanding.
+[2025-02-12 19:55:19,109] - ### dataset example: Your task is to streamline and restate the information in the given sentences from a book or document by cutting out redundancies. Rewrite the text into simpler terms while preserving its original meaning, ensuring clarity and understanding.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-12 20:19:22,062] - de_score: 44.8077
+[2025-02-12 20:19:22,062] - 
+
+[2025-02-12 20:19:22,062] - step1, pop 1
+[2025-02-12 20:19:22,062] - original: You are a text simplifier. Simplify the given sentences by paraphrasing them in a more straightforward manner, clarifying complicated sentences and removing redundant language, while preserving the original meaning.
+[2025-02-12 20:19:22,062] - old_score: 45.869816584208706
+[2025-02-12 20:19:22,062] - evolution example:
+[2025-02-12 20:19:22,062] - Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt.
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+
+1. Identifying the different parts between Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+Different parts:
+"classify the comment" vs "classify a sentence"
+"Your task is to" vs "In this task, you are given sentences from movie reviews. The task is to"
+
+2. Randomly mutate the different parts:
+"classify the comment" -> "categorize the statement"
+"classify a sentence" -> "evaluate the review"
+"Your task is to" -> "Your mission is to"
+"In this task, you are given sentences from movie reviews. The task is to" -> "In this assignment, you will receive movie review sentences. Your job is to"
+
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt:
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+New Prompt: In this assignment, you will receive movie review sentences. Your job is to evaluate the review and determine the sentiment, choosing from terrible, bad, okay, good, and great to describe the movie.
+
+4. Crossover the prompt in step 3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+Final Prompt: <prompt>Your mission is to categorize the statement from a movie review by understanding its meaning and context, and then classify it as one of the following categories: terrible, bad, okay, good, or great.</prompt>
+
+Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Your task is to [mutated part 1] while ensuring clarity and preserving the original meaning. You should [mutated part 2] and provide a concise yet accurate rephrasing of the sentences.
+Prompt 2: Your task is to simplify complex sentences and eliminate unnecessary words or phrases, rephrasing the text for better understanding while preserving the original meaning.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step2 and generate a new prompt.
+Prompt 3: Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a text simplifier. Simplify the given sentences by paraphrasing them in a more straightforward manner, clarifying complicated sentences and removing redundant language, while preserving the original meaning.
+
+1. 
+[2025-02-12 20:19:22,062] - parents:
+[2025-02-12 20:19:22,062] - Your task is to [mutated part 1] while ensuring clarity and preserving the original meaning. You should [mutated part 2] and provide a concise yet accurate rephrasing of the sentences.
+[2025-02-12 20:19:22,062] - Your task is to simplify complex sentences and eliminate unnecessary words or phrases, rephrasing the text for better understanding while preserving the original meaning.
+[2025-02-12 20:19:37,809] - de original prompt: <prompt>Your mission is to analyze the text by understanding its meaning and context, then streamline the content by breaking down intricate sentences and removing redundant language, ensuring clarity while preserving the original meaning.</prompt>
+[2025-02-12 20:19:37,809] - de prompt: Your mission is to analyze the text by understanding its meaning and context, then streamline the content by breaking down intricate sentences and removing redundant language, ensuring clarity while preserving the original meaning.
+[2025-02-12 20:19:37,810] - ### dataset example: Your mission is to analyze the text by understanding its meaning and context, then streamline the content by breaking down intricate sentences and removing redundant language, ensuring clarity while preserving the original meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-12 21:09:29,902] - de_score: 44.6263
+[2025-02-12 21:09:29,902] - 
+
+[2025-02-12 21:09:29,902] - step1, pop 2
+[2025-02-12 21:09:29,902] - original: Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning.
+[2025-02-12 21:09:29,902] - old_score: 46.70903553117254
+[2025-02-12 21:09:29,902] - evolution example:
+[2025-02-12 21:09:29,902] - Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt.
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+
+1. Identifying the different parts between Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+Different parts:
+"classify the comment" vs "classify a sentence"
+"Your task is to" vs "In this task, you are given sentences from movie reviews. The task is to"
+
+2. Randomly mutate the different parts:
+"classify the comment" -> "categorize the statement"
+"classify a sentence" -> "evaluate the review"
+"Your task is to" -> "Your mission is to"
+"In this task, you are given sentences from movie reviews. The task is to" -> "In this assignment, you will receive movie review sentences. Your job is to"
+
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt:
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+New Prompt: In this assignment, you will receive movie review sentences. Your job is to evaluate the review and determine the sentiment, choosing from terrible, bad, okay, good, and great to describe the movie.
+
+4. Crossover the prompt in step 3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+Final Prompt: <prompt>Your mission is to categorize the statement from a movie review by understanding its meaning and context, and then classify it as one of the following categories: terrible, bad, okay, good, or great.</prompt>
+
+Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Your task is to rephrase the input content, ensuring clarity while preserving the original meaning.
+Prompt 2: Your task is to rewrite the input text into simpler text by enhancing complex sentences and eliminating unnecessary words or phrases, ensuring clarity and maintaining the core message.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step2 and generate a new prompt.
+Prompt 3: Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning.
+
+1. 
+[2025-02-12 21:09:29,902] - parents:
+[2025-02-12 21:09:29,903] - Your task is to rephrase the input content, ensuring clarity while preserving the original meaning.
+[2025-02-12 21:09:29,903] - Your task is to rewrite the input text into simpler text by enhancing complex sentences and eliminating unnecessary words or phrases, ensuring clarity and maintaining the core message.
+[2025-02-12 21:10:13,793] - de original prompt: <prompt>Your task is to simplify the input text by enhancing complex sentences and eliminating unnecessary words or phrases, ensuring clarity while keeping the central idea intact.</prompt>
+[2025-02-12 21:10:13,793] - de prompt: Your task is to simplify the input text by enhancing complex sentences and eliminating unnecessary words or phrases, ensuring clarity while keeping the central idea intact.
+[2025-02-12 21:10:13,794] - ### dataset example: Your task is to simplify the input text by enhancing complex sentences and eliminating unnecessary words or phrases, ensuring clarity while keeping the central idea intact.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-12 21:39:54,512] - de_score: 44.6816
+[2025-02-12 21:39:54,512] - 
+
+[2025-02-12 21:39:54,512] - step1, pop 3
+[2025-02-12 21:39:54,512] - original: Your task is to rewrite the input text into simpler text by enhancing complex sentences and eliminating unnecessary words or phrases, ensuring clarity and maintaining the core message.
+[2025-02-12 21:39:54,512] - old_score: 44.79171409570495
+[2025-02-12 21:39:54,513] - evolution example:
+[2025-02-12 21:39:54,513] - Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt.
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+
+1. Identifying the different parts between Prompt 1 and Prompt 2:
+Prompt 1: Your task is to classify the comment as one of the following categories: terrible, bad, okay, good, great.
+Prompt 2: In this task, you are given sentences from movie reviews. The task is to classify a sentence as one of the following categories: terrible, bad, okay, good, great.
+Different parts:
+"classify the comment" vs "classify a sentence"
+"Your task is to" vs "In this task, you are given sentences from movie reviews. The task is to"
+
+2. Randomly mutate the different parts:
+"classify the comment" -> "categorize the statement"
+"classify a sentence" -> "evaluate the review"
+"Your task is to" -> "Your mission is to"
+"In this task, you are given sentences from movie reviews. The task is to" -> "In this assignment, you will receive movie review sentences. Your job is to"
+
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt:
+Prompt 3: Assess a movie or a book based on its explanation and determine the sentiment of the movie review. Have your colleague's evaluation of the movie they watched be expressed in a concise remark (e.g. awesome, all right, terrible, or horrendous) following the narrative synopsis they were provided, and choose from terrible, bad, okay, good and great to describe the movie.
+New Prompt: In this assignment, you will receive movie review sentences. Your job is to evaluate the review and determine the sentiment, choosing from terrible, bad, okay, good, and great to describe the movie.
+
+4. Crossover the prompt in step 3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as one of the following categories: terrible, bad, okay, good, great.
+Final Prompt: <prompt>Your mission is to categorize the statement from a movie review by understanding its meaning and context, and then classify it as one of the following categories: terrible, bad, okay, good, or great.</prompt>
+
+Please follow the instruction step-by-step to generate a better prompt.
+1. Identify the different parts between the Prompt 1 and Prompt 2:
+Prompt 1: Clarify and condense the given information by paraphrasing the text to make it easier to understand, ensuring clarity and preserving the original meaning.
+Prompt 2: Paraphrase the input text using simpler terms.
+2. Randomly mutate the different parts
+3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step2 and generate a new prompt.
+Prompt 3: Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning.
+4. Crossover the prompt in the step3 with the following basic prompt and generate a final prompt bracketed with <prompt> and </prompt>:
+Basic Prompt: Your task is to rewrite the input text into simpler text by enhancing complex sentences and eliminating unnecessary words or phrases, ensuring clarity and maintaining the core message.
+
+1. 
+[2025-02-12 21:39:54,513] - parents:
+[2025-02-12 21:39:54,513] - Clarify and condense the given information by paraphrasing the text to make it easier to understand, ensuring clarity and preserving the original meaning.
+[2025-02-12 21:39:54,513] - Paraphrase the input text using simpler terms.
+[2025-02-12 21:40:11,459] - de original prompt: ### Step-by-Step Explanation:
+
+**Step 1: Identify Different Parts Between Prompt 1 and Prompt 2**
+
+- **Prompt 1:** Focuses on "clarify and condense," "paraphrasing," "ensuring clarity," and "preserving the original meaning."
+- **Prompt 2:** Focuses on "paraphrasing the input text" and "using simpler terms."
+
+**Step 2: Randomly Mutate the Different Parts**
+
+- Mutate "clarify and condense" to "simplify and shorten."
+- Mutate "paraphrase the input text" to "restate the given information."
+
+**Step 3: Combine Different Parts with Prompt 3**
+
+- Original Prompt 3: "Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning."
+- Modified Prompt 3: "Your task is to simplify and shorten the given information by restating it in simpler terms, ensuring clarity and preserving the original meaning."
+
+**Step 4: Crossover with the Basic Prompt**
+
+- Basic Prompt: "Your task is to rewrite the input text into simpler text by enhancing complex sentences and eliminating unnecessary words or phrases, ensuring clarity and maintaining the core message."
+- Final Prompt after crossover: "Your task is to simplify and shorten the given information by restating it in simpler terms, ensuring clarity and preserving the original meaning."
+
+### Final Answer:
+<prompt>Your task is to simplify and shorten the given information by restating it in simpler terms, ensuring clarity and preserving the original meaning.</prompt>
+[2025-02-12 21:40:11,459] - de prompt: Your task is to simplify and shorten the given information by restating it in simpler terms, ensuring clarity and preserving the original meaning.
+[2025-02-12 21:40:11,461] - ### dataset example: Your task is to simplify and shorten the given information by restating it in simpler terms, ensuring clarity and preserving the original meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+

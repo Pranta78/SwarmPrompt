@@ -1,0 +1,8 @@
+pso	Rephrase the sentence to improve clarity and simplify its structure while preserving the original meaning. Aim for conciseness and straightforwardness by eliminating unnecessary words or expressions.	46.9831
+para	Rephrase intricate sentences to make them clearer and remove any extraneous words or expressions.	46.5969
+pso	Revise the provided information to improve clarity and conciseness by simplifying complex sentences and eliminating unnecessary words or expressions.	46.5692
+
+----------sorted results----------
+pso	Rephrase the sentence to improve clarity and simplify its structure while preserving the original meaning. Aim for conciseness and straightforwardness by eliminating unnecessary words or expressions.	46.9831
+para	Rephrase intricate sentences to make them clearer and remove any extraneous words or expressions.	46.5969
+pso	Revise the provided information to improve clarity and conciseness by simplifying complex sentences and eliminating unnecessary words or expressions.	46.5692

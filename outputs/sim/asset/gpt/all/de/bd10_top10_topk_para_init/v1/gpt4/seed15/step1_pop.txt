@@ -1,0 +1,12 @@
+evoluted	Simplify and streamline the given material by transforming it into more accessible language, promoting understanding and readability without altering its meaning through clarification and removal of extraneous terms.	55.1542
+evoluted	Revise and shorten the supplied material by restating the provided statements for better understanding. Clarify and rephrase the details while simplifying complex expressions and cutting excess language without altering the original meaning.	51.8432
+evoluted	Revise the previous assertion by restating and condensing the main points from the text for clarity. Simplify the language while ensuring accessibility and remove redundant terms without changing the original meaning.	51.4282
+evoluted	Rewrite the earlier statement into simpler text by transforming it into a clearer style without altering its meaning.	49.5427
+evoluted	Revise complex statements for better clarity by simplifying the provided sentences and eliminating unnecessary words or phrases.	52.0609
+evoluted	Restate the provided content in a simpler form while maintaining its meaning by clarifying intricate statements and removing redundant terms or expressions.	51.5374
+evoluted	Revise the provided content for enhanced clarity by making the sentences easier to understand while ensuring the original meaning remains intact. Simplify complex statements and eliminate unnecessary details to improve understanding.	51.4282
+evoluted	Simplify the given statements by rephrasing and condensing the information into more accessible language while ensuring the original meaning remains intact.	51.0576
+para	Rephrase the given text in a more straightforward manner.	53.168
+evoluted	"Rephrase and condense the provided text, ensuring clarity and accessibility without altering the original meaning by removing unnecessary words or phrases."	55.9417
+best score: 55.941707385512835
+average score: 52.31620060583053

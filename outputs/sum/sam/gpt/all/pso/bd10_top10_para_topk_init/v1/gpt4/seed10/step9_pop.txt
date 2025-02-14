@@ -1,0 +1,12 @@
+manual	Use concise language to summarize the main points, avoiding any unnecessary details or repetition.	0.3867	0.1325	0.3484	0.2892
+manual	How would you rephrase that in a few words?	0.3802	0.1115	0.3277	0.2731
+manual	Summarize the given context.	0.3573	0.1139	0.3188	0.2633
+manual	Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.	0.3472	0.1193	0.3139	0.2601
+manual	Please summarize the main context.	0.3368	0.106	0.3079	0.2502
+pso	New Optimized Prompt: Utilize clear and concise language to effectively summarize the key points, maintaining focus by eliminating unnecessary details and repetition.	0.0894	0.0076	0.0894	0.0622
+pso	Can you summarize the main points using concise language and rephrase them in just a few words, avoiding unnecessary details or repetition?	0.1047	0.0149	0.1047	0.0748
+pso	Summarize the provided information in clear and concise language, emphasizing the key points while omitting unnecessary details and repetition for a comprehensive and effective overview.	0.081	0.0054	0.081	0.0558
+para	Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.	0.0892	0.0093	0.0892	0.0625
+pso	Please provide a concise summary that clearly highlights the main points using precise language for enhanced clarity. Avoid unnecessary details and repetition to ensure the information is straightforward and easy to understand.	0.0946	0.0215	0.0946	0.0702
+best score: 0.28918252531965033
+average score: 0.16615519714524263

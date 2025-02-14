@@ -1,0 +1,8 @@
+pso	Revise the following sentences to enhance clarity while maintaining their original meaning.	45.9005
+pso	Revise the provided sentences to make them clearer and easier to understand.	47.0715
+pso	Revise the provided text to enhance clarity and simplicity, ensuring that the information is easy to understand for a broad audience.	47.965
+
+----------sorted results----------
+pso	Revise the provided text to enhance clarity and simplicity, ensuring that the information is easy to understand for a broad audience.	47.965
+pso	Revise the provided sentences to make them clearer and easier to understand.	47.0715
+pso	Revise the following sentences to enhance clarity while maintaining their original meaning.	45.9005

@@ -1,0 +1,23 @@
+manual	Use concise language to summarize the main points, avoiding any unnecessary details or repetition.	0.0841	0.0	0.0841	0.0561
+ape	discuss a dream or a goal.	0.0795	0.0054	0.0795	0.0548
+pso	The final optimized prompt, combining clarity, conciseness, and a polite tone, is:
+
+**"Can you paraphrase that concisely in a few words?"**
+
+This version is direct, polite, and effectively conveys the need for a concise and brief paraphrase.	0.0892	0.0	0.0892	0.0595
+ape	create input-output pairs.	0.0642	0.0118	0.0642	0.0467
+pso	The optimized prompt effectively combines clarity, coherence, and conciseness with the option to paraphrase where needed. 
+
+**Final Answer:**
+"Please edit the summary to ensure clarity, coherence, and conciseness, using paraphrasing where appropriate."	0.0859	0.0053	0.0859	0.059
+pso	**Final Optimized Prompt:**
+
+"State your ideas clearly and concisely, highlighting the key points while eliminating any unnecessary repetition or superfluous information. Restructure if needed to enhance clarity."
+
+This prompt effectively combines clarity, conciseness, and restructuring for better understanding, while avoiding redundancy.	0.0673	0.0	0.0673	0.0449
+para	Explore a vision or an aspiration.	0.0683	0.0	0.0683	0.0455
+para	Can you paraphrase that concisely?	0.0894	0.0091	0.0894	0.0626
+para	Generate input-output examples.	0.0578	0.0	0.0578	0.0385
+pso	Revise and paraphrase the summary as needed to enhance clarity, coherence, and conciseness.	0.0717	0.0054	0.0717	0.0496
+best score: 0.06262704046974658
+average score: 0.05172606485823478

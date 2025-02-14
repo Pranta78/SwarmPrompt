@@ -1,0 +1,12 @@
+manual	Use concise language to summarize the main points, avoiding any unnecessary details or repetition.	0.3867	0.1325	0.3484	0.2892
+pso	Rephrase the main points concisely, using only a few words and avoiding unnecessary details or repetition.	0.3811	0.1182	0.3419	0.2804
+pso	Summarize the provided context using clear and concise language, highlighting the main points while omitting unnecessary details and repetition.	0.3557	0.1144	0.3232	0.2644
+pso	Carefully read the text or listen to the dialogue to grasp the main idea and key points. Then, summarize these points using concise language, ensuring you avoid unnecessary details and repetition.	0.3607	0.123	0.3282	0.2706
+manual	Please summarize the main context.	0.3368	0.106	0.3079	0.2502
+para	Utilize clear and succinct language to highlight the key points, steering clear of extraneous details or redundancy.	0.3851	0.1272	0.3514	0.2879
+pso	Please summarize the main points concisely, using clear and succinct language while avoiding unnecessary details or repetition.	0.3736	0.1262	0.3454	0.2817
+pso	Summarize the provided context using clear and concise language, highlighting the main points while omitting unnecessary details and repetition.	0.3557	0.1144	0.3232	0.2644
+para	Examine the text or pay close attention to the conversation in order to grasp the main concept and the essential points that have been addressed.	0.3353	0.1106	0.3013	0.249
+pso	Please provide a concise summary of the key context, highlighting the main points while avoiding unnecessary details and repetition. Thank you!	0.3298	0.0965	0.3001	0.2422
+best score: 0.28918252531965033
+average score: 0.26801376153767753

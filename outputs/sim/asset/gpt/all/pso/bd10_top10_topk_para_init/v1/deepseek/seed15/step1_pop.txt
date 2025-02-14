@@ -1,0 +1,20 @@
+pso	Simplify the provided sentences without changing their meaning.	49.95
+pso	Simplify the provided sentences.	49.95
+pso	New Optimized Prompt: Simplify and restate the provided information clearly and concisely.	43.5351
+pso	Simplify and clarify the input text into clear, straightforward language while maintaining the original meaning.	49.95
+pso	Simplify complex sentences by eliminating unnecessary words or phrases.	49.95
+para	Here are some variations of the instruction, each designed to convey the core idea of simplifying the sentence without altering its original meaning:
+
+1. Paraphrase the above sentence more simply without changing its essence.
+2. Make the previous sentence simpler without altering its original meaning.
+3. Rewrite the sentence in a clearer way while keeping its meaning intact.
+4. Condense the sentence without losing its original message.
+5. Simplify the sentence, ensuring the meaning remains unchanged.
+
+Each variation uses different verbs and phrases to maintain clarity while preserving the intended message.	43.5351
+para	simplify the provided sentences.	49.95
+para	paraphrase the information in simpler terms.	46.4822
+pso	Simplify the provided text.	49.95
+para	Refine intricate sentences by removing extraneous words or phrases.	49.95
+best score: 49.94995352756005
+average score: 48.32021569402771

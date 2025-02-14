@@ -1,0 +1,18 @@
+manual	Simplify the above sentence without changing meaning.	35.287
+ape	simplify the given sentences.	35.174
+ape	simplify and restate the information in the given input.	33.9913
+manual	Rewrite the input text into simpler text.	33.8711
+ape	simplify complex sentences and eliminate unnecessary words or phrases.	33.6792
+para	Here are some variations of the instruction, each designed to convey the core idea of simplifying the sentence without altering its original meaning:
+
+1. Paraphrase the above sentence more simply without changing its essence.
+2. Make the previous sentence simpler without altering its original meaning.
+3. Rewrite the sentence in a clearer way while keeping its meaning intact.
+4. Condense the sentence without losing its original message.
+5. Simplify the sentence, ensuring the meaning remains unchanged.
+
+Each variation uses different verbs and phrases to maintain clarity while preserving the intended message.	43.5351
+para	simplify the provided sentences.	49.95
+para	paraphrase the information in simpler terms.	46.4822
+para	Simplify the input text.	44.4397
+para	Refine intricate sentences by removing extraneous words or phrases.	49.95

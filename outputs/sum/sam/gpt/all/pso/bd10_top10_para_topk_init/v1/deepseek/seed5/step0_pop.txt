@@ -1,0 +1,14 @@
+manual	Use concise language to summarize the main points, avoiding any unnecessary details or repetition.	0.0841	0.0	0.0841	0.0561
+ape	discuss a dream or a goal.	0.0795	0.0054	0.0795	0.0548
+pso	**Final Optimized Prompt:** "How would you concisely rephrase that in a few words?" 
+
+This prompt effectively combines the need for conciseness with the request for rephrasing, ensuring clarity and brevity.	0.0878	0.0	0.0878	0.0586
+ape	create input-output pairs.	0.0642	0.0118	0.0642	0.0467
+manual	Edit the summary if necessary to ensure clarity and coherence.	0.0652	0.0	0.0652	0.0435
+para	State your ideas clearly and concisely, highlighting the key points while eliminating any superfluous information or repetition.	0.0444	0.0	0.0444	0.0296
+para	Explore a vision or an aspiration.	0.0683	0.0	0.0683	0.0455
+para	Can you paraphrase that concisely?	0.0894	0.0091	0.0894	0.0626
+para	Generate input-output examples.	0.0578	0.0	0.0578	0.0385
+pso	Revise the summary as needed to enhance clarity and coherence.	0.0547	0.0028	0.0547	0.0374
+best score: 0.06262704046974658
+average score: 0.04733154493674866

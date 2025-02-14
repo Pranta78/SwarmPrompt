@@ -1,0 +1,8 @@
+manual	Use concise language to summarize the main points, avoiding any unnecessary details or repetition.	0.4247	0.1528	0.3793	0.3189
+manual	How would you rephrase that in a few words?	0.4058	0.1378	0.3503	0.2979
+manual	Summarize the given context.	0.3937	0.135	0.3485	0.2924
+
+----------sorted results----------
+manual	Use concise language to summarize the main points, avoiding any unnecessary details or repetition.	0.4247	0.1528	0.3793	0.3189
+manual	How would you rephrase that in a few words?	0.4058	0.1378	0.3503	0.2979
+manual	Summarize the given context.	0.3937	0.135	0.3485	0.2924

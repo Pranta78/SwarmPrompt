@@ -1,0 +1,12 @@
+evoluted	< prompt > You must rewrite the given text into simpler terms while preserving its original meaning. < / prompt >	45.8729
+evoluted	You are a text simplifier. Simplify the given sentences by paraphrasing them in a more straightforward manner, clarifying complicated sentences and removing redundant language, while preserving the original meaning.	45.8698
+evoluted	Your task is to simplify and restate the information in the given sentences from a book or document, ensuring clarity and preserving the original meaning.	46.709
+evoluted	Your task is to rewrite the input text into simpler text by enhancing complex sentences and eliminating unnecessary words or phrases, ensuring clarity and maintaining the core message.	44.7917
+evoluted	Your task is to simplify complex sentences and eliminate unnecessary words or phrases, rephrasing the text for better understanding while preserving the original meaning.	44.6084
+evoluted	Rewrite the input details from a book or document using plain terms, condensing while preserving the original meaning.	44.7432
+evoluted	Your task is to rephrase the input content, ensuring clarity while preserving the original meaning.	45.4714
+evoluted	Clarify and condense the given information by paraphrasing the text to make it easier to understand, ensuring clarity and preserving the original meaning.	44.7488
+para	Paraphrase the input text using simpler terms.	45.5981
+evoluted	Your task is to [mutated part 1] while ensuring clarity and preserving the original meaning. You should [mutated part 2] and provide a concise yet accurate rephrasing of the sentences.	45.1806
+best score: 46.70903553117254
+average score: 45.359391724946775

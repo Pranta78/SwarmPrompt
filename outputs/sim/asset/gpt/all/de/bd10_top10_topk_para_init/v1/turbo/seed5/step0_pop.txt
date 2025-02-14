@@ -1,0 +1,12 @@
+evoluted	Simplify the phrase provided using more straightforward words without altering its meaning.	37.8706
+ape	simplify the given sentences.	35.174
+ape	simplify and restate the information in the given input.	33.9913
+manual	Rewrite the input text into simpler text.	33.8711
+ape	simplify complex sentences and eliminate unnecessary words or phrases.	33.6792
+evoluted	Reword the provided information differently, using more clear language without changing its meaning.	30.3382
+evoluted	Clarify the previous statement by rewriting the provided text while maintaining the original idea in simpler terms.	31.5972
+para	simplify and express the information in the provided input in a different way.	35.3558
+para	Paraphrase the given text in a more straightforward manner.	32.9772
+para	Condense complex sentences and remove any superfluous words or phrases.	34.3536
+best score: 37.87058962912733
+average score: 33.920818803312194

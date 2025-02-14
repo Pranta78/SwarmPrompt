@@ -1,0 +1,12 @@
+pso	Revise the following sentences to a simpler form while retaining their original meaning.	48.0513
+pso	Revise the following sentences to a simpler form, ensuring that the original meaning is preserved.	48.2549
+pso	Revise the following information to make it simpler while preserving the original meaning.	47.885
+pso	Revise the following text to make it simpler while keeping the original meaning intact.	47.879
+pso	Revise the following sentences to simplify their structure and eliminate unnecessary words or phrases, while preserving the original meaning.	47.2877
+para	Rephrase the sentence above to make it simpler while retaining its meaning.	47.6064
+pso	Revise the following sentences to a simpler form while preserving the original meaning.	48.1222
+pso	Revise and condense the provided information into a simpler form while preserving the original meaning.	46.8069
+pso	Revise the provided text to a simpler form while ensuring that the original meaning is preserved. Focus on clarity and straightforwardness in your transformation.	48.2895
+pso	Revise the provided text to enhance clarity and straightforwardness. Streamline complex sentences and eliminate any unnecessary words or expressions while ensuring that the original meaning is preserved.	47.5372
+best score: 48.2895081470841
+average score: 47.772010989218806

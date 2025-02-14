@@ -1,0 +1,957 @@
+[2025-02-14 14:03:37,350] - ==================================================
+[2025-02-14 14:03:37,350] - dev data: None
+[2025-02-14 14:03:37,350] - test data: None
+[2025-02-14 14:03:37,350] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek_10_samples/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 10
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-14 14:03:37,350] - ==================================================
+[2025-02-14 14:03:37,350] - Instruction placeholder: <prompt>
+[2025-02-14 14:03:37,363] - ---------------------Evolving prompt-------------------
+
+[2025-02-14 14:03:37,365] - ==================================================
+[2025-02-14 14:03:37,365] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_10.txt
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek_10_samples/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 10
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-14 14:03:37,365] - ==================================================
+[2025-02-14 14:03:37,365] - ---loading prompts from data/sim/asset/prompts.json
+[2025-02-14 14:03:49,634] - test LLM client success
+[2025-02-14 14:03:49,634] - -----paraphrasing topk---------
+[2025-02-14 14:05:15,154] - ### dataset example: Rephrase the prior sentence while retaining its original meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:07:41,712] - ### dataset example: Clarify the given sentences.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:09:02,564] - ### dataset example: Clarify and rewrite the information provided.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:11:06,618] - ### dataset example: Simplify the instruction while preserving its meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:12:47,427] - ### dataset example: To simplify complex sentences and eliminate unnecessary words or phrases, follow these steps:
+
+1. **Identify Complex Structures**: Locate sentences with multiple clauses or complicated structures that may hinder clarity.
+
+2. **Break Down Sentences**: Divide complex sentences into shorter, simpler ones to enhance readability.
+
+3. **Remove Redundant Words**: Eliminate phrases like "due to the fact that" in favor of more concise alternatives such as "because."
+
+4. **Use Direct Language**: Replace passive voice with active voice and opt for straightforward terms to convey ideas clearly.
+
+5. **Maintain Meaning**: Ensure that simplification does not alter the intended message, preserving essential details, especially in technical contexts.
+
+6. **Consider Audience**: Tailor the level of simplicity to suit the reader's background and context.
+
+7. **Practice Active Reading and Rewriting**: Regularly engage in rewriting exercises to refine skills in spotting and removing unnecessary words.
+
+By applying these steps, you can transform complex text into clear, concise language that is easily understood while retaining its core message.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:14:34,105] - Simplify the above sentence without changing meaning.
+[2025-02-14 14:14:34,105] - simplify the given sentences.
+[2025-02-14 14:14:34,105] - simplify and restate the information in the given input.
+[2025-02-14 14:14:34,105] - Rewrite the input text into simpler text.
+[2025-02-14 14:14:34,106] - simplify complex sentences and eliminate unnecessary words or phrases.
+[2025-02-14 14:14:34,106] - Rephrase the prior sentence while retaining its original meaning.
+[2025-02-14 14:14:34,106] - Clarify the given sentences.
+[2025-02-14 14:14:34,106] - Clarify and rewrite the information provided.
+[2025-02-14 14:14:34,106] - Simplify the instruction while preserving its meaning.
+[2025-02-14 14:14:34,106] - To simplify complex sentences and eliminate unnecessary words or phrases, follow these steps:
+
+1. **Identify Complex Structures**: Locate sentences with multiple clauses or complicated structures that may hinder clarity.
+
+2. **Break Down Sentences**: Divide complex sentences into shorter, simpler ones to enhance readability.
+
+3. **Remove Redundant Words**: Eliminate phrases like "due to the fact that" in favor of more concise alternatives such as "because."
+
+4. **Use Direct Language**: Replace passive voice with active voice and opt for straightforward terms to convey ideas clearly.
+
+5. **Maintain Meaning**: Ensure that simplification does not alter the intended message, preserving essential details, especially in technical contexts.
+
+6. **Consider Audience**: Tailor the level of simplicity to suit the reader's background and context.
+
+7. **Practice Active Reading and Rewriting**: Regularly engage in rewriting exercises to refine skills in spotting and removing unnecessary words.
+
+By applying these steps, you can transform complex text into clear, concise language that is easily understood while retaining its core message.
+[2025-02-14 14:14:34,106] - Step 0 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Simplify the above sentence without changing meaning.
+2. Personal Best: Simplify the above sentence without changing meaning.
+3. Global Best: Rephrase the prior sentence while retaining its original meaning.
+New Optimized Prompt:
+[2025-02-14 14:14:51,403] - Generated Prompt: Rephrase the prior sentence in a simplified manner while retaining its original meaning, aiming for your personal best.
+[2025-02-14 14:14:51,404] - ### dataset example: Rephrase the prior sentence in a simplified manner while retaining its original meaning, aiming for your personal best.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:16:33,892] - Step 0 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: simplify the given sentences.
+2. Personal Best: simplify the given sentences.
+3. Global Best: Rephrase the prior sentence while retaining its original meaning.
+New Optimized Prompt:
+[2025-02-14 14:16:41,182] - Generated Prompt: **New Optimized Prompt:** Rephrase and simplify the given sentences while maintaining their original meaning and clarity.
+[2025-02-14 14:16:41,182] - ### dataset example: **New Optimized Prompt:** Rephrase and simplify the given sentences while maintaining their original meaning and clarity.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:18:31,210] - Step 0 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: simplify and restate the information in the given input.
+2. Personal Best: simplify and restate the information in the given input.
+3. Global Best: Rephrase the prior sentence while retaining its original meaning.
+New Optimized Prompt:
+[2025-02-14 14:18:41,112] - Generated Prompt: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+[2025-02-14 14:18:41,113] - ### dataset example: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:20:15,213] - Step 0 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the input text into simpler text.
+2. Personal Best: Rewrite the input text into simpler text.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 14:20:31,040] - Generated Prompt: The optimized prompt combines clarity and comprehensiveness by incorporating actions from the detailed prompt while maintaining simplicity:
+
+"Simplify, restate, and rephrase the input text clearly while preserving its original meaning."
+
+This prompt effectively guides the user to transform the text while ensuring the essence remains intact, using clear and concise language.
+[2025-02-14 14:20:31,040] - ### dataset example: The optimized prompt combines clarity and comprehensiveness by incorporating actions from the detailed prompt while maintaining simplicity:
+
+"Simplify, restate, and rephrase the input text clearly while preserving its original meaning."
+
+This prompt effectively guides the user to transform the text while ensuring the essence remains intact, using clear and concise language.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:32:29,589] - Step 0 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: simplify complex sentences and eliminate unnecessary words or phrases.
+2. Personal Best: simplify complex sentences and eliminate unnecessary words or phrases.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 14:32:41,080] - Generated Prompt: **New Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved."
+
+This prompt concisely combines simplification, restatement, and rephrasing while emphasizing the preservation of the original meaning, effectively integrating all key elements from the provided prompts.
+[2025-02-14 14:32:41,081] - ### dataset example: **New Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved."
+
+This prompt concisely combines simplification, restatement, and rephrasing while emphasizing the preservation of the original meaning, effectively integrating all key elements from the provided prompts.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:34:38,732] - Step 0 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the prior sentence while retaining its original meaning.
+2. Personal Best: Rephrase the prior sentence while retaining its original meaning.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 14:34:49,616] - Generated Prompt: **Final Answer:**
+"Simplify, restate, and rephrase the prior sentence while preserving its original meaning."
+[2025-02-14 14:34:49,616] - ### dataset example: **Final Answer:**
+"Simplify, restate, and rephrase the prior sentence while preserving its original meaning."
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:37:04,096] - Step 0 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Clarify the given sentences.
+2. Personal Best: Clarify the given sentences.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 14:37:25,730] - Generated Prompt: **Optimized Prompt:** "Simplify, restate, and rephrase the information to ensure clarity while preserving the original meaning."
+
+This prompt effectively combines the elements of simplification, restatement, and rephrasing, while emphasizing the importance of maintaining the original meaning. It is concise and clearly communicates the goal of enhancing understanding without altering the intended message.
+[2025-02-14 14:37:25,730] - ### dataset example: **Optimized Prompt:** "Simplify, restate, and rephrase the information to ensure clarity while preserving the original meaning."
+
+This prompt effectively combines the elements of simplification, restatement, and rephrasing, while emphasizing the importance of maintaining the original meaning. It is concise and clearly communicates the goal of enhancing understanding without altering the intended message.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:39:19,840] - Step 0 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Clarify and rewrite the information provided.
+2. Personal Best: Clarify and rewrite the information provided.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 14:39:32,264] - Generated Prompt: **New Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved and conveyed clearly."
+[2025-02-14 14:39:32,264] - ### dataset example: **New Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved and conveyed clearly."
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:41:35,968] - Step 0 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Simplify the instruction while preserving its meaning.
+2. Personal Best: Simplify the instruction while preserving its meaning.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 14:41:47,522] - Generated Prompt: **Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while preserving the original meaning."
+[2025-02-14 14:41:47,522] - ### dataset example: **Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while preserving the original meaning."
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:43:42,605] - Step 0 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: To simplify complex sentences and eliminate unnecessary words or phrases, follow these steps:
+
+1. **Identify Complex Structures**: Locate sentences with multiple clauses or complicated structures that may hinder clarity.
+
+2. **Break Down Sentences**: Divide complex sentences into shorter, simpler ones to enhance readability.
+
+3. **Remove Redundant Words**: Eliminate phrases like "due to the fact that" in favor of more concise alternatives such as "because."
+
+4. **Use Direct Language**: Replace passive voice with active voice and opt for straightforward terms to convey ideas clearly.
+
+5. **Maintain Meaning**: Ensure that simplification does not alter the intended message, preserving essential details, especially in technical contexts.
+
+6. **Consider Audience**: Tailor the level of simplicity to suit the reader's background and context.
+
+7. **Practice Active Reading and Rewriting**: Regularly engage in rewriting exercises to refine skills in spotting and removing unnecessary words.
+
+By applying these steps, you can transform complex text into clear, concise language that is easily understood while retaining its core message.
+2. Personal Best: To simplify complex sentences and eliminate unnecessary words or phrases, follow these steps:
+
+1. **Identify Complex Structures**: Locate sentences with multiple clauses or complicated structures that may hinder clarity.
+
+2. **Break Down Sentences**: Divide complex sentences into shorter, simpler ones to enhance readability.
+
+3. **Remove Redundant Words**: Eliminate phrases like "due to the fact that" in favor of more concise alternatives such as "because."
+
+4. **Use Direct Language**: Replace passive voice with active voice and opt for straightforward terms to convey ideas clearly.
+
+5. **Maintain Meaning**: Ensure that simplification does not alter the intended message, preserving essential details, especially in technical contexts.
+
+6. **Consider Audience**: Tailor the level of simplicity to suit the reader's background and context.
+
+7. **Practice Active Reading and Rewriting**: Regularly engage in rewriting exercises to refine skills in spotting and removing unnecessary words.
+
+By applying these steps, you can transform complex text into clear, concise language that is easily understood while retaining its core message.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 14:44:04,029] - Generated Prompt: **New Optimized Prompt:**
+
+To enhance clarity and conciseness in your writing, follow these steps to simplify, restate, and rephrase information while preserving the original meaning.
+
+1. **Simplify Structures**: Identify and break down complex sentences into shorter, clearer ones.
+2. **Remove Redundancy**: Replace verbose phrases with concise alternatives.
+3. **Use Direct Language**: Employ active voice and straightforward terms.
+4. **Preserve Meaning**: Ensure essential details are maintained during simplification.
+5. **Tailor to Audience**: Adjust simplicity to suit the reader's background.
+6. **Practice Regularly**: Refine your skills through consistent rewriting exercises.
+
+This approach ensures your text is clear, concise, and effectively communicated.
+[2025-02-14 14:44:04,029] - ### dataset example: **New Optimized Prompt:**
+
+To enhance clarity and conciseness in your writing, follow these steps to simplify, restate, and rephrase information while preserving the original meaning.
+
+1. **Simplify Structures**: Identify and break down complex sentences into shorter, clearer ones.
+2. **Remove Redundancy**: Replace verbose phrases with concise alternatives.
+3. **Use Direct Language**: Employ active voice and straightforward terms.
+4. **Preserve Meaning**: Ensure essential details are maintained during simplification.
+5. **Tailor to Audience**: Adjust simplicity to suit the reader's background.
+6. **Practice Regularly**: Refine your skills through consistent rewriting exercises.
+
+This approach ensures your text is clear, concise, and effectively communicated.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:45:55,694] - Step 1 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the prior sentence in a simplified manner while retaining its original meaning, aiming for your personal best.
+2. Personal Best: Rephrase the prior sentence in a simplified manner while retaining its original meaning, aiming for your personal best.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 14:46:05,047] - Generated Prompt: **Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved, striving for your personal best."
+[2025-02-14 14:46:05,048] - ### dataset example: **Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved, striving for your personal best."
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:47:44,879] - Step 1 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: **New Optimized Prompt:** Rephrase and simplify the given sentences while maintaining their original meaning and clarity.
+2. Personal Best: **New Optimized Prompt:** Rephrase and simplify the given sentences while maintaining their original meaning and clarity.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 14:47:53,519] - Generated Prompt: **Optimized Prompt:** "Simplify, restate, and rephrase the input while maintaining clarity and preserving the original meaning."
+[2025-02-14 14:47:53,519] - ### dataset example: **Optimized Prompt:** "Simplify, restate, and rephrase the input while maintaining clarity and preserving the original meaning."
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:50:22,303] - Step 1 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+2. Personal Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 14:50:41,642] - Generated Prompt: **New Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved."
+
+This version is concise, clear, and effectively captures the key requirements of simplification, restatement, rephrasing, and preservation of meaning, making it an improved and efficient prompt.
+[2025-02-14 14:50:41,643] - ### dataset example: **New Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved."
+
+This version is concise, clear, and effectively captures the key requirements of simplification, restatement, rephrasing, and preservation of meaning, making it an improved and efficient prompt.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:52:28,414] - Step 1 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: The optimized prompt combines clarity and comprehensiveness by incorporating actions from the detailed prompt while maintaining simplicity:
+
+"Simplify, restate, and rephrase the input text clearly while preserving its original meaning."
+
+This prompt effectively guides the user to transform the text while ensuring the essence remains intact, using clear and concise language.
+2. Personal Best: The optimized prompt combines clarity and comprehensiveness by incorporating actions from the detailed prompt while maintaining simplicity:
+
+"Simplify, restate, and rephrase the input text clearly while preserving its original meaning."
+
+This prompt effectively guides the user to transform the text while ensuring the essence remains intact, using clear and concise language.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 14:52:47,938] - Generated Prompt: **Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt effectively combines clarity, conciseness, and comprehensiveness by guiding the transformation of the input while maintaining its essence. It specifies the actions to be taken and ensures the preservation of meaning, making it both effective and clear.
+[2025-02-14 14:52:47,939] - ### dataset example: **Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt effectively combines clarity, conciseness, and comprehensiveness by guiding the transformation of the input while maintaining its essence. It specifies the actions to be taken and ensures the preservation of meaning, making it both effective and clear.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:54:33,280] - Step 1 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: **New Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved."
+
+This prompt concisely combines simplification, restatement, and rephrasing while emphasizing the preservation of the original meaning, effectively integrating all key elements from the provided prompts.
+2. Personal Best: **New Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved."
+
+This prompt concisely combines simplification, restatement, and rephrasing while emphasizing the preservation of the original meaning, effectively integrating all key elements from the provided prompts.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 14:54:45,033] - Generated Prompt: **Final Optimized Prompt:**  
+"Simplify, restate, and rephrase the information in the given input as succinctly as possible while preserving the original meaning."
+[2025-02-14 14:54:45,034] - ### dataset example: **Final Optimized Prompt:**  
+"Simplify, restate, and rephrase the information in the given input as succinctly as possible while preserving the original meaning."
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:56:19,392] - Step 1 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the prior sentence while retaining its original meaning.
+2. Personal Best: Rephrase the prior sentence while retaining its original meaning.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 14:56:29,116] - Generated Prompt: **Simplify, restate, and rephrase the given information while preserving its original meaning.**
+[2025-02-14 14:56:29,117] - ### dataset example: **Simplify, restate, and rephrase the given information while preserving its original meaning.**
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 14:58:22,099] - Step 1 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Clarify the given sentences.
+2. Personal Best: Clarify the given sentences.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 14:58:39,729] - Generated Prompt: **Optimized Prompt:** "Clarify, simplify, restate, and rephrase the given sentences while preserving their original meaning." 
+
+This prompt effectively combines the necessity of clarification with specific actions to ensure the original intent is maintained.
+[2025-02-14 14:58:39,730] - ### dataset example: **Optimized Prompt:** "Clarify, simplify, restate, and rephrase the given sentences while preserving their original meaning." 
+
+This prompt effectively combines the necessity of clarification with specific actions to ensure the original intent is maintained.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:00:01,470] - Step 1 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Clarify and rewrite the information provided.
+2. Personal Best: Clarify and rewrite the information provided.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 15:00:14,082] - Generated Prompt: **Optimized Prompt:** "Clarify, simplify, restate, and rephrase the information in the given input while preserving the original meaning."
+[2025-02-14 15:00:14,083] - ### dataset example: **Optimized Prompt:** "Clarify, simplify, restate, and rephrase the information in the given input while preserving the original meaning."
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:02:24,998] - Step 1 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Simplify the instruction while preserving its meaning.
+2. Personal Best: Simplify the instruction while preserving its meaning.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 15:02:36,277] - Generated Prompt: **Optimized Prompt:** "Simplify, restate, and rephrase the given information clearly while preserving its original meaning."
+[2025-02-14 15:02:36,277] - ### dataset example: **Optimized Prompt:** "Simplify, restate, and rephrase the given information clearly while preserving its original meaning."
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:04:25,151] - Step 1 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: To simplify complex sentences and eliminate unnecessary words or phrases, follow these steps:
+
+1. **Identify Complex Structures**: Locate sentences with multiple clauses or complicated structures that may hinder clarity.
+
+2. **Break Down Sentences**: Divide complex sentences into shorter, simpler ones to enhance readability.
+
+3. **Remove Redundant Words**: Eliminate phrases like "due to the fact that" in favor of more concise alternatives such as "because."
+
+4. **Use Direct Language**: Replace passive voice with active voice and opt for straightforward terms to convey ideas clearly.
+
+5. **Maintain Meaning**: Ensure that simplification does not alter the intended message, preserving essential details, especially in technical contexts.
+
+6. **Consider Audience**: Tailor the level of simplicity to suit the reader's background and context.
+
+7. **Practice Active Reading and Rewriting**: Regularly engage in rewriting exercises to refine skills in spotting and removing unnecessary words.
+
+By applying these steps, you can transform complex text into clear, concise language that is easily understood while retaining its core message.
+2. Personal Best: To simplify complex sentences and eliminate unnecessary words or phrases, follow these steps:
+
+1. **Identify Complex Structures**: Locate sentences with multiple clauses or complicated structures that may hinder clarity.
+
+2. **Break Down Sentences**: Divide complex sentences into shorter, simpler ones to enhance readability.
+
+3. **Remove Redundant Words**: Eliminate phrases like "due to the fact that" in favor of more concise alternatives such as "because."
+
+4. **Use Direct Language**: Replace passive voice with active voice and opt for straightforward terms to convey ideas clearly.
+
+5. **Maintain Meaning**: Ensure that simplification does not alter the intended message, preserving essential details, especially in technical contexts.
+
+6. **Consider Audience**: Tailor the level of simplicity to suit the reader's background and context.
+
+7. **Practice Active Reading and Rewriting**: Regularly engage in rewriting exercises to refine skills in spotting and removing unnecessary words.
+
+By applying these steps, you can transform complex text into clear, concise language that is easily understood while retaining its core message.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 15:04:47,025] - Generated Prompt: **Optimized Prompt: Simplify, restate, and rephrase the information while preserving the original meaning. Follow these steps for effective clarity:**
+
+1. **Identify Complexity:** Locate sentences with multiple clauses or complicated structures that hinder clarity.
+2. **Break Down Sentences:** Divide complex sentences into shorter, simpler ones to enhance readability.
+3. **Remove Redundancy:** Eliminate unnecessary phrases for conciseness.
+4. **Use Active Voice:** Replace passive constructions with active language.
+5. **Maintain Meaning:** Ensure simplification doesn't alter the intended message.
+
+This approach balances thoroughness with brevity, providing clear guidance for a broad audience.
+[2025-02-14 15:04:47,025] - ### dataset example: **Optimized Prompt: Simplify, restate, and rephrase the information while preserving the original meaning. Follow these steps for effective clarity:**
+
+1. **Identify Complexity:** Locate sentences with multiple clauses or complicated structures that hinder clarity.
+2. **Break Down Sentences:** Divide complex sentences into shorter, simpler ones to enhance readability.
+3. **Remove Redundancy:** Eliminate unnecessary phrases for conciseness.
+4. **Use Active Voice:** Replace passive constructions with active language.
+5. **Maintain Meaning:** Ensure simplification doesn't alter the intended message.
+
+This approach balances thoroughness with brevity, providing clear guidance for a broad audience.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:08:00,630] - Step 2 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the prior sentence in a simplified manner while retaining its original meaning, aiming for your personal best.
+2. Personal Best: Rephrase the prior sentence in a simplified manner while retaining its original meaning, aiming for your personal best.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 15:08:12,914] - Generated Prompt: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Final Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved, aiming for your personal best."
+[2025-02-14 15:08:12,914] - ### dataset example: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Final Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved, aiming for your personal best."
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:10:19,418] - Step 2 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: **New Optimized Prompt:** Rephrase and simplify the given sentences while maintaining their original meaning and clarity.
+2. Personal Best: **New Optimized Prompt:** Rephrase and simplify the given sentences while maintaining their original meaning and clarity.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 15:10:27,438] - Generated Prompt: **Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+[2025-02-14 15:10:27,438] - ### dataset example: **Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:12:40,866] - Step 2 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+2. Personal Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 15:12:51,836] - Generated Prompt: **New Optimized Prompt:**  
+"Simplify, restate, and rephrase the information in the given input, ensuring clarity and fluency while preserving the original meaning."
+
+This version improves upon the original prompts by emphasizing clarity and fluency, in addition to simplification, restatement, and preservation of meaning.
+[2025-02-14 15:12:51,836] - ### dataset example: **New Optimized Prompt:**  
+"Simplify, restate, and rephrase the information in the given input, ensuring clarity and fluency while preserving the original meaning."
+
+This version improves upon the original prompts by emphasizing clarity and fluency, in addition to simplification, restatement, and preservation of meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:14:58,355] - Step 2 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: **Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt effectively combines clarity, conciseness, and comprehensiveness by guiding the transformation of the input while maintaining its essence. It specifies the actions to be taken and ensures the preservation of meaning, making it both effective and clear.
+2. Personal Best: **Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt effectively combines clarity, conciseness, and comprehensiveness by guiding the transformation of the input while maintaining its essence. It specifies the actions to be taken and ensures the preservation of meaning, making it both effective and clear.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 15:15:12,592] - Generated Prompt: **Optimized Prompt:**
+"Transform the given input by simplifying, restating, and rephrasing the information while ensuring the original meaning is preserved, clarity is enhanced, and the response is concise."
+
+This prompt effectively combines all key elements, providing a clear and structured approach to transforming the input. It emphasizes preserving the original meaning, enhancing clarity, and ensuring conciseness, making it both comprehensive and effective.
+[2025-02-14 15:15:12,592] - ### dataset example: **Optimized Prompt:**
+"Transform the given input by simplifying, restating, and rephrasing the information while ensuring the original meaning is preserved, clarity is enhanced, and the response is concise."
+
+This prompt effectively combines all key elements, providing a clear and structured approach to transforming the input. It emphasizes preserving the original meaning, enhancing clarity, and ensuring conciseness, making it both comprehensive and effective.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:17:04,616] - Step 2 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: **New Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved."
+
+This prompt concisely combines simplification, restatement, and rephrasing while emphasizing the preservation of the original meaning, effectively integrating all key elements from the provided prompts.
+2. Personal Best: **New Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved."
+
+This prompt concisely combines simplification, restatement, and rephrasing while emphasizing the preservation of the original meaning, effectively integrating all key elements from the provided prompts.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 15:17:17,114] - Generated Prompt: **New Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved."
+
+This prompt concisely combines simplification, restatement, and rephrasing while emphasizing the preservation of the original meaning, effectively integrating all key elements from the provided prompts.
+[2025-02-14 15:17:17,114] - Step 2 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the prior sentence while retaining its original meaning.
+2. Personal Best: Rephrase the prior sentence while retaining its original meaning.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 15:17:37,495] - Generated Prompt: **New Optimized Prompt:** "Simplify, restate, and rephrase the information, ensuring the original meaning is preserved and clarity is enhanced."
+[2025-02-14 15:17:37,495] - ### dataset example: **New Optimized Prompt:** "Simplify, restate, and rephrase the information, ensuring the original meaning is preserved and clarity is enhanced."
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:19:35,767] - Step 2 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Clarify the given sentences.
+2. Personal Best: Clarify the given sentences.
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 15:19:47,377] - Generated Prompt: **Optimized Prompt:**  
+"Simplify, restate, and rephrase the given sentences to enhance clarity while preserving their original meaning."
+[2025-02-14 15:19:47,377] - ### dataset example: **Optimized Prompt:**  
+"Simplify, restate, and rephrase the given sentences to enhance clarity while preserving their original meaning."
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:31:52,807] - Step 2 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: **Optimized Prompt:** "Clarify, simplify, restate, and rephrase the information in the given input while preserving the original meaning."
+2. Personal Best: **Optimized Prompt:** "Clarify, simplify, restate, and rephrase the information in the given input while preserving the original meaning."
+3. Global Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+New Optimized Prompt:
+[2025-02-14 15:32:01,976] - Generated Prompt: The improved prompt combines all key elements effectively:
+
+"Clarify, simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved." 
+
+This version includes all necessary actions and clearly emphasizes the preservation of meaning, making it both comprehensive and concise.
+[2025-02-14 15:32:01,977] - ### dataset example: The improved prompt combines all key elements effectively:
+
+"Clarify, simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved." 
+
+This version includes all necessary actions and clearly emphasizes the preservation of meaning, making it both comprehensive and concise.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:34:08,667] - Step 2 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Simplify the instruction while preserving its meaning.
+2. Personal Best: Simplify the instruction while preserving its meaning.
+3. Global Best: The improved prompt combines all key elements effectively:
+
+"Clarify, simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved." 
+
+This version includes all necessary actions and clearly emphasizes the preservation of meaning, making it both comprehensive and concise.
+New Optimized Prompt:
+[2025-02-14 15:34:23,271] - Generated Prompt: Clarify, simplify, restate, and rephrase the information to ensure the original meaning is preserved.
+[2025-02-14 15:34:23,271] - ### dataset example: Clarify, simplify, restate, and rephrase the information to ensure the original meaning is preserved.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:36:40,468] - Step 2 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: To simplify complex sentences and eliminate unnecessary words or phrases, follow these steps:
+
+1. **Identify Complex Structures**: Locate sentences with multiple clauses or complicated structures that may hinder clarity.
+
+2. **Break Down Sentences**: Divide complex sentences into shorter, simpler ones to enhance readability.
+
+3. **Remove Redundant Words**: Eliminate phrases like "due to the fact that" in favor of more concise alternatives such as "because."
+
+4. **Use Direct Language**: Replace passive voice with active voice and opt for straightforward terms to convey ideas clearly.
+
+5. **Maintain Meaning**: Ensure that simplification does not alter the intended message, preserving essential details, especially in technical contexts.
+
+6. **Consider Audience**: Tailor the level of simplicity to suit the reader's background and context.
+
+7. **Practice Active Reading and Rewriting**: Regularly engage in rewriting exercises to refine skills in spotting and removing unnecessary words.
+
+By applying these steps, you can transform complex text into clear, concise language that is easily understood while retaining its core message.
+2. Personal Best: To simplify complex sentences and eliminate unnecessary words or phrases, follow these steps:
+
+1. **Identify Complex Structures**: Locate sentences with multiple clauses or complicated structures that may hinder clarity.
+
+2. **Break Down Sentences**: Divide complex sentences into shorter, simpler ones to enhance readability.
+
+3. **Remove Redundant Words**: Eliminate phrases like "due to the fact that" in favor of more concise alternatives such as "because."
+
+4. **Use Direct Language**: Replace passive voice with active voice and opt for straightforward terms to convey ideas clearly.
+
+5. **Maintain Meaning**: Ensure that simplification does not alter the intended message, preserving essential details, especially in technical contexts.
+
+6. **Consider Audience**: Tailor the level of simplicity to suit the reader's background and context.
+
+7. **Practice Active Reading and Rewriting**: Regularly engage in rewriting exercises to refine skills in spotting and removing unnecessary words.
+
+By applying these steps, you can transform complex text into clear, concise language that is easily understood while retaining its core message.
+3. Global Best: The improved prompt combines all key elements effectively:
+
+"Clarify, simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved." 
+
+This version includes all necessary actions and clearly emphasizes the preservation of meaning, making it both comprehensive and concise.
+New Optimized Prompt:
+[2025-02-14 15:36:56,278] - Generated Prompt: To effectively simplify complex sentences, follow these steps while preserving the original meaning:
+
+1. **Clarify and Simplify**: Break down complex sentences into shorter, clearer ones, removing any redundant phrases. For example, replace "due to the fact that" with "because."
+
+2. **Use Direct Language**: Replace passive voice with active voice and use straightforward terms to convey ideas clearly.
+
+3. **Maintain Meaning**: Ensure that simplification does not alter the intended message, especially in technical contexts.
+
+4. **Consider Audience**: Tailor the level of simplicity to suit the reader's background and context.
+
+5. **Engage in Regular Practice**: Regularly rewrite to refine your skills in spotting and removing unnecessary words.
+
+By combining these steps, you can transform complex text into clear, concise language that is easily understood while retaining its core message.
+[2025-02-14 15:36:56,278] - ### dataset example: To effectively simplify complex sentences, follow these steps while preserving the original meaning:
+
+1. **Clarify and Simplify**: Break down complex sentences into shorter, clearer ones, removing any redundant phrases. For example, replace "due to the fact that" with "because."
+
+2. **Use Direct Language**: Replace passive voice with active voice and use straightforward terms to convey ideas clearly.
+
+3. **Maintain Meaning**: Ensure that simplification does not alter the intended message, especially in technical contexts.
+
+4. **Consider Audience**: Tailor the level of simplicity to suit the reader's background and context.
+
+5. **Engage in Regular Practice**: Regularly rewrite to refine your skills in spotting and removing unnecessary words.
+
+By combining these steps, you can transform complex text into clear, concise language that is easily understood while retaining its core message.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:38:57,761] - Step 3 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the prior sentence in a simplified manner while retaining its original meaning, aiming for your personal best.
+2. Personal Best: Rephrase the prior sentence in a simplified manner while retaining its original meaning, aiming for your personal best.
+3. Global Best: The improved prompt combines all key elements effectively:
+
+"Clarify, simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved." 
+
+This version includes all necessary actions and clearly emphasizes the preservation of meaning, making it both comprehensive and concise.
+New Optimized Prompt:
+[2025-02-14 15:39:16,559] - Generated Prompt: Clarify, simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved while striving for your personal and global best.
+[2025-02-14 15:39:16,560] - ### dataset example: Clarify, simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved while striving for your personal and global best.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:41:17,937] - Step 3 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: **New Optimized Prompt:** Rephrase and simplify the given sentences while maintaining their original meaning and clarity.
+2. Personal Best: **New Optimized Prompt:** Rephrase and simplify the given sentences while maintaining their original meaning and clarity.
+3. Global Best: The improved prompt combines all key elements effectively:
+
+"Clarify, simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved." 
+
+This version includes all necessary actions and clearly emphasizes the preservation of meaning, making it both comprehensive and concise.
+New Optimized Prompt:
+[2025-02-14 15:41:41,616] - Generated Prompt: Clarify, simplify, restate, and rephrase the input, maintaining the original meaning and clarity.
+[2025-02-14 15:41:41,616] - ### dataset example: Clarify, simplify, restate, and rephrase the input, maintaining the original meaning and clarity.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:48:02,432] - Step 3 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+2. Personal Best: The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.
+3. Global Best: The improved prompt combines all key elements effectively:
+
+"Clarify, simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved." 
+
+This version includes all necessary actions and clearly emphasizes the preservation of meaning, making it both comprehensive and concise.
+New Optimized Prompt:
+[2025-02-14 15:48:13,362] - Generated Prompt: Okay, so I need to combine the best aspects of these three prompts to create an improved version. Let me look at each one carefully.
+
+The first prompt is: "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved." It mentions simplification, restatement, rephrasing, and preserving meaning. That's pretty good.
+
+The second prompt is the same as the first one, so nothing new there.
+
+The third prompt is: "Clarify, simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved." This one adds "clarify" to the list of actions, which might be helpful. It also keeps the same structure but adds that extra step.
+
+So, combining the best parts, I should include all the actions from the third prompt because it has an extra one, "clarify," which can make the prompt more comprehensive. Also, the structure is clear and concise.
+
+I think the improved prompt should include "clarify," "simplify," "restate," and "rephrase," all while ensuring the original meaning is preserved. That way, it covers all bases and is as effective as possible.
+
+Let me put that together: "Clarify, simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved." Yeah, that sounds good. It includes all the necessary actions and emphasizes preserving the meaning, making it both comprehensive and concise.
+**Clarify, simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved.**
+
+This prompt effectively combines all key elements, including clarification, simplification, restatement, and rephrasing, while emphasizing the preservation of the original meaning. It is both comprehensive and concise.
+[2025-02-14 15:48:13,363] - ### dataset example: Okay, so I need to combine the best aspects of these three prompts to create an improved version. Let me look at each one carefully.
+
+The first prompt is: "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved." It mentions simplification, restatement, rephrasing, and preserving meaning. That's pretty good.
+
+The second prompt is the same as the first one, so nothing new there.
+
+The third prompt is: "Clarify, simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved." This one adds "clarify" to the list of actions, which might be helpful. It also keeps the same structure but adds that extra step.
+
+So, combining the best parts, I should include all the actions from the third prompt because it has an extra one, "clarify," which can make the prompt more comprehensive. Also, the structure is clear and concise.
+
+I think the improved prompt should include "clarify," "simplify," "restate," and "rephrase," all while ensuring the original meaning is preserved. That way, it covers all bases and is as effective as possible.
+
+Let me put that together: "Clarify, simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved." Yeah, that sounds good. It includes all the necessary actions and emphasizes preserving the meaning, making it both comprehensive and concise.
+**Clarify, simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved.**
+
+This prompt effectively combines all key elements, including clarification, simplification, restatement, and rephrasing, while emphasizing the preservation of the original meaning. It is both comprehensive and concise.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:50:20,112] - Step 3 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: **Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt effectively combines clarity, conciseness, and comprehensiveness by guiding the transformation of the input while maintaining its essence. It specifies the actions to be taken and ensures the preservation of meaning, making it both effective and clear.
+2. Personal Best: **Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt effectively combines clarity, conciseness, and comprehensiveness by guiding the transformation of the input while maintaining its essence. It specifies the actions to be taken and ensures the preservation of meaning, making it both effective and clear.
+3. Global Best: The improved prompt combines all key elements effectively:
+
+"Clarify, simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved." 
+
+This version includes all necessary actions and clearly emphasizes the preservation of meaning, making it both comprehensive and concise.
+New Optimized Prompt:
+[2025-02-14 15:50:38,077] - Generated Prompt: **Simplify, clarify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved while enhancing understanding.**
+
+This version effectively combines clarity, conciseness, and comprehensiveness by guiding the transformation of the input while maintaining its essence. It specifies the actions to be taken and emphasizes both the preservation of meaning and the enhancement of understanding, making it both effective and clear.
+[2025-02-14 15:50:38,077] - ### dataset example: **Simplify, clarify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved while enhancing understanding.**
+
+This version effectively combines clarity, conciseness, and comprehensiveness by guiding the transformation of the input while maintaining its essence. It specifies the actions to be taken and emphasizes both the preservation of meaning and the enhancement of understanding, making it both effective and clear.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 15:53:09,878] - Step 3 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: **New Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved."
+
+This prompt concisely combines simplification, restatement, and rephrasing while emphasizing the preservation of the original meaning, effectively integrating all key elements from the provided prompts.
+2. Personal Best: **New Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved."
+
+This prompt concisely combines simplification, restatement, and rephrasing while emphasizing the preservation of the original meaning, effectively integrating all key elements from the provided prompts.
+3. Global Best: The improved prompt combines all key elements effectively:
+
+"Clarify, simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved." 
+
+This version includes all necessary actions and clearly emphasizes the preservation of meaning, making it both comprehensive and concise.
+New Optimized Prompt:
+[2025-02-14 15:53:22,187] - Generated Prompt: Clarify, simplify, restate, and rephrase the information in the given input, enhancing clarity while preserving the original meaning, and ensuring the output is both accurate and concise.
+[2025-02-14 15:53:22,188] - ### dataset example: Clarify, simplify, restate, and rephrase the information in the given input, enhancing clarity while preserving the original meaning, and ensuring the output is both accurate and concise.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+

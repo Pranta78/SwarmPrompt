@@ -1,0 +1,7 @@
+[2025-02-12 00:18:10,038] - ### dataset example: One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.
+
+[2025-02-12 00:37:18,029] - ### dataset example: One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.
+
+[2025-02-12 00:56:51,520] - ----------step 9 best score: 34.34396694070576, best prompt: Simplify the phrase provided using more straightforward words without altering its meaning.----------
+[2025-02-12 00:56:51,521] - best_scores: 37.87058962912733,37.87058962912733,37.87058962912733,37.87058962912733,37.87058962912733,37.87058962912733,37.87058962912733,37.89554374754021,37.89554374754021,37.89554374754021
+[2025-02-12 00:56:51,521] - avg_scores: 33.9208,34.1385,34.1385,34.1796,34.1796,34.4393,35.0969,35.6081,35.6081,35.6081

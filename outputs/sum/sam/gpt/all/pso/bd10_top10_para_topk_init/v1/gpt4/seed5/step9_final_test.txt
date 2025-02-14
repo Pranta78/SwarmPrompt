@@ -1,0 +1,8 @@
+pso	Summarize the main points concisely in a few words, eliminating unnecessary details and repetition.	0.4301	0.16	0.3789	0.323
+pso	Summarize the key points clearly and concisely in just a few words, eliminating any unnecessary details and avoiding repetition.	0.4252	0.1574	0.3733	0.3186
+pso	Summarize the key points clearly and concisely in just a few words, avoiding unnecessary details and repetition.	0.4219	0.1574	0.3713	0.3169
+
+----------sorted results----------
+pso	Summarize the main points concisely in a few words, eliminating unnecessary details and repetition.	0.4301	0.16	0.3789	0.323
+pso	Summarize the key points clearly and concisely in just a few words, eliminating any unnecessary details and avoiding repetition.	0.4252	0.1574	0.3733	0.3186
+pso	Summarize the key points clearly and concisely in just a few words, avoiding unnecessary details and repetition.	0.4219	0.1574	0.3713	0.3169

@@ -1,0 +1,17 @@
+dev result:
+
+seed 5: best score: 54.374894784664924, average score: 52.257758203183
+
+seed 10: best score: 54.98766582425324, average score: 53.37539973285625
+
+seed 15: best score: 55.941707385512835, average score: 53.82068362825525
+
+test result:
+seed 5: 47.5699
+
+seed 10: 46.7757
+
+seed 15: 46.3518
+
+mean, std:
+(46.9, 0.5)

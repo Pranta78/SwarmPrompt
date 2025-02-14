@@ -1,0 +1,1026 @@
+[2025-02-11 15:41:32,807] - ==================================================
+[2025-02-11 15:41:32,807] - dev data: None
+[2025-02-11 15:41:32,807] - test data: None
+[2025-02-11 15:41:32,807] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 15:41:32,807] - ==================================================
+[2025-02-11 15:41:32,808] - Instruction placeholder: <prompt>
+[2025-02-11 15:41:32,820] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 15:41:32,821] - ==================================================
+[2025-02-11 15:41:32,822] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 15:41:32,822] - ==================================================
+[2025-02-11 15:41:32,822] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 15:41:32,822] - ### dataset example: Given the English sentence, the simplification of the sentence is
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-11 15:45:01,359] - ==================================================
+[2025-02-11 15:45:01,360] - dev data: None
+[2025-02-11 15:45:01,360] - test data: None
+[2025-02-11 15:45:01,360] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 15:45:01,360] - ==================================================
+[2025-02-11 15:45:01,360] - Instruction placeholder: <prompt>
+[2025-02-11 15:45:01,372] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 15:45:01,374] - ==================================================
+[2025-02-11 15:45:01,374] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 15:45:01,374] - ==================================================
+[2025-02-11 15:45:01,374] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 15:45:01,374] - ### dataset example: Given the English sentence, the simplification of the sentence is
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-11 16:38:35,018] - ==================================================
+[2025-02-11 16:38:35,018] - dev data: None
+[2025-02-11 16:38:35,018] - test data: None
+[2025-02-11 16:38:35,018] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 16:38:35,018] - ==================================================
+[2025-02-11 16:38:35,018] - Instruction placeholder: <prompt>
+[2025-02-11 16:38:35,032] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 16:38:35,034] - ==================================================
+[2025-02-11 16:38:35,035] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 16:38:35,035] - ==================================================
+[2025-02-11 16:38:35,035] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 16:38:35,035] - ### dataset example: Given the English sentence, the simplification of the sentence is
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-11 16:43:00,886] - ==================================================
+[2025-02-11 16:43:00,886] - dev data: None
+[2025-02-11 16:43:00,886] - test data: None
+[2025-02-11 16:43:00,886] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 16:43:00,886] - ==================================================
+[2025-02-11 16:43:00,887] - Instruction placeholder: <prompt>
+[2025-02-11 16:43:00,900] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 16:43:00,902] - ==================================================
+[2025-02-11 16:43:00,902] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 16:43:00,902] - ==================================================
+[2025-02-11 16:43:00,902] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 16:43:00,903] - ### dataset example: Given the English sentence, the simplification of the sentence is
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-11 16:44:44,921] - ==================================================
+[2025-02-11 16:44:44,921] - dev data: None
+[2025-02-11 16:44:44,921] - test data: None
+[2025-02-11 16:44:44,921] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 16:44:44,921] - ==================================================
+[2025-02-11 16:44:44,922] - Instruction placeholder: <prompt>
+[2025-02-11 16:44:44,934] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 16:44:44,936] - ==================================================
+[2025-02-11 16:44:44,937] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 16:44:44,937] - ==================================================
+[2025-02-11 16:44:44,937] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 16:44:44,937] - ### dataset example: Given the English sentence, the simplification of the sentence is
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-11 16:46:25,347] - ==================================================
+[2025-02-11 16:46:25,347] - dev data: None
+[2025-02-11 16:46:25,348] - test data: None
+[2025-02-11 16:46:25,348] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 16:46:25,348] - ==================================================
+[2025-02-11 16:46:25,348] - Instruction placeholder: <prompt>
+[2025-02-11 16:46:25,360] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 16:46:25,362] - ==================================================
+[2025-02-11 16:46:25,362] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 16:46:25,363] - ==================================================
+[2025-02-11 16:46:25,363] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 16:46:25,363] - ### dataset example: Given the English sentence, the simplification of the sentence is
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-11 16:51:12,564] - ==================================================
+[2025-02-11 16:51:12,565] - dev data: None
+[2025-02-11 16:51:12,565] - test data: None
+[2025-02-11 16:51:12,565] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 16:51:12,565] - ==================================================
+[2025-02-11 16:51:12,565] - Instruction placeholder: <prompt>
+[2025-02-11 16:51:12,578] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 17:02:17,389] - ==================================================
+[2025-02-11 17:02:17,389] - dev data: None
+[2025-02-11 17:02:17,390] - test data: None
+[2025-02-11 17:02:17,390] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 17:02:17,390] - ==================================================
+[2025-02-11 17:02:17,390] - Instruction placeholder: <prompt>
+[2025-02-11 17:02:17,404] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 17:02:17,405] - ==================================================
+[2025-02-11 17:02:17,406] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 17:02:17,406] - ==================================================
+[2025-02-11 17:02:17,406] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 17:02:17,406] - ### dataset example: Given the English sentence, the simplification of the sentence is
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-11 17:06:58,033] - ==================================================
+[2025-02-11 17:06:58,033] - dev data: None
+[2025-02-11 17:06:58,033] - test data: None
+[2025-02-11 17:06:58,034] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 17:06:58,034] - ==================================================
+[2025-02-11 17:06:58,034] - Instruction placeholder: <prompt>
+[2025-02-11 17:06:58,047] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 17:06:58,049] - ==================================================
+[2025-02-11 17:06:58,049] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 17:06:58,049] - ==================================================
+[2025-02-11 17:06:58,049] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 17:06:58,050] - ### dataset example: Given the English sentence, the simplification of the sentence is
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-11 17:07:52,571] - ==================================================
+[2025-02-11 17:07:52,571] - dev data: None
+[2025-02-11 17:07:52,571] - test data: None
+[2025-02-11 17:07:52,571] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 17:07:52,571] - ==================================================
+[2025-02-11 17:07:52,571] - Instruction placeholder: <prompt>
+[2025-02-11 17:07:52,585] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 17:07:52,587] - ==================================================
+[2025-02-11 17:07:52,587] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 17:07:52,587] - ==================================================
+[2025-02-11 17:07:52,587] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 17:07:52,588] - ### dataset example: Given the English sentence, the simplification of the sentence is
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-11 17:14:37,305] - ==================================================
+[2025-02-11 17:14:37,305] - dev data: None
+[2025-02-11 17:14:37,305] - test data: None
+[2025-02-11 17:14:37,305] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 17:14:37,305] - ==================================================
+[2025-02-11 17:14:37,306] - Instruction placeholder: <prompt>
+[2025-02-11 17:14:37,318] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 17:14:37,320] - ==================================================
+[2025-02-11 17:14:37,321] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 17:14:37,321] - ==================================================
+[2025-02-11 17:14:37,321] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 17:14:37,321] - ### dataset example: Given the English sentence, the simplification of the sentence is
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-11 20:35:17,447] - ==================================================
+[2025-02-11 20:35:17,447] - dev data: None
+[2025-02-11 20:35:17,448] - test data: None
+[2025-02-11 20:35:17,448] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 20:35:17,448] - ==================================================
+[2025-02-11 20:35:17,448] - Instruction placeholder: <prompt>
+[2025-02-11 20:35:17,465] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 20:35:17,467] - ==================================================
+[2025-02-11 20:35:17,467] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 20:35:17,468] - ==================================================
+[2025-02-11 20:35:17,469] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 20:35:17,470] - ### dataset example: Given the English sentence, the simplification of the sentence is
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-11 20:37:10,507] - ==================================================
+[2025-02-11 20:37:10,507] - dev data: None
+[2025-02-11 20:37:10,507] - test data: None
+[2025-02-11 20:37:10,507] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 20:37:10,508] - ==================================================
+[2025-02-11 20:37:10,508] - Instruction placeholder: <prompt>
+[2025-02-11 20:37:10,524] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 20:37:10,526] - ==================================================
+[2025-02-11 20:37:10,527] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 20:37:10,527] - ==================================================
+[2025-02-11 20:37:10,527] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 20:37:10,527] - ### dataset example: Given the English sentence, the simplification of the sentence is
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-11 20:39:44,163] - ==================================================
+[2025-02-11 20:39:44,164] - dev data: None
+[2025-02-11 20:39:44,164] - test data: None
+[2025-02-11 20:39:44,164] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 20:39:44,164] - ==================================================
+[2025-02-11 20:39:44,164] - Instruction placeholder: <prompt>
+[2025-02-11 20:39:44,186] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 20:39:44,188] - ==================================================
+[2025-02-11 20:39:44,189] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/davinci/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = de
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed15/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 20:39:44,189] - ==================================================
+[2025-02-11 20:39:44,189] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 20:39:44,189] - ### dataset example: Given the English sentence, the simplification of the sentence is
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+

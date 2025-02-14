@@ -1,0 +1,38 @@
+pso	Rephrase the prior sentence in a simplified manner while retaining its original meaning, aiming for your personal best.	44.3326
+pso	**New Optimized Prompt:** Rephrase and simplify the given sentences while maintaining their original meaning and clarity.	44.9971
+pso	The optimized prompt effectively combines all key elements from the original prompts:
+
+**Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input while ensuring the original meaning is preserved."
+
+This prompt integrates simplification, restatement, rephrasing, and the preservation of the original meaning, making it comprehensive and effective.	46.0063
+pso	The optimized prompt combines clarity and comprehensiveness by incorporating actions from the detailed prompt while maintaining simplicity:
+
+"Simplify, restate, and rephrase the input text clearly while preserving its original meaning."
+
+This prompt effectively guides the user to transform the text while ensuring the essence remains intact, using clear and concise language.	44.7542
+pso	**New Optimized Prompt:** "Simplify, restate, and rephrase the information in the given input, ensuring the original meaning is preserved."
+
+This prompt concisely combines simplification, restatement, and rephrasing while emphasizing the preservation of the original meaning, effectively integrating all key elements from the provided prompts.	44.2885
+para	Rephrase the prior sentence while retaining its original meaning.	45.8436
+para	Clarify the given sentences.	45.1816
+para	Clarify and rewrite the information provided.	44.1349
+para	Simplify the instruction while preserving its meaning.	44.9425
+para	To simplify complex sentences and eliminate unnecessary words or phrases, follow these steps:
+
+1. **Identify Complex Structures**: Locate sentences with multiple clauses or complicated structures that may hinder clarity.
+
+2. **Break Down Sentences**: Divide complex sentences into shorter, simpler ones to enhance readability.
+
+3. **Remove Redundant Words**: Eliminate phrases like "due to the fact that" in favor of more concise alternatives such as "because."
+
+4. **Use Direct Language**: Replace passive voice with active voice and opt for straightforward terms to convey ideas clearly.
+
+5. **Maintain Meaning**: Ensure that simplification does not alter the intended message, preserving essential details, especially in technical contexts.
+
+6. **Consider Audience**: Tailor the level of simplicity to suit the reader's background and context.
+
+7. **Practice Active Reading and Rewriting**: Regularly engage in rewriting exercises to refine skills in spotting and removing unnecessary words.
+
+By applying these steps, you can transform complex text into clear, concise language that is easily understood while retaining its core message.	43.6045
+best score: 46.006277147521665
+average score: 44.80858786246988

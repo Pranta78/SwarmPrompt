@@ -1,0 +1,1379 @@
+[2025-02-13 00:01:39,301] - Simplify the above sentence without changing meaning.
+[2025-02-13 00:01:39,302] - simplify the given sentences.
+[2025-02-13 00:01:39,302] - simplify and restate the information in the given input.
+[2025-02-13 00:01:39,302] - Rewrite the input text into simpler text.
+[2025-02-13 00:01:39,302] - simplify complex sentences and eliminate unnecessary words or phrases.
+[2025-02-13 00:01:39,302] - Paraphrase the above sentence while keeping the same meaning.
+[2025-02-13 00:01:39,302] - Reword the provided sentences in a simpler manner.
+[2025-02-13 00:01:39,302] - Paraphrase the content succinctly.
+[2025-02-13 00:01:39,302] - To convey the instruction effectively, here is a variation that maintains the original meaning while using different wording:
+
+"Transform the input text into a more basic version."
+
+This variation uses the verb "Transform" to suggest changing the text and "more basic version" to indicate simplicity, ensuring clarity and conciseness.
+[2025-02-13 00:01:39,302] - Condense intricate sentences by removing redundant words or phrases.
+[2025-02-13 00:08:35,602] - ==================================================
+[2025-02-13 00:08:35,602] - dev data: None
+[2025-02-13 00:08:35,602] - test data: None
+[2025-02-13 00:08:35,602] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 10
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 00:08:35,602] - ==================================================
+[2025-02-13 00:08:35,602] - Instruction placeholder: <prompt>
+[2025-02-13 00:08:35,613] - ---------------------Evolving prompt-------------------
+
+[2025-02-13 00:08:35,614] - ==================================================
+[2025-02-13 00:08:35,614] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_10.txt
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 10
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 00:08:35,614] - ==================================================
+[2025-02-13 00:08:35,614] - ---loading prompts from data/sim/asset/prompts.json
+[2025-02-13 00:08:49,207] - test LLM client success
+[2025-02-13 00:08:49,207] - -----paraphrasing topk---------
+[2025-02-13 00:09:47,280] - ### dataset example: Rewire the prior sentence while preserving its original meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 00:11:58,788] - ### dataset example: Make the provided statements simpler.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 00:13:37,019] - ### dataset example: Condense and rephrase the details of the provided content.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 00:15:23,787] - ### dataset example: Make the text simpler and easier to understand.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 00:18:05,621] - ### dataset example: Clarify complex sentences and trim unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 00:20:00,095] - Simplify the above sentence without changing meaning.
+[2025-02-13 00:20:00,095] - simplify the given sentences.
+[2025-02-13 00:20:00,095] - simplify and restate the information in the given input.
+[2025-02-13 00:20:00,095] - Rewrite the input text into simpler text.
+[2025-02-13 00:20:00,095] - simplify complex sentences and eliminate unnecessary words or phrases.
+[2025-02-13 00:20:00,095] - Rewire the prior sentence while preserving its original meaning.
+[2025-02-13 00:20:00,095] - Make the provided statements simpler.
+[2025-02-13 00:20:00,096] - Condense and rephrase the details of the provided content.
+[2025-02-13 00:20:00,096] - Make the text simpler and easier to understand.
+[2025-02-13 00:20:00,096] - Clarify complex sentences and trim unnecessary words or phrases.
+[2025-02-13 13:53:00,238] - ==================================================
+[2025-02-13 13:53:00,383] - dev data: None
+[2025-02-13 13:53:00,383] - test data: None
+[2025-02-13 13:53:00,384] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 13:53:00,384] - ==================================================
+[2025-02-13 13:53:00,384] - Instruction placeholder: <prompt>
+[2025-02-13 13:53:00,424] - ---------------------Evolving prompt-------------------
+
+[2025-02-13 13:53:00,427] - ==================================================
+[2025-02-13 13:53:00,427] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_2.txt
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 13:53:00,427] - ==================================================
+[2025-02-13 13:53:00,428] - ---loading prompts from data/sim/asset/prompts.json
+[2025-02-13 13:53:03,182] - test LLM client success
+[2025-02-13 13:53:03,182] - -----paraphrasing topk---------
+[2025-02-13 13:53:19,501] - ### dataset example: 
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 13:53:23,807] - ### dataset example: Simplify the given sentences.  
+Read them again.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 13:53:27,986] - ### dataset example: "Revise and retabulate the information in the given input."  
+Simplify and retabulate the information in the given input.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 13:53:33,476] - ### dataset example: Certainly! Here's a variation of the instruction while maintaining the same meaning:
+
+**Explain the input text in simpler words.**
+
+Alternatively:
+
+**Rewrite the input text for clarity.**
+
+Both versions convey the same goal but in slightly different ways.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 13:53:37,477] - ### dataset example: Clarity and simplicity can be achieved by removing unnecessary words and phrases, making the sentences more direct and concise.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 13:53:42,614] - Simplify the above sentence without changing meaning.
+[2025-02-13 13:53:42,615] - simplify the given sentences.
+[2025-02-13 13:53:42,615] - simplify and restate the information in the given input.
+[2025-02-13 13:53:42,615] - Rewrite the input text into simpler text.
+[2025-02-13 13:53:42,615] - simplify complex sentences and eliminate unnecessary words or phrases.
+[2025-02-13 13:53:42,616] - 
+[2025-02-13 13:53:42,616] - Simplify the given sentences.  
+Read them again.
+[2025-02-13 13:53:42,616] - "Revise and retabulate the information in the given input."  
+Simplify and retabulate the information in the given input.
+[2025-02-13 13:53:42,616] - Certainly! Here's a variation of the instruction while maintaining the same meaning:
+
+**Explain the input text in simpler words.**
+
+Alternatively:
+
+**Rewrite the input text for clarity.**
+
+Both versions convey the same goal but in slightly different ways.
+[2025-02-13 13:53:42,616] - Clarity and simplicity can be achieved by removing unnecessary words and phrases, making the sentences more direct and concise.
+[2025-02-13 15:21:02,407] - ==================================================
+[2025-02-13 15:21:02,407] - dev data: None
+[2025-02-13 15:21:02,407] - test data: None
+[2025-02-13 15:21:02,407] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 15:21:02,407] - ==================================================
+[2025-02-13 15:21:02,407] - Instruction placeholder: <prompt>
+[2025-02-13 15:21:02,419] - ---------------------Evolving prompt-------------------
+
+[2025-02-13 15:21:02,429] - ==================================================
+[2025-02-13 15:21:02,429] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_2.txt
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 15:21:02,429] - ==================================================
+[2025-02-13 15:21:02,430] - ---loading prompts from data/sim/asset/prompts.json
+[2025-02-13 15:21:06,911] - test LLM client success
+[2025-02-13 15:21:06,911] - -----paraphrasing topk---------
+[2025-02-13 15:21:19,493] - ### dataset example: Here are some variation options for the instruction "Simplify the above sentence without changing meaning":
+
+1. Rewrite the sentence using simpler words.  
+2. Simplify the sentence without altering its meaning.  
+3. Condense the sentence into shorter words.  
+4. Make the sentence more straightforward.  
+5. Simplify the sentence for better understanding.  
+6.condense the sentence.  
+7.Simplify the sentence using simpler vocabulary.  
+8.Simplify the sentence while maintaining its original meaning.  
+9. Make the sentence more concise.  
+10. Simplify the sentence in another way.  
+
+Each variation maintains the original instruction while varying the phrasing and method of simplification.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:21:23,772] - ### dataset example: Rewrite the sentences for clarity.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:21:27,953] - ### dataset example: "Summarize and paraphrase the information provided in the given input."
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:21:32,153] - ### dataset example: Here are some variations of the instruction while keeping the semantic meaning:
+
+1.  
+Input: Rewrite the input text into a simpler version.  
+Output: Please simplify the text.
+
+2.  
+Input: Rewriting the input text into a simpler version.  
+Output: Please rephrase the text in a simpler manner.
+
+3.  
+Input: Rewrite the input text into a more straightforward version.  
+Output: Please rephrase the text to a clearer and more direct version.
+
+4.  
+Input: Rewrite the input text into a clear and concise version.  
+Output: Please express the text in a straightforward way.
+
+5.  
+Input: Rewrite the input text into a simplified form.  
+Output: Please simplify the sentence.
+
+6.  
+Input: Rewriting the input text into a clearer version.  
+Output: Please rephrase the text for better clarity.
+
+7.  
+Input: Rewrite the input text into a clear and concise version.  
+Output: Please simplify the text.
+
+8.  
+Input: Rewrite the input text into a simple statement.  
+Output: Please express the text in a clear and direct manner.
+
+9.  
+Input: Rewriting the input text into a clear version.  
+Output: Please simplify the sentence.
+
+10.  
+Input: Rewrite the input text into a straightforward form.  
+Output: Please rephrase the text to a clearer and more direct version.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:21:36,267] - ### dataset example: Certainly! Here are four variations of the instruction, each offering a slightly different phrasing while maintaining the original meaning:
+
+1. **Simplify complex sentences by omitting unnecessary words or phrases.**
+   - This version emphasizes removing unnecessary elements.
+
+2. **Make sentences clear and concise by eliminating unnecessary words or phrases.**
+   - This version focuses on clarity and removes redundant parts.
+
+3. **Simplify complex sentences by removing extraneous elements.**
+   - This version suggests the elimination of non-essential parts.
+
+4. **Rephrase complex sentences to eliminate unnecessary words or phrases.**
+   - This version uses a different phrasing approach while maintaining the same goal.
+
+5. **Clear and concise sentences by omitting unnecessary words or phrases.**
+   - This version maintains simplicity and clarity.
+
+Each variation retains the core instruction of simplifying complex sentences to eliminate unnecessary elements.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:21:40,180] - Simplify the above sentence without changing meaning.
+[2025-02-13 15:21:40,180] - simplify the given sentences.
+[2025-02-13 15:21:40,180] - simplify and restate the information in the given input.
+[2025-02-13 15:21:40,181] - Rewrite the input text into simpler text.
+[2025-02-13 15:21:40,181] - simplify complex sentences and eliminate unnecessary words or phrases.
+[2025-02-13 15:21:40,181] - Here are some variation options for the instruction "Simplify the above sentence without changing meaning":
+
+1. Rewrite the sentence using simpler words.  
+2. Simplify the sentence without altering its meaning.  
+3. Condense the sentence into shorter words.  
+4. Make the sentence more straightforward.  
+5. Simplify the sentence for better understanding.  
+6.condense the sentence.  
+7.Simplify the sentence using simpler vocabulary.  
+8.Simplify the sentence while maintaining its original meaning.  
+9. Make the sentence more concise.  
+10. Simplify the sentence in another way.  
+
+Each variation maintains the original instruction while varying the phrasing and method of simplification.
+[2025-02-13 15:21:40,181] - Rewrite the sentences for clarity.
+[2025-02-13 15:21:40,181] - "Summarize and paraphrase the information provided in the given input."
+[2025-02-13 15:21:40,181] - Here are some variations of the instruction while keeping the semantic meaning:
+
+1.  
+Input: Rewrite the input text into a simpler version.  
+Output: Please simplify the text.
+
+2.  
+Input: Rewriting the input text into a simpler version.  
+Output: Please rephrase the text in a simpler manner.
+
+3.  
+Input: Rewrite the input text into a more straightforward version.  
+Output: Please rephrase the text to a clearer and more direct version.
+
+4.  
+Input: Rewrite the input text into a clear and concise version.  
+Output: Please express the text in a straightforward way.
+
+5.  
+Input: Rewrite the input text into a simplified form.  
+Output: Please simplify the sentence.
+
+6.  
+Input: Rewriting the input text into a clearer version.  
+Output: Please rephrase the text for better clarity.
+
+7.  
+Input: Rewrite the input text into a clear and concise version.  
+Output: Please simplify the text.
+
+8.  
+Input: Rewrite the input text into a simple statement.  
+Output: Please express the text in a clear and direct manner.
+
+9.  
+Input: Rewriting the input text into a clear version.  
+Output: Please simplify the sentence.
+
+10.  
+Input: Rewrite the input text into a straightforward form.  
+Output: Please rephrase the text to a clearer and more direct version.
+[2025-02-13 15:21:40,181] - Certainly! Here are four variations of the instruction, each offering a slightly different phrasing while maintaining the original meaning:
+
+1. **Simplify complex sentences by omitting unnecessary words or phrases.**
+   - This version emphasizes removing unnecessary elements.
+
+2. **Make sentences clear and concise by eliminating unnecessary words or phrases.**
+   - This version focuses on clarity and removes redundant parts.
+
+3. **Simplify complex sentences by removing extraneous elements.**
+   - This version suggests the elimination of non-essential parts.
+
+4. **Rephrase complex sentences to eliminate unnecessary words or phrases.**
+   - This version uses a different phrasing approach while maintaining the same goal.
+
+5. **Clear and concise sentences by omitting unnecessary words or phrases.**
+   - This version maintains simplicity and clarity.
+
+Each variation retains the core instruction of simplifying complex sentences to eliminate unnecessary elements.
+[2025-02-13 15:22:45,100] - ==================================================
+[2025-02-13 15:22:45,101] - dev data: None
+[2025-02-13 15:22:45,101] - test data: None
+[2025-02-13 15:22:45,101] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 15:22:45,101] - ==================================================
+[2025-02-13 15:22:45,101] - Instruction placeholder: <prompt>
+[2025-02-13 15:22:45,115] - ---------------------Evolving prompt-------------------
+
+[2025-02-13 15:22:45,125] - ==================================================
+[2025-02-13 15:22:45,125] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_2.txt
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 15:22:45,125] - ==================================================
+[2025-02-13 15:22:45,125] - ---loading prompts from data/sim/asset/prompts.json
+[2025-02-13 15:22:48,165] - test LLM client success
+[2025-02-13 15:22:48,165] - -----paraphrasing topk---------
+[2025-02-13 15:23:00,209] - ### dataset example: Simplify the above sentence without changing meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:23:05,743] - ### dataset example: 1. Make the sentences simpler.
+2. Summarize the sentences.
+3. Rewind the sentences.
+4. Briefly state the sentences.
+5. Simplify the sentences.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:23:11,176] - ### dataset example: Input: Simplify and restate the information in the given input.  
+Output: Please provide a clear and concise restatement of the original instructions.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:23:15,904] - ### dataset example: Simplify the text.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:23:20,479] - ### dataset example: Generate a variation of the following instruction while keeping the semantic meaning.
+
+Input: Simplify complex sentences and eliminate unnecessary words or phrases.
+
+Output: Simplify complex sentences by condensing them and eliminating unnecessary words and phrases for clarity and simplicity.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:23:25,543] - Simplify the above sentence without changing meaning.
+[2025-02-13 15:23:25,543] - simplify the given sentences.
+[2025-02-13 15:23:25,543] - simplify and restate the information in the given input.
+[2025-02-13 15:23:25,544] - Rewrite the input text into simpler text.
+[2025-02-13 15:23:25,544] - simplify complex sentences and eliminate unnecessary words or phrases.
+[2025-02-13 15:23:25,544] - Simplify the above sentence without changing meaning.
+[2025-02-13 15:23:25,544] - 1. Make the sentences simpler.
+2. Summarize the sentences.
+3. Rewind the sentences.
+4. Briefly state the sentences.
+5. Simplify the sentences.
+[2025-02-13 15:23:25,544] - Input: Simplify and restate the information in the given input.  
+Output: Please provide a clear and concise restatement of the original instructions.
+[2025-02-13 15:23:25,544] - Simplify the text.
+[2025-02-13 15:23:25,544] - Generate a variation of the following instruction while keeping the semantic meaning.
+
+Input: Simplify complex sentences and eliminate unnecessary words or phrases.
+
+Output: Simplify complex sentences by condensing them and eliminating unnecessary words and phrases for clarity and simplicity.
+[2025-02-13 15:23:25,545] - ### dataset example: Simplify the above sentence without changing meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:23:29,798] - ### dataset example: simplify the given sentences.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:23:34,509] - ### dataset example: simplify and restate the information in the given input.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:23:38,737] - ### dataset example: Rewrite the input text into simpler text.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:23:42,928] - ### dataset example: simplify complex sentences and eliminate unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:23:46,819] - ### dataset example: Simplify the above sentence without changing meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:23:52,334] - ### dataset example: 1. Make the sentences simpler.
+2. Summarize the sentences.
+3. Rewind the sentences.
+4. Briefly state the sentences.
+5. Simplify the sentences.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:23:58,580] - ### dataset example: Input: Simplify and restate the information in the given input.  
+Output: Please provide a clear and concise restatement of the original instructions.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:24:03,399] - ### dataset example: Simplify the text.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:24:07,936] - ### dataset example: Generate a variation of the following instruction while keeping the semantic meaning.
+
+Input: Simplify complex sentences and eliminate unnecessary words or phrases.
+
+Output: Simplify complex sentences by condensing them and eliminating unnecessary words and phrases for clarity and simplicity.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:24:13,874] - Step: 0
+[2025-02-13 15:47:16,381] - ==================================================
+[2025-02-13 15:47:16,381] - dev data: None
+[2025-02-13 15:47:16,382] - test data: None
+[2025-02-13 15:47:16,382] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 15:47:16,382] - ==================================================
+[2025-02-13 15:47:16,382] - Instruction placeholder: <prompt>
+[2025-02-13 15:47:16,396] - ---------------------Evolving prompt-------------------
+
+[2025-02-13 15:47:16,406] - ==================================================
+[2025-02-13 15:47:16,406] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_2.txt
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 15:47:16,406] - ==================================================
+[2025-02-13 15:47:50,956] - ==================================================
+[2025-02-13 15:47:50,956] - dev data: None
+[2025-02-13 15:47:50,957] - test data: None
+[2025-02-13 15:47:50,957] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 15:47:50,957] - ==================================================
+[2025-02-13 15:47:50,957] - Instruction placeholder: <prompt>
+[2025-02-13 15:47:50,971] - ---------------------Evolving prompt-------------------
+
+[2025-02-13 15:47:50,980] - ==================================================
+[2025-02-13 15:47:50,980] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_2.txt
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 15:47:50,980] - ==================================================
+[2025-02-13 15:47:50,981] - ---loading prompts from data/sim/asset/prompts.json
+[2025-02-13 15:47:53,514] - test LLM client success
+[2025-02-13 15:47:53,515] - -----paraphrasing topk---------
+[2025-02-13 15:48:08,628] - ### dataset example: 
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:48:12,360] - ### dataset example: Here’s a variation of the instruction while keeping the semantic meaning the same:
+
+**Input:** Simplify the given sentences.  
+**Output:** Simplify the sentences by reducing complexity and clarity while retaining their original meaning.  
+
+Alternatively, a slightly different phrasing could be:
+
+**Input:** Simplify the given sentences.  
+**Output:** Simplify the given sentences by reducing their complexity, ensuring they remain clear and understandable.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:48:16,353] - ### dataset example: Simplify and recast the information.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:48:20,717] - ### dataset example: "Create a simple version or a new method while maintaining the original purpose or intent."
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:48:26,982] - ### dataset example: Simplify complex sentences by removing unnecessary words or phrases to enhance readability and reduce redundancy.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:48:30,691] - Simplify the above sentence without changing meaning.
+[2025-02-13 15:48:30,691] - simplify the given sentences.
+[2025-02-13 15:48:30,692] - simplify and restate the information in the given input.
+[2025-02-13 15:48:30,692] - Rewrite the input text into simpler text.
+[2025-02-13 15:48:30,692] - simplify complex sentences and eliminate unnecessary words or phrases.
+[2025-02-13 15:48:30,692] - 
+[2025-02-13 15:48:30,692] - Here’s a variation of the instruction while keeping the semantic meaning the same:
+
+**Input:** Simplify the given sentences.  
+**Output:** Simplify the sentences by reducing complexity and clarity while retaining their original meaning.  
+
+Alternatively, a slightly different phrasing could be:
+
+**Input:** Simplify the given sentences.  
+**Output:** Simplify the given sentences by reducing their complexity, ensuring they remain clear and understandable.
+[2025-02-13 15:48:30,692] - Simplify and recast the information.
+[2025-02-13 15:48:30,692] - "Create a simple version or a new method while maintaining the original purpose or intent."
+[2025-02-13 15:48:30,692] - Simplify complex sentences by removing unnecessary words or phrases to enhance readability and reduce redundancy.
+[2025-02-13 15:48:33,899] - ### dataset example: Simplify the sentence using concise language without altering its meaning.  
+Make the above sentence shorter without changing its content.  
+Reduce the sentence to its simplest form while keeping its original meaning intact.  
+Condense the sentence so it is easier to read without losing its original meaning.  
+Refine the sentence to make it more straightforward without altering its content.  
+Make the sentence shorter without changing its meaning.  
+Synthesize the sentence to simplify it without losing any information or meaning.  
+Orient the sentence into a simpler form while preserving its original meaning.  
+Refine the sentence to make it more concise without changing its intended meaning.  
+Simplify the sentence so it is easier to understand without losing its original meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:48:39,741] - ### dataset example: Simplify the given sentences.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:48:51,370] - ### dataset example: 
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:48:58,507] - ### dataset example: "Convert the input text into a simpler form."
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:49:05,881] - ### dataset example: 1. "To reach my goal, I must follow these clear steps." → "I must follow these clear steps."
+2. "The product includes advanced features which enhance its functionality." → "The product includes advanced features which enhance its functionality."
+3. "As a result, the service has been delivered optimally." → "As a result, the service has been delivered optimally."
+4. "The learning curve is steep but manageable." → "The learning curve is steep but manageable."
+5. "The company's resources are vast and diverse." → "The company's resources are vast and diverse."
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:49:14,548] - ### dataset example: Certainly! Here's a variation of the instruction, keeping the semantic meaning but changing the wording:
+
+"Use a calculator to solve equations and determine solutions."
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:49:21,448] - ### dataset example: Reducing their complexity, ensuring they remain clear and understandable.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:49:28,555] - ### dataset example: Here’s a variation of the instruction while keeping the same semantic meaning:
+
+"Record the simplified and restructured information." 
+
+Other options could be:
+- Straighten out and rearrange the information.
+- Straighten out and restructure the information.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:49:35,668] - ### dataset example: "Create a simple version or a novel method, both of which achieve the original purpose or intent, ensuring they complement each other while preserving the core objective."
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 15:49:42,418] - ### dataset example: Simplify complex sentences by removing unnecessary words or phrases to enhance readability and reduce redundancy.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 16:25:37,839] - ==================================================
+[2025-02-13 16:25:37,839] - dev data: None
+[2025-02-13 16:25:37,839] - test data: None
+[2025-02-13 16:25:37,839] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 16:25:37,839] - ==================================================
+[2025-02-13 16:25:37,840] - Instruction placeholder: <prompt>
+[2025-02-13 16:25:37,854] - ---------------------Evolving prompt-------------------
+
+[2025-02-13 16:40:48,288] - ==================================================
+[2025-02-13 16:40:48,288] - dev data: None
+[2025-02-13 16:40:48,288] - test data: None
+[2025-02-13 16:40:48,289] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 16:40:48,289] - ==================================================
+[2025-02-13 16:40:48,289] - Instruction placeholder: <prompt>
+[2025-02-13 16:40:48,302] - ---------------------Evolving prompt-------------------
+
+[2025-02-13 16:41:49,812] - ==================================================
+[2025-02-13 16:41:49,812] - dev data: None
+[2025-02-13 16:41:49,812] - test data: None
+[2025-02-13 16:41:49,813] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 16:41:49,813] - ==================================================
+[2025-02-13 16:41:49,813] - Instruction placeholder: <prompt>
+[2025-02-13 16:41:49,830] - ---------------------Evolving prompt-------------------
+
+[2025-02-13 16:42:08,069] - ==================================================
+[2025-02-13 16:42:08,069] - dev data: None
+[2025-02-13 16:42:08,069] - test data: None
+[2025-02-13 16:42:08,070] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 16:42:08,070] - ==================================================
+[2025-02-13 16:42:08,070] - Instruction placeholder: <prompt>
+[2025-02-13 16:42:08,088] - ---------------------Evolving prompt-------------------
+
+[2025-02-13 16:42:08,102] - ==================================================
+[2025-02-13 16:42:08,103] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_2.txt
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 16:42:08,103] - ==================================================
+[2025-02-13 16:42:46,149] - ==================================================
+[2025-02-13 16:42:46,149] - dev data: None
+[2025-02-13 16:42:46,149] - test data: None
+[2025-02-13 16:42:46,149] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 16:42:46,149] - ==================================================
+[2025-02-13 16:42:46,150] - Instruction placeholder: <prompt>
+[2025-02-13 16:42:46,163] - ---------------------Evolving prompt-------------------
+
+[2025-02-13 16:42:46,173] - ==================================================
+[2025-02-13 16:42:46,173] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_2.txt
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 16:42:46,173] - ==================================================
+[2025-02-13 16:43:00,665] - ==================================================
+[2025-02-13 16:43:00,665] - dev data: None
+[2025-02-13 16:43:00,665] - test data: None
+[2025-02-13 16:43:00,665] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 16:43:00,665] - ==================================================
+[2025-02-13 16:43:00,665] - Instruction placeholder: <prompt>
+[2025-02-13 16:43:00,678] - ---------------------Evolving prompt-------------------
+
+[2025-02-13 16:43:00,687] - ==================================================
+[2025-02-13 16:43:00,687] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_2.txt
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 16:43:00,688] - ==================================================
+[2025-02-13 16:50:48,270] - ==================================================
+[2025-02-13 16:50:48,270] - dev data: None
+[2025-02-13 16:50:48,270] - test data: None
+[2025-02-13 16:50:48,270] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 16:50:48,270] - ==================================================
+[2025-02-13 16:50:48,270] - Instruction placeholder: <prompt>
+[2025-02-13 16:50:48,296] - ---------------------Evolving prompt-------------------
+
+[2025-02-13 16:50:48,311] - ==================================================
+[2025-02-13 16:50:48,311] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_2.txt
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 16:50:48,311] - ==================================================
+[2025-02-13 20:57:54,989] - ==================================================
+[2025-02-13 20:57:54,989] - dev data: None
+[2025-02-13 20:57:54,989] - test data: None
+[2025-02-13 20:57:54,989] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 20:57:54,989] - ==================================================
+[2025-02-13 20:57:54,989] - Instruction placeholder: <prompt>
+[2025-02-13 20:57:55,001] - ---------------------Evolving prompt-------------------
+
+[2025-02-13 20:57:55,009] - ==================================================
+[2025-02-13 20:57:55,010] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_2.txt
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/deepseek/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = deepseek
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 20:57:55,010] - ==================================================

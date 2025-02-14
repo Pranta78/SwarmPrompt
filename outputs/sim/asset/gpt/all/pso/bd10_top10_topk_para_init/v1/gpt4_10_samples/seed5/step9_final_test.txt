@@ -1,0 +1,8 @@
+pso	Revise the provided text to enhance its simplicity and clarity, while ensuring the original meaning remains intact.	48.0205
+pso	Revise the provided text to enhance simplicity and clarity, while preserving the original meaning. Focus on simplifying the structure and language for better comprehension.	48.2768
+pso	Revise the provided sentences to enhance their simplicity and clarity, while preserving the original meaning.	48.1545
+
+----------sorted results----------
+pso	Revise the provided text to enhance simplicity and clarity, while preserving the original meaning. Focus on simplifying the structure and language for better comprehension.	48.2768
+pso	Revise the provided sentences to enhance their simplicity and clarity, while preserving the original meaning.	48.1545
+pso	Revise the provided text to enhance its simplicity and clarity, while ensuring the original meaning remains intact.	48.0205

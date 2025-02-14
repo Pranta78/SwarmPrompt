@@ -1,0 +1,4 @@
+dev result:
+
+seed 5: best score: 37.89554374754021, average score: 35.608061499003426
+

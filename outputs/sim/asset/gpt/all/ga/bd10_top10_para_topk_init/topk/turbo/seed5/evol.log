@@ -1,0 +1,592 @@
+[2025-02-11 13:09:03,764] - ==================================================
+[2025-02-11 13:09:03,764] - dev data: None
+[2025-02-11 13:09:03,764] - test data: None
+[2025-02-11 13:09:03,764] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/ga/bd10_top10_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 13:09:03,765] - ==================================================
+[2025-02-11 13:09:03,765] - Instruction placeholder: <prompt>
+[2025-02-11 13:09:03,778] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 13:09:03,779] - ==================================================
+[2025-02-11 13:09:03,779] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd10_top10_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 13:09:03,780] - ==================================================
+[2025-02-11 13:09:03,780] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 13:09:03,780] - ### dataset example: Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+
+[2025-02-11 13:33:58,487] - ==================================================
+[2025-02-11 13:33:58,487] - dev data: None
+[2025-02-11 13:33:58,488] - test data: None
+[2025-02-11 13:33:58,488] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/ga/bd10_top10_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 13:33:58,488] - ==================================================
+[2025-02-11 13:33:58,488] - Instruction placeholder: <prompt>
+[2025-02-11 13:33:58,499] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 13:33:58,501] - ==================================================
+[2025-02-11 13:33:58,501] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd10_top10_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 13:33:58,501] - ==================================================
+[2025-02-11 13:33:58,501] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 13:33:58,502] - ### dataset example: Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+
+[2025-02-11 13:44:19,813] - ==================================================
+[2025-02-11 13:44:19,813] - dev data: None
+[2025-02-11 13:44:19,813] - test data: None
+[2025-02-11 13:44:19,813] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/ga/bd10_top10_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 13:44:19,814] - ==================================================
+[2025-02-11 13:44:19,814] - Instruction placeholder: <prompt>
+[2025-02-11 13:44:19,827] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 13:44:19,829] - ==================================================
+[2025-02-11 13:44:19,830] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd10_top10_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 13:44:19,830] - ==================================================
+[2025-02-11 13:44:19,830] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 13:44:19,830] - ### dataset example: Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+
+[2025-02-11 13:53:01,754] - ==================================================
+[2025-02-11 13:53:01,754] - dev data: None
+[2025-02-11 13:53:01,754] - test data: None
+[2025-02-11 13:53:01,754] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/ga/bd10_top10_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 13:53:01,754] - ==================================================
+[2025-02-11 13:53:01,754] - Instruction placeholder: <prompt>
+[2025-02-11 13:53:01,766] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 13:53:01,768] - ==================================================
+[2025-02-11 13:53:01,768] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd10_top10_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 13:53:01,768] - ==================================================
+[2025-02-11 13:53:01,769] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 13:53:01,769] - ### dataset example: Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+
+[2025-02-11 13:58:16,731] - ==================================================
+[2025-02-11 13:58:16,731] - dev data: None
+[2025-02-11 13:58:16,731] - test data: None
+[2025-02-11 13:58:16,731] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/ga/bd10_top10_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 13:58:16,731] - ==================================================
+[2025-02-11 13:58:16,731] - Instruction placeholder: <prompt>
+[2025-02-11 13:58:16,744] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 13:58:16,746] - ==================================================
+[2025-02-11 13:58:16,746] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd10_top10_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 13:58:16,746] - ==================================================
+[2025-02-11 13:58:16,746] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 13:58:16,746] - ### dataset example: Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+
+[2025-02-11 14:07:31,491] - ==================================================
+[2025-02-11 14:07:31,491] - dev data: None
+[2025-02-11 14:07:31,491] - test data: None
+[2025-02-11 14:07:31,491] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/ga/bd10_top10_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 14:07:31,491] - ==================================================
+[2025-02-11 14:07:31,491] - Instruction placeholder: <prompt>
+[2025-02-11 14:07:31,503] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 14:07:31,505] - ==================================================
+[2025-02-11 14:07:31,505] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd10_top10_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 14:07:31,505] - ==================================================
+[2025-02-11 14:07:31,505] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 14:07:31,505] - ### dataset example: Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+
+[2025-02-11 15:53:32,125] - ==================================================
+[2025-02-11 15:53:32,126] - dev data: None
+[2025-02-11 15:53:32,126] - test data: None
+[2025-02-11 15:53:32,126] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/ga/bd10_top10_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 15:53:32,126] - ==================================================
+[2025-02-11 15:53:32,126] - Instruction placeholder: <prompt>
+[2025-02-11 15:53:32,138] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 15:53:32,139] - ==================================================
+[2025-02-11 15:53:32,140] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd10_top10_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 15:53:32,140] - ==================================================
+[2025-02-11 15:53:32,140] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 15:53:32,140] - ### dataset example: Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+
+[2025-02-11 16:41:55,383] - ==================================================
+[2025-02-11 16:41:55,383] - dev data: None
+[2025-02-11 16:41:55,383] - test data: None
+[2025-02-11 16:41:55,383] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/ga/bd10_top10_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 16:41:55,383] - ==================================================
+[2025-02-11 16:41:55,384] - Instruction placeholder: <prompt>
+[2025-02-11 16:41:55,397] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 16:41:55,399] - ==================================================
+[2025-02-11 16:41:55,399] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd10_top10_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 16:41:55,399] - ==================================================
+[2025-02-11 16:41:55,399] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 16:41:55,399] - ### dataset example: Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+

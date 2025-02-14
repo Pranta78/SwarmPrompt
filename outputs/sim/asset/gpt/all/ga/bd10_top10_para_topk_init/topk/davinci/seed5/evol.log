@@ -1,0 +1,76 @@
+[2025-02-11 13:08:49,249] - ==================================================
+[2025-02-11 13:08:49,249] - dev data: None
+[2025-02-11 13:08:49,249] - test data: None
+[2025-02-11 13:08:49,249] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/ga/bd10_top10_para_topk_init/topk/davinci/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = ga
+	llm_type = davinci
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 13:08:49,250] - ==================================================
+[2025-02-11 13:08:49,250] - Instruction placeholder: <prompt>
+[2025-02-11 13:08:49,268] - ---------------------Evolving prompt-------------------
+
+[2025-02-11 13:08:49,270] - ==================================================
+[2025-02-11 13:08:49,270] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd10_top10_para_topk_init/topk/davinci/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = ga
+	llm_type = davinci
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-11 13:08:49,270] - ==================================================
+[2025-02-11 13:08:49,270] - -----evaluating initial population and paraphrasing topk---------
+[2025-02-11 13:08:49,271] - ### dataset example: Given the English sentence, the simplification of the sentence is
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+

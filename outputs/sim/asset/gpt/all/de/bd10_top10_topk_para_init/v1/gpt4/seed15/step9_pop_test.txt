@@ -1,0 +1,8 @@
+evoluted	"Rephrase and condense the provided text, ensuring clarity and accessibility without altering the original meaning by removing unnecessary words or phrases."	46.3518
+evoluted	Simplify and streamline the given material by transforming it into more accessible language, promoting understanding and readability without altering its meaning through clarification and removal of extraneous terms.	48.0409
+evoluted	Clarify the given text for easier comprehension by revising and condensing the main points to enhance clarity. Simplify the language while retaining the core message and eliminating unnecessary expressions.	47.1686
+
+----------sorted results----------
+evoluted	Simplify and streamline the given material by transforming it into more accessible language, promoting understanding and readability without altering its meaning through clarification and removal of extraneous terms.	48.0409
+evoluted	Clarify the given text for easier comprehension by revising and condensing the main points to enhance clarity. Simplify the language while retaining the core message and eliminating unnecessary expressions.	47.1686
+evoluted	"Rephrase and condense the provided text, ensuring clarity and accessibility without altering the original meaning by removing unnecessary words or phrases."	46.3518
