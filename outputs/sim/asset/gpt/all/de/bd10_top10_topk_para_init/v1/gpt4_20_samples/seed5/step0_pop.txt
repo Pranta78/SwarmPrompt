@@ -1,0 +1,12 @@
+evoluted	Transform the provided text by simplifying the above sentence without changing its meaning while rewriting intricate sentences into a more straightforward version.	47.8037
+evoluted	Transform the provided text to clarify complicated statements and simplify it by removing any redundant words or expressions.	46.772
+evoluted	Condense the provided statement to simplify it while preserving the intent, and restate the information by removing any superfluous elements.	45.3205
+evoluted	Simplify complex statements from the input text to clarify the content and eliminate unnecessary details.	45.8716
+evoluted	"Simplify the provided content by rephrasing it to make it easier to understand and eliminating unnecessary words or phrases."	47.2981
+para	Rephrase the sentence to make it simpler while retaining its meaning.	48.0496
+para	Rewrite the provided sentences in a simpler form.	47.2376
+evoluted	Transform the provided text to condense and make complicated statements easier to understand, while removing any superfluous terms or expressions.	46.8663
+para	Transform the given text into more straightforward language.	47.842
+para	Rewrite intricate sentences to make them simpler and remove any extraneous words or phrases.	48.2644
+best score: 48.26444205847296
+average score: 47.13258511946646

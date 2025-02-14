@@ -1,0 +1,8 @@
+pso	Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.	48.049
+pso	Revise the provided text to enhance clarity and accessibility by simplifying complex ideas and eliminating redundant words or phrases. Ensure that the original meaning is preserved while employing straightforward language and a clear structure, making it easily understandable for a broad audience.	47.7064
+para	Make the provided sentences easier to understand.	48.2622
+
+----------sorted results----------
+para	Make the provided sentences easier to understand.	48.2622
+pso	Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.	48.049
+pso	Revise the provided text to enhance clarity and accessibility by simplifying complex ideas and eliminating redundant words or phrases. Ensure that the original meaning is preserved while employing straightforward language and a clear structure, making it easily understandable for a broad audience.	47.7064

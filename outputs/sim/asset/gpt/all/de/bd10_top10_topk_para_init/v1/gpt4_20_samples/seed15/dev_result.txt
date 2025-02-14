@@ -1,0 +1,12 @@
+para	Rephrase the provided sentences to make them simpler.	52.6518
+para	Make the above sentence easier to understand without altering its meaning.	52.3298
+evoluted	Revise the given expressions to enhance their clarity by converting them into simpler terms while maintaining the core message.	52.1961
+evoluted	Alter the supplied phrases by adjusting the provided content to break down complicated phrases while preserving the original intent for better grasp.	52.1503
+evoluted	Improve the submitted content by simplifying the phrases and rephrasing complex statements for improved clarity, while preserving the essential meaning for easier understanding.	52.1391
+evoluted	Simplify and rewrite the content you’ve received to make it clearer and easier to understand.	51.9606
+evoluted	Revise the supplied expressions to clarify the text you received by adjusting it into more straightforward language while simplifying complex sentences and preserving the original intent.	51.9053
+evoluted	Refine the given documents by enhancing and adjusting the provided material, simplifying intricate sentences for improved clarity while maintaining the intended message.	51.8149
+evoluted	Enhance the text you've obtained by modifying the given statements, transforming them into simpler language while breaking down complicated sentences to ensure the initial purpose is kept intact for better understanding.	51.584
+evoluted	Change the provided phrases by clarifying and modifying the material you've been given, improving their clarity by simplifying them while preserving the intended meaning for better comprehension.	51.5563
+best score: 52.65182347993433
+average score: 52.02882728062591

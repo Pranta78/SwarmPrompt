@@ -1,0 +1,8 @@
+evoluted	"Clarify the offered statement by refining the presented text for better understanding. Turn complex sentences into straightforward ones while ensuring their original meaning is preserved."	48.2498
+evoluted	Streamline intricate sentences by transforming them into a clearer version while retaining their original meaning.	47.017
+para	Rephrase the above sentence to make it simpler while retaining its meaning.	48.4532
+
+----------sorted results----------
+para	Rephrase the above sentence to make it simpler while retaining its meaning.	48.4532
+evoluted	"Clarify the offered statement by refining the presented text for better understanding. Turn complex sentences into straightforward ones while ensuring their original meaning is preserved."	48.2498
+evoluted	Streamline intricate sentences by transforming them into a clearer version while retaining their original meaning.	47.017

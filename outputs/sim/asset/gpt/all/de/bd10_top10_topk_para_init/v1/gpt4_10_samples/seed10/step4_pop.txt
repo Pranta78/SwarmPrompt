@@ -1,0 +1,12 @@
+evoluted	Paraphrase the given information by transforming the provided statement into simpler terms. Simplify complex sentences and eliminate unnecessary words, all while retaining its original intent and expressing the text in a concise and clear manner.	47.4605
+evoluted	"Condense the provided information by streamlining intricate sentences and omitting excess words to restate the content in a clearer form while preserving its core message."	49.337
+evoluted	Revise the given text to boost clarity by rewording the content for greater succinctness and clarity while preserving the main idea of the text.	49.0807
+evoluted	Simplify the following statement for clarity by restating the content in a clearer and more succinct manner while keeping the original intent intact.	48.7344
+evoluted	Convert the provided statement into a clearer form while retaining its essence by simplifying complex sentences and eliminating unnecessary words or phrases.	50.7275
+evoluted	Revise the given text for better clarity while ensuring the original meaning is maintained, making the above sentence easier to understand and preserving its core idea.	49.5812
+evoluted	Summarize the given material by simplifying the provided text, clarifying complex phrases, and cutting unnecessary words, while preserving the original meaning and presenting the information more clearly and succinctly.	49.0254
+evoluted	Transform the supplied sentence to make it easier to understand by rewording it while keeping the initial meaning intact, and reformulate the original text in a more understandable and concise manner, preserving its core meaning by clarifying complicated phrases and removing superfluous elements.	48.7464
+evoluted	Refine the provided text by transforming it into a more understandable version, enhancing the clarity of the statements while ensuring that the original meaning is preserved.	50.6392
+evoluted	Polish the submitted text to enhance comprehension by rephrasing it for better clarity and streamlining complex sentences while sustaining the text's core message.	49.0511
+best score: 50.72753988765859
+average score: 49.23834494512283

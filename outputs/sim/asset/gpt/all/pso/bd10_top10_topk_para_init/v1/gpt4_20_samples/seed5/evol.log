@@ -1,0 +1,1214 @@
+[2025-02-14 20:43:36,861] - ==================================================
+[2025-02-14 20:43:36,861] - dev data: None
+[2025-02-14 20:43:36,861] - test data: None
+[2025-02-14 20:43:36,861] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/gpt4_20_samples/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 20
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = gpt4
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-14 20:43:36,861] - ==================================================
+[2025-02-14 20:43:36,861] - Instruction placeholder: <prompt>
+[2025-02-14 20:43:36,875] - ---------------------Evolving prompt-------------------
+
+[2025-02-14 20:43:36,876] - ==================================================
+[2025-02-14 20:43:36,876] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_20.txt
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/gpt4_20_samples/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 20
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = gpt4
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-14 20:43:36,876] - ==================================================
+[2025-02-14 20:43:36,877] - ---loading prompts from data/sim/asset/prompts.json
+[2025-02-14 20:43:38,420] - test LLM client success
+[2025-02-14 20:43:38,420] - -----paraphrasing topk---------
+[2025-02-14 20:43:48,720] - ### dataset example: Rephrase the sentence to make it simpler while preserving its meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 20:44:31,672] - ### dataset example: Make the provided sentences easier to understand.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 20:45:16,820] - ### dataset example: Rephrase and clarify the details presented in the provided input.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 20:46:06,351] - ### dataset example: Transform the given text into a more straightforward version.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 20:46:51,458] - ### dataset example: Rephrase complicated sentences and remove superfluous words or expressions.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 20:47:38,941] - Simplify the above sentence without changing meaning.
+[2025-02-14 20:47:38,941] - simplify the given sentences.
+[2025-02-14 20:47:38,941] - simplify and restate the information in the given input.
+[2025-02-14 20:47:38,941] - Rewrite the input text into simpler text.
+[2025-02-14 20:47:38,941] - simplify complex sentences and eliminate unnecessary words or phrases.
+[2025-02-14 20:47:38,942] - Rephrase the sentence to make it simpler while preserving its meaning.
+[2025-02-14 20:47:38,942] - Make the provided sentences easier to understand.
+[2025-02-14 20:47:38,942] - Rephrase and clarify the details presented in the provided input.
+[2025-02-14 20:47:38,942] - Transform the given text into a more straightforward version.
+[2025-02-14 20:47:38,942] - Rephrase complicated sentences and remove superfluous words or expressions.
+[2025-02-14 20:47:38,942] - Step 0 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Simplify the above sentence without changing meaning.
+2. Personal Best: Simplify the above sentence without changing meaning.
+3. Global Best: Rephrase the sentence to make it simpler while preserving its meaning.
+New Optimized Prompt:
+[2025-02-14 20:47:40,588] - Generated Prompt: Rephrase the sentence in a simpler way while maintaining its original meaning.
+[2025-02-14 20:47:40,589] - ### dataset example: Rephrase the sentence in a simpler way while maintaining its original meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 20:48:29,242] - Step 0 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: simplify the given sentences.
+2. Personal Best: simplify the given sentences.
+3. Global Best: Rephrase the sentence to make it simpler while preserving its meaning.
+New Optimized Prompt:
+[2025-02-14 20:48:31,119] - Generated Prompt: Rephrase the provided sentences to make them simpler while maintaining their original meaning.
+[2025-02-14 20:48:31,119] - ### dataset example: Rephrase the provided sentences to make them simpler while maintaining their original meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 20:49:21,399] - Step 0 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: simplify and restate the information in the given input.
+2. Personal Best: simplify and restate the information in the given input.
+3. Global Best: Rephrase the sentence to make it simpler while preserving its meaning.
+New Optimized Prompt:
+[2025-02-14 20:49:23,417] - Generated Prompt: Rephrase and simplify the provided information while maintaining its original meaning.
+[2025-02-14 20:49:23,417] - ### dataset example: Rephrase and simplify the provided information while maintaining its original meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 20:50:10,268] - Step 0 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the input text into simpler text.
+2. Personal Best: Rewrite the input text into simpler text.
+3. Global Best: Rephrase the sentence to make it simpler while preserving its meaning.
+New Optimized Prompt:
+[2025-02-14 20:50:12,039] - Generated Prompt: Rewrite the input text in simpler language while maintaining its original meaning.
+[2025-02-14 20:50:12,040] - ### dataset example: Rewrite the input text in simpler language while maintaining its original meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 20:50:59,518] - Step 0 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: simplify complex sentences and eliminate unnecessary words or phrases.
+2. Personal Best: simplify complex sentences and eliminate unnecessary words or phrases.
+3. Global Best: Rephrase the sentence to make it simpler while preserving its meaning.
+New Optimized Prompt:
+[2025-02-14 20:51:01,369] - Generated Prompt: Simplify complex sentences by rephrasing them to make them clearer and more concise, while preserving their original meaning.
+[2025-02-14 20:51:01,369] - ### dataset example: Simplify complex sentences by rephrasing them to make them clearer and more concise, while preserving their original meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 20:51:43,594] - Step 0 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the sentence to make it simpler while preserving its meaning.
+2. Personal Best: Rephrase the sentence to make it simpler while preserving its meaning.
+3. Global Best: Rephrase the sentence to make it simpler while preserving its meaning.
+New Optimized Prompt:
+[2025-02-14 20:51:45,980] - Generated Prompt: Rephrase the sentence in a simpler way while maintaining its original meaning.
+[2025-02-14 20:51:45,981] - Step 0 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Make the provided sentences easier to understand.
+2. Personal Best: Make the provided sentences easier to understand.
+3. Global Best: Rephrase the sentence to make it simpler while preserving its meaning.
+New Optimized Prompt:
+[2025-02-14 20:51:48,019] - Generated Prompt: Rephrase the provided sentences to simplify their language and improve clarity, while ensuring the original meaning remains intact.
+[2025-02-14 20:51:48,019] - ### dataset example: Rephrase the provided sentences to simplify their language and improve clarity, while ensuring the original meaning remains intact.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 20:52:38,862] - Step 0 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and clarify the details presented in the provided input.
+2. Personal Best: Rephrase and clarify the details presented in the provided input.
+3. Global Best: Rephrase the sentence to make it simpler while preserving its meaning.
+New Optimized Prompt:
+[2025-02-14 20:52:40,917] - Generated Prompt: Rephrase and clarify the provided input to enhance its simplicity and maintain its original meaning.
+[2025-02-14 20:52:40,918] - ### dataset example: Rephrase and clarify the provided input to enhance its simplicity and maintain its original meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 20:53:27,374] - Step 0 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Transform the given text into a more straightforward version.
+2. Personal Best: Transform the given text into a more straightforward version.
+3. Global Best: Rephrase the sentence to make it simpler while preserving its meaning.
+New Optimized Prompt:
+[2025-02-14 20:53:29,477] - Generated Prompt: Revise the provided text to make it simpler and more straightforward, ensuring that the original meaning is maintained.
+[2025-02-14 20:53:29,478] - ### dataset example: Revise the provided text to make it simpler and more straightforward, ensuring that the original meaning is maintained.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 20:54:13,786] - Step 0 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase complicated sentences and remove superfluous words or expressions.
+2. Personal Best: Rephrase complicated sentences and remove superfluous words or expressions.
+3. Global Best: Rephrase the sentence to make it simpler while preserving its meaning.
+New Optimized Prompt:
+[2025-02-14 20:54:21,198] - Generated Prompt: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+[2025-02-14 20:54:21,199] - ### dataset example: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 20:55:06,423] - Step 1 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the sentence in a simpler way while maintaining its original meaning.
+2. Personal Best: Rephrase the sentence in a simpler way while maintaining its original meaning.
+3. Global Best: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 20:55:08,288] - Generated Prompt: Rephrase the sentence in a simpler way by simplifying its structure, removing unnecessary words or expressions, and ensuring that the original meaning is preserved.
+[2025-02-14 20:55:08,288] - ### dataset example: Rephrase the sentence in a simpler way by simplifying its structure, removing unnecessary words or expressions, and ensuring that the original meaning is preserved.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 20:55:51,175] - Step 1 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the provided sentences to make them simpler while maintaining their original meaning.
+2. Personal Best: Rephrase the provided sentences to make them simpler while maintaining their original meaning.
+3. Global Best: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 20:55:54,030] - Generated Prompt: Rephrase the provided sentences to simplify their structure and language while preserving the original meaning and eliminating any unnecessary words or expressions.
+[2025-02-14 20:55:54,030] - ### dataset example: Rephrase the provided sentences to simplify their structure and language while preserving the original meaning and eliminating any unnecessary words or expressions.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 20:56:42,060] - Step 1 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the provided information while maintaining its original meaning.
+2. Personal Best: Rephrase and simplify the provided information while maintaining its original meaning.
+3. Global Best: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 20:56:44,275] - Generated Prompt: Rephrase and simplify the provided information, ensuring that the original meaning is preserved while breaking down complex sentences and eliminating any unnecessary words or expressions.
+[2025-02-14 20:56:44,276] - ### dataset example: Rephrase and simplify the provided information, ensuring that the original meaning is preserved while breaking down complex sentences and eliminating any unnecessary words or expressions.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 20:58:58,266] - Step 1 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the input text in simpler language while maintaining its original meaning.
+2. Personal Best: Rewrite the input text in simpler language while maintaining its original meaning.
+3. Global Best: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 20:59:00,216] - Generated Prompt: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+[2025-02-14 20:59:00,217] - ### dataset example: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 20:59:40,443] - Step 1 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Simplify complex sentences by rephrasing them to make them clearer and more concise, while preserving their original meaning.
+2. Personal Best: Simplify complex sentences by rephrasing them to make them clearer and more concise, while preserving their original meaning.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 20:59:43,347] - Generated Prompt: Rewrite the input text using simpler language and structure, making it clearer and more concise while preserving its original meaning. Eliminate any unnecessary words or expressions to enhance clarity.
+[2025-02-14 20:59:43,348] - ### dataset example: Rewrite the input text using simpler language and structure, making it clearer and more concise while preserving its original meaning. Eliminate any unnecessary words or expressions to enhance clarity.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:00:21,920] - Step 1 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the sentence to make it simpler while preserving its meaning.
+2. Personal Best: Rephrase the sentence to make it simpler while preserving its meaning.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:00:23,981] - Generated Prompt: Rewrite the sentence using simpler language and structure while keeping the original meaning intact. Eliminate any unnecessary words or phrases to enhance clarity.
+[2025-02-14 21:00:23,981] - ### dataset example: Rewrite the sentence using simpler language and structure while keeping the original meaning intact. Eliminate any unnecessary words or phrases to enhance clarity.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:01:12,679] - Step 1 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the provided sentences to simplify their language and improve clarity, while ensuring the original meaning remains intact.
+2. Personal Best: Rephrase the provided sentences to simplify their language and improve clarity, while ensuring the original meaning remains intact.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:01:14,629] - Generated Prompt: Rephrase the given sentences to enhance clarity and simplicity while maintaining the original meaning. Focus on using straightforward language and structure, and eliminate any unnecessary words or phrases.
+[2025-02-14 21:01:14,630] - ### dataset example: Rephrase the given sentences to enhance clarity and simplicity while maintaining the original meaning. Focus on using straightforward language and structure, and eliminate any unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:01:53,747] - Step 1 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and clarify the provided input to enhance its simplicity and maintain its original meaning.
+2. Personal Best: Rephrase and clarify the provided input to enhance its simplicity and maintain its original meaning.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:01:55,629] - Generated Prompt: Rephrase and simplify the given text to clarify its meaning while preserving the original intent. Eliminate any unnecessary words or phrases for greater clarity and accessibility.
+[2025-02-14 21:01:55,630] - ### dataset example: Rephrase and simplify the given text to clarify its meaning while preserving the original intent. Eliminate any unnecessary words or phrases for greater clarity and accessibility.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:02:38,085] - Step 1 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Transform the given text into a more straightforward version.
+2. Personal Best: Transform the given text into a more straightforward version.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:02:40,090] - Generated Prompt: Revise the provided text to make it clearer and more accessible, using simpler language and structure while maintaining the original meaning. Focus on eliminating any unnecessary words or phrases for greater conciseness.
+[2025-02-14 21:02:40,090] - ### dataset example: Revise the provided text to make it clearer and more accessible, using simpler language and structure while maintaining the original meaning. Focus on eliminating any unnecessary words or phrases for greater conciseness.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:03:20,872] - Step 1 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+2. Personal Best: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:03:22,872] - Generated Prompt: Revise complex sentences to create a simpler structure that preserves the original meaning while removing any unnecessary words or phrases.
+[2025-02-14 21:03:22,873] - ### dataset example: Revise complex sentences to create a simpler structure that preserves the original meaning while removing any unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:04:03,487] - Step 2 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the sentence in a simpler way by simplifying its structure, removing unnecessary words or expressions, and ensuring that the original meaning is preserved.
+2. Personal Best: Rephrase the sentence in a simpler way by simplifying its structure, removing unnecessary words or expressions, and ensuring that the original meaning is preserved.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:04:05,126] - Generated Prompt: Rephrase the sentence using simpler language and structure, while maintaining the original meaning and eliminating any unnecessary words or expressions.
+[2025-02-14 21:04:05,126] - ### dataset example: Rephrase the sentence using simpler language and structure, while maintaining the original meaning and eliminating any unnecessary words or expressions.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:14:46,216] - Step 2 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the provided sentences to make them simpler while maintaining their original meaning.
+2. Personal Best: Rephrase the provided sentences to make them simpler while maintaining their original meaning.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:14:48,263] - Generated Prompt: Rewrite the provided sentences in simpler language and structure while preserving their original meaning. Eliminate any unnecessary words or expressions for clarity.
+[2025-02-14 21:14:48,263] - ### dataset example: Rewrite the provided sentences in simpler language and structure while preserving their original meaning. Eliminate any unnecessary words or expressions for clarity.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:15:27,888] - Step 2 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the provided information, ensuring that the original meaning is preserved while breaking down complex sentences and eliminating any unnecessary words or expressions.
+2. Personal Best: Rephrase and simplify the provided information, ensuring that the original meaning is preserved while breaking down complex sentences and eliminating any unnecessary words or expressions.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:15:32,355] - Generated Prompt: Rephrase and simplify the given information while preserving its original meaning. Break down complex sentences and remove any unnecessary words or phrases to enhance clarity and readability.
+[2025-02-14 21:15:32,356] - ### dataset example: Rephrase and simplify the given information while preserving its original meaning. Break down complex sentences and remove any unnecessary words or phrases to enhance clarity and readability.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:16:13,416] - Step 2 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+2. Personal Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:16:15,447] - Generated Prompt: Rewrite the input text in simpler language and structure. Make sure to keep the original meaning intact while removing any unnecessary words or phrases for clarity and conciseness.
+[2025-02-14 21:16:15,448] - ### dataset example: Rewrite the input text in simpler language and structure. Make sure to keep the original meaning intact while removing any unnecessary words or phrases for clarity and conciseness.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:16:56,398] - Step 2 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the input text using simpler language and structure, making it clearer and more concise while preserving its original meaning. Eliminate any unnecessary words or expressions to enhance clarity.
+2. Personal Best: Rewrite the input text using simpler language and structure, making it clearer and more concise while preserving its original meaning. Eliminate any unnecessary words or expressions to enhance clarity.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:16:58,290] - Generated Prompt: Revise the input text using clear and simple language. Focus on making it concise while preserving its original meaning. Remove any unnecessary words or phrases to enhance overall clarity.
+[2025-02-14 21:16:58,291] - ### dataset example: Revise the input text using clear and simple language. Focus on making it concise while preserving its original meaning. Remove any unnecessary words or phrases to enhance overall clarity.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:17:39,994] - Step 2 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the sentence to make it simpler while preserving its meaning.
+2. Personal Best: Rephrase the sentence to make it simpler while preserving its meaning.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:17:41,637] - Generated Prompt: Rewrite the sentence using simpler language and structure while maintaining its original meaning. Eliminate any unnecessary words or phrases for clarity.
+[2025-02-14 21:17:41,638] - ### dataset example: Rewrite the sentence using simpler language and structure while maintaining its original meaning. Eliminate any unnecessary words or phrases for clarity.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:18:20,326] - Step 2 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the given sentences to enhance clarity and simplicity while maintaining the original meaning. Focus on using straightforward language and structure, and eliminate any unnecessary words or phrases.
+2. Personal Best: Rephrase the given sentences to enhance clarity and simplicity while maintaining the original meaning. Focus on using straightforward language and structure, and eliminate any unnecessary words or phrases.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:18:23,247] - Generated Prompt: Revise the provided sentences to improve clarity and simplicity while keeping the original meaning intact. Use straightforward language and structure, and remove any unnecessary words or phrases for a more concise expression.
+[2025-02-14 21:18:23,248] - ### dataset example: Revise the provided sentences to improve clarity and simplicity while keeping the original meaning intact. Use straightforward language and structure, and remove any unnecessary words or phrases for a more concise expression.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:19:01,590] - Step 2 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the given text to clarify its meaning while preserving the original intent. Eliminate any unnecessary words or phrases for greater clarity and accessibility.
+2. Personal Best: Rephrase and simplify the given text to clarify its meaning while preserving the original intent. Eliminate any unnecessary words or phrases for greater clarity and accessibility.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:19:03,487] - Generated Prompt: Rewrite the provided text using clear and simple language while maintaining the original meaning. Focus on eliminating unnecessary words and phrases to enhance clarity and accessibility.
+[2025-02-14 21:19:03,488] - ### dataset example: Rewrite the provided text using clear and simple language while maintaining the original meaning. Focus on eliminating unnecessary words and phrases to enhance clarity and accessibility.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:19:43,390] - Step 2 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it clearer and more accessible, using simpler language and structure while maintaining the original meaning. Focus on eliminating any unnecessary words or phrases for greater conciseness.
+2. Personal Best: Revise the provided text to make it clearer and more accessible, using simpler language and structure while maintaining the original meaning. Focus on eliminating any unnecessary words or phrases for greater conciseness.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:19:45,491] - Generated Prompt: Revise the provided text to enhance clarity and accessibility by using simpler language and structure. Ensure that the original meaning is preserved while eliminating unnecessary words and phrases for greater conciseness.
+[2025-02-14 21:19:45,491] - ### dataset example: Revise the provided text to enhance clarity and accessibility by using simpler language and structure. Ensure that the original meaning is preserved while eliminating unnecessary words and phrases for greater conciseness.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:20:24,918] - Step 2 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+2. Personal Best: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:20:26,761] - Generated Prompt: Rewrite the given text using simpler language and structure. Keep the original meaning intact while eliminating any unnecessary words or phrases.
+[2025-02-14 21:20:26,761] - ### dataset example: Rewrite the given text using simpler language and structure. Keep the original meaning intact while eliminating any unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:21:09,760] - Step 3 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the sentence using simpler language and structure, while maintaining the original meaning and eliminating any unnecessary words or expressions.
+2. Personal Best: Rephrase the sentence using simpler language and structure, while maintaining the original meaning and eliminating any unnecessary words or expressions.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:21:12,936] - Generated Prompt: Rephrase the given sentence using clear and simple language while preserving its original meaning. Remove any unnecessary words or phrases for conciseness.
+[2025-02-14 21:21:12,936] - ### dataset example: Rephrase the given sentence using clear and simple language while preserving its original meaning. Remove any unnecessary words or phrases for conciseness.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:21:57,505] - Step 3 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the provided sentences to make them simpler while maintaining their original meaning.
+2. Personal Best: Rephrase the provided sentences to make them simpler while maintaining their original meaning.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:21:59,279] - Generated Prompt: Rewrite the provided sentences using simpler language and structure while preserving their original meaning. Eliminate any unnecessary words or expressions for clarity.
+[2025-02-14 21:21:59,280] - ### dataset example: Rewrite the provided sentences using simpler language and structure while preserving their original meaning. Eliminate any unnecessary words or expressions for clarity.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:22:37,518] - Step 3 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the given information while preserving its original meaning. Break down complex sentences and remove any unnecessary words or phrases to enhance clarity and readability.
+2. Personal Best: Rephrase and simplify the given information while preserving its original meaning. Break down complex sentences and remove any unnecessary words or phrases to enhance clarity and readability.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:22:39,637] - Generated Prompt: Rephrase and simplify the provided information while maintaining its original meaning. Break down complex sentences and eliminate unnecessary words or phrases to improve clarity and readability. Use straightforward language and structure for better understanding.
+[2025-02-14 21:22:39,638] - ### dataset example: Rephrase and simplify the provided information while maintaining its original meaning. Break down complex sentences and eliminate unnecessary words or phrases to improve clarity and readability. Use straightforward language and structure for better understanding.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:23:17,761] - Step 3 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+2. Personal Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:23:19,659] - Generated Prompt: Rewrite the input text using clear and straightforward language. Keep the original meaning intact while removing any unnecessary words or complex expressions.
+[2025-02-14 21:23:19,659] - ### dataset example: Rewrite the input text using clear and straightforward language. Keep the original meaning intact while removing any unnecessary words or complex expressions.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:23:57,931] - Step 3 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the input text using clear and simple language. Focus on making it concise while preserving its original meaning. Remove any unnecessary words or phrases to enhance overall clarity.
+2. Personal Best: Revise the input text using clear and simple language. Focus on making it concise while preserving its original meaning. Remove any unnecessary words or phrases to enhance overall clarity.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:24:00,098] - Generated Prompt: Revise the input text using clear and straightforward language. Aim for conciseness while maintaining the original meaning, and remove any unnecessary words or phrases to improve overall clarity.
+[2025-02-14 21:24:00,098] - ### dataset example: Revise the input text using clear and straightforward language. Aim for conciseness while maintaining the original meaning, and remove any unnecessary words or phrases to improve overall clarity.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:24:39,645] - Step 3 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the sentence to make it simpler while preserving its meaning.
+2. Personal Best: Rephrase the sentence to make it simpler while preserving its meaning.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:24:41,546] - Generated Prompt: Rewrite the text using simpler language and structure, while maintaining the original meaning and removing any unnecessary words or phrases.
+[2025-02-14 21:24:41,546] - ### dataset example: Rewrite the text using simpler language and structure, while maintaining the original meaning and removing any unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:25:28,467] - Step 3 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the given sentences to enhance clarity and simplicity while maintaining the original meaning. Focus on using straightforward language and structure, and eliminate any unnecessary words or phrases.
+2. Personal Best: Rephrase the given sentences to enhance clarity and simplicity while maintaining the original meaning. Focus on using straightforward language and structure, and eliminate any unnecessary words or phrases.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:25:30,813] - Generated Prompt: Rephrase the provided sentences to improve clarity and simplicity, ensuring the original meaning is preserved. Use straightforward language and structure, and remove any unnecessary words or phrases for a more concise expression.
+[2025-02-14 21:25:30,813] - ### dataset example: Rephrase the provided sentences to improve clarity and simplicity, ensuring the original meaning is preserved. Use straightforward language and structure, and remove any unnecessary words or phrases for a more concise expression.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:26:07,775] - Step 3 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the given text to clarify its meaning while preserving the original intent. Eliminate any unnecessary words or phrases for greater clarity and accessibility.
+2. Personal Best: Rephrase and simplify the given text to clarify its meaning while preserving the original intent. Eliminate any unnecessary words or phrases for greater clarity and accessibility.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:26:09,661] - Generated Prompt: Rephrase and simplify the provided text to enhance clarity while maintaining the original meaning. Remove any unnecessary words or phrases for improved accessibility and understanding.
+[2025-02-14 21:26:09,662] - ### dataset example: Rephrase and simplify the provided text to enhance clarity while maintaining the original meaning. Remove any unnecessary words or phrases for improved accessibility and understanding.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:26:59,499] - Step 3 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it clearer and more accessible, using simpler language and structure while maintaining the original meaning. Focus on eliminating any unnecessary words or phrases for greater conciseness.
+2. Personal Best: Revise the provided text to make it clearer and more accessible, using simpler language and structure while maintaining the original meaning. Focus on eliminating any unnecessary words or phrases for greater conciseness.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:27:01,403] - Generated Prompt: Revise the provided text to enhance clarity and accessibility by using simpler language and a straightforward structure. Ensure that the original meaning is preserved while removing any unnecessary words or phrases for improved conciseness.
+[2025-02-14 21:27:01,403] - ### dataset example: Revise the provided text to enhance clarity and accessibility by using simpler language and a straightforward structure. Ensure that the original meaning is preserved while removing any unnecessary words or phrases for improved conciseness.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:27:45,777] - Step 3 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+2. Personal Best: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:27:47,508] - Generated Prompt: Rephrase complex sentences to make them simpler, while preserving their original meaning and eliminating any unnecessary words or phrases.
+[2025-02-14 21:27:47,509] - ### dataset example: Rephrase complex sentences to make them simpler, while preserving their original meaning and eliminating any unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:28:38,808] - Step 4 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the sentence using simpler language and structure, while maintaining the original meaning and eliminating any unnecessary words or expressions.
+2. Personal Best: Rephrase the sentence using simpler language and structure, while maintaining the original meaning and eliminating any unnecessary words or expressions.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:28:41,066] - Generated Prompt: Rephrase the sentence using clear and simple language, while keeping the original meaning intact and removing any unnecessary words or phrases.
+[2025-02-14 21:28:41,066] - ### dataset example: Rephrase the sentence using clear and simple language, while keeping the original meaning intact and removing any unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:29:18,057] - Step 4 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the provided sentences to make them simpler while maintaining their original meaning.
+2. Personal Best: Rephrase the provided sentences to make them simpler while maintaining their original meaning.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:29:19,811] - Generated Prompt: Rephrase the provided sentences using simpler language and structure, while ensuring the original meaning is preserved and removing any unnecessary words or expressions.
+[2025-02-14 21:29:19,812] - ### dataset example: Rephrase the provided sentences using simpler language and structure, while ensuring the original meaning is preserved and removing any unnecessary words or expressions.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:30:00,980] - Step 4 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the given information while preserving its original meaning. Break down complex sentences and remove any unnecessary words or phrases to enhance clarity and readability.
+2. Personal Best: Rephrase and simplify the given information while preserving its original meaning. Break down complex sentences and remove any unnecessary words or phrases to enhance clarity and readability.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:30:03,377] - Generated Prompt: Rephrase and simplify the provided information while maintaining its original meaning. Break down complex sentences and eliminate any unnecessary words or phrases to improve clarity and readability. Aim for straightforward language and structure.
+[2025-02-14 21:30:03,377] - ### dataset example: Rephrase and simplify the provided information while maintaining its original meaning. Break down complex sentences and eliminate any unnecessary words or phrases to improve clarity and readability. Aim for straightforward language and structure.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:30:42,874] - Step 4 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+2. Personal Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:30:44,922] - Generated Prompt: Rewrite the input text in clear and simple language, while keeping the original meaning intact. Remove any unnecessary words or complex expressions for better understanding.
+[2025-02-14 21:30:44,922] - ### dataset example: Rewrite the input text in clear and simple language, while keeping the original meaning intact. Remove any unnecessary words or complex expressions for better understanding.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:31:25,982] - Step 4 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the input text using clear and straightforward language. Aim for conciseness while maintaining the original meaning, and remove any unnecessary words or phrases to improve overall clarity.
+2. Personal Best: Revise the input text using clear and straightforward language. Aim for conciseness while maintaining the original meaning, and remove any unnecessary words or phrases to improve overall clarity.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:31:28,227] - Generated Prompt: Revise the input text using clear and straightforward language. Focus on conciseness while preserving the original meaning, and eliminate any unnecessary words or phrases to enhance overall clarity and simplicity.
+[2025-02-14 21:31:28,228] - ### dataset example: Revise the input text using clear and straightforward language. Focus on conciseness while preserving the original meaning, and eliminate any unnecessary words or phrases to enhance overall clarity and simplicity.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:32:08,195] - Step 4 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the text using simpler language and structure, while maintaining the original meaning and removing any unnecessary words or phrases.
+2. Personal Best: Rewrite the text using simpler language and structure, while maintaining the original meaning and removing any unnecessary words or phrases.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:32:10,047] - Generated Prompt: Rewrite the text using clear and simple language while keeping the original meaning intact. Remove any unnecessary words or phrases to make it more concise.
+[2025-02-14 21:32:10,047] - ### dataset example: Rewrite the text using clear and simple language while keeping the original meaning intact. Remove any unnecessary words or phrases to make it more concise.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:32:53,752] - Step 4 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the given sentences to enhance clarity and simplicity while maintaining the original meaning. Focus on using straightforward language and structure, and eliminate any unnecessary words or phrases.
+2. Personal Best: Rephrase the given sentences to enhance clarity and simplicity while maintaining the original meaning. Focus on using straightforward language and structure, and eliminate any unnecessary words or phrases.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:32:55,763] - Generated Prompt: Rewrite the provided sentences to improve clarity and simplicity while preserving the original meaning. Use straightforward language and structure, and remove any unnecessary words or phrases.
+[2025-02-14 21:32:55,763] - ### dataset example: Rewrite the provided sentences to improve clarity and simplicity while preserving the original meaning. Use straightforward language and structure, and remove any unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:33:33,252] - Step 4 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the provided text to enhance clarity while maintaining the original meaning. Remove any unnecessary words or phrases for improved accessibility and understanding.
+2. Personal Best: Rephrase and simplify the provided text to enhance clarity while maintaining the original meaning. Remove any unnecessary words or phrases for improved accessibility and understanding.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:33:35,133] - Generated Prompt: Rephrase and simplify the provided text to improve clarity while keeping the original meaning intact. Eliminate any unnecessary words or phrases to enhance accessibility and understanding.
+[2025-02-14 21:33:35,134] - ### dataset example: Rephrase and simplify the provided text to improve clarity while keeping the original meaning intact. Eliminate any unnecessary words or phrases to enhance accessibility and understanding.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:34:17,320] - Step 4 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it clearer and more accessible, using simpler language and structure while maintaining the original meaning. Focus on eliminating any unnecessary words or phrases for greater conciseness.
+2. Personal Best: Revise the provided text to make it clearer and more accessible, using simpler language and structure while maintaining the original meaning. Focus on eliminating any unnecessary words or phrases for greater conciseness.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:34:19,399] - Generated Prompt: Revise the provided text to enhance clarity and accessibility by using simpler language and structure. Ensure that the original meaning is preserved while removing any unnecessary words or phrases for greater conciseness.
+[2025-02-14 21:34:19,400] - ### dataset example: Revise the provided text to enhance clarity and accessibility by using simpler language and structure. Ensure that the original meaning is preserved while removing any unnecessary words or phrases for greater conciseness.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:35:00,810] - Step 4 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+2. Personal Best: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:35:02,676] - Generated Prompt: Rewrite complex sentences using simpler language and structure, ensuring the original meaning is preserved while eliminating unnecessary words and expressions.
+[2025-02-14 21:35:02,676] - ### dataset example: Rewrite complex sentences using simpler language and structure, ensuring the original meaning is preserved while eliminating unnecessary words and expressions.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:35:43,702] - Step 5 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the sentence using simpler language and structure, while maintaining the original meaning and eliminating any unnecessary words or expressions.
+2. Personal Best: Rephrase the sentence using simpler language and structure, while maintaining the original meaning and eliminating any unnecessary words or expressions.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:35:45,818] - Generated Prompt: Rephrase the given sentence using clear and straightforward language, while keeping the original meaning intact and removing any unnecessary words or phrases.
+[2025-02-14 21:35:45,819] - ### dataset example: Rephrase the given sentence using clear and straightforward language, while keeping the original meaning intact and removing any unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:36:32,786] - Step 5 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the provided sentences to make them simpler while maintaining their original meaning.
+2. Personal Best: Rephrase the provided sentences to make them simpler while maintaining their original meaning.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:36:35,014] - Generated Prompt: Revise the provided sentences to simplify their language and structure, ensuring the original meaning is preserved while removing any unnecessary words or expressions.
+[2025-02-14 21:36:35,014] - ### dataset example: Revise the provided sentences to simplify their language and structure, ensuring the original meaning is preserved while removing any unnecessary words or expressions.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:37:17,212] - Step 5 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the provided information while maintaining its original meaning. Break down complex sentences and eliminate any unnecessary words or phrases to improve clarity and readability. Aim for straightforward language and structure.
+2. Personal Best: Rephrase and simplify the provided information while maintaining its original meaning. Break down complex sentences and eliminate any unnecessary words or phrases to improve clarity and readability. Aim for straightforward language and structure.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:37:19,198] - Generated Prompt: Revise the provided text to make it clearer and easier to understand while preserving its original meaning. Simplify complex sentences and remove any unnecessary words or phrases. Focus on using straightforward language and structure.
+[2025-02-14 21:37:19,199] - ### dataset example: Revise the provided text to make it clearer and easier to understand while preserving its original meaning. Simplify complex sentences and remove any unnecessary words or phrases. Focus on using straightforward language and structure.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:37:57,898] - Step 5 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+2. Personal Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:38:03,492] - Generated Prompt: Rewrite the input text using clear and simple language. Keep the original meaning intact while removing any unnecessary words or complex expressions.
+[2025-02-14 21:38:03,492] - ### dataset example: Rewrite the input text using clear and simple language. Keep the original meaning intact while removing any unnecessary words or complex expressions.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:38:44,204] - Step 5 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the input text using clear and straightforward language. Focus on conciseness while preserving the original meaning, and eliminate any unnecessary words or phrases to enhance overall clarity and simplicity.
+2. Personal Best: Revise the input text using clear and straightforward language. Focus on conciseness while preserving the original meaning, and eliminate any unnecessary words or phrases to enhance overall clarity and simplicity.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:38:46,082] - Generated Prompt: Revise the input text using clear and simple language. Aim for conciseness while maintaining the original meaning, and remove any unnecessary words or phrases to improve overall clarity and readability.
+[2025-02-14 21:38:46,082] - ### dataset example: Revise the input text using clear and simple language. Aim for conciseness while maintaining the original meaning, and remove any unnecessary words or phrases to improve overall clarity and readability.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:39:27,761] - Step 5 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the text using simpler language and structure, while maintaining the original meaning and removing any unnecessary words or phrases.
+2. Personal Best: Rewrite the text using simpler language and structure, while maintaining the original meaning and removing any unnecessary words or phrases.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:39:29,510] - Generated Prompt: Rewrite the text using clear and simple language, keeping the original meaning intact while removing any unnecessary words or phrases.
+[2025-02-14 21:39:29,510] - ### dataset example: Rewrite the text using clear and simple language, keeping the original meaning intact while removing any unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:40:09,142] - Step 5 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the given sentences to enhance clarity and simplicity while maintaining the original meaning. Focus on using straightforward language and structure, and eliminate any unnecessary words or phrases.
+2. Personal Best: Rephrase the given sentences to enhance clarity and simplicity while maintaining the original meaning. Focus on using straightforward language and structure, and eliminate any unnecessary words or phrases.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:40:11,460] - Generated Prompt: Rephrase the provided sentences to improve clarity and simplicity, ensuring the original meaning remains intact. Use straightforward language and structure, and remove any unnecessary words or phrases for a more concise expression.
+[2025-02-14 21:40:11,460] - ### dataset example: Rephrase the provided sentences to improve clarity and simplicity, ensuring the original meaning remains intact. Use straightforward language and structure, and remove any unnecessary words or phrases for a more concise expression.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:40:52,896] - Step 5 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the provided text to enhance clarity while maintaining the original meaning. Remove any unnecessary words or phrases for improved accessibility and understanding.
+2. Personal Best: Rephrase and simplify the provided text to enhance clarity while maintaining the original meaning. Remove any unnecessary words or phrases for improved accessibility and understanding.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:40:55,677] - Generated Prompt: Revise the provided text to improve clarity and readability while preserving the original meaning. Simplify the language and structure, removing any unnecessary words or phrases for better accessibility and understanding.
+[2025-02-14 21:40:55,678] - ### dataset example: Revise the provided text to improve clarity and readability while preserving the original meaning. Simplify the language and structure, removing any unnecessary words or phrases for better accessibility and understanding.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:41:34,446] - Step 5 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it clearer and more accessible, using simpler language and structure while maintaining the original meaning. Focus on eliminating any unnecessary words or phrases for greater conciseness.
+2. Personal Best: Revise the provided text to make it clearer and more accessible, using simpler language and structure while maintaining the original meaning. Focus on eliminating any unnecessary words or phrases for greater conciseness.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:41:36,436] - Generated Prompt: Revise the provided text to enhance clarity and accessibility by using simpler language and structure. Ensure that the original meaning remains intact while eliminating unnecessary words and phrases for improved conciseness.
+[2025-02-14 21:41:36,437] - ### dataset example: Revise the provided text to enhance clarity and accessibility by using simpler language and structure. Ensure that the original meaning remains intact while eliminating unnecessary words and phrases for improved conciseness.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:42:16,000] - Step 5 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+2. Personal Best: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:42:17,965] - Generated Prompt: Rephrase complex sentences to simplify their structure and language, ensuring that the original meaning is preserved while eliminating any unnecessary words or expressions.
+[2025-02-14 21:42:17,965] - ### dataset example: Rephrase complex sentences to simplify their structure and language, ensuring that the original meaning is preserved while eliminating any unnecessary words or expressions.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:43:00,521] - Step 6 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the sentence using simpler language and structure, while maintaining the original meaning and eliminating any unnecessary words or expressions.
+2. Personal Best: Rephrase the sentence using simpler language and structure, while maintaining the original meaning and eliminating any unnecessary words or expressions.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:43:06,234] - Generated Prompt: Rephrase the sentence using clearer and simpler language while keeping the original meaning intact and removing any unnecessary words or phrases.
+[2025-02-14 21:43:06,235] - ### dataset example: Rephrase the sentence using clearer and simpler language while keeping the original meaning intact and removing any unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:43:50,829] - Step 6 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the provided sentences to make them simpler while maintaining their original meaning.
+2. Personal Best: Rephrase the provided sentences to make them simpler while maintaining their original meaning.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:43:53,109] - Generated Prompt: Rewrite the provided sentences using simpler language and structure, ensuring that the original meaning is preserved while removing any unnecessary words or expressions.
+[2025-02-14 21:43:53,109] - ### dataset example: Rewrite the provided sentences using simpler language and structure, ensuring that the original meaning is preserved while removing any unnecessary words or expressions.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:44:31,407] - Step 6 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the provided information while maintaining its original meaning. Break down complex sentences and eliminate any unnecessary words or phrases to improve clarity and readability. Aim for straightforward language and structure.
+2. Personal Best: Rephrase and simplify the provided information while maintaining its original meaning. Break down complex sentences and eliminate any unnecessary words or phrases to improve clarity and readability. Aim for straightforward language and structure.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:44:33,893] - Generated Prompt: Rewrite the provided information using simple language and clear structure. Preserve the original meaning while breaking down complex sentences and removing any unnecessary words or phrases to enhance clarity and readability.
+[2025-02-14 21:44:33,893] - ### dataset example: Rewrite the provided information using simple language and clear structure. Preserve the original meaning while breaking down complex sentences and removing any unnecessary words or phrases to enhance clarity and readability.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:45:22,976] - Step 6 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+2. Personal Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:45:24,781] - Generated Prompt: Revise the input text using clear and simple language while maintaining its original meaning. Remove any unnecessary words or phrases to improve readability and comprehension.
+[2025-02-14 21:45:24,781] - ### dataset example: Revise the input text using clear and simple language while maintaining its original meaning. Remove any unnecessary words or phrases to improve readability and comprehension.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:46:04,341] - Step 6 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the input text using clear and straightforward language. Focus on conciseness while preserving the original meaning, and eliminate any unnecessary words or phrases to enhance overall clarity and simplicity.
+2. Personal Best: Revise the input text using clear and straightforward language. Focus on conciseness while preserving the original meaning, and eliminate any unnecessary words or phrases to enhance overall clarity and simplicity.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:46:06,165] - Generated Prompt: Revise the input text using clear and simple language. Aim for conciseness while maintaining the original meaning, and remove any unnecessary words or phrases to improve overall clarity and simplicity.
+[2025-02-14 21:46:06,165] - ### dataset example: Revise the input text using clear and simple language. Aim for conciseness while maintaining the original meaning, and remove any unnecessary words or phrases to improve overall clarity and simplicity.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:46:58,483] - Step 6 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the text using simpler language and structure, while maintaining the original meaning and removing any unnecessary words or phrases.
+2. Personal Best: Rewrite the text using simpler language and structure, while maintaining the original meaning and removing any unnecessary words or phrases.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:47:00,455] - Generated Prompt: Revise the text using clear and straightforward language, while preserving its original meaning. Eliminate any unnecessary words or phrases for better clarity and simplicity.
+[2025-02-14 21:47:00,456] - ### dataset example: Revise the text using clear and straightforward language, while preserving its original meaning. Eliminate any unnecessary words or phrases for better clarity and simplicity.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:47:40,580] - Step 6 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the provided sentences to improve clarity and simplicity, ensuring the original meaning remains intact. Use straightforward language and structure, and remove any unnecessary words or phrases for a more concise expression.
+2. Personal Best: Rephrase the provided sentences to improve clarity and simplicity, ensuring the original meaning remains intact. Use straightforward language and structure, and remove any unnecessary words or phrases for a more concise expression.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:47:43,189] - Generated Prompt: Rephrase the provided sentences to enhance clarity and simplicity while preserving the original meaning. Use straightforward language and structure, and eliminate any unnecessary words or phrases for a more concise expression.
+[2025-02-14 21:47:43,189] - ### dataset example: Rephrase the provided sentences to enhance clarity and simplicity while preserving the original meaning. Use straightforward language and structure, and eliminate any unnecessary words or phrases for a more concise expression.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:48:32,152] - Step 6 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the provided text to enhance clarity while maintaining the original meaning. Remove any unnecessary words or phrases for improved accessibility and understanding.
+2. Personal Best: Rephrase and simplify the provided text to enhance clarity while maintaining the original meaning. Remove any unnecessary words or phrases for improved accessibility and understanding.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:48:33,981] - Generated Prompt: Revise and simplify the provided text to improve clarity while preserving its original meaning. Eliminate any unnecessary words or phrases to enhance accessibility and understanding.
+[2025-02-14 21:48:33,981] - ### dataset example: Revise and simplify the provided text to improve clarity while preserving its original meaning. Eliminate any unnecessary words or phrases to enhance accessibility and understanding.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:49:13,848] - Step 6 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it clearer and more accessible, using simpler language and structure while maintaining the original meaning. Focus on eliminating any unnecessary words or phrases for greater conciseness.
+2. Personal Best: Revise the provided text to make it clearer and more accessible, using simpler language and structure while maintaining the original meaning. Focus on eliminating any unnecessary words or phrases for greater conciseness.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:49:15,726] - Generated Prompt: Revise the provided text to enhance clarity and accessibility by using simpler language and structure. Ensure that the original meaning is preserved while eliminating unnecessary words and phrases for greater conciseness.
+[2025-02-14 21:49:15,726] - Step 6 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+2. Personal Best: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:49:17,650] - Generated Prompt: Rewrite complex sentences using simpler language and structure, preserving the original meaning and eliminating any unnecessary words or expressions for clarity.
+[2025-02-14 21:49:17,650] - ### dataset example: Rewrite complex sentences using simpler language and structure, preserving the original meaning and eliminating any unnecessary words or expressions for clarity.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:49:55,818] - Step 7 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the sentence using simpler language and structure, while maintaining the original meaning and eliminating any unnecessary words or expressions.
+2. Personal Best: Rephrase the sentence using simpler language and structure, while maintaining the original meaning and eliminating any unnecessary words or expressions.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:49:57,572] - Generated Prompt: Rewrite the sentence in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or expressions.
+[2025-02-14 21:49:57,573] - ### dataset example: Rewrite the sentence in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or expressions.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:50:36,251] - Step 7 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the provided sentences to make them simpler while maintaining their original meaning.
+2. Personal Best: Rephrase the provided sentences to make them simpler while maintaining their original meaning.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:50:38,345] - Generated Prompt: Rephrase the given sentences using simpler language and structure, ensuring the original meaning is preserved while removing any unnecessary words or phrases.
+[2025-02-14 21:50:38,345] - ### dataset example: Rephrase the given sentences using simpler language and structure, ensuring the original meaning is preserved while removing any unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:51:19,021] - Step 7 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the provided information while maintaining its original meaning. Break down complex sentences and eliminate any unnecessary words or phrases to improve clarity and readability. Aim for straightforward language and structure.
+2. Personal Best: Rephrase and simplify the provided information while maintaining its original meaning. Break down complex sentences and eliminate any unnecessary words or phrases to improve clarity and readability. Aim for straightforward language and structure.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:51:21,063] - Generated Prompt: Rephrase and simplify the provided information while preserving its original meaning. Break down complex sentences and remove unnecessary words or phrases to enhance clarity and readability. Use straightforward language and structure for better understanding.
+[2025-02-14 21:51:21,064] - ### dataset example: Rephrase and simplify the provided information while preserving its original meaning. Break down complex sentences and remove unnecessary words or phrases to enhance clarity and readability. Use straightforward language and structure for better understanding.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:51:59,935] - Step 7 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+2. Personal Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:52:02,619] - Generated Prompt: Rewrite the input text in simpler language and structure while preserving its original meaning. Remove any unnecessary words or expressions to enhance clarity and readability.
+[2025-02-14 21:52:02,620] - ### dataset example: Rewrite the input text in simpler language and structure while preserving its original meaning. Remove any unnecessary words or expressions to enhance clarity and readability.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:52:46,540] - Step 7 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the input text using clear and simple language. Aim for conciseness while maintaining the original meaning, and remove any unnecessary words or phrases to improve overall clarity and simplicity.
+2. Personal Best: Revise the input text using clear and simple language. Aim for conciseness while maintaining the original meaning, and remove any unnecessary words or phrases to improve overall clarity and simplicity.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:52:48,881] - Generated Prompt: Revise the input text using clear and simple language. Focus on conciseness while preserving the original meaning. Eliminate any unnecessary words or phrases to enhance clarity and improve readability.
+[2025-02-14 21:52:48,881] - ### dataset example: Revise the input text using clear and simple language. Focus on conciseness while preserving the original meaning. Eliminate any unnecessary words or phrases to enhance clarity and improve readability.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:53:26,350] - Step 7 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the text using simpler language and structure, while maintaining the original meaning and removing any unnecessary words or phrases.
+2. Personal Best: Rewrite the text using simpler language and structure, while maintaining the original meaning and removing any unnecessary words or phrases.
+3. Global Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+New Optimized Prompt:
+[2025-02-14 21:53:28,007] - Generated Prompt: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+[2025-02-14 21:53:28,007] - ### dataset example: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:54:05,550] - Step 7 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the provided sentences to improve clarity and simplicity, ensuring the original meaning remains intact. Use straightforward language and structure, and remove any unnecessary words or phrases for a more concise expression.
+2. Personal Best: Rephrase the provided sentences to improve clarity and simplicity, ensuring the original meaning remains intact. Use straightforward language and structure, and remove any unnecessary words or phrases for a more concise expression.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 21:54:07,677] - Generated Prompt: Rephrase the given sentences to enhance clarity and simplicity while preserving the original meaning. Use clear and straightforward language, and eliminate any unnecessary words or phrases to create a more concise expression.
+[2025-02-14 21:54:07,677] - ### dataset example: Rephrase the given sentences to enhance clarity and simplicity while preserving the original meaning. Use clear and straightforward language, and eliminate any unnecessary words or phrases to create a more concise expression.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:54:47,404] - Step 7 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the provided text to enhance clarity while maintaining the original meaning. Remove any unnecessary words or phrases for improved accessibility and understanding.
+2. Personal Best: Rephrase and simplify the provided text to enhance clarity while maintaining the original meaning. Remove any unnecessary words or phrases for improved accessibility and understanding.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 21:54:49,351] - Generated Prompt: Revise the provided text to make it clearer and easier to understand while preserving its original meaning. Eliminate any unnecessary words or phrases to improve accessibility.
+[2025-02-14 21:54:49,352] - ### dataset example: Revise the provided text to make it clearer and easier to understand while preserving its original meaning. Eliminate any unnecessary words or phrases to improve accessibility.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:55:31,526] - Step 7 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it clearer and more accessible, using simpler language and structure while maintaining the original meaning. Focus on eliminating any unnecessary words or phrases for greater conciseness.
+2. Personal Best: Revise the provided text to make it clearer and more accessible, using simpler language and structure while maintaining the original meaning. Focus on eliminating any unnecessary words or phrases for greater conciseness.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 21:55:34,641] - Generated Prompt: Revise the provided text to enhance clarity and accessibility by using simpler language and a more straightforward structure. Maintain the original meaning while eliminating any unnecessary words or phrases for improved conciseness.
+[2025-02-14 21:55:34,642] - ### dataset example: Revise the provided text to enhance clarity and accessibility by using simpler language and a more straightforward structure. Maintain the original meaning while eliminating any unnecessary words or phrases for improved conciseness.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:56:13,720] - Step 7 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+2. Personal Best: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 21:56:15,681] - Generated Prompt: Simplify complex sentences by rephrasing them into clearer, more concise language, while preserving their original meaning and eliminating any unnecessary words or phrases.
+[2025-02-14 21:56:15,682] - ### dataset example: Simplify complex sentences by rephrasing them into clearer, more concise language, while preserving their original meaning and eliminating any unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:56:57,479] - Step 8 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the sentence using simpler language and structure, while maintaining the original meaning and eliminating any unnecessary words or expressions.
+2. Personal Best: Rephrase the sentence using simpler language and structure, while maintaining the original meaning and eliminating any unnecessary words or expressions.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 21:56:59,635] - Generated Prompt: Rephrase the sentence using clear and straightforward language, ensuring the original meaning remains intact while eliminating any unnecessary words or phrases.
+[2025-02-14 21:56:59,635] - ### dataset example: Rephrase the sentence using clear and straightforward language, ensuring the original meaning remains intact while eliminating any unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:57:41,615] - Step 8 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the given sentences using simpler language and structure, ensuring the original meaning is preserved while removing any unnecessary words or phrases.
+2. Personal Best: Rephrase the given sentences using simpler language and structure, ensuring the original meaning is preserved while removing any unnecessary words or phrases.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 21:57:43,772] - Generated Prompt: Rephrase the provided sentences in simpler language and structure. Make sure to maintain the original meaning while eliminating any unnecessary words or phrases for clarity and conciseness.
+[2025-02-14 21:57:43,772] - ### dataset example: Rephrase the provided sentences in simpler language and structure. Make sure to maintain the original meaning while eliminating any unnecessary words or phrases for clarity and conciseness.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:58:29,079] - Step 8 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the provided information while maintaining its original meaning. Break down complex sentences and eliminate any unnecessary words or phrases to improve clarity and readability. Aim for straightforward language and structure.
+2. Personal Best: Rephrase and simplify the provided information while maintaining its original meaning. Break down complex sentences and eliminate any unnecessary words or phrases to improve clarity and readability. Aim for straightforward language and structure.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 21:58:31,031] - Generated Prompt: Rewrite the provided information using simple language and a clear structure. Maintain the original meaning while breaking down complex sentences and removing any unnecessary words or phrases to enhance clarity and readability.
+[2025-02-14 21:58:31,032] - ### dataset example: Rewrite the provided information using simple language and a clear structure. Maintain the original meaning while breaking down complex sentences and removing any unnecessary words or phrases to enhance clarity and readability.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:59:11,440] - Step 8 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+2. Personal Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 21:59:13,212] - Generated Prompt: Revise the input text using clearer and simpler language while preserving its original meaning. Remove any unnecessary words or phrases to enhance clarity and readability.
+[2025-02-14 21:59:13,213] - ### dataset example: Revise the input text using clearer and simpler language while preserving its original meaning. Remove any unnecessary words or phrases to enhance clarity and readability.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 21:59:52,206] - Step 8 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the input text using clear and simple language. Aim for conciseness while maintaining the original meaning, and remove any unnecessary words or phrases to improve overall clarity and simplicity.
+2. Personal Best: Revise the input text using clear and simple language. Aim for conciseness while maintaining the original meaning, and remove any unnecessary words or phrases to improve overall clarity and simplicity.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 21:59:54,328] - Generated Prompt: Revise the input text using clear and simple language. Focus on conciseness while preserving the original meaning, and eliminate any unnecessary words or phrases to enhance clarity and simplicity.
+[2025-02-14 21:59:54,328] - ### dataset example: Revise the input text using clear and simple language. Focus on conciseness while preserving the original meaning, and eliminate any unnecessary words or phrases to enhance clarity and simplicity.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 22:00:35,030] - Step 8 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+2. Personal Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 22:00:37,237] - Generated Prompt: Rewrite the text using simpler language and structure. Retain the original meaning while eliminating any unnecessary words or phrases.
+[2025-02-14 22:00:37,238] - ### dataset example: Rewrite the text using simpler language and structure. Retain the original meaning while eliminating any unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 22:01:17,089] - Step 8 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the provided sentences to improve clarity and simplicity, ensuring the original meaning remains intact. Use straightforward language and structure, and remove any unnecessary words or phrases for a more concise expression.
+2. Personal Best: Rephrase the provided sentences to improve clarity and simplicity, ensuring the original meaning remains intact. Use straightforward language and structure, and remove any unnecessary words or phrases for a more concise expression.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 22:01:19,147] - Generated Prompt: Rewrite the provided sentences to enhance clarity and simplicity while preserving the original meaning. Use straightforward language and structure, and eliminate any unnecessary words or phrases for a more concise expression.
+[2025-02-14 22:01:19,148] - ### dataset example: Rewrite the provided sentences to enhance clarity and simplicity while preserving the original meaning. Use straightforward language and structure, and eliminate any unnecessary words or phrases for a more concise expression.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 22:01:58,079] - Step 8 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the provided text to enhance clarity while maintaining the original meaning. Remove any unnecessary words or phrases for improved accessibility and understanding.
+2. Personal Best: Rephrase and simplify the provided text to enhance clarity while maintaining the original meaning. Remove any unnecessary words or phrases for improved accessibility and understanding.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 22:01:59,945] - Generated Prompt: Revise the provided text to make it clearer and more accessible, preserving its original meaning. Eliminate any unnecessary words or phrases to enhance understanding.
+[2025-02-14 22:01:59,945] - ### dataset example: Revise the provided text to make it clearer and more accessible, preserving its original meaning. Eliminate any unnecessary words or phrases to enhance understanding.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 22:02:38,300] - Step 8 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it clearer and more accessible, using simpler language and structure while maintaining the original meaning. Focus on eliminating any unnecessary words or phrases for greater conciseness.
+2. Personal Best: Revise the provided text to make it clearer and more accessible, using simpler language and structure while maintaining the original meaning. Focus on eliminating any unnecessary words or phrases for greater conciseness.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 22:02:40,155] - Generated Prompt: Revise the provided text to enhance clarity and accessibility by using simpler language and structure. Ensure that the original meaning is preserved while eliminating any unnecessary words or phrases for greater conciseness.
+[2025-02-14 22:02:40,155] - ### dataset example: Revise the provided text to enhance clarity and accessibility by using simpler language and structure. Ensure that the original meaning is preserved while eliminating any unnecessary words or phrases for greater conciseness.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 22:03:24,179] - Step 8 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+2. Personal Best: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 22:03:26,224] - Generated Prompt: Rewrite complicated sentences in simpler language and structure, ensuring that the original meaning remains intact while eliminating any unnecessary words or phrases.
+[2025-02-14 22:03:26,225] - ### dataset example: Rewrite complicated sentences in simpler language and structure, ensuring that the original meaning remains intact while eliminating any unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 22:04:06,486] - Step 9 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the sentence using simpler language and structure, while maintaining the original meaning and eliminating any unnecessary words or expressions.
+2. Personal Best: Rephrase the sentence using simpler language and structure, while maintaining the original meaning and eliminating any unnecessary words or expressions.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 22:04:08,468] - Generated Prompt: Rephrase the sentence in simpler language and structure, ensuring that the original meaning remains unchanged while eliminating any unnecessary words or phrases.
+[2025-02-14 22:04:08,468] - ### dataset example: Rephrase the sentence in simpler language and structure, ensuring that the original meaning remains unchanged while eliminating any unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 22:04:52,649] - Step 9 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the given sentences using simpler language and structure, ensuring the original meaning is preserved while removing any unnecessary words or phrases.
+2. Personal Best: Rephrase the given sentences using simpler language and structure, ensuring the original meaning is preserved while removing any unnecessary words or phrases.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 22:04:54,597] - Generated Prompt: Rewrite the provided sentences using simpler language and structure. Ensure that the original meaning remains intact, while eliminating any unnecessary words or phrases for clarity.
+[2025-02-14 22:04:54,598] - ### dataset example: Rewrite the provided sentences using simpler language and structure. Ensure that the original meaning remains intact, while eliminating any unnecessary words or phrases for clarity.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 22:05:34,444] - Step 9 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the provided information while maintaining its original meaning. Break down complex sentences and eliminate any unnecessary words or phrases to improve clarity and readability. Aim for straightforward language and structure.
+2. Personal Best: Rephrase and simplify the provided information while maintaining its original meaning. Break down complex sentences and eliminate any unnecessary words or phrases to improve clarity and readability. Aim for straightforward language and structure.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 22:05:36,539] - Generated Prompt: Revise the given text to make it clearer and easier to understand, while preserving its original meaning. Break down complex sentences and remove any unnecessary words or phrases. Use straightforward language and structure for improved readability.
+[2025-02-14 22:05:36,539] - ### dataset example: Revise the given text to make it clearer and easier to understand, while preserving its original meaning. Break down complex sentences and remove any unnecessary words or phrases. Use straightforward language and structure for improved readability.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 22:06:19,703] - Step 9 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+2. Personal Best: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 22:06:21,731] - Generated Prompt: Rewrite the input text using clear and simple language, maintaining the original meaning while removing any unnecessary words or phrases.
+[2025-02-14 22:06:21,732] - ### dataset example: Rewrite the input text using clear and simple language, maintaining the original meaning while removing any unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 22:07:04,730] - Step 9 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the input text using clear and simple language. Aim for conciseness while maintaining the original meaning, and remove any unnecessary words or phrases to improve overall clarity and simplicity.
+2. Personal Best: Revise the input text using clear and simple language. Aim for conciseness while maintaining the original meaning, and remove any unnecessary words or phrases to improve overall clarity and simplicity.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 22:07:06,908] - Generated Prompt: Revise the input text using clear and simple language. Focus on conciseness while preserving the original meaning, and eliminate any unnecessary words or phrases to enhance clarity and readability.
+[2025-02-14 22:07:06,908] - ### dataset example: Revise the input text using clear and simple language. Focus on conciseness while preserving the original meaning, and eliminate any unnecessary words or phrases to enhance clarity and readability.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 22:07:50,966] - Step 9 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+2. Personal Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 22:07:52,941] - Generated Prompt: Rewrite the text using simpler language and structure. Maintain the original meaning while eliminating unnecessary words or phrases.
+[2025-02-14 22:07:52,941] - ### dataset example: Rewrite the text using simpler language and structure. Maintain the original meaning while eliminating unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 22:08:33,157] - Step 9 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the provided sentences to improve clarity and simplicity, ensuring the original meaning remains intact. Use straightforward language and structure, and remove any unnecessary words or phrases for a more concise expression.
+2. Personal Best: Rephrase the provided sentences to improve clarity and simplicity, ensuring the original meaning remains intact. Use straightforward language and structure, and remove any unnecessary words or phrases for a more concise expression.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 22:08:35,612] - Generated Prompt: Rewrite the provided sentences to enhance clarity and simplicity while preserving the original meaning. Use direct language and a clear structure, eliminating any unnecessary words or phrases for a more concise expression.
+[2025-02-14 22:08:35,613] - ### dataset example: Rewrite the provided sentences to enhance clarity and simplicity while preserving the original meaning. Use direct language and a clear structure, eliminating any unnecessary words or phrases for a more concise expression.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 22:09:13,912] - Step 9 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the provided text to enhance clarity while maintaining the original meaning. Remove any unnecessary words or phrases for improved accessibility and understanding.
+2. Personal Best: Rephrase and simplify the provided text to enhance clarity while maintaining the original meaning. Remove any unnecessary words or phrases for improved accessibility and understanding.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 22:09:15,764] - Generated Prompt: Rephrase and simplify the provided text to enhance clarity and accessibility while preserving the original meaning. Eliminate any unnecessary words or phrases for better understanding and readability.
+[2025-02-14 22:09:15,764] - ### dataset example: Rephrase and simplify the provided text to enhance clarity and accessibility while preserving the original meaning. Eliminate any unnecessary words or phrases for better understanding and readability.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 22:09:55,842] - Step 9 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it clearer and more accessible, using simpler language and structure while maintaining the original meaning. Focus on eliminating any unnecessary words or phrases for greater conciseness.
+2. Personal Best: Revise the provided text to make it clearer and more accessible, using simpler language and structure while maintaining the original meaning. Focus on eliminating any unnecessary words or phrases for greater conciseness.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 22:09:57,986] - Generated Prompt: Revise the provided text to enhance clarity and accessibility by using simpler language and structure. Ensure that the original meaning remains intact while eliminating unnecessary words or phrases for greater conciseness.
+[2025-02-14 22:09:57,987] - ### dataset example: Revise the provided text to enhance clarity and accessibility by using simpler language and structure. Ensure that the original meaning remains intact while eliminating unnecessary words or phrases for greater conciseness.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 22:10:35,966] - Step 9 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+2. Personal Best: Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.
+3. Global Best: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+New Optimized Prompt:
+[2025-02-14 22:10:39,321] - Generated Prompt: Rephrase complex sentences to simplify their structure and language, ensuring the original meaning remains intact while eliminating unnecessary words or phrases.
+[2025-02-14 22:10:39,321] - ### dataset example: Rephrase complex sentences to simplify their structure and language, ensuring the original meaning remains intact while eliminating unnecessary words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 22:11:18,326] - Final Evaluation Phase
+[2025-02-14 22:11:18,327] - ### dataset example: Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.
+One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.
+The Simplification of the sentence is: 
+
+[2025-02-14 22:27:46,086] - ### dataset example: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.
+The Simplification of the sentence is: 
+
+[2025-02-14 22:41:39,354] - ### dataset example: Rephrase and simplify the provided information while maintaining its original meaning. Break down complex sentences and eliminate any unnecessary words or phrases to improve clarity and readability. Aim for straightforward language and structure.
+One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.
+The Simplification of the sentence is: 
+
+[2025-02-14 22:55:27,961] - Final Best Score: 48.76199580043869
+Prompt: Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.
+[2025-02-14 22:55:27,961] - PSO Optimization Complete
+[2025-02-14 22:55:27,961] - Best Scores History: [48.77020604192898, 49.070346653612916, 49.070346653612916, 49.070346653612916, 49.070346653612916, 49.070346653612916, 49.070346653612916, 49.180422189347325, 49.180422189347325, 49.180422189347325]
+[2025-02-14 22:55:27,961] - Average Scores History: [47.35971697114097, 48.0372922377366, 48.22517887107565, 48.30093905986127, 48.33055352923948, 48.349727208224316, 48.35910746734761, 48.5007363618863, 48.5007363618863, 48.52436529777809]

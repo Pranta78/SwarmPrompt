@@ -1,0 +1,1222 @@
+[2025-02-15 00:56:36,457] - ==================================================
+[2025-02-15 00:56:36,457] - dev data: None
+[2025-02-15 00:56:36,458] - test data: None
+[2025-02-15 00:56:36,458] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/gpt4_20_samples/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 20
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = gpt4
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-15 00:56:36,458] - ==================================================
+[2025-02-15 00:56:36,458] - Instruction placeholder: <prompt>
+[2025-02-15 00:56:36,471] - ---------------------Evolving prompt-------------------
+
+[2025-02-15 00:56:36,473] - ==================================================
+[2025-02-15 00:56:36,473] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_20.txt
+	output = outputs/sim/asset/gpt/all/pso/bd10_top10_topk_para_init/v1/gpt4_20_samples/seed15
+	language_model = gpt
+	position = pre
+	sample_num = 20
+	seed = 15
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = gpt4
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-15 00:56:36,473] - ==================================================
+[2025-02-15 00:56:36,474] - ---loading prompts from data/sim/asset/prompts.json
+[2025-02-15 00:56:38,104] - test LLM client success
+[2025-02-15 00:56:38,104] - -----paraphrasing topk---------
+[2025-02-15 00:56:47,318] - ### dataset example: Rephrase the sentence to make it simpler while retaining its original meaning.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 00:57:26,774] - ### dataset example: Make the provided sentences easier to understand.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 00:59:13,650] - ### dataset example: Break down and rephrase the information provided in the input.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 00:59:55,536] - ### dataset example: Transform the given text into a more straightforward version.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:00:38,013] - ### dataset example: Streamline intricate sentences by removing redundant words or phrases.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:01:20,417] - Simplify the above sentence without changing meaning.
+[2025-02-15 01:01:20,417] - simplify the given sentences.
+[2025-02-15 01:01:20,417] - simplify and restate the information in the given input.
+[2025-02-15 01:01:20,417] - Rewrite the input text into simpler text.
+[2025-02-15 01:01:20,417] - simplify complex sentences and eliminate unnecessary words or phrases.
+[2025-02-15 01:01:20,417] - Rephrase the sentence to make it simpler while retaining its original meaning.
+[2025-02-15 01:01:20,417] - Make the provided sentences easier to understand.
+[2025-02-15 01:01:20,418] - Break down and rephrase the information provided in the input.
+[2025-02-15 01:01:20,418] - Transform the given text into a more straightforward version.
+[2025-02-15 01:01:20,418] - Streamline intricate sentences by removing redundant words or phrases.
+[2025-02-15 01:01:20,418] - Step 0 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Simplify the above sentence without changing meaning.
+2. Personal Best: Simplify the above sentence without changing meaning.
+3. Global Best: Make the provided sentences easier to understand.
+New Optimized Prompt:
+[2025-02-15 01:01:22,450] - Generated Prompt: Revise the provided sentence to make it easier to understand while retaining its original meaning.
+[2025-02-15 01:01:22,451] - ### dataset example: Revise the provided sentence to make it easier to understand while retaining its original meaning.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:02:07,068] - Step 0 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: simplify the given sentences.
+2. Personal Best: simplify the given sentences.
+3. Global Best: Make the provided sentences easier to understand.
+New Optimized Prompt:
+[2025-02-15 01:02:08,942] - Generated Prompt: Revise the provided sentences to make them clearer and easier to understand.
+[2025-02-15 01:02:08,943] - ### dataset example: Revise the provided sentences to make them clearer and easier to understand.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:02:51,663] - Step 0 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: simplify and restate the information in the given input.
+2. Personal Best: simplify and restate the information in the given input.
+3. Global Best: Make the provided sentences easier to understand.
+New Optimized Prompt:
+[2025-02-15 01:02:53,489] - Generated Prompt: Revise and clarify the information in the provided input to make it more straightforward and easier to understand.
+[2025-02-15 01:02:53,489] - ### dataset example: Revise and clarify the information in the provided input to make it more straightforward and easier to understand.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:04:43,998] - Step 0 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the input text into simpler text.
+2. Personal Best: Rewrite the input text into simpler text.
+3. Global Best: Make the provided sentences easier to understand.
+New Optimized Prompt:
+[2025-02-15 01:04:45,889] - Generated Prompt: Rewrite the provided text in simpler language to enhance clarity and understanding.
+[2025-02-15 01:04:45,889] - ### dataset example: Rewrite the provided text in simpler language to enhance clarity and understanding.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:05:26,451] - Step 0 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: simplify complex sentences and eliminate unnecessary words or phrases.
+2. Personal Best: simplify complex sentences and eliminate unnecessary words or phrases.
+3. Global Best: Make the provided sentences easier to understand.
+New Optimized Prompt:
+[2025-02-15 01:05:28,299] - Generated Prompt: Optimize the provided sentences by simplifying complex structures and removing any unnecessary words or phrases to enhance clarity and comprehension.
+[2025-02-15 01:05:28,300] - ### dataset example: Optimize the provided sentences by simplifying complex structures and removing any unnecessary words or phrases to enhance clarity and comprehension.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:06:12,228] - Step 0 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the sentence to make it simpler while retaining its original meaning.
+2. Personal Best: Rephrase the sentence to make it simpler while retaining its original meaning.
+3. Global Best: Make the provided sentences easier to understand.
+New Optimized Prompt:
+[2025-02-15 01:06:14,235] - Generated Prompt: Rephrase the given sentence to simplify it while keeping its original meaning intact.
+[2025-02-15 01:06:14,235] - ### dataset example: Rephrase the given sentence to simplify it while keeping its original meaning intact.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:06:54,751] - Step 0 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Make the provided sentences easier to understand.
+2. Personal Best: Make the provided sentences easier to understand.
+3. Global Best: Make the provided sentences easier to understand.
+New Optimized Prompt:
+[2025-02-15 01:06:57,147] - Generated Prompt: Rephrase the provided sentences to enhance clarity and comprehension, ensuring they are easily understandable for a wide audience.
+[2025-02-15 01:06:57,148] - ### dataset example: Rephrase the provided sentences to enhance clarity and comprehension, ensuring they are easily understandable for a wide audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:07:39,334] - Step 0 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Break down and rephrase the information provided in the input.
+2. Personal Best: Break down and rephrase the information provided in the input.
+3. Global Best: Make the provided sentences easier to understand.
+New Optimized Prompt:
+[2025-02-15 01:07:43,056] - Generated Prompt: Rephrase and simplify the information given in the input to enhance clarity and understanding while maintaining the original meaning.
+[2025-02-15 01:07:43,057] - ### dataset example: Rephrase and simplify the information given in the input to enhance clarity and understanding while maintaining the original meaning.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:08:29,307] - Step 0 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Transform the given text into a more straightforward version.
+2. Personal Best: Transform the given text into a more straightforward version.
+3. Global Best: Make the provided sentences easier to understand.
+New Optimized Prompt:
+[2025-02-15 01:08:31,159] - Generated Prompt: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+[2025-02-15 01:08:31,160] - ### dataset example: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:09:14,955] - Step 0 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Streamline intricate sentences by removing redundant words or phrases.
+2. Personal Best: Streamline intricate sentences by removing redundant words or phrases.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:09:16,811] - Generated Prompt: Revise the provided text to enhance clarity and comprehension by simplifying complex ideas and removing redundant words or phrases, while preserving the original meaning.
+[2025-02-15 01:09:16,811] - ### dataset example: Revise the provided text to enhance clarity and comprehension by simplifying complex ideas and removing redundant words or phrases, while preserving the original meaning.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:09:59,729] - Step 1 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided sentence to make it easier to understand while retaining its original meaning.
+2. Personal Best: Revise the provided sentence to make it easier to understand while retaining its original meaning.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:10:01,758] - Generated Prompt: Revise the provided text to enhance clarity and ease of understanding, simplifying complex ideas while preserving the original meaning.
+[2025-02-15 01:10:01,758] - ### dataset example: Revise the provided text to enhance clarity and ease of understanding, simplifying complex ideas while preserving the original meaning.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:10:44,279] - Step 1 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided sentences to make them clearer and easier to understand.
+2. Personal Best: Revise the provided sentences to make them clearer and easier to understand.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:10:46,531] - Generated Prompt: Revise the provided text to enhance clarity and ease of understanding. Simplify complex ideas while preserving the original meaning, ensuring that the revised sentences are clear and accessible.
+[2025-02-15 01:10:46,532] - ### dataset example: Revise the provided text to enhance clarity and ease of understanding. Simplify complex ideas while preserving the original meaning, ensuring that the revised sentences are clear and accessible.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:11:27,570] - Step 1 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise and clarify the information in the provided input to make it more straightforward and easier to understand.
+2. Personal Best: Revise and clarify the information in the provided input to make it more straightforward and easier to understand.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:11:30,324] - Generated Prompt: Revise the provided text to enhance clarity and simplicity, ensuring that complex ideas are broken down and presented in a straightforward manner while preserving the original meaning.
+[2025-02-15 01:11:30,325] - ### dataset example: Revise the provided text to enhance clarity and simplicity, ensuring that complex ideas are broken down and presented in a straightforward manner while preserving the original meaning.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:12:13,163] - Step 1 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rewrite the provided text in simpler language to enhance clarity and understanding.
+2. Personal Best: Rewrite the provided text in simpler language to enhance clarity and understanding.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:12:15,158] - Generated Prompt: Revise the provided text to make it clearer and easier to understand. Simplify complex ideas while ensuring that the original meaning is preserved, enhancing overall clarity and comprehension.
+[2025-02-15 01:12:15,158] - ### dataset example: Revise the provided text to make it clearer and easier to understand. Simplify complex ideas while ensuring that the original meaning is preserved, enhancing overall clarity and comprehension.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:13:00,814] - Step 1 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Optimize the provided sentences by simplifying complex structures and removing any unnecessary words or phrases to enhance clarity and comprehension.
+2. Personal Best: Optimize the provided sentences by simplifying complex structures and removing any unnecessary words or phrases to enhance clarity and comprehension.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:13:02,825] - Generated Prompt: Revise the provided text to enhance clarity and comprehension by simplifying complex structures, eliminating unnecessary words or phrases, and preserving the original meaning.
+[2025-02-15 01:13:02,825] - ### dataset example: Revise the provided text to enhance clarity and comprehension by simplifying complex structures, eliminating unnecessary words or phrases, and preserving the original meaning.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:13:46,891] - Step 1 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the sentence to make it simpler while retaining its original meaning.
+2. Personal Best: Rephrase the sentence to make it simpler while retaining its original meaning.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:13:48,793] - Generated Prompt: Revise the provided sentence to make it clearer and easier to understand, simplifying any complex ideas while ensuring the original meaning remains intact.
+[2025-02-15 01:13:48,793] - ### dataset example: Revise the provided sentence to make it clearer and easier to understand, simplifying any complex ideas while ensuring the original meaning remains intact.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:14:29,620] - Step 1 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Make the provided sentences easier to understand.
+2. Personal Best: Make the provided sentences easier to understand.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:14:31,648] - Generated Prompt: Revise the provided text to enhance clarity and comprehension. Simplify complex ideas while preserving the original meaning to ensure that the sentences are easier to understand.
+[2025-02-15 01:14:31,648] - ### dataset example: Revise the provided text to enhance clarity and comprehension. Simplify complex ideas while preserving the original meaning to ensure that the sentences are easier to understand.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:15:14,341] - Step 1 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the information given in the input to enhance clarity and understanding while maintaining the original meaning.
+2. Personal Best: Rephrase and simplify the information given in the input to enhance clarity and understanding while maintaining the original meaning.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:15:16,185] - Generated Prompt: Revise the provided text to enhance clarity and understanding by simplifying complex ideas, while ensuring that the original meaning is preserved.
+[2025-02-15 01:15:16,186] - ### dataset example: Revise the provided text to enhance clarity and understanding by simplifying complex ideas, while ensuring that the original meaning is preserved.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:16:01,514] - Step 1 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+2. Personal Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:16:06,294] - Generated Prompt: Revise the provided text to enhance clarity and comprehension, simplifying complex ideas while preserving the original meaning and intent. Aim for a balance between accessibility and accuracy, ensuring that the core message remains intact.
+[2025-02-15 01:16:06,294] - ### dataset example: Revise the provided text to enhance clarity and comprehension, simplifying complex ideas while preserving the original meaning and intent. Aim for a balance between accessibility and accuracy, ensuring that the core message remains intact.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:16:46,907] - Step 1 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and comprehension by simplifying complex ideas and removing redundant words or phrases, while preserving the original meaning.
+2. Personal Best: Revise the provided text to enhance clarity and comprehension by simplifying complex ideas and removing redundant words or phrases, while preserving the original meaning.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:16:49,337] - Generated Prompt: Revise the provided text to improve clarity and comprehension by simplifying complex ideas and eliminating redundant words or phrases, all while preserving the original meaning.
+[2025-02-15 01:16:49,338] - ### dataset example: Revise the provided text to improve clarity and comprehension by simplifying complex ideas and eliminating redundant words or phrases, all while preserving the original meaning.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:18:32,192] - Step 2 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided sentence to make it easier to understand while retaining its original meaning.
+2. Personal Best: Revise the provided sentence to make it easier to understand while retaining its original meaning.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:18:34,282] - Generated Prompt: Revise the provided text to enhance clarity and make it easier to understand, simplifying complex ideas while preserving the original meaning.
+[2025-02-15 01:18:34,282] - ### dataset example: Revise the provided text to enhance clarity and make it easier to understand, simplifying complex ideas while preserving the original meaning.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:19:22,609] - Step 2 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and ease of understanding. Simplify complex ideas while preserving the original meaning, ensuring that the revised sentences are clear and accessible.
+2. Personal Best: Revise the provided text to enhance clarity and ease of understanding. Simplify complex ideas while preserving the original meaning, ensuring that the revised sentences are clear and accessible.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:19:24,975] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while preserving the original meaning, ensuring that the revised sentences are straightforward and easy to understand.
+[2025-02-15 01:19:24,976] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while preserving the original meaning, ensuring that the revised sentences are straightforward and easy to understand.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:21:08,796] - Step 2 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and simplicity, ensuring that complex ideas are broken down and presented in a straightforward manner while preserving the original meaning.
+2. Personal Best: Revise the provided text to enhance clarity and simplicity, ensuring that complex ideas are broken down and presented in a straightforward manner while preserving the original meaning.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:21:10,940] - Generated Prompt: Revise the provided text to improve clarity and simplicity. Break down complex ideas into straightforward concepts, ensuring the original meaning is preserved throughout the revision.
+[2025-02-15 01:21:10,941] - ### dataset example: Revise the provided text to improve clarity and simplicity. Break down complex ideas into straightforward concepts, ensuring the original meaning is preserved throughout the revision.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:22:22,746] - Step 2 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it clearer and easier to understand. Simplify complex ideas while ensuring that the original meaning is preserved, enhancing overall clarity and comprehension.
+2. Personal Best: Revise the provided text to make it clearer and easier to understand. Simplify complex ideas while ensuring that the original meaning is preserved, enhancing overall clarity and comprehension.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:22:24,629] - Generated Prompt: Revise the provided text to enhance clarity and comprehension. Simplify any complex ideas while ensuring the original meaning is preserved, resulting in a more accessible and understandable version.
+[2025-02-15 01:22:24,629] - ### dataset example: Revise the provided text to enhance clarity and comprehension. Simplify any complex ideas while ensuring the original meaning is preserved, resulting in a more accessible and understandable version.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:23:10,821] - Step 2 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and comprehension by simplifying complex structures, eliminating unnecessary words or phrases, and preserving the original meaning.
+2. Personal Best: Revise the provided text to enhance clarity and comprehension by simplifying complex structures, eliminating unnecessary words or phrases, and preserving the original meaning.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:23:12,733] - Generated Prompt: Revise the provided text to enhance clarity and comprehension by simplifying complex structures and ideas, removing unnecessary words and phrases, while ensuring the original meaning is preserved.
+[2025-02-15 01:23:12,734] - ### dataset example: Revise the provided text to enhance clarity and comprehension by simplifying complex structures and ideas, removing unnecessary words and phrases, while ensuring the original meaning is preserved.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:23:53,123] - Step 2 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the sentence to make it simpler while retaining its original meaning.
+2. Personal Best: Rephrase the sentence to make it simpler while retaining its original meaning.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:23:55,682] - Generated Prompt: Revise the provided sentence to make it clearer and easier to understand, simplifying any complex ideas while ensuring the original meaning is preserved.
+[2025-02-15 01:23:55,683] - ### dataset example: Revise the provided sentence to make it clearer and easier to understand, simplifying any complex ideas while ensuring the original meaning is preserved.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:24:48,778] - Step 2 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Make the provided sentences easier to understand.
+2. Personal Best: Make the provided sentences easier to understand.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:24:50,708] - Generated Prompt: Revise the provided text to enhance clarity and comprehension. Simplify complex ideas while preserving the original meaning, ensuring that the sentences are easier to understand for a wider audience.
+[2025-02-15 01:24:50,709] - ### dataset example: Revise the provided text to enhance clarity and comprehension. Simplify complex ideas while preserving the original meaning, ensuring that the sentences are easier to understand for a wider audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:25:33,915] - Step 2 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the information given in the input to enhance clarity and understanding while maintaining the original meaning.
+2. Personal Best: Rephrase and simplify the information given in the input to enhance clarity and understanding while maintaining the original meaning.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:25:35,874] - Generated Prompt: Revise and simplify the provided text to enhance clarity and understanding, making complex ideas easier to grasp while preserving the original meaning.
+[2025-02-15 01:25:35,875] - ### dataset example: Revise and simplify the provided text to enhance clarity and understanding, making complex ideas easier to grasp while preserving the original meaning.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:26:19,241] - Step 2 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+2. Personal Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:26:21,642] - Generated Prompt: Revise the provided text to enhance clarity and comprehension. Simplify complex ideas while preserving the original meaning, ensuring that the revised version is accessible and easy to understand for a broad audience.
+[2025-02-15 01:26:21,642] - ### dataset example: Revise the provided text to enhance clarity and comprehension. Simplify complex ideas while preserving the original meaning, ensuring that the revised version is accessible and easy to understand for a broad audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:27:04,210] - Step 2 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and comprehension by simplifying complex ideas and removing redundant words or phrases, while preserving the original meaning.
+2. Personal Best: Revise the provided text to enhance clarity and comprehension by simplifying complex ideas and removing redundant words or phrases, while preserving the original meaning.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:27:06,210] - Generated Prompt: Revise the provided text to improve clarity and understanding. Simplify complex ideas and eliminate redundant words or phrases, all while preserving the original meaning.
+[2025-02-15 01:27:06,210] - ### dataset example: Revise the provided text to improve clarity and understanding. Simplify complex ideas and eliminate redundant words or phrases, all while preserving the original meaning.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:27:51,487] - Step 3 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided sentence to make it easier to understand while retaining its original meaning.
+2. Personal Best: Revise the provided sentence to make it easier to understand while retaining its original meaning.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:27:54,183] - Generated Prompt: Revise the provided text to enhance clarity and understanding, simplifying any complex ideas while ensuring that the original meaning is preserved.
+[2025-02-15 01:27:54,183] - ### dataset example: Revise the provided text to enhance clarity and understanding, simplifying any complex ideas while ensuring that the original meaning is preserved.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:28:37,765] - Step 3 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and ease of understanding. Simplify complex ideas while preserving the original meaning, ensuring that the revised sentences are clear and accessible.
+2. Personal Best: Revise the provided text to enhance clarity and ease of understanding. Simplify complex ideas while preserving the original meaning, ensuring that the revised sentences are clear and accessible.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:28:39,949] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while ensuring the original meaning remains intact, creating sentences that are straightforward and easy to understand.
+[2025-02-15 01:28:39,949] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while ensuring the original meaning remains intact, creating sentences that are straightforward and easy to understand.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:29:20,699] - Step 3 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and simplicity. Break down complex ideas into straightforward concepts, ensuring the original meaning is preserved throughout the revision.
+2. Personal Best: Revise the provided text to improve clarity and simplicity. Break down complex ideas into straightforward concepts, ensuring the original meaning is preserved throughout the revision.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:29:22,713] - Generated Prompt: Revise the provided text to enhance clarity and simplicity. Break down complex ideas into straightforward concepts, ensuring the original meaning is preserved while making it clearer and easier to understand.
+[2025-02-15 01:29:22,713] - ### dataset example: Revise the provided text to enhance clarity and simplicity. Break down complex ideas into straightforward concepts, ensuring the original meaning is preserved while making it clearer and easier to understand.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:30:04,066] - Step 3 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it clearer and easier to understand. Simplify complex ideas while ensuring that the original meaning is preserved, enhancing overall clarity and comprehension.
+2. Personal Best: Revise the provided text to make it clearer and easier to understand. Simplify complex ideas while ensuring that the original meaning is preserved, enhancing overall clarity and comprehension.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:30:06,131] - Generated Prompt: Revise the provided text to enhance clarity and comprehension. Simplify complex ideas while preserving the original meaning, ensuring that the revised version is both accessible and easy to understand.
+[2025-02-15 01:30:06,132] - ### dataset example: Revise the provided text to enhance clarity and comprehension. Simplify complex ideas while preserving the original meaning, ensuring that the revised version is both accessible and easy to understand.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:30:50,407] - Step 3 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and comprehension by simplifying complex structures, eliminating unnecessary words or phrases, and preserving the original meaning.
+2. Personal Best: Revise the provided text to enhance clarity and comprehension by simplifying complex structures, eliminating unnecessary words or phrases, and preserving the original meaning.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:30:53,049] - Generated Prompt: Revise the provided text to improve clarity and comprehension. Focus on simplifying complex structures, removing unnecessary words or phrases, and ensuring that the original meaning is preserved. Aim to make the content clearer and more accessible to a wide audience.
+[2025-02-15 01:30:53,050] - ### dataset example: Revise the provided text to improve clarity and comprehension. Focus on simplifying complex structures, removing unnecessary words or phrases, and ensuring that the original meaning is preserved. Aim to make the content clearer and more accessible to a wide audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:31:40,306] - Step 3 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase the sentence to make it simpler while retaining its original meaning.
+2. Personal Best: Rephrase the sentence to make it simpler while retaining its original meaning.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:31:42,148] - Generated Prompt: Revise the provided text to enhance clarity and simplicity, ensuring that the original meaning is preserved while making complex ideas easier to understand.
+[2025-02-15 01:31:42,148] - ### dataset example: Revise the provided text to enhance clarity and simplicity, ensuring that the original meaning is preserved while making complex ideas easier to understand.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:32:24,743] - Step 3 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Make the provided sentences easier to understand.
+2. Personal Best: Make the provided sentences easier to understand.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:32:26,920] - Generated Prompt: Revise the provided text to enhance clarity and comprehension. Simplify complex ideas while preserving the original meaning, ensuring that the sentences are easy to understand for a wide audience.
+[2025-02-15 01:32:26,921] - ### dataset example: Revise the provided text to enhance clarity and comprehension. Simplify complex ideas while preserving the original meaning, ensuring that the sentences are easy to understand for a wide audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:33:12,030] - Step 3 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the information given in the input to enhance clarity and understanding while maintaining the original meaning.
+2. Personal Best: Rephrase and simplify the information given in the input to enhance clarity and understanding while maintaining the original meaning.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:33:14,046] - Generated Prompt: Revise and simplify the provided information to improve clarity and comprehension, ensuring that the original meaning remains intact while making complex ideas more accessible.
+[2025-02-15 01:33:14,047] - ### dataset example: Revise and simplify the provided information to improve clarity and comprehension, ensuring that the original meaning remains intact while making complex ideas more accessible.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:33:54,512] - Step 3 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+2. Personal Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+3. Global Best: Revise the provided text to make it clearer and easier to understand, simplifying complex ideas while maintaining the original meaning.
+New Optimized Prompt:
+[2025-02-15 01:33:57,275] - Generated Prompt: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+[2025-02-15 01:33:57,276] - ### dataset example: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:34:39,355] - Step 3 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and comprehension by simplifying complex ideas and removing redundant words or phrases, while preserving the original meaning.
+2. Personal Best: Revise the provided text to enhance clarity and comprehension by simplifying complex ideas and removing redundant words or phrases, while preserving the original meaning.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:34:41,501] - Generated Prompt: Revise the provided text to enhance clarity and accessibility by simplifying complex ideas and removing redundant words or phrases, while preserving the original meaning. Use straightforward language and a clear structure to ensure the text is easily understood by a broad audience.
+[2025-02-15 01:34:41,502] - ### dataset example: Revise the provided text to enhance clarity and accessibility by simplifying complex ideas and removing redundant words or phrases, while preserving the original meaning. Use straightforward language and a clear structure to ensure the text is easily understood by a broad audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:35:25,360] - Step 4 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided sentence to make it easier to understand while retaining its original meaning.
+2. Personal Best: Revise the provided sentence to make it easier to understand while retaining its original meaning.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:35:27,522] - Generated Prompt: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while maintaining the original meaning. Use straightforward language and a clear structure to ensure the content is easily understood by a diverse audience.
+[2025-02-15 01:35:27,522] - ### dataset example: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while maintaining the original meaning. Use straightforward language and a clear structure to ensure the content is easily understood by a diverse audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:36:08,277] - Step 4 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and ease of understanding. Simplify complex ideas while preserving the original meaning, ensuring that the revised sentences are clear and accessible.
+2. Personal Best: Revise the provided text to enhance clarity and ease of understanding. Simplify complex ideas while preserving the original meaning, ensuring that the revised sentences are clear and accessible.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:36:10,635] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and ensure that the revised sentences are straightforward and well-structured. Aim for language that is easy to understand, making the text accessible to a wide audience.
+[2025-02-15 01:36:10,636] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and ensure that the revised sentences are straightforward and well-structured. Aim for language that is easy to understand, making the text accessible to a wide audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:37:00,196] - Step 4 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and simplicity. Break down complex ideas into straightforward concepts, ensuring the original meaning is preserved throughout the revision.
+2. Personal Best: Revise the provided text to improve clarity and simplicity. Break down complex ideas into straightforward concepts, ensuring the original meaning is preserved throughout the revision.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:37:02,684] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas into straightforward concepts while ensuring the original meaning is preserved. Focus on using clear language and a logical structure to make the text easily understood by a wide audience.
+[2025-02-15 01:37:02,684] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas into straightforward concepts while ensuring the original meaning is preserved. Focus on using clear language and a logical structure to make the text easily understood by a wide audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:37:46,551] - Step 4 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it clearer and easier to understand. Simplify complex ideas while ensuring that the original meaning is preserved, enhancing overall clarity and comprehension.
+2. Personal Best: Revise the provided text to make it clearer and easier to understand. Simplify complex ideas while ensuring that the original meaning is preserved, enhancing overall clarity and comprehension.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:37:48,637] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure. Aim to ensure that the text is easily understood by a broad audience, improving overall comprehension.
+[2025-02-15 01:37:48,638] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure. Aim to ensure that the text is easily understood by a broad audience, improving overall comprehension.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:38:30,878] - Step 4 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and comprehension. Focus on simplifying complex structures, removing unnecessary words or phrases, and ensuring that the original meaning is preserved. Aim to make the content clearer and more accessible to a wide audience.
+2. Personal Best: Revise the provided text to improve clarity and comprehension. Focus on simplifying complex structures, removing unnecessary words or phrases, and ensuring that the original meaning is preserved. Aim to make the content clearer and more accessible to a wide audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:38:33,044] - Generated Prompt: Revise the provided text to enhance clarity and comprehension. Simplify complex ideas and structures, eliminate unnecessary words or phrases, and maintain the original meaning. Use straightforward language and a clear structure to ensure the content is easily accessible to a wide audience.
+[2025-02-15 01:38:33,045] - ### dataset example: Revise the provided text to enhance clarity and comprehension. Simplify complex ideas and structures, eliminate unnecessary words or phrases, and maintain the original meaning. Use straightforward language and a clear structure to ensure the content is easily accessible to a wide audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:39:20,179] - Step 4 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and simplicity, ensuring that the original meaning is preserved while making complex ideas easier to understand.
+2. Personal Best: Revise the provided text to enhance clarity and simplicity, ensuring that the original meaning is preserved while making complex ideas easier to understand.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:39:22,496] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure to ensure that the text is easily understood by a broad audience.
+[2025-02-15 01:39:22,496] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure to ensure that the text is easily understood by a broad audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:40:02,841] - Step 4 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Make the provided sentences easier to understand.
+2. Personal Best: Make the provided sentences easier to understand.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:40:05,301] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning. Focus on using straightforward language and a clear structure to ensure that the content is easily understood by a diverse audience.
+[2025-02-15 01:40:05,301] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning. Focus on using straightforward language and a clear structure to ensure that the content is easily understood by a diverse audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:40:47,349] - Step 4 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and simplify the information given in the input to enhance clarity and understanding while maintaining the original meaning.
+2. Personal Best: Rephrase and simplify the information given in the input to enhance clarity and understanding while maintaining the original meaning.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:40:49,644] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure to ensure it is easily understood by a wide audience.
+[2025-02-15 01:40:49,645] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure to ensure it is easily understood by a wide audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:41:33,365] - Step 4 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+2. Personal Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:41:35,632] - Generated Prompt: Revise the provided text to improve clarity and accessibility by simplifying complex ideas while maintaining the original meaning. Emphasize the use of straightforward language and an organized structure to ensure the text is easily comprehensible for a diverse audience. Aim for a balance between simplicity and informativeness to engage readers effectively.
+[2025-02-15 01:41:35,633] - ### dataset example: Revise the provided text to improve clarity and accessibility by simplifying complex ideas while maintaining the original meaning. Emphasize the use of straightforward language and an organized structure to ensure the text is easily comprehensible for a diverse audience. Aim for a balance between simplicity and informativeness to engage readers effectively.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:42:19,224] - Step 4 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and comprehension by simplifying complex ideas and removing redundant words or phrases, while preserving the original meaning.
+2. Personal Best: Revise the provided text to enhance clarity and comprehension by simplifying complex ideas and removing redundant words or phrases, while preserving the original meaning.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:42:22,493] - Generated Prompt: Revise the provided text to improve clarity and accessibility by simplifying complex ideas and removing redundant words or phrases. Preserve the original meaning while using straightforward language and a clear structure to ensure it is easily understood by a broad audience.
+[2025-02-15 01:42:22,494] - ### dataset example: Revise the provided text to improve clarity and accessibility by simplifying complex ideas and removing redundant words or phrases. Preserve the original meaning while using straightforward language and a clear structure to ensure it is easily understood by a broad audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:43:03,724] - Step 5 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided sentence to make it easier to understand while retaining its original meaning.
+2. Personal Best: Revise the provided sentence to make it easier to understand while retaining its original meaning.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:43:06,163] - Generated Prompt: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Use straightforward language and a clear structure to ensure the content is easily understood by a broad audience.
+[2025-02-15 01:43:06,164] - ### dataset example: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Use straightforward language and a clear structure to ensure the content is easily understood by a broad audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:43:47,031] - Step 5 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and ensure that the revised sentences are straightforward and well-structured. Aim for language that is easy to understand, making the text accessible to a wide audience.
+2. Personal Best: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and ensure that the revised sentences are straightforward and well-structured. Aim for language that is easy to understand, making the text accessible to a wide audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:43:49,508] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, and ensure that the revised sentences are straightforward and well-structured. Use clear and concise language to make the text easily understandable for a wide audience.
+[2025-02-15 01:43:49,508] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, and ensure that the revised sentences are straightforward and well-structured. Use clear and concise language to make the text easily understandable for a wide audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:45:31,513] - Step 5 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and simplicity. Break down complex ideas into straightforward concepts, ensuring the original meaning is preserved throughout the revision.
+2. Personal Best: Revise the provided text to improve clarity and simplicity. Break down complex ideas into straightforward concepts, ensuring the original meaning is preserved throughout the revision.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:45:33,745] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas into straightforward concepts while preserving the original meaning. Focus on using clear language and a well-organized structure to ensure the text is easily understood by a broad audience.
+[2025-02-15 01:45:33,745] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas into straightforward concepts while preserving the original meaning. Focus on using clear language and a well-organized structure to ensure the text is easily understood by a broad audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:46:15,364] - Step 5 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it clearer and easier to understand. Simplify complex ideas while ensuring that the original meaning is preserved, enhancing overall clarity and comprehension.
+2. Personal Best: Revise the provided text to make it clearer and easier to understand. Simplify complex ideas while ensuring that the original meaning is preserved, enhancing overall clarity and comprehension.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:46:18,018] - Generated Prompt: Revise the provided text to enhance its clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure. Aim to make the text easily understood by a broad audience, ensuring that it is both clear and engaging.
+[2025-02-15 01:46:18,018] - ### dataset example: Revise the provided text to enhance its clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure. Aim to make the text easily understood by a broad audience, ensuring that it is both clear and engaging.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:47:02,320] - Step 5 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and comprehension. Simplify complex ideas and structures, eliminate unnecessary words or phrases, and maintain the original meaning. Use straightforward language and a clear structure to ensure the content is easily accessible to a wide audience.
+2. Personal Best: Revise the provided text to enhance clarity and comprehension. Simplify complex ideas and structures, eliminate unnecessary words or phrases, and maintain the original meaning. Use straightforward language and a clear structure to ensure the content is easily accessible to a wide audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:47:05,090] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas and structures, and remove any unnecessary words or phrases while preserving the original meaning. Use clear and straightforward language, along with a well-organized structure, to ensure the content is easily understood by a diverse audience.
+[2025-02-15 01:47:05,090] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas and structures, and remove any unnecessary words or phrases while preserving the original meaning. Use clear and straightforward language, along with a well-organized structure, to ensure the content is easily understood by a diverse audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:48:50,922] - Step 5 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and simplicity, ensuring that the original meaning is preserved while making complex ideas easier to understand.
+2. Personal Best: Revise the provided text to enhance clarity and simplicity, ensuring that the original meaning is preserved while making complex ideas easier to understand.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:48:53,496] - Generated Prompt: Revise the provided text to improve clarity and accessibility while preserving its original meaning. Simplify complex ideas using straightforward language and a clear structure, ensuring the content is easily understood by a broad audience.
+[2025-02-15 01:48:53,496] - ### dataset example: Revise the provided text to improve clarity and accessibility while preserving its original meaning. Simplify complex ideas using straightforward language and a clear structure, ensuring the content is easily understood by a broad audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:50:37,717] - Step 5 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Make the provided sentences easier to understand.
+2. Personal Best: Make the provided sentences easier to understand.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:50:39,947] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure. Aim to make the sentences easy to understand for a broad audience.
+[2025-02-15 01:50:39,948] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure. Aim to make the sentences easy to understand for a broad audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:51:22,627] - Step 5 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure to ensure it is easily understood by a wide audience.
+2. Personal Best: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure to ensure it is easily understood by a wide audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:51:25,558] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, using clear and straightforward language and a well-organized structure. This will ensure that the text is easily understood by a diverse audience.
+[2025-02-15 01:51:25,559] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, using clear and straightforward language and a well-organized structure. This will ensure that the text is easily understood by a diverse audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:52:06,083] - Step 5 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+2. Personal Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:52:08,135] - Generated Prompt: Revise the provided text to improve clarity and accessibility by simplifying complex ideas while maintaining the original meaning. Aim for straightforward language and a clear structure, ensuring that the text is easily understood by a diverse audience.
+[2025-02-15 01:52:08,135] - ### dataset example: Revise the provided text to improve clarity and accessibility by simplifying complex ideas while maintaining the original meaning. Aim for straightforward language and a clear structure, ensuring that the text is easily understood by a diverse audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:52:51,718] - Step 5 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and accessibility by simplifying complex ideas and removing redundant words or phrases. Preserve the original meaning while using straightforward language and a clear structure to ensure it is easily understood by a broad audience.
+2. Personal Best: Revise the provided text to improve clarity and accessibility by simplifying complex ideas and removing redundant words or phrases. Preserve the original meaning while using straightforward language and a clear structure to ensure it is easily understood by a broad audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:52:54,046] - Generated Prompt: Revise the provided text to enhance clarity and accessibility by simplifying complex ideas and eliminating redundant words or phrases. Maintain the original meaning while utilizing straightforward language and a clear structure, ensuring the content is easily understood by a diverse audience.
+[2025-02-15 01:52:54,047] - ### dataset example: Revise the provided text to enhance clarity and accessibility by simplifying complex ideas and eliminating redundant words or phrases. Maintain the original meaning while utilizing straightforward language and a clear structure, ensuring the content is easily understood by a diverse audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:53:34,559] - Step 6 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided sentence to make it easier to understand while retaining its original meaning.
+2. Personal Best: Revise the provided sentence to make it easier to understand while retaining its original meaning.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:53:37,000] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while ensuring the original meaning is preserved. Use straightforward language and a clear structure to make it easily understandable for a wide audience.
+[2025-02-15 01:53:37,000] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while ensuring the original meaning is preserved. Use straightforward language and a clear structure to make it easily understandable for a wide audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:54:20,794] - Step 6 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, and ensure that the revised sentences are straightforward and well-structured. Use clear and concise language to make the text easily understandable for a wide audience.
+2. Personal Best: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, and ensure that the revised sentences are straightforward and well-structured. Use clear and concise language to make the text easily understandable for a wide audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:54:23,391] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and ensure that the revised sentences are straightforward and well-structured. Use clear, concise language to make the text easily understandable for a diverse audience. Aim for a balance between simplicity and informativeness, ensuring that the essence of the original message is retained.
+[2025-02-15 01:54:23,391] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and ensure that the revised sentences are straightforward and well-structured. Use clear, concise language to make the text easily understandable for a diverse audience. Aim for a balance between simplicity and informativeness, ensuring that the essence of the original message is retained.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:55:05,313] - Step 6 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and simplicity. Break down complex ideas into straightforward concepts, ensuring the original meaning is preserved throughout the revision.
+2. Personal Best: Revise the provided text to improve clarity and simplicity. Break down complex ideas into straightforward concepts, ensuring the original meaning is preserved throughout the revision.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:55:09,209] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Break down complex ideas into straightforward concepts using clear language and a structured format, while ensuring that the original meaning is preserved. Aim to make the text easily understandable for a broad audience.
+[2025-02-15 01:55:09,210] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Break down complex ideas into straightforward concepts using clear language and a structured format, while ensuring that the original meaning is preserved. Aim to make the text easily understandable for a broad audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:55:58,819] - Step 6 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it clearer and easier to understand. Simplify complex ideas while ensuring that the original meaning is preserved, enhancing overall clarity and comprehension.
+2. Personal Best: Revise the provided text to make it clearer and easier to understand. Simplify complex ideas while ensuring that the original meaning is preserved, enhancing overall clarity and comprehension.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:56:06,970] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, ensuring that the text is easily understood by a broad audience. Focus on using straightforward language and a clear structure to improve overall comprehension.
+[2025-02-15 01:56:06,971] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, ensuring that the text is easily understood by a broad audience. Focus on using straightforward language and a clear structure to improve overall comprehension.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:57:02,359] - Step 6 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and comprehension. Simplify complex ideas and structures, eliminate unnecessary words or phrases, and maintain the original meaning. Use straightforward language and a clear structure to ensure the content is easily accessible to a wide audience.
+2. Personal Best: Revise the provided text to enhance clarity and comprehension. Simplify complex ideas and structures, eliminate unnecessary words or phrases, and maintain the original meaning. Use straightforward language and a clear structure to ensure the content is easily accessible to a wide audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:57:05,489] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas and structures while preserving the original meaning. Use straightforward language and a clear structure to make the content easily understandable for a wide audience. Eliminate any unnecessary words or phrases to enhance comprehension.
+[2025-02-15 01:57:05,490] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas and structures while preserving the original meaning. Use straightforward language and a clear structure to make the content easily understandable for a wide audience. Eliminate any unnecessary words or phrases to enhance comprehension.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:57:52,250] - Step 6 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and simplicity, ensuring that the original meaning is preserved while making complex ideas easier to understand.
+2. Personal Best: Revise the provided text to enhance clarity and simplicity, ensuring that the original meaning is preserved while making complex ideas easier to understand.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:57:54,290] - Generated Prompt: Revise the provided text to improve clarity and accessibility while preserving the original meaning. Simplify complex ideas using straightforward language and a clear structure, ensuring the content is easily understood by a broad audience.
+[2025-02-15 01:57:54,291] - ### dataset example: Revise the provided text to improve clarity and accessibility while preserving the original meaning. Simplify complex ideas using straightforward language and a clear structure, ensuring the content is easily understood by a broad audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:58:44,930] - Step 6 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Make the provided sentences easier to understand.
+2. Personal Best: Make the provided sentences easier to understand.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:58:47,090] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure. Ensure that the text is easily understood by a broad audience, making it more approachable and engaging.
+[2025-02-15 01:58:47,090] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure. Ensure that the text is easily understood by a broad audience, making it more approachable and engaging.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:59:33,523] - Step 6 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure to ensure it is easily understood by a wide audience.
+2. Personal Best: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure to ensure it is easily understood by a wide audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 01:59:36,611] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, employing straightforward language and a clear structure. Ensure the revised text is easily understood by a diverse audience.
+[2025-02-15 01:59:36,612] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, employing straightforward language and a clear structure. Ensure the revised text is easily understood by a diverse audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:00:22,244] - Step 6 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+2. Personal Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:00:25,000] - Generated Prompt: Revise the provided text to improve clarity and accessibility by simplifying complex ideas while maintaining the original meaning. Use straightforward language and an organized structure to ensure the text is easily understood by a diverse audience. Aim for an engaging and informative tone that resonates with readers from various backgrounds.
+[2025-02-15 02:00:25,001] - ### dataset example: Revise the provided text to improve clarity and accessibility by simplifying complex ideas while maintaining the original meaning. Use straightforward language and an organized structure to ensure the text is easily understood by a diverse audience. Aim for an engaging and informative tone that resonates with readers from various backgrounds.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:01:13,644] - Step 6 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and accessibility by simplifying complex ideas and removing redundant words or phrases. Preserve the original meaning while using straightforward language and a clear structure to ensure it is easily understood by a broad audience.
+2. Personal Best: Revise the provided text to improve clarity and accessibility by simplifying complex ideas and removing redundant words or phrases. Preserve the original meaning while using straightforward language and a clear structure to ensure it is easily understood by a broad audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:01:16,362] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas and eliminate redundant words or phrases while preserving the original meaning. Aim for straightforward language and a clear structure to ensure the text is easily understood by a diverse audience.
+[2025-02-15 02:01:16,363] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas and eliminate redundant words or phrases while preserving the original meaning. Aim for straightforward language and a clear structure to ensure the text is easily understood by a diverse audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:01:56,708] - Step 7 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided sentence to make it easier to understand while retaining its original meaning.
+2. Personal Best: Revise the provided sentence to make it easier to understand while retaining its original meaning.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:01:59,520] - Generated Prompt: Revise the provided text to improve clarity and accessibility while maintaining its original meaning. Aim to simplify complex ideas using straightforward language and a clear structure, ensuring the content is easily understood by a wide audience.
+[2025-02-15 02:01:59,520] - ### dataset example: Revise the provided text to improve clarity and accessibility while maintaining its original meaning. Aim to simplify complex ideas using straightforward language and a clear structure, ensuring the content is easily understood by a wide audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:02:46,395] - Step 7 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, and ensure that the revised sentences are straightforward and well-structured. Use clear and concise language to make the text easily understandable for a wide audience.
+2. Personal Best: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, and ensure that the revised sentences are straightforward and well-structured. Use clear and concise language to make the text easily understandable for a wide audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:02:50,267] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and ensure that the sentences are straightforward and well-structured. Use concise and clear language to make the text easily understandable for a diverse audience. Aim for an engaging style that invites readers to grasp the concepts effortlessly.
+[2025-02-15 02:02:50,267] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and ensure that the sentences are straightforward and well-structured. Use concise and clear language to make the text easily understandable for a diverse audience. Aim for an engaging style that invites readers to grasp the concepts effortlessly.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:03:34,380] - Step 7 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and simplicity. Break down complex ideas into straightforward concepts, ensuring the original meaning is preserved throughout the revision.
+2. Personal Best: Revise the provided text to improve clarity and simplicity. Break down complex ideas into straightforward concepts, ensuring the original meaning is preserved throughout the revision.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:03:36,855] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Break down complex ideas into straightforward concepts, using simple language and a clear structure. Ensure that the original meaning is preserved throughout the revision, making the text easily understandable for a broad audience.
+[2025-02-15 02:03:36,855] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Break down complex ideas into straightforward concepts, using simple language and a clear structure. Ensure that the original meaning is preserved throughout the revision, making the text easily understandable for a broad audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:04:21,265] - Step 7 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it clearer and easier to understand. Simplify complex ideas while ensuring that the original meaning is preserved, enhancing overall clarity and comprehension.
+2. Personal Best: Revise the provided text to make it clearer and easier to understand. Simplify complex ideas while ensuring that the original meaning is preserved, enhancing overall clarity and comprehension.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:04:23,667] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure. Aim to make the text easily understood by a broad audience, enhancing overall comprehension.
+[2025-02-15 02:04:23,667] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure. Aim to make the text easily understood by a broad audience, enhancing overall comprehension.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:06:10,174] - Step 7 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and comprehension. Simplify complex ideas and structures, eliminate unnecessary words or phrases, and maintain the original meaning. Use straightforward language and a clear structure to ensure the content is easily accessible to a wide audience.
+2. Personal Best: Revise the provided text to enhance clarity and comprehension. Simplify complex ideas and structures, eliminate unnecessary words or phrases, and maintain the original meaning. Use straightforward language and a clear structure to ensure the content is easily accessible to a wide audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:06:12,842] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas and structures while preserving the original meaning. Use straightforward language and a clear, organized format to ensure the content is easily understood by a wide audience. Eliminate any unnecessary words or phrases to enhance comprehension.
+[2025-02-15 02:06:12,842] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas and structures while preserving the original meaning. Use straightforward language and a clear, organized format to ensure the content is easily understood by a wide audience. Eliminate any unnecessary words or phrases to enhance comprehension.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:07:57,845] - Step 7 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and simplicity, ensuring that the original meaning is preserved while making complex ideas easier to understand.
+2. Personal Best: Revise the provided text to enhance clarity and simplicity, ensuring that the original meaning is preserved while making complex ideas easier to understand.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:08:00,283] - Generated Prompt: Revise the provided text to improve clarity and accessibility, simplifying complex ideas while preserving the original meaning. Use straightforward language and a clear structure to ensure the text is easily understood by a broad audience.
+[2025-02-15 02:08:00,284] - ### dataset example: Revise the provided text to improve clarity and accessibility, simplifying complex ideas while preserving the original meaning. Use straightforward language and a clear structure to ensure the text is easily understood by a broad audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:08:46,387] - Step 7 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Make the provided sentences easier to understand.
+2. Personal Best: Make the provided sentences easier to understand.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:08:48,426] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure. Aim to make the sentences easy to understand for a wide audience.
+[2025-02-15 02:08:48,427] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure. Aim to make the sentences easy to understand for a wide audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:09:31,119] - Step 7 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure to ensure it is easily understood by a wide audience.
+2. Personal Best: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure to ensure it is easily understood by a wide audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:09:33,439] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and use straightforward language with a clear structure. Aim to make the text easily understandable for a broad audience.
+[2025-02-15 02:09:33,439] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and use straightforward language with a clear structure. Aim to make the text easily understandable for a broad audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:10:22,389] - Step 7 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+2. Personal Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:10:24,714] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning. Use straightforward language and a clear structure to ensure that the text is easily understood by a wide audience. Aim for a more engaging and reader-friendly style.
+[2025-02-15 02:10:24,715] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning. Use straightforward language and a clear structure to ensure that the text is easily understood by a wide audience. Aim for a more engaging and reader-friendly style.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:11:09,016] - Step 7 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and accessibility by simplifying complex ideas and removing redundant words or phrases. Preserve the original meaning while using straightforward language and a clear structure to ensure it is easily understood by a broad audience.
+2. Personal Best: Revise the provided text to improve clarity and accessibility by simplifying complex ideas and removing redundant words or phrases. Preserve the original meaning while using straightforward language and a clear structure to ensure it is easily understood by a broad audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:11:11,340] - Generated Prompt: Revise the provided text to enhance clarity and accessibility by simplifying complex ideas and eliminating redundant words or phrases. Ensure that the original meaning is preserved while employing straightforward language and a clear structure, making it easily understandable for a broad audience.
+[2025-02-15 02:11:11,340] - ### dataset example: Revise the provided text to enhance clarity and accessibility by simplifying complex ideas and eliminating redundant words or phrases. Ensure that the original meaning is preserved while employing straightforward language and a clear structure, making it easily understandable for a broad audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:11:59,021] - Step 8 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided sentence to make it easier to understand while retaining its original meaning.
+2. Personal Best: Revise the provided sentence to make it easier to understand while retaining its original meaning.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:12:01,398] - Generated Prompt: Revise the provided text to improve clarity and accessibility, simplifying any complex ideas while maintaining the original meaning. Aim to use straightforward language and a clear structure to ensure it is easily understood by a wide audience.
+[2025-02-15 02:12:01,398] - ### dataset example: Revise the provided text to improve clarity and accessibility, simplifying any complex ideas while maintaining the original meaning. Aim to use straightforward language and a clear structure to ensure it is easily understood by a wide audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:12:45,684] - Step 8 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, and ensure that the revised sentences are straightforward and well-structured. Use clear and concise language to make the text easily understandable for a wide audience.
+2. Personal Best: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, and ensure that the revised sentences are straightforward and well-structured. Use clear and concise language to make the text easily understandable for a wide audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:12:48,416] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and ensure that the revised sentences are straightforward and well-structured. Use clear and concise language to make the text easily understandable for a diverse audience. Aim for a balance between clarity and engagement, ensuring the content is approachable and retains its informative value.
+[2025-02-15 02:12:48,417] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and ensure that the revised sentences are straightforward and well-structured. Use clear and concise language to make the text easily understandable for a diverse audience. Aim for a balance between clarity and engagement, ensuring the content is approachable and retains its informative value.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:13:33,586] - Step 8 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and simplicity. Break down complex ideas into straightforward concepts, ensuring the original meaning is preserved throughout the revision.
+2. Personal Best: Revise the provided text to improve clarity and simplicity. Break down complex ideas into straightforward concepts, ensuring the original meaning is preserved throughout the revision.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:13:35,684] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas into straightforward concepts while preserving the original meaning. Use clear language and a well-structured format to ensure the text is easily understood by a wide audience.
+[2025-02-15 02:13:35,685] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas into straightforward concepts while preserving the original meaning. Use clear language and a well-structured format to ensure the text is easily understood by a wide audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:14:17,356] - Step 8 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it clearer and easier to understand. Simplify complex ideas while ensuring that the original meaning is preserved, enhancing overall clarity and comprehension.
+2. Personal Best: Revise the provided text to make it clearer and easier to understand. Simplify complex ideas while ensuring that the original meaning is preserved, enhancing overall clarity and comprehension.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:14:19,634] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while preserving the original meaning, and focus on using straightforward language and a clear structure. Aim to make the text easily understood by a broad audience, enhancing overall comprehension.
+[2025-02-15 02:14:19,634] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while preserving the original meaning, and focus on using straightforward language and a clear structure. Aim to make the text easily understood by a broad audience, enhancing overall comprehension.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:14:59,663] - Step 8 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas and structures while preserving the original meaning. Use straightforward language and a clear, organized format to ensure the content is easily understood by a wide audience. Eliminate any unnecessary words or phrases to enhance comprehension.
+2. Personal Best: Revise the provided text to improve clarity and accessibility. Simplify complex ideas and structures while preserving the original meaning. Use straightforward language and a clear, organized format to ensure the content is easily understood by a wide audience. Eliminate any unnecessary words or phrases to enhance comprehension.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:15:02,683] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas and structures while maintaining the original meaning. Utilize straightforward language and a clear, organized format to ensure it is easily understood by a diverse audience. Eliminate unnecessary words and phrases to improve comprehension and engagement.
+[2025-02-15 02:15:02,683] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas and structures while maintaining the original meaning. Utilize straightforward language and a clear, organized format to ensure it is easily understood by a diverse audience. Eliminate unnecessary words and phrases to improve comprehension and engagement.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:15:43,972] - Step 8 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and accessibility, simplifying complex ideas while preserving the original meaning. Use straightforward language and a clear structure to ensure the text is easily understood by a broad audience.
+2. Personal Best: Revise the provided text to improve clarity and accessibility, simplifying complex ideas while preserving the original meaning. Use straightforward language and a clear structure to ensure the text is easily understood by a broad audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:15:46,415] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while maintaining the original meaning, using straightforward language and a clear structure. Aim for a version that is easily understood by a broad audience, ensuring that key concepts are communicated effectively.
+[2025-02-15 02:15:46,415] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while maintaining the original meaning, using straightforward language and a clear structure. Aim for a version that is easily understood by a broad audience, ensuring that key concepts are communicated effectively.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:16:32,725] - Step 8 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Make the provided sentences easier to understand.
+2. Personal Best: Make the provided sentences easier to understand.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:16:35,809] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and use straightforward language with a clear structure to ensure that the content is easily understood by a wide audience.
+[2025-02-15 02:16:35,809] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and use straightforward language with a clear structure to ensure that the content is easily understood by a wide audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:17:27,118] - Step 8 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and use straightforward language with a clear structure. Aim to make the text easily understandable for a broad audience.
+2. Personal Best: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and use straightforward language with a clear structure. Aim to make the text easily understandable for a broad audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:17:29,302] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, and use straightforward language with a clear and logical structure. Your goal is to make the text easily understandable for a diverse audience.
+[2025-02-15 02:17:29,302] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, and use straightforward language with a clear and logical structure. Your goal is to make the text easily understandable for a diverse audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:18:23,650] - Step 8 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+2. Personal Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:18:26,035] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning. Use straightforward language and a clear structure to ensure that the text is easily understood by a wide audience. Aim for a balance between simplicity and depth to engage readers effectively.
+[2025-02-15 02:18:26,035] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning. Use straightforward language and a clear structure to ensure that the text is easily understood by a wide audience. Aim for a balance between simplicity and depth to engage readers effectively.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:19:09,289] - Step 8 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and accessibility by simplifying complex ideas and eliminating redundant words or phrases. Ensure that the original meaning is preserved while employing straightforward language and a clear structure, making it easily understandable for a broad audience.
+2. Personal Best: Revise the provided text to enhance clarity and accessibility by simplifying complex ideas and eliminating redundant words or phrases. Ensure that the original meaning is preserved while employing straightforward language and a clear structure, making it easily understandable for a broad audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:19:11,662] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas and remove redundant words or phrases while preserving the original meaning. Use straightforward language and a clear structure to ensure the text is easily understandable for a broad audience.
+[2025-02-15 02:19:11,663] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas and remove redundant words or phrases while preserving the original meaning. Use straightforward language and a clear structure to ensure the text is easily understandable for a broad audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:19:52,724] - Step 9 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and accessibility, simplifying any complex ideas while maintaining the original meaning. Aim to use straightforward language and a clear structure to ensure it is easily understood by a wide audience.
+2. Personal Best: Revise the provided text to improve clarity and accessibility, simplifying any complex ideas while maintaining the original meaning. Aim to use straightforward language and a clear structure to ensure it is easily understood by a wide audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:19:55,078] - Generated Prompt: Revise the provided text to enhance clarity and accessibility by simplifying complex ideas while preserving the original meaning. Utilize straightforward language and a well-organized structure to ensure that it is easily understood by a diverse audience. Aim for clear communication that resonates with readers of varying backgrounds and expertise.
+[2025-02-15 02:19:55,078] - ### dataset example: Revise the provided text to enhance clarity and accessibility by simplifying complex ideas while preserving the original meaning. Utilize straightforward language and a well-organized structure to ensure that it is easily understood by a diverse audience. Aim for clear communication that resonates with readers of varying backgrounds and expertise.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:20:38,045] - Step 9 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and ensure that the revised sentences are straightforward and well-structured. Use clear and concise language to make the text easily understandable for a diverse audience. Aim for a balance between clarity and engagement, ensuring the content is approachable and retains its informative value.
+2. Personal Best: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and ensure that the revised sentences are straightforward and well-structured. Use clear and concise language to make the text easily understandable for a diverse audience. Aim for a balance between clarity and engagement, ensuring the content is approachable and retains its informative value.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:20:41,791] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, ensuring that sentences are straightforward and well-structured. Use clear and concise language to make the content easily understandable for a diverse audience. Strive for a balance between clarity and engagement, making the information approachable while retaining its informative value.
+[2025-02-15 02:20:41,792] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, ensuring that sentences are straightforward and well-structured. Use clear and concise language to make the content easily understandable for a diverse audience. Strive for a balance between clarity and engagement, making the information approachable while retaining its informative value.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:21:23,705] - Step 9 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and simplicity. Break down complex ideas into straightforward concepts, ensuring the original meaning is preserved throughout the revision.
+2. Personal Best: Revise the provided text to improve clarity and simplicity. Break down complex ideas into straightforward concepts, ensuring the original meaning is preserved throughout the revision.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:21:25,871] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas into straightforward concepts while preserving the original meaning. Utilize clear language and a structured approach to ensure the text is easily understood by a broad audience.
+[2025-02-15 02:21:25,871] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas into straightforward concepts while preserving the original meaning. Utilize clear language and a structured approach to ensure the text is easily understood by a broad audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:22:09,366] - Step 9 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it clearer and easier to understand. Simplify complex ideas while ensuring that the original meaning is preserved, enhancing overall clarity and comprehension.
+2. Personal Best: Revise the provided text to make it clearer and easier to understand. Simplify complex ideas while ensuring that the original meaning is preserved, enhancing overall clarity and comprehension.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:22:11,404] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while preserving the original meaning, and focus on using straightforward language and a clear structure to ensure it is easily understood by a wide audience.
+[2025-02-15 02:22:11,404] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while preserving the original meaning, and focus on using straightforward language and a clear structure to ensure it is easily understood by a wide audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:22:57,458] - Step 9 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas and structures while preserving the original meaning. Use straightforward language and a clear, organized format to ensure the content is easily understood by a wide audience. Eliminate any unnecessary words or phrases to enhance comprehension.
+2. Personal Best: Revise the provided text to improve clarity and accessibility. Simplify complex ideas and structures while preserving the original meaning. Use straightforward language and a clear, organized format to ensure the content is easily understood by a wide audience. Eliminate any unnecessary words or phrases to enhance comprehension.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:22:59,743] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas and structures while maintaining the original meaning. Use straightforward language and an organized format to ensure the content is easily understood by a diverse audience. Remove any unnecessary words or phrases to improve comprehension.
+[2025-02-15 02:22:59,743] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas and structures while maintaining the original meaning. Use straightforward language and an organized format to ensure the content is easily understood by a diverse audience. Remove any unnecessary words or phrases to improve comprehension.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:23:44,455] - Step 9 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and accessibility, simplifying complex ideas while preserving the original meaning. Use straightforward language and a clear structure to ensure the text is easily understood by a broad audience.
+2. Personal Best: Revise the provided text to improve clarity and accessibility, simplifying complex ideas while preserving the original meaning. Use straightforward language and a clear structure to ensure the text is easily understood by a broad audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:23:47,139] - Generated Prompt: Revise the provided text to enhance clarity and accessibility by simplifying complex ideas while maintaining the original meaning. Utilize straightforward language and a well-organized structure to ensure the text is easily understood by a diverse audience.
+[2025-02-15 02:23:47,139] - ### dataset example: Revise the provided text to enhance clarity and accessibility by simplifying complex ideas while maintaining the original meaning. Utilize straightforward language and a well-organized structure to ensure the text is easily understood by a diverse audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:25:31,052] - Step 9 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Make the provided sentences easier to understand.
+2. Personal Best: Make the provided sentences easier to understand.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:25:33,558] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, using straightforward language and a clear structure. Ensure the revised sentences are easy to understand for a wide audience.
+[2025-02-15 02:25:33,559] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, using straightforward language and a clear structure. Ensure the revised sentences are easy to understand for a wide audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:26:15,042] - Step 9 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and use straightforward language with a clear structure. Aim to make the text easily understandable for a broad audience.
+2. Personal Best: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and use straightforward language with a clear structure. Aim to make the text easily understandable for a broad audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:26:17,448] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure. Your goal is to make the text easily understandable for a diverse audience, ensuring it is engaging and approachable.
+[2025-02-15 02:26:17,448] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure. Your goal is to make the text easily understandable for a diverse audience, ensuring it is engaging and approachable.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:28:00,088] - Step 9 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+2. Personal Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:28:02,563] - Generated Prompt: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning. Emphasize the use of straightforward language and a clear structure to ensure that the text is easily understood by a diverse audience. Aim for a balance between clarity and engagement, making the content relatable and informative.
+[2025-02-15 02:28:02,564] - ### dataset example: Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning. Emphasize the use of straightforward language and a clear structure to ensure that the text is easily understood by a diverse audience. Aim for a balance between clarity and engagement, making the content relatable and informative.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:28:43,606] - Step 9 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and accessibility by simplifying complex ideas and eliminating redundant words or phrases. Ensure that the original meaning is preserved while employing straightforward language and a clear structure, making it easily understandable for a broad audience.
+2. Personal Best: Revise the provided text to enhance clarity and accessibility by simplifying complex ideas and eliminating redundant words or phrases. Ensure that the original meaning is preserved while employing straightforward language and a clear structure, making it easily understandable for a broad audience.
+3. Global Best: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+New Optimized Prompt:
+[2025-02-15 02:28:46,080] - Generated Prompt: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, and eliminate any redundant words or phrases. Use straightforward language and a clear structure to ensure that the text is easily understandable for a wide audience.
+[2025-02-15 02:28:46,081] - ### dataset example: Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, and eliminate any redundant words or phrases. Use straightforward language and a clear structure to ensure that the text is easily understandable for a wide audience.
+Subsequently, in February 1941, 600 Jews were sent to Buchenwald and Mauthausen concentration camps.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:29:31,125] - Final Evaluation Phase
+[2025-02-15 02:29:31,126] - ### dataset example: Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.
+One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:42:38,616] - ### dataset example: Revise the provided text to enhance clarity and accessibility by simplifying complex ideas and eliminating redundant words or phrases. Ensure that the original meaning is preserved while employing straightforward language and a clear structure, making it easily understandable for a broad audience.
+One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.
+The Simplification of the sentence is: 
+
+[2025-02-15 02:55:49,442] - ### dataset example: Make the provided sentences easier to understand.
+One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.
+The Simplification of the sentence is: 
+
+[2025-02-15 03:09:10,454] - Final Best Score: 48.26222837466031
+Prompt: Make the provided sentences easier to understand.
+[2025-02-15 03:09:10,454] - PSO Optimization Complete
+[2025-02-15 03:09:10,454] - Best Scores History: [52.47804296115015, 52.47804296115015, 52.47804296115015, 52.54786339568884, 52.54786339568884, 52.54786339568884, 52.54786339568884, 52.54786339568884, 52.54786339568884, 52.54786339568884]
+[2025-02-15 03:09:10,454] - Average Scores History: [51.04098059513437, 51.56106407122032, 51.633946867476276, 51.729114531356345, 51.84510268003545, 51.89192555763138, 51.89192555763138, 51.994256126274514, 52.041855967451035, 52.041855967451035]

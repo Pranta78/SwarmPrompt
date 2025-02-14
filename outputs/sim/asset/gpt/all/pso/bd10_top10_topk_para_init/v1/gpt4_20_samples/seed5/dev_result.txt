@@ -1,0 +1,12 @@
+pso	Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.	49.1804
+pso	Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.	49.0703
+pso	Rephrase and simplify the provided information while maintaining its original meaning. Break down complex sentences and eliminate any unnecessary words or phrases to improve clarity and readability. Aim for straightforward language and structure.	48.9334
+pso	Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.	48.7702
+pso	Rephrase the given sentences using simpler language and structure, ensuring the original meaning is preserved while removing any unnecessary words or phrases.	48.5707
+pso	Rephrase and simplify the provided text to enhance clarity while maintaining the original meaning. Remove any unnecessary words or phrases for improved accessibility and understanding.	48.2572
+pso	Revise the provided text to enhance clarity and accessibility by using simpler language and structure. Ensure that the original meaning remains intact while eliminating unnecessary words or phrases for greater conciseness.	48.2221
+pso	Revise the input text using clear and simple language. Aim for conciseness while maintaining the original meaning, and remove any unnecessary words or phrases to improve overall clarity and simplicity.	48.1915
+pso	Rephrase the sentence in simpler language and structure, ensuring that the original meaning remains unchanged while eliminating any unnecessary words or phrases.	48.1221
+pso	Rephrase the provided sentences to improve clarity and simplicity, ensuring the original meaning remains intact. Use straightforward language and structure, and remove any unnecessary words or phrases for a more concise expression.	47.9256
+best score: 49.180422189347325
+average score: 48.52436529777809

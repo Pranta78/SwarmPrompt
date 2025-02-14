@@ -1,0 +1,12 @@
+pso	Revise the provided sentence for clarity and conciseness by using simpler language and eliminating unnecessary words, all while maintaining its original meaning.	50.552
+pso	Revise the provided text to enhance clarity and conciseness. Simplify complex sentences, use straightforward language, and remove unnecessary words, all while preserving the original meaning.	49.6619
+pso	Revise the provided text to enhance clarity and conciseness by simplifying complex sentences, using straightforward language, and removing unnecessary words or phrases, while ensuring that the original meaning remains intact.	50.7396
+pso	Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words, ensuring that the original meaning is preserved.	51.0403
+pso	Revise the provided text to enhance clarity and conciseness by simplifying complex sentences and removing unnecessary words, while preserving the original meaning.	49.6663
+pso	Revise the provided text for clarity and conciseness by simplifying complex sentences and eliminating unnecessary words, while ensuring that the original meaning remains intact.	50.0673
+pso	Revise the provided text to enhance clarity and conciseness by simplifying complex sentences and eliminating unnecessary words, while ensuring that the original meaning remains intact.	50.9078
+pso	Revise the provided text to enhance clarity and conciseness. Focus on simplifying complex sentences and removing unnecessary words, while ensuring the original meaning is retained.	50.3488
+pso	Rephrase the provided text using simpler language while streamlining complex sentences by removing unnecessary words and phrases for better clarity and conciseness.	49.912
+pso	Revise the provided text for clarity and conciseness by simplifying complex sentences, removing unnecessary words, and ensuring that the original meaning is preserved. Focus on streamlining intricate phrases for a more effective communication.	50.5228
+best score: 51.04025103248308
+average score: 50.34187330673864

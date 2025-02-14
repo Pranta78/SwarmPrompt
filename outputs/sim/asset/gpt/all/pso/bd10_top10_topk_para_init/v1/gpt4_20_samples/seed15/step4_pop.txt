@@ -1,0 +1,12 @@
+pso	Revise the provided sentence to make it easier to understand while retaining its original meaning.	51.7182
+pso	Revise the provided text to improve clarity and accessibility. Simplify complex ideas while maintaining the original meaning, and ensure that the revised sentences are straightforward and well-structured. Aim for language that is easy to understand, making the text accessible to a wide audience.	51.2841
+pso	Revise the provided text to improve clarity and simplicity. Break down complex ideas into straightforward concepts, ensuring the original meaning is preserved throughout the revision.	51.9007
+pso	Revise the provided text to make it clearer and easier to understand. Simplify complex ideas while ensuring that the original meaning is preserved, enhancing overall clarity and comprehension.	51.9848
+pso	Revise the provided text to enhance clarity and comprehension. Simplify complex ideas and structures, eliminate unnecessary words or phrases, and maintain the original meaning. Use straightforward language and a clear structure to ensure the content is easily accessible to a wide audience.	52.07
+pso	Revise the provided text to enhance clarity and simplicity, ensuring that the original meaning is preserved while making complex ideas easier to understand.	51.5169
+para	Make the provided sentences easier to understand.	52.1958
+pso	Revise the provided text to enhance clarity and accessibility. Simplify complex ideas while preserving the original meaning, using straightforward language and a clear structure to ensure it is easily understood by a wide audience.	51.2537
+pso	Revise the provided text to enhance clarity and accessibility, simplifying complex ideas while preserving the original meaning. Focus on using straightforward language and clear structure to ensure the text is easily understood by a broad audience.	52.5479
+pso	Revise the provided text to improve clarity and accessibility by simplifying complex ideas and removing redundant words or phrases. Preserve the original meaning while using straightforward language and a clear structure to ensure it is easily understood by a broad audience.	51.979
+best score: 52.54786339568884
+average score: 51.84510268003545

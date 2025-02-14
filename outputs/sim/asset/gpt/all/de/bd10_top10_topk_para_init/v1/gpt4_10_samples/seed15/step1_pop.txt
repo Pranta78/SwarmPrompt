@@ -1,0 +1,12 @@
+evoluted	Enhance the precision of the text by simplifying and elaborating on it. Transform the provided content while condensing lengthy statements and omitting superfluous terms to ensure clarity and preserve its significance.	51.4617
+evoluted	Simplify and clarify the content of the provided sentences while ensuring the meaning is retained.	53.2285
+evoluted	Restate the provided passage for clarity by making the sentences easier to understand using plain language while maintaining the essence of the text.	53.4457
+evoluted	Rephrase the given text with simpler words while ensuring the original meaning is preserved.	51.3862
+evoluted	Simplify the supplied phrases by eliminating unnecessary words to enhance clarity while retaining their original meaning.	49.607
+evoluted	Transform the given text to make it clearer while retaining its meaning and utilizing simpler terminology.	54.7436
+para	Make the provided sentences easier to understand.	54.5682
+para	Rephrase and clarify the details presented in the provided input.	50.0131
+evoluted	Transform the text by reducing the complexity of the provided sentences to make them clearer while retaining their original meaning and utilizing easier language.	53.8839
+evoluted	Transform the provided text by rewriting the input information to improve comprehension, condensing and clarifying the content while preserving the intended message and using more straightforward language.	53.6793
+best score: 54.743570571340875
+average score: 52.601709417235995

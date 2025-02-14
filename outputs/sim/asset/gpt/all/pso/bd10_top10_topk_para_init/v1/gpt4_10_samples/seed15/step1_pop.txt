@@ -1,0 +1,12 @@
+pso	Rewrite the provided sentence to make it clearer and easier to understand, while maintaining its original meaning.	52.2396
+pso	Simplify the provided sentences to make them easier to understand.	54.6982
+pso	Simplify and restate the provided information to enhance clarity and understanding.	53.1775
+pso	Simplify the provided text to make it easier to understand while maintaining the original meaning.	54.2526
+pso	New Optimized Prompt: Simplify the provided sentences by breaking down complex structures and removing unnecessary words or phrases to improve clarity and comprehension. Focus on making the content easier to understand for a wider audience.	54.7219
+pso	Rephrase the provided sentences in simpler terms by breaking down complex structures and eliminating any unnecessary words or phrases. Ensure that the original meaning is preserved and aim to enhance clarity and understanding for a broader audience.	55.0628
+pso	Rephrase the provided sentences in simpler terms by breaking down complex structures and removing any unnecessary words or phrases. Ensure that the original meaning is preserved while enhancing clarity and understanding for a wider audience. Make the sentences easier to grasp without losing their core message.	54.6065
+pso	Rephrase and condense the input information while simplifying the sentences for better clarity and understanding.	52.5511
+para	Rephrase the given text using easier language.	52.2824
+pso	Revise the provided sentences to improve clarity by simplifying complex structures, breaking them down into more straightforward components, and removing any unnecessary words or phrases. Ensure that the original meaning is preserved while making the text more accessible and understandable for a broader audience.	53.6615
+best score: 55.06277441007092
+average score: 53.72541799975481

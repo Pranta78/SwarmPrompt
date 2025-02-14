@@ -1,0 +1,8 @@
+evoluted	Enhance the clarity of the provided material by transforming complex statements to improve understanding. Simplify complicated phrases while retaining the core message and eliminating non-essential information.	47.8144
+evoluted	Rewrite the material to transform complex sentences into simpler terms, enhancing clarity without losing the core message, and remove redundant parts for improved understanding.	48.0791
+para	Rewrite intricate sentences to make them simpler and remove any extraneous words or phrases.	47.7709
+
+----------sorted results----------
+evoluted	Rewrite the material to transform complex sentences into simpler terms, enhancing clarity without losing the core message, and remove redundant parts for improved understanding.	48.0791
+evoluted	Enhance the clarity of the provided material by transforming complex statements to improve understanding. Simplify complicated phrases while retaining the core message and eliminating non-essential information.	47.8144
+para	Rewrite intricate sentences to make them simpler and remove any extraneous words or phrases.	47.7709

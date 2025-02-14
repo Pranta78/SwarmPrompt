@@ -1,0 +1,104 @@
+[2025-02-13 02:07:46,833] - ==================================================
+[2025-02-13 02:07:46,834] - dev data: None
+[2025-02-13 02:07:46,834] - test data: None
+[2025-02-13 02:07:46,834] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/gpt4/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = gpt4
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 02:07:46,835] - ==================================================
+[2025-02-13 02:07:46,835] - Instruction placeholder: <prompt>
+[2025-02-13 02:07:46,847] - ---------------------Evolving prompt-------------------
+
+[2025-02-13 02:07:46,848] - ==================================================
+[2025-02-13 02:07:46,848] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/de/bd10_top10_topk_para_init/v1/gpt4/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 10
+	popsize = 10
+	evo_mode = pso
+	llm_type = gpt4
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/prompts.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2025-02-13 02:07:46,848] - ==================================================
+[2025-02-13 02:07:46,849] - ---loading prompts from data/sim/asset/prompts.json
+[2025-02-13 02:07:48,924] - test LLM client success
+[2025-02-13 02:07:48,924] - -----paraphrasing topk---------
+[2025-02-13 02:07:57,161] - ### dataset example: Rephrase the sentence above in simpler terms while retaining its meaning.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 02:21:28,932] - ### dataset example: Rephrase the provided sentences in a simpler form.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 02:25:13,827] - ### dataset example: Rephrase and condense the information provided in the input.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 02:28:41,495] - ### dataset example: Rephrase the given text in a more straightforward manner.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 02:32:24,299] - ### dataset example: Streamline intricate sentences by removing superfluous words or phrases.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-13 02:35:49,874] - Simplify the above sentence without changing meaning.
+[2025-02-13 02:35:49,874] - simplify the given sentences.
+[2025-02-13 02:35:49,874] - simplify and restate the information in the given input.
+[2025-02-13 02:35:49,874] - Rewrite the input text into simpler text.
+[2025-02-13 02:35:49,874] - simplify complex sentences and eliminate unnecessary words or phrases.
+[2025-02-13 02:35:49,874] - Rephrase the sentence above in simpler terms while retaining its meaning.
+[2025-02-13 02:35:49,874] - Rephrase the provided sentences in a simpler form.
+[2025-02-13 02:35:49,874] - Rephrase and condense the information provided in the input.
+[2025-02-13 02:35:49,874] - Rephrase the given text in a more straightforward manner.
+[2025-02-13 02:35:49,874] - Streamline intricate sentences by removing superfluous words or phrases.

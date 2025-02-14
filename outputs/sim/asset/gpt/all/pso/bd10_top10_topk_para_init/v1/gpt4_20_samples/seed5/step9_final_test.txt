@@ -1,0 +1,8 @@
+pso	Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.	48.7256
+pso	Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.	48.762
+pso	Rephrase and simplify the provided information while maintaining its original meaning. Break down complex sentences and eliminate any unnecessary words or phrases to improve clarity and readability. Aim for straightforward language and structure.	48.4613
+
+----------sorted results----------
+pso	Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.	48.762
+pso	Rewrite the text in simpler language and structure, keeping the original meaning intact while removing any unnecessary words or phrases.	48.7256
+pso	Rephrase and simplify the provided information while maintaining its original meaning. Break down complex sentences and eliminate any unnecessary words or phrases to improve clarity and readability. Aim for straightforward language and structure.	48.4613

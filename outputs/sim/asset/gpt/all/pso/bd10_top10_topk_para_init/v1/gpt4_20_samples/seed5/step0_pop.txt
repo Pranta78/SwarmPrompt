@@ -1,0 +1,12 @@
+pso	Rephrase the sentence in a simpler way while maintaining its original meaning.	47.3137
+pso	Rephrase the provided sentences to make them simpler while maintaining their original meaning.	47.8909
+pso	Rephrase and simplify the provided information while maintaining its original meaning.	46.9012
+pso	Rewrite the input text in simpler language while maintaining its original meaning.	47.3348
+pso	Simplify complex sentences by rephrasing them to make them clearer and more concise, while preserving their original meaning.	46.5716
+para	Rephrase the sentence to make it simpler while preserving its meaning.	48.3366
+pso	Rephrase the provided sentences to simplify their language and improve clarity, while ensuring the original meaning remains intact.	46.8781
+pso	Rephrase and clarify the provided input to enhance its simplicity and maintain its original meaning.	46.2175
+para	Transform the given text into a more straightforward version.	47.3824
+pso	Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.	48.7702
+best score: 48.77020604192898
+average score: 47.35971697114097

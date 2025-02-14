@@ -1,0 +1,8 @@
+evoluted	Enhance the provided material by understanding its details and transforming complex phrases into straightforward language, while ensuring the original message is preserved and unnecessary words are eliminated.	47.3275
+evoluted	Rewrite the offered content to simplify its meaning by transforming complex sentences into plain language and eliminating any unnecessary words while preserving the original intent.	48.1419
+evoluted	Transform the material by simplifying intricate statements into more accessible language, ensuring that the sentences are comprehensible while preserving its importance and eliminating unnecessary words, all while keeping the initial message intact.	47.8928
+
+----------sorted results----------
+evoluted	Rewrite the offered content to simplify its meaning by transforming complex sentences into plain language and eliminating any unnecessary words while preserving the original intent.	48.1419
+evoluted	Transform the material by simplifying intricate statements into more accessible language, ensuring that the sentences are comprehensible while preserving its importance and eliminating unnecessary words, all while keeping the initial message intact.	47.8928
+evoluted	Enhance the provided material by understanding its details and transforming complex phrases into straightforward language, while ensuring the original message is preserved and unnecessary words are eliminated.	47.3275

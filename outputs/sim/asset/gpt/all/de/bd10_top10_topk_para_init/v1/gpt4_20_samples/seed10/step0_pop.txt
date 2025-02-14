@@ -1,0 +1,12 @@
+evoluted	Simplify complex phrases by eliminating unnecessary words while ensuring the original meaning is preserved.	45.6075
+evoluted	Streamline the given sentences by revising them to make them clearer while preserving their original meaning.	47.8388
+evoluted	Make easier the information from the provided input by transforming the sentences you are given to a more straightforward version while retaining their original meaning.	46.7044
+evoluted	Your task is to rewrite and simplify the information included in the supplied text while ensuring its meaning remains clear.	45.6865
+evoluted	Restate the previous statement to simplify it and eliminate unnecessary words or phrases while preserving the original intent.	44.733
+para	Rephrase the above sentence to make it simpler while retaining its meaning.	48.1854
+evoluted	Clarify intricate statements by rewriting the provided sentences in a simpler form while ensuring their original meaning is preserved.	47.0182
+evoluted	Transform the provided statement to clarify and streamline lengthy phrases while retaining its original intent.	46.2773
+evoluted	Rewrite the text to simplify it, making it easier to understand while retaining its original meaning using more straightforward language.	46.8184
+evoluted	Streamline intricate sentences by transforming them into a clearer version while retaining their original meaning.	48.9488
+best score: 48.94876064386605
+average score: 46.78182712668145

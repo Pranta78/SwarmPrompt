@@ -1,0 +1,12 @@
+evoluted	Rephrase the earlier message by simplifying complex phrases, removing excess words or expressions, and ensuring the original meaning is maintained.	47.6123
+evoluted	Streamline the given sentences by revising them to make them clearer while preserving their original meaning.	47.8388
+evoluted	Revise the given passage for clarity by altering the supplied expression to make convoluted sentences more direct while utilizing simpler vocabulary and preserving its intended message.	46.981
+evoluted	Your task is to revise the presented statement by making lengthy phrases clearer and more concise while ensuring the original meaning is maintained.	46.4869
+evoluted	Restate the previous statement to enhance its clarity and remove superfluous terms while keeping its essence intact.	45.7638
+para	Rephrase the above sentence to make it simpler while retaining its meaning.	48.1854
+evoluted	Clarify intricate statements by rewriting the provided sentences in a simpler form while ensuring their original meaning is preserved.	47.0182
+evoluted	Revise the content for clarity by transforming the provided statements to simplify complex phrases while maintaining their original intent.	47.0463
+evoluted	Rewrite the text to simplify it, making it easier to understand while retaining its original meaning using more straightforward language.	46.8184
+evoluted	Streamline intricate sentences by transforming them into a clearer version while retaining their original meaning.	48.9488
+best score: 48.94876064386605
+average score: 47.26996683710445

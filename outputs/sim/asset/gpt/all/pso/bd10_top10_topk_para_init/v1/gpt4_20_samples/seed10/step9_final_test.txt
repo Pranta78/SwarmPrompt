@@ -1,0 +1,8 @@
+pso	Rephrase the provided information to enhance clarity and simplicity, ensuring that the original meaning is maintained.	47.2817
+pso	Rephrase the given sentence to enhance clarity and simplicity, while preserving its original meaning.	47.455
+pso	Rephrase the provided text to enhance clarity and simplicity while preserving the original meaning throughout.	47.0379
+
+----------sorted results----------
+pso	Rephrase the given sentence to enhance clarity and simplicity, while preserving its original meaning.	47.455
+pso	Rephrase the provided information to enhance clarity and simplicity, ensuring that the original meaning is maintained.	47.2817
+pso	Rephrase the provided text to enhance clarity and simplicity while preserving the original meaning throughout.	47.0379

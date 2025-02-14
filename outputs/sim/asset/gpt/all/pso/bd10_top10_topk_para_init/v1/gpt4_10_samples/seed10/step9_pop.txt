@@ -1,0 +1,12 @@
+pso	Revise the provided sentence for clarity and conciseness by using simpler language and eliminating unnecessary words, all while maintaining its original meaning.	50.552
+pso	Revise the provided text to improve clarity and conciseness. Simplify complex sentences, use clear and straightforward language, and eliminate any unnecessary words, all while maintaining the original meaning.	50.5703
+pso	Revise the provided text to enhance clarity and conciseness by simplifying complex sentences, using straightforward language, and removing unnecessary words or phrases, while ensuring that the original meaning remains intact.	50.7396
+pso	Revise the provided text for clarity and conciseness by simplifying complex sentences and removing unnecessary words, ensuring that the original meaning is preserved.	51.0403
+pso	Revise the provided text to enhance clarity and conciseness. Simplify complex sentences and eliminate unnecessary words, ensuring the original meaning is preserved.	50.4778
+pso	Revise the provided text for clarity and conciseness by simplifying complex sentences and eliminating unnecessary words, while ensuring that the original meaning remains intact.	50.0673
+pso	Revise the provided text to enhance clarity and conciseness by simplifying complex sentences and eliminating unnecessary words, while ensuring that the original meaning remains intact.	50.9078
+pso	Revise the provided text to enhance clarity and conciseness. Focus on simplifying complex sentences and removing unnecessary words, while ensuring the original meaning is retained.	50.3488
+pso	Revise the provided text to improve clarity and conciseness by simplifying complex sentences and eliminating unnecessary words and phrases, while ensuring the original meaning remains intact.	50.6964
+pso	Revise the provided text for clarity and conciseness by simplifying complex sentences, removing unnecessary words, and ensuring that the original meaning is preserved. Focus on streamlining intricate phrases for a more effective communication.	50.5228
+best score: 51.04025103248308
+average score: 50.592289915402105

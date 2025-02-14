@@ -1,0 +1,8 @@
+para	Rephrase the provided sentences to make them simpler.	48.5441
+para	Make the above sentence easier to understand without altering its meaning.	48.1339
+evoluted	Revise the given expressions to enhance their clarity by converting them into simpler terms while maintaining the core message.	47.874
+
+----------sorted results----------
+para	Rephrase the provided sentences to make them simpler.	48.5441
+para	Make the above sentence easier to understand without altering its meaning.	48.1339
+evoluted	Revise the given expressions to enhance their clarity by converting them into simpler terms while maintaining the core message.	47.874

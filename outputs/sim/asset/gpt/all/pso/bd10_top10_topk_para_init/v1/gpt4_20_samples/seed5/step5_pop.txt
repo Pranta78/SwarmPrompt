@@ -1,0 +1,12 @@
+pso	Rephrase the sentence using simpler language and structure, while maintaining the original meaning and eliminating any unnecessary words or expressions.	48.0299
+pso	Rephrase the provided sentences to make them simpler while maintaining their original meaning.	47.8909
+pso	Rephrase and simplify the provided information while maintaining its original meaning. Break down complex sentences and eliminate any unnecessary words or phrases to improve clarity and readability. Aim for straightforward language and structure.	48.9334
+pso	Rewrite the input text using simpler language and structure, ensuring that the original meaning is preserved and eliminating any unnecessary words or expressions.	49.0703
+pso	Revise the input text using clear and straightforward language. Focus on conciseness while preserving the original meaning, and eliminate any unnecessary words or phrases to enhance overall clarity and simplicity.	48.0977
+pso	Rewrite the text using simpler language and structure, while maintaining the original meaning and removing any unnecessary words or phrases.	48.4439
+pso	Rephrase the provided sentences to improve clarity and simplicity, ensuring the original meaning remains intact. Use straightforward language and structure, and remove any unnecessary words or phrases for a more concise expression.	47.9256
+pso	Rephrase and simplify the provided text to enhance clarity while maintaining the original meaning. Remove any unnecessary words or phrases for improved accessibility and understanding.	48.2572
+pso	Revise the provided text to make it clearer and more accessible, using simpler language and structure while maintaining the original meaning. Focus on eliminating any unnecessary words or phrases for greater conciseness.	48.078
+pso	Rephrase complicated sentences to simplify their structure while maintaining their original meaning and removing unnecessary words or expressions.	48.7702
+best score: 49.070346653612916
+average score: 48.349727208224316

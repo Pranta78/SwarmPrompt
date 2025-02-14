@@ -1,0 +1,12 @@
+evoluted	Enhance the clarity of the provided material by transforming complex statements to improve understanding. Simplify complicated phrases while retaining the core message and eliminating non-essential information.	48.4573
+evoluted	Rewrite the material to transform complex sentences into simpler terms, enhancing clarity without losing the core message, and remove redundant parts for improved understanding.	48.4518
+para	Rewrite intricate sentences to make them simpler and remove any extraneous words or phrases.	48.2644
+evoluted	Streamline intricate expressions from the text while preserving the original intent, and restate the information in an easier version by eliminating any superfluous elements.	48.099
+para	Rephrase the sentence to make it simpler while retaining its meaning.	48.0496
+evoluted	Simplify the provided content by transforming complex sentences to clarify them and eliminate superfluous expressions while preserving the core idea.	48.0146
+evoluted	Simplify the offered text by restructuring intricate phrases to enhance clarity while preserving the original meaning. Improve understanding by refining the given sentences and eliminating unnecessary elements.	47.9894
+evoluted	You are assigned to simplify the submitted content by modifying elaborate statements to boost comprehension, while keeping the main concept intact. Eliminate convoluted phrases and present the information more clearly by removing unnecessary details.	47.8938
+evoluted	Restate the text to clarify the given material, enhancing clarity without losing essence and transforming it into more straightforward language by removing superfluous elements.	47.8696
+evoluted	Rephrase complex statements in the provided text to enhance comprehension while getting rid of superfluous terms for clarity.	47.3028
+best score: 48.45734268501252
+average score: 48.03923622854712

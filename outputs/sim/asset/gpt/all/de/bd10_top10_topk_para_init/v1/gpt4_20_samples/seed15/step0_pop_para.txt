@@ -1,0 +1,10 @@
+manual	Simplify the above sentence without changing meaning.	35.287
+ape	simplify the given sentences.	35.174
+ape	simplify and restate the information in the given input.	33.9913
+manual	Rewrite the input text into simpler text.	33.8711
+ape	simplify complex sentences and eliminate unnecessary words or phrases.	33.6792
+para	Make the above sentence easier to understand without altering its meaning.	52.3298
+para	Rephrase the provided sentences to make them simpler.	52.6518
+para	Condense and rephrase the information provided in the input.	47.5597
+para	Rephrase the given text in a more straightforward manner.	51.1201
+para	Streamline intricate sentences and remove superfluous words or phrases.	47.5939

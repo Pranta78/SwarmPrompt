@@ -1,0 +1,12 @@
+pso	Rewrite the provided sentence to make it clearer and easier to understand, while maintaining its original meaning.	52.2396
+pso	Simplify the provided sentences to make them easier to understand.	54.6982
+pso	Simplify and restate the provided information to enhance clarity and understanding.	53.1775
+pso	Simplify the provided text to make it easier to understand while maintaining the original meaning.	54.2526
+pso	New Optimized Prompt: Simplify the provided sentences by breaking down complex structures and removing unnecessary words or phrases. Ensure that the original meaning is preserved while enhancing clarity and comprehension for a broader audience. Focus on making the content accessible and easy to understand.	55.245
+pso	Rephrase the provided sentences in simpler terms by breaking down complex structures and eliminating any unnecessary words or phrases. Ensure that the original meaning is preserved and aim to enhance clarity and understanding for a broader audience.	55.0628
+pso	Rephrase the provided sentences in simpler terms by breaking down complex structures and removing any unnecessary words or phrases. Ensure that the original meaning is preserved while enhancing clarity and understanding for a wider audience. Make the sentences easier to grasp without losing their core message.	54.6065
+pso	New Optimized Prompt: Simplify the provided sentences by breaking down complex structures and eliminating unnecessary words, while preserving the original meaning. Aim to enhance clarity and comprehension for a broader audience, making the content more accessible and easy to understand.	55.1751
+pso	Revise the provided text to make it simpler and more understandable. Break down complex sentences, eliminate unnecessary words or phrases, and ensure that the original meaning remains intact. Aim to enhance clarity and make the content accessible to a wider audience.	55.5516
+pso	Revise the provided text to enhance clarity and accessibility. Simplify complex sentences by breaking them into straightforward components and removing any unnecessary words or phrases. Ensure that the original meaning is preserved while making the content easier to understand for a broader audience.	54.3878
+best score: 55.551595913250026
+average score: 54.439675900926986
