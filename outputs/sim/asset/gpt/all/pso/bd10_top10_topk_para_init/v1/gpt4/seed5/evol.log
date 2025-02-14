@@ -2077,3 +2077,340 @@ New Optimized Prompt:
 Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
 The Simplification of the sentence is: 
 
+[2025-02-14 15:57:32,369] - Step 7 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and creating a straightforward, concise version. Your goal is to ensure the text is as clear and understandable as possible.
+2. Personal Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and creating a straightforward, concise version. Your goal is to ensure the text is as clear and understandable as possible.
+3. Global Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+New Optimized Prompt:
+[2025-02-14 15:57:34,621] - Generated Prompt: Revise the provided text to enhance clarity and simplicity while maintaining its original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and create a straightforward, concise version. Your aim is to make the text as clear and understandable as possible.
+[2025-02-14 15:57:34,622] - ### dataset example: Revise the provided text to enhance clarity and simplicity while maintaining its original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and create a straightforward, concise version. Your aim is to make the text as clear and understandable as possible.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 16:01:14,962] - Step 7 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the following text to simplify its language while maintaining the original meaning. Prioritize clarity and straightforwardness to ensure that the information is easily understood by a wide audience.
+2. Personal Best: Revise the following text to simplify its language while maintaining the original meaning. Prioritize clarity and straightforwardness to ensure that the information is easily understood by a wide audience.
+3. Global Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+New Optimized Prompt:
+[2025-02-14 16:01:17,146] - Generated Prompt: Revise the following text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your aim is to make the information easily understandable for a wide audience.
+[2025-02-14 16:01:17,147] - ### dataset example: Revise the following text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your aim is to make the information easily understandable for a wide audience.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 16:05:09,183] - Step 7 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the following text to improve its clarity and simplicity while maintaining the original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and aim for a concise and straightforward version. Your goal is to make the text as clear and understandable as possible.
+2. Personal Best: Revise the following text to improve its clarity and simplicity while maintaining the original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and aim for a concise and straightforward version. Your goal is to make the text as clear and understandable as possible.
+3. Global Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+New Optimized Prompt:
+[2025-02-14 16:05:11,315] - Generated Prompt: Revise the provided text to enhance its clarity and simplicity while preserving the original meaning. Focus on breaking down complex sentences, removing unnecessary words and phrases, and creating a concise and straightforward version. The goal is to ensure the text is as clear and understandable as possible.
+[2025-02-14 16:05:11,316] - ### dataset example: Revise the provided text to enhance its clarity and simplicity while preserving the original meaning. Focus on breaking down complex sentences, removing unnecessary words and phrases, and creating a concise and straightforward version. The goal is to ensure the text is as clear and understandable as possible.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 16:08:48,700] - Step 7 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the following text to improve clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and creating a concise, straightforward version. Your aim is to enhance the text’s overall understandability.
+2. Personal Best: Revise the following text to improve clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and creating a concise, straightforward version. Your aim is to enhance the text’s overall understandability.
+3. Global Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+New Optimized Prompt:
+[2025-02-14 16:08:51,043] - Generated Prompt: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and creating a concise, straightforward version. Your goal is to enhance the text's overall understandability and ensure it is as clear and accessible as possible.
+[2025-02-14 16:08:51,044] - ### dataset example: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and creating a concise, straightforward version. Your goal is to enhance the text's overall understandability and ensure it is as clear and accessible as possible.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 16:22:18,530] - Step 7 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Strive for a straightforward and easy-to-understand rephrasing.
+2. Personal Best: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Strive for a straightforward and easy-to-understand rephrasing.
+3. Global Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+New Optimized Prompt:
+[2025-02-14 16:22:21,143] - Generated Prompt: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Break down complex sentences, remove unnecessary words or phrases, and aim for a straightforward and concise rephrasing. Your goal is to make the text as clear and easy to understand as possible.
+[2025-02-14 16:22:21,144] - ### dataset example: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Break down complex sentences, remove unnecessary words or phrases, and aim for a straightforward and concise rephrasing. Your goal is to make the text as clear and easy to understand as possible.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 16:25:51,086] - Step 7 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and using straightforward language. Your goal is to create a concise and easily understandable version of the text.
+2. Personal Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and using straightforward language. Your goal is to create a concise and easily understandable version of the text.
+3. Global Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+New Optimized Prompt:
+[2025-02-14 16:25:52,903] - Generated Prompt: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Aim to break down complex sentences, eliminate unnecessary words or phrases, and use straightforward language. Your objective is to create a concise version that is easy to understand.
+[2025-02-14 16:25:52,904] - ### dataset example: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Aim to break down complex sentences, eliminate unnecessary words or phrases, and use straightforward language. Your objective is to create a concise version that is easy to understand.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 16:29:27,294] - Step 7 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and ensuring a straightforward and concise version. Aim for maximum understandability and ease of reading.
+2. Personal Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and ensuring a straightforward and concise version. Aim for maximum understandability and ease of reading.
+3. Global Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+New Optimized Prompt:
+[2025-02-14 16:29:32,286] - Generated Prompt: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise presentation. Your objective is to make the text as clear and easy to read as possible for all audiences.
+[2025-02-14 16:29:32,287] - ### dataset example: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise presentation. Your objective is to make the text as clear and easy to read as possible for all audiences.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 16:33:08,344] - Step 7 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it simpler while keeping the original meaning intact. Aim for clarity and straightforwardness in your revision.
+2. Personal Best: Revise the provided text to make it simpler while keeping the original meaning intact. Aim for clarity and straightforwardness in your revision.
+3. Global Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+New Optimized Prompt:
+[2025-02-14 16:33:10,635] - Generated Prompt: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring the revised version is straightforward and concise. Your goal is to make the text as clear and understandable as possible.
+[2025-02-14 16:33:10,636] - ### dataset example: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring the revised version is straightforward and concise. Your goal is to make the text as clear and understandable as possible.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 16:36:45,509] - Step 7 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+2. Personal Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+3. Global Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+New Optimized Prompt:
+[2025-02-14 16:36:47,473] - Generated Prompt: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Aim to break down complex sentences, eliminate unnecessary words or phrases, and create a straightforward and concise version. Your objective is to make the text as clear and comprehensible as possible.
+[2025-02-14 16:36:47,474] - ### dataset example: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Aim to break down complex sentences, eliminate unnecessary words or phrases, and create a straightforward and concise version. Your objective is to make the text as clear and comprehensible as possible.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 16:40:17,677] - Step 8 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the following text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+2. Personal Best: Revise the following text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+3. Global Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+New Optimized Prompt:
+[2025-02-14 16:40:20,380] - Generated Prompt: Revise the following text to improve clarity and simplicity while maintaining its original meaning. Aim to break down complex sentences, eliminate unnecessary words or phrases, and create a straightforward, concise version. Your objective is to ensure that the text is as clear and understandable as possible.
+[2025-02-14 16:40:20,380] - ### dataset example: Revise the following text to improve clarity and simplicity while maintaining its original meaning. Aim to break down complex sentences, eliminate unnecessary words or phrases, and create a straightforward, concise version. Your objective is to ensure that the text is as clear and understandable as possible.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 16:43:50,791] - Step 8 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and simplicity while maintaining its original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and create a straightforward, concise version. Your aim is to make the text as clear and understandable as possible.
+2. Personal Best: Revise the provided text to enhance clarity and simplicity while maintaining its original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and create a straightforward, concise version. Your aim is to make the text as clear and understandable as possible.
+3. Global Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+New Optimized Prompt:
+[2025-02-14 16:43:53,475] - Generated Prompt: Revise the provided text to improve clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and creating a straightforward and concise version. Your goal is to ensure the text is as clear and understandable as possible.
+[2025-02-14 16:43:53,476] - ### dataset example: Revise the provided text to improve clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and creating a straightforward and concise version. Your goal is to ensure the text is as clear and understandable as possible.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 16:47:16,770] - Step 8 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the following text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your aim is to make the information easily understandable for a wide audience.
+2. Personal Best: Revise the following text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your aim is to make the information easily understandable for a wide audience.
+3. Global Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+New Optimized Prompt:
+[2025-02-14 16:47:19,009] - Generated Prompt: Revise the following text to improve clarity and simplicity while maintaining its original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and create a concise version. Your goal is to ensure the information is easily understandable for a broad audience.
+[2025-02-14 16:47:19,010] - ### dataset example: Revise the following text to improve clarity and simplicity while maintaining its original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and create a concise version. Your goal is to ensure the information is easily understandable for a broad audience.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 16:50:47,799] - Step 8 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the following text to improve its clarity and simplicity while maintaining the original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and aim for a concise and straightforward version. Your goal is to make the text as clear and understandable as possible.
+2. Personal Best: Revise the following text to improve its clarity and simplicity while maintaining the original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and aim for a concise and straightforward version. Your goal is to make the text as clear and understandable as possible.
+3. Global Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+New Optimized Prompt:
+[2025-02-14 16:50:50,072] - Generated Prompt: Revise the following text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words and phrases, and crafting a concise and straightforward version. Your objective is to make the text as clear and understandable as possible.
+[2025-02-14 16:50:50,073] - ### dataset example: Revise the following text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words and phrases, and crafting a concise and straightforward version. Your objective is to make the text as clear and understandable as possible.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 16:54:40,989] - Step 8 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and creating a concise, straightforward version. Your goal is to enhance the text's overall understandability and ensure it is as clear and accessible as possible.
+2. Personal Best: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and creating a concise, straightforward version. Your goal is to enhance the text's overall understandability and ensure it is as clear and accessible as possible.
+3. Global Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+New Optimized Prompt:
+[2025-02-14 16:54:43,654] - Generated Prompt: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and create a concise and straightforward version. Aim to improve overall understandability and ensure the text is as clear and accessible as possible.
+[2025-02-14 16:54:43,656] - ### dataset example: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and create a concise and straightforward version. Aim to improve overall understandability and ensure the text is as clear and accessible as possible.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 16:58:29,574] - Step 8 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Break down complex sentences, remove unnecessary words or phrases, and aim for a straightforward and concise rephrasing. Your goal is to make the text as clear and easy to understand as possible.
+2. Personal Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Break down complex sentences, remove unnecessary words or phrases, and aim for a straightforward and concise rephrasing. Your goal is to make the text as clear and easy to understand as possible.
+3. Global Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+New Optimized Prompt:
+[2025-02-14 16:58:32,726] - Generated Prompt: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and strive for a straightforward and concise rephrasing. Your objective is to ensure the text is as clear and easy to understand as possible.
+[2025-02-14 16:58:32,727] - ### dataset example: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and strive for a straightforward and concise rephrasing. Your objective is to ensure the text is as clear and easy to understand as possible.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 17:02:11,634] - Step 8 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and using straightforward language. Your goal is to create a concise and easily understandable version of the text.
+2. Personal Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and using straightforward language. Your goal is to create a concise and easily understandable version of the text.
+3. Global Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+New Optimized Prompt:
+[2025-02-14 17:02:13,665] - Generated Prompt: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and use straightforward language. Aim to create a concise and easily understandable version of the text. Your goal is to ensure maximum clarity for the reader.
+[2025-02-14 17:02:13,666] - ### dataset example: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and use straightforward language. Aim to create a concise and easily understandable version of the text. Your goal is to ensure maximum clarity for the reader.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 17:05:53,593] - Step 8 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise presentation. Your objective is to make the text as clear and easy to read as possible for all audiences.
+2. Personal Best: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise presentation. Your objective is to make the text as clear and easy to read as possible for all audiences.
+3. Global Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+New Optimized Prompt:
+[2025-02-14 17:05:55,700] - Generated Prompt: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Aim to break down complex sentences, eliminate unnecessary words or phrases, and present the information in a straightforward and concise manner. Your goal is to make the text as clear and accessible as possible for all audiences.
+[2025-02-14 17:05:55,701] - ### dataset example: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Aim to break down complex sentences, eliminate unnecessary words or phrases, and present the information in a straightforward and concise manner. Your goal is to make the text as clear and accessible as possible for all audiences.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 17:09:29,343] - Step 8 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it simpler while keeping the original meaning intact. Aim for clarity and straightforwardness in your revision.
+2. Personal Best: Revise the provided text to make it simpler while keeping the original meaning intact. Aim for clarity and straightforwardness in your revision.
+3. Global Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+New Optimized Prompt:
+[2025-02-14 17:09:32,028] - Generated Prompt: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and creating a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+[2025-02-14 17:09:32,029] - ### dataset example: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and creating a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 17:13:10,930] - Step 8 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+2. Personal Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+3. Global Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+New Optimized Prompt:
+[2025-02-14 17:13:17,160] - Generated Prompt: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and create a concise version. Aim to make the text as clear and understandable as possible for a wide audience.
+[2025-02-14 17:13:17,161] - ### dataset example: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and create a concise version. Aim to make the text as clear and understandable as possible for a wide audience.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 17:17:10,722] - Step 9 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the following text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+2. Personal Best: Revise the following text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+3. Global Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+New Optimized Prompt:
+[2025-02-14 17:17:12,760] - Generated Prompt: Revise the following text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and creating a straightforward and concise version. Your aim is to make the text as clear and easily understandable as possible.
+[2025-02-14 17:17:12,761] - ### dataset example: Revise the following text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and creating a straightforward and concise version. Your aim is to make the text as clear and easily understandable as possible.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 17:20:45,785] - Step 9 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and creating a straightforward and concise version. Your goal is to ensure the text is as clear and understandable as possible.
+2. Personal Best: Revise the provided text to improve clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and creating a straightforward and concise version. Your goal is to ensure the text is as clear and understandable as possible.
+3. Global Best: Revise the following text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and creating a straightforward and concise version. Your aim is to make the text as clear and easily understandable as possible.
+New Optimized Prompt:
+[2025-02-14 17:20:48,832] - Generated Prompt: Revise the following text to enhance clarity and simplicity while retaining its original meaning. Aim to break down complex sentences, eliminate unnecessary words or phrases, and produce a straightforward and concise version. Your objective is to ensure the text is clear and easily understandable.
+[2025-02-14 17:20:48,832] - ### dataset example: Revise the following text to enhance clarity and simplicity while retaining its original meaning. Aim to break down complex sentences, eliminate unnecessary words or phrases, and produce a straightforward and concise version. Your objective is to ensure the text is clear and easily understandable.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 17:24:22,749] - Step 9 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the following text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your aim is to make the information easily understandable for a wide audience.
+2. Personal Best: Revise the following text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your aim is to make the information easily understandable for a wide audience.
+3. Global Best: Revise the following text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and creating a straightforward and concise version. Your aim is to make the text as clear and easily understandable as possible.
+New Optimized Prompt:
+[2025-02-14 17:24:26,290] - Generated Prompt: Revise the following text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and creating a straightforward, concise version. Your goal is to ensure the information is easily understandable for a broad audience.
+[2025-02-14 17:24:26,290] - ### dataset example: Revise the following text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and creating a straightforward, concise version. Your goal is to ensure the information is easily understandable for a broad audience.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 17:27:56,875] - Step 9 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the following text to improve its clarity and simplicity while maintaining the original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and aim for a concise and straightforward version. Your goal is to make the text as clear and understandable as possible.
+2. Personal Best: Revise the following text to improve its clarity and simplicity while maintaining the original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and aim for a concise and straightforward version. Your goal is to make the text as clear and understandable as possible.
+3. Global Best: Revise the following text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and creating a straightforward and concise version. Your aim is to make the text as clear and easily understandable as possible.
+New Optimized Prompt:
+[2025-02-14 17:27:59,078] - Generated Prompt: Revise the following text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and creating a concise and straightforward version. Your objective is to ensure the text is clear and easily understandable.
+[2025-02-14 17:27:59,079] - ### dataset example: Revise the following text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and creating a concise and straightforward version. Your objective is to ensure the text is clear and easily understandable.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 17:31:47,713] - Step 9 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and create a concise and straightforward version. Aim to improve overall understandability and ensure the text is as clear and accessible as possible.
+2. Personal Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and create a concise and straightforward version. Aim to improve overall understandability and ensure the text is as clear and accessible as possible.
+3. Global Best: Revise the following text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and creating a straightforward and concise version. Your aim is to make the text as clear and easily understandable as possible.
+New Optimized Prompt:
+[2025-02-14 17:31:49,862] - Generated Prompt: Revise the provided text to enhance clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and producing a concise, straightforward version. Your goal is to improve overall understandability and ensure the text is as clear and accessible as possible.
+[2025-02-14 17:31:49,863] - ### dataset example: Revise the provided text to enhance clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and producing a concise, straightforward version. Your goal is to improve overall understandability and ensure the text is as clear and accessible as possible.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 17:35:23,297] - Step 9 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and strive for a straightforward and concise rephrasing. Your objective is to ensure the text is as clear and easy to understand as possible.
+2. Personal Best: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and strive for a straightforward and concise rephrasing. Your objective is to ensure the text is as clear and easy to understand as possible.
+3. Global Best: Revise the following text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and creating a straightforward and concise version. Your aim is to make the text as clear and easily understandable as possible.
+New Optimized Prompt:
+[2025-02-14 17:35:28,575] - Generated Prompt: Revise the following text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and creating a straightforward and concise version. Your goal is to ensure the text is clear and easy to understand for all readers.
+[2025-02-14 17:35:28,576] - ### dataset example: Revise the following text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and creating a straightforward and concise version. Your goal is to ensure the text is clear and easy to understand for all readers.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 17:39:21,925] - Step 9 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and use straightforward language. Aim to create a concise and easily understandable version of the text. Your goal is to ensure maximum clarity for the reader.
+2. Personal Best: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Break down complex sentences, eliminate unnecessary words or phrases, and use straightforward language. Aim to create a concise and easily understandable version of the text. Your goal is to ensure maximum clarity for the reader.
+3. Global Best: Revise the following text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and creating a straightforward and concise version. Your aim is to make the text as clear and easily understandable as possible.
+New Optimized Prompt:
+[2025-02-14 17:39:24,260] - Generated Prompt: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and using straightforward language. Your goal is to create a concise and easily understandable version that maximizes clarity for the reader.
+[2025-02-14 17:39:24,261] - ### dataset example: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and using straightforward language. Your goal is to create a concise and easily understandable version that maximizes clarity for the reader.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 17:43:03,856] - Step 9 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise presentation. Your objective is to make the text as clear and easy to read as possible for all audiences.
+2. Personal Best: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise presentation. Your objective is to make the text as clear and easy to read as possible for all audiences.
+3. Global Best: Revise the following text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and creating a straightforward and concise version. Your aim is to make the text as clear and easily understandable as possible.
+New Optimized Prompt:
+[2025-02-14 17:43:06,023] - Generated Prompt: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Aim to break down complex sentences, eliminate unnecessary words or phrases, and create a straightforward and concise version. Your goal is to ensure the text is easily understandable for all audiences.
+[2025-02-14 17:43:06,024] - ### dataset example: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Aim to break down complex sentences, eliminate unnecessary words or phrases, and create a straightforward and concise version. Your goal is to ensure the text is easily understandable for all audiences.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 17:46:40,000] - Step 9 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it simpler while keeping the original meaning intact. Aim for clarity and straightforwardness in your revision.
+2. Personal Best: Revise the provided text to make it simpler while keeping the original meaning intact. Aim for clarity and straightforwardness in your revision.
+3. Global Best: Revise the following text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and creating a straightforward and concise version. Your aim is to make the text as clear and easily understandable as possible.
+New Optimized Prompt:
+[2025-02-14 17:46:42,669] - Generated Prompt: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and creating a concise version. Your goal is to ensure the text is straightforward and easily understandable.
+[2025-02-14 17:46:42,669] - ### dataset example: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and creating a concise version. Your goal is to ensure the text is straightforward and easily understandable.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 17:50:17,297] - Step 9 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+2. Personal Best: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+3. Global Best: Revise the following text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and creating a straightforward and concise version. Your aim is to make the text as clear and easily understandable as possible.
+New Optimized Prompt:
+[2025-02-14 17:50:20,030] - Generated Prompt: Revise the following text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and creating a concise version. Your aim is to make the text clear and easily understandable for a wide audience.
+[2025-02-14 17:50:20,031] - ### dataset example: Revise the following text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and creating a concise version. Your aim is to make the text clear and easily understandable for a wide audience.
+Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.
+The Simplification of the sentence is: 
+
+[2025-02-14 17:53:50,904] - Final Evaluation Phase
+[2025-02-14 17:53:51,006] - ### dataset example: Revise the following text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, eliminating unnecessary words or phrases, and creating a straightforward and concise version. Your aim is to make the text as clear and easily understandable as possible.
+One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.
+The Simplification of the sentence is: 
+
+[2025-02-14 18:07:18,856] - ### dataset example: Revise the provided text to enhance clarity and simplicity while preserving its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise version. Your goal is to make the text as clear and understandable as possible.
+One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.
+The Simplification of the sentence is: 
+
+[2025-02-14 18:20:38,183] - ### dataset example: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise presentation. Your objective is to make the text as clear and easy to read as possible for all audiences.
+One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.
+The Simplification of the sentence is: 
+
+[2025-02-14 18:34:29,609] - Final Best Score: 48.321423876975814
+Prompt: Revise the provided text to improve clarity and simplicity while maintaining its original meaning. Focus on breaking down complex sentences, removing unnecessary words or phrases, and ensuring a straightforward and concise presentation. Your objective is to make the text as clear and easy to read as possible for all audiences.
+[2025-02-14 18:34:29,706] - PSO Optimization Complete
+[2025-02-14 18:34:29,706] - Best Scores History: [48.2895081470841, 48.72463940546549, 48.72463940546549, 48.72463940546549, 48.72463940546549, 49.07400306346923, 49.07400306346923, 49.07400306346923, 49.07400306346923, 49.21266532060944]
+[2025-02-14 18:34:29,707] - Average Scores History: [47.772010989218806, 47.904563206506786, 47.97794028831755, 48.017869492412466, 48.11770404644126, 48.21090082288917, 48.59228976787151, 48.72795244949194, 48.787640652528324, 48.849699225416096]

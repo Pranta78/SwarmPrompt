@@ -1,12 +1,12 @@
-evoluted	Your role is to simplify the provided phrases by clarifying and shortening the information while retaining its core meaning, transforming complex sentences into clearer and more accessible language.	54.4321
-evoluted	Your task is to clarify the given information by streamlining the provided sentences, rewording intricate expressions and simplifying them while preserving their essence in straightforward language.	54.0621
-evoluted	Your task is to make simpler the supplied statements by simplifying and restating the information using more accessible language.	50.9978
-evoluted	Your task is to summarize and reword the information from the given material by reformulating elaborate expressions into simpler text while omitting redundant phrases to clarify the message.	54.4321
-evoluted	"Simplify complicated statements by altering the provided text, focusing on clarifying complex sentences and streamlining it without changing its essence."	49.5494
-evoluted	Your mission is to paraphrase the details from the given material by refining the statements, making the content clearer while preserving its main idea, and restating it in simpler terms.	52.2402
-evoluted	Transform complex phrases by rewriting the provided sentences in a simpler form while eliminating unnecessary words to maintain the core message.	49.0093
-evoluted	Your task is to consolidate and express the details from the provided text by condensing the information while ensuring clarity and retaining its essential meaning.	53.2281
-evoluted	Simplify the provided content by transforming the given phrases into more accessible wording.	53.3361
-evoluted	Your objective is to refine the supplied statements by revising the provided text through condensing the available text and removing excess words while making them easier to understand and preserving their original meaning.	51.7085
-best score: 54.43211026869769
-average score: 52.29956989435088
+evoluted	Paraphrase the given information by transforming the provided statement into simpler terms. Simplify complex sentences and eliminate unnecessary words, all while retaining its original intent and expressing the text in a concise and clear manner.	47.4605
+evoluted	"Condense the provided information by streamlining intricate sentences and omitting excess words to restate the content in a clearer form while preserving its core message."	49.337
+evoluted	Revise the given text to boost clarity by rewording the content for greater succinctness and clarity while preserving the main idea of the text.	49.0807
+evoluted	Simplify the following statement for clarity by restating the content in a clearer and more succinct manner while keeping the original intent intact.	48.7344
+evoluted	Convert the provided statement into a clearer form while retaining its essence by simplifying complex sentences and eliminating unnecessary words or phrases.	50.7275
+evoluted	Revise the given text for better clarity while ensuring the original meaning is maintained, making the above sentence easier to understand and preserving its core idea.	49.5812
+evoluted	Summarize the given material by simplifying the provided text, clarifying complex phrases, and cutting unnecessary words, while preserving the original meaning and presenting the information more clearly and succinctly.	49.0254
+evoluted	Transform the supplied sentence to make it easier to understand by rewording it while keeping the initial meaning intact, and reformulate the original text in a more understandable and concise manner, preserving its core meaning by clarifying complicated phrases and removing superfluous elements.	48.7464
+evoluted	Refine the provided text by transforming it into a more understandable version, enhancing the clarity of the statements while ensuring that the original meaning is preserved.	50.6392
+evoluted	Polish the submitted text to enhance comprehension by rephrasing it for better clarity and streamlining complex sentences while sustaining the text's core message.	49.0511
+best score: 50.72753988765859
+average score: 49.23834494512283

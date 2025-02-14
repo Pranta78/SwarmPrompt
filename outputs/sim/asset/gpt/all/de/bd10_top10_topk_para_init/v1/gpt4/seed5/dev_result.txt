@@ -1,12 +1,12 @@
-evoluted	Edit the supplied text by clarifying complicated expressions into a simpler format, simplifying complex phrases, and discarding unnecessary words while keeping the fundamental idea clear.	54.3749
-evoluted	Modify the submitted text by restating it in a more direct format, enhancing understanding through simpler language and discarding redundant language to retain the key concept.	53.7981
-evoluted	"Condense the given content into a more straightforward format by rewording the supplied material to make it simpler while cutting redundant phrases while ensuring the core message remains clear and intact."	52.8845
-evoluted	Rephrase the provided text for better clarity by simplifying complex phrases and expressing the input in a more straightforward manner, while omitting superfluous details and maintaining the core message.	52.2934
-evoluted	Simplify complex statements by clarifying and reformulating the provided text, eliminating unnecessary terms while retaining the intended meaning and conveying it clearly. Rewrite the provided sentences in a simpler form.	52.216
-evoluted	Revise the provided content by transforming intricate expressions into simpler language, reworking convoluted statements for clarity, and eliminating superfluous language while maintaining the core meaning consistently.	52.1992
-evoluted	Rework the given material by simplifying convoluted statements and rewriting it to clarify the message while preserving its essence and eliminating excess wording without changing its fundamental idea.	51.7248
-evoluted	Transform the given text into clearer language by streamlining intricate statements, rephrasing them while condensing the details and removing redundant expressions, ensuring that the core message remains intact.	51.7248
-evoluted	Rewrite the input text by clarifying intricate expressions and recasting it into simpler terms, while preserving its essential idea and eliminating excessive information.	51.4947
-para	Rephrase intricate sentences and remove superfluous words or expressions.	49.8672
-best score: 54.374894784664924
-average score: 52.257758203182995
+evoluted	Enhance the provided material by understanding its details and transforming complex phrases into straightforward language, while ensuring the original message is preserved and unnecessary words are eliminated.	50.3406
+evoluted	Rewrite the offered content to simplify its meaning by transforming complex sentences into plain language and eliminating any unnecessary words while preserving the original intent.	50.3294
+evoluted	Transform the material by simplifying intricate statements into more accessible language, ensuring that the sentences are comprehensible while preserving its importance and eliminating unnecessary words, all while keeping the initial message intact.	50.2466
+evoluted	Edit the supplied content to simplify intricate statements for easier understanding by enhancing clarity using simpler terms, rewriting elaborate statements into clearer text, and eliminating redundant expressions while keeping the original message intact.	49.9414
+evoluted	Paraphrase the text by simplifying its meaning while maintaining its significance by converting elaborate sentences into straightforward language and removing redundant terms.	49.6676
+evoluted	Edit the text by rephrasing complex phrases and removing unnecessary wording, transforming the input into simpler terms while maintaining its core idea.	49.5355
+evoluted	Modify the given text by rephrasing complex phrases for greater accessibility, ensuring clarity of the core message, and cutting unnecessary words while maintaining the original meaning.	49.1308
+evoluted	Transform the provided content by condensing its meaning and streamlining complicated expressions into simpler language while ensuring that unnecessary jargon is eliminated and the original intent is preserved.	49.109
+evoluted	Refine the offered content by rephrasing convoluted expressions into simpler language and cutting out redundant words, while ensuring the primary message remains clear and the essential meaning intact.	49.0703
+evoluted	Revise the text to clarify its message by reducing complex phrases and transforming them into clear language, ensuring that the meaning is clear while retaining the intended message and cutting out unnecessary terminology.	48.6425
+best score: 50.3406396531783
+average score: 49.601369832181

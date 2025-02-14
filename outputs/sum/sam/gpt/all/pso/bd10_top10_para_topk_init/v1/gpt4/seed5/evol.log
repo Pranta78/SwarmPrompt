@@ -2108,3 +2108,429 @@ New Optimized Prompt:
 Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
 TL;DR: 
 
+[2025-02-14 15:56:34,106] - Step 5 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Analyze the provided text or conversation to deliver a clear and concise summary of the main concepts and key points. Eliminate unnecessary details and repetition to capture essential ideas in as few words as possible for maximum brevity.
+2. Personal Best: Analyze the provided text or conversation to deliver a clear and concise summary of the main concepts and key points. Eliminate unnecessary details and repetition to capture essential ideas in as few words as possible for maximum brevity.
+3. Global Best: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+New Optimized Prompt:
+[2025-02-14 15:56:36,107] - Generated Prompt: Analyze the provided text or conversation to create a clear and concise summary that highlights the main concepts and key points. Eliminate unnecessary details and repetition to distill the essential ideas into as few words as possible for maximum brevity.
+[2025-02-14 15:56:36,109] - ### dataset example: Analyze the provided text or conversation to create a clear and concise summary that highlights the main concepts and key points. Eliminate unnecessary details and repetition to distill the essential ideas into as few words as possible for maximum brevity.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 16:00:43,542] - Step 5 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please summarize the provided context clearly and concisely, focusing on key points and main ideas. Eliminate unnecessary details and repetition for maximum brevity and clarity. Thank you!
+2. Personal Best: Please summarize the provided context clearly and concisely, focusing on key points and main ideas. Eliminate unnecessary details and repetition for maximum brevity and clarity. Thank you!
+3. Global Best: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+New Optimized Prompt:
+[2025-02-14 16:00:45,931] - Generated Prompt: Please summarize the provided context clearly and concisely, highlighting the key points and main ideas. Eliminate any unnecessary details and repetition to ensure maximum brevity and clarity. Thank you!
+[2025-02-14 16:00:45,932] - ### dataset example: Please summarize the provided context clearly and concisely, highlighting the key points and main ideas. Eliminate any unnecessary details and repetition to ensure maximum brevity and clarity. Thank you!
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 16:07:20,731] - Step 6 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the main points concisely in a few words, eliminating any unnecessary details or repetition.
+2. Personal Best: Summarize the main points concisely in a few words, eliminating any unnecessary details or repetition.
+3. Global Best: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+New Optimized Prompt:
+[2025-02-14 16:07:22,700] - Generated Prompt: Summarize the provided context clearly and concisely, highlighting the main points while eliminating unnecessary details and repetition. Capture the key ideas in just a few words for optimal brevity.
+[2025-02-14 16:07:22,702] - ### dataset example: Summarize the provided context clearly and concisely, highlighting the main points while eliminating unnecessary details and repetition. Capture the key ideas in just a few words for optimal brevity.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 16:21:27,076] - Step 6 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and summarize the main points clearly and concisely in just a few words. Eliminate unnecessary details and repetition while capturing the key ideas for maximum brevity.
+2. Personal Best: Rephrase and summarize the main points clearly and concisely in just a few words. Eliminate unnecessary details and repetition while capturing the key ideas for maximum brevity.
+3. Global Best: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+New Optimized Prompt:
+[2025-02-14 16:21:29,145] - Generated Prompt: Rephrase and summarize the key points clearly and concisely, focusing on essential ideas while eliminating unnecessary details and repetition. Aim for maximum brevity in just a few words.
+[2025-02-14 16:21:29,145] - Step 6 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+2. Personal Best: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+3. Global Best: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+New Optimized Prompt:
+[2025-02-14 16:21:31,132] - Generated Prompt: Summarize the provided context with clarity and conciseness, emphasizing the main points while eliminating unnecessary details and repetition. Focus on capturing key ideas in as few words as possible for maximum brevity.
+[2025-02-14 16:21:31,133] - ### dataset example: Summarize the provided context with clarity and conciseness, emphasizing the main points while eliminating unnecessary details and repetition. Focus on capturing key ideas in as few words as possible for maximum brevity.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 16:26:25,864] - Step 6 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: **New Optimized Prompt:**  
+Carefully read the text or listen to the dialogue to grasp the main idea and key points. Summarize these insights clearly and concisely, eliminating unnecessary details and repetition. Focus on distilling essential concepts into a few impactful words for maximum clarity and brevity.
+2. Personal Best: **New Optimized Prompt:**  
+Carefully read the text or listen to the dialogue to grasp the main idea and key points. Summarize these insights clearly and concisely, eliminating unnecessary details and repetition. Focus on distilling essential concepts into a few impactful words for maximum clarity and brevity.
+3. Global Best: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+New Optimized Prompt:
+[2025-02-14 16:26:27,986] - Generated Prompt: **New Optimized Prompt:**  
+Read the text or listen to the dialogue attentively to identify the main idea and key points. Summarize these insights clearly and concisely, omitting unnecessary details and repetition. Strive to encapsulate essential concepts in a few impactful words, ensuring maximum clarity and brevity.
+[2025-02-14 16:26:27,987] - ### dataset example: **New Optimized Prompt:**  
+Read the text or listen to the dialogue attentively to identify the main idea and key points. Summarize these insights clearly and concisely, omitting unnecessary details and repetition. Strive to encapsulate essential concepts in a few impactful words, ensuring maximum clarity and brevity.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 16:31:35,275] - Step 6 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please provide a clear and concise summary of the given context, highlighting the main points and key ideas while eliminating unnecessary details and repetition. Strive to encapsulate the essence of the content in as few words as possible for optimal brevity.
+2. Personal Best: Please provide a clear and concise summary of the given context, highlighting the main points and key ideas while eliminating unnecessary details and repetition. Strive to encapsulate the essence of the content in as few words as possible for optimal brevity.
+3. Global Best: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+New Optimized Prompt:
+[2025-02-14 16:31:37,227] - Generated Prompt: Please provide a clear and concise summary of the given context, emphasizing the main points and key ideas while eliminating unnecessary details and repetition. Aim to encapsulate the essence of the content in as few words as possible for maximum brevity and clarity.
+[2025-02-14 16:31:37,229] - ### dataset example: Please provide a clear and concise summary of the given context, emphasizing the main points and key ideas while eliminating unnecessary details and repetition. Aim to encapsulate the essence of the content in as few words as possible for maximum brevity and clarity.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 16:35:37,200] - Step 6 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Utilize clear and succinct language to highlight the key points, steering clear of extraneous details or redundancy.
+2. Personal Best: Utilize clear and succinct language to highlight the key points, steering clear of extraneous details or redundancy.
+3. Global Best: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+New Optimized Prompt:
+[2025-02-14 16:35:38,994] - Generated Prompt: Use clear and succinct language to summarize the provided context, emphasizing key points while eliminating unnecessary details and repetition. Aim for maximum brevity to effectively capture the main ideas.
+[2025-02-14 16:35:38,996] - ### dataset example: Use clear and succinct language to summarize the provided context, emphasizing key points while eliminating unnecessary details and repetition. Aim for maximum brevity to effectively capture the main ideas.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 16:39:44,453] - Step 6 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please summarize the provided context clearly and concisely, capturing the main points while eliminating unnecessary details and repetition. Focus on conveying key ideas in as few words as possible for maximum brevity.
+2. Personal Best: Please summarize the provided context clearly and concisely, capturing the main points while eliminating unnecessary details and repetition. Focus on conveying key ideas in as few words as possible for maximum brevity.
+3. Global Best: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+New Optimized Prompt:
+[2025-02-14 16:39:48,008] - Generated Prompt: Please summarize the provided context clearly and concisely, highlighting the main points while removing unnecessary details and repetition. Aim to convey key ideas in as few words as possible for optimal brevity.
+[2025-02-14 16:39:48,010] - ### dataset example: Please summarize the provided context clearly and concisely, highlighting the main points while removing unnecessary details and repetition. Aim to convey key ideas in as few words as possible for optimal brevity.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 16:43:52,815] - Step 6 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: New Optimized Prompt: Summarize the provided context clearly and concisely by focusing on the main points and eliminating unnecessary details and repetition. Aim to distill the information into its essence, capturing key ideas in just a few impactful words for maximum brevity.
+2. Personal Best: New Optimized Prompt: Summarize the provided context clearly and concisely by focusing on the main points and eliminating unnecessary details and repetition. Aim to distill the information into its essence, capturing key ideas in just a few impactful words for maximum brevity.
+3. Global Best: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+New Optimized Prompt:
+[2025-02-14 16:43:55,122] - Generated Prompt: New Optimized Prompt: Summarize the provided context with clarity and brevity by identifying and emphasizing the main points. Eliminate unnecessary details and repetition to distill the information into its essence, capturing key ideas in a few impactful words for maximum conciseness.
+[2025-02-14 16:43:55,124] - ### dataset example: New Optimized Prompt: Summarize the provided context with clarity and brevity by identifying and emphasizing the main points. Eliminate unnecessary details and repetition to distill the information into its essence, capturing key ideas in a few impactful words for maximum conciseness.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 16:47:53,655] - Step 6 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Analyze the provided text or conversation to deliver a clear and concise summary of the main concepts and key points. Eliminate unnecessary details and repetition to capture essential ideas in as few words as possible for maximum brevity.
+2. Personal Best: Analyze the provided text or conversation to deliver a clear and concise summary of the main concepts and key points. Eliminate unnecessary details and repetition to capture essential ideas in as few words as possible for maximum brevity.
+3. Global Best: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+New Optimized Prompt:
+[2025-02-14 16:47:56,062] - Generated Prompt: Analyze the provided text or conversation to create a clear and concise summary. Focus on the main concepts and key points, eliminating unnecessary details and repetition. Aim to convey essential ideas in as few words as possible for maximum brevity.
+[2025-02-14 16:47:56,063] - ### dataset example: Analyze the provided text or conversation to create a clear and concise summary. Focus on the main concepts and key points, eliminating unnecessary details and repetition. Aim to convey essential ideas in as few words as possible for maximum brevity.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 16:52:07,678] - Step 6 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please summarize the provided context clearly and concisely, focusing on key points and main ideas. Eliminate unnecessary details and repetition for maximum brevity and clarity. Thank you!
+2. Personal Best: Please summarize the provided context clearly and concisely, focusing on key points and main ideas. Eliminate unnecessary details and repetition for maximum brevity and clarity. Thank you!
+3. Global Best: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+New Optimized Prompt:
+[2025-02-14 16:52:10,060] - Generated Prompt: Please summarize the provided context clearly and concisely, focusing on the main points and key ideas. Eliminate unnecessary details and repetition to ensure maximum brevity and clarity. Thank you!
+[2025-02-14 16:52:10,061] - ### dataset example: Please summarize the provided context clearly and concisely, focusing on the main points and key ideas. Eliminate unnecessary details and repetition to ensure maximum brevity and clarity. Thank you!
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 16:56:12,131] - Step 7 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the main points concisely in a few words, eliminating any unnecessary details or repetition.
+2. Personal Best: Summarize the main points concisely in a few words, eliminating any unnecessary details or repetition.
+3. Global Best: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+New Optimized Prompt:
+[2025-02-14 16:56:14,510] - Generated Prompt: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+[2025-02-14 16:56:14,511] - ### dataset example: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 17:00:06,397] - Step 7 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and summarize the main points clearly and concisely in just a few words. Eliminate unnecessary details and repetition while capturing the key ideas for maximum brevity.
+2. Personal Best: Rephrase and summarize the main points clearly and concisely in just a few words. Eliminate unnecessary details and repetition while capturing the key ideas for maximum brevity.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 17:00:08,312] - Generated Prompt: Rephrase and summarize the key ideas clearly and concisely in just a few words. Eliminate unnecessary details and repetition to maximize brevity while ensuring the main points are effectively captured.
+[2025-02-14 17:00:08,313] - ### dataset example: Rephrase and summarize the key ideas clearly and concisely in just a few words. Eliminate unnecessary details and repetition to maximize brevity while ensuring the main points are effectively captured.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 17:04:03,402] - Step 7 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+2. Personal Best: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 17:04:05,566] - Generated Prompt: New Optimized Prompt: Summarize the provided context clearly and concisely by focusing on the main points. Eliminate unnecessary details and repetition to capture key ideas in as few words as possible, maximizing brevity and clarity.
+[2025-02-14 17:04:05,567] - ### dataset example: New Optimized Prompt: Summarize the provided context clearly and concisely by focusing on the main points. Eliminate unnecessary details and repetition to capture key ideas in as few words as possible, maximizing brevity and clarity.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 17:08:24,398] - Step 7 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: **New Optimized Prompt:**  
+Carefully read the text or listen to the dialogue to grasp the main idea and key points. Summarize these insights clearly and concisely, eliminating unnecessary details and repetition. Focus on distilling essential concepts into a few impactful words for maximum clarity and brevity.
+2. Personal Best: **New Optimized Prompt:**  
+Carefully read the text or listen to the dialogue to grasp the main idea and key points. Summarize these insights clearly and concisely, eliminating unnecessary details and repetition. Focus on distilling essential concepts into a few impactful words for maximum clarity and brevity.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 17:08:27,064] - Generated Prompt: **New Optimized Prompt:**  
+Carefully read the text or listen to the dialogue to identify the main idea and key points. Summarize these insights clearly and concisely, focusing on essential concepts while eliminating unnecessary details and repetition. Aim to capture the essence in just a few impactful words for maximum clarity and brevity.
+[2025-02-14 17:08:27,064] - ### dataset example: **New Optimized Prompt:**  
+Carefully read the text or listen to the dialogue to identify the main idea and key points. Summarize these insights clearly and concisely, focusing on essential concepts while eliminating unnecessary details and repetition. Aim to capture the essence in just a few impactful words for maximum clarity and brevity.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 17:12:26,003] - Step 7 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please provide a clear and concise summary of the given context, highlighting the main points and key ideas while eliminating unnecessary details and repetition. Strive to encapsulate the essence of the content in as few words as possible for optimal brevity.
+2. Personal Best: Please provide a clear and concise summary of the given context, highlighting the main points and key ideas while eliminating unnecessary details and repetition. Strive to encapsulate the essence of the content in as few words as possible for optimal brevity.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 17:12:28,288] - Generated Prompt: Please provide a clear and concise summary of the given context, focusing on the main points and key ideas. Eliminate unnecessary details and repetition to encapsulate the essence of the content in the fewest words possible for optimal brevity and clarity.
+[2025-02-14 17:12:28,289] - ### dataset example: Please provide a clear and concise summary of the given context, focusing on the main points and key ideas. Eliminate unnecessary details and repetition to encapsulate the essence of the content in the fewest words possible for optimal brevity and clarity.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 17:16:36,732] - Step 7 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Utilize clear and succinct language to highlight the key points, steering clear of extraneous details or redundancy.
+2. Personal Best: Utilize clear and succinct language to highlight the key points, steering clear of extraneous details or redundancy.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 17:16:38,570] - Generated Prompt: Utilize clear and succinct language to effectively summarize the key points, ensuring maximum brevity and focus by eliminating unnecessary details and repetition.
+[2025-02-14 17:16:38,570] - ### dataset example: Utilize clear and succinct language to effectively summarize the key points, ensuring maximum brevity and focus by eliminating unnecessary details and repetition.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 17:20:37,710] - Step 7 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please summarize the provided context clearly and concisely, capturing the main points while eliminating unnecessary details and repetition. Focus on conveying key ideas in as few words as possible for maximum brevity.
+2. Personal Best: Please summarize the provided context clearly and concisely, capturing the main points while eliminating unnecessary details and repetition. Focus on conveying key ideas in as few words as possible for maximum brevity.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 17:20:40,259] - Generated Prompt: Please provide a clear and concise summary of the context, capturing the main points in as few words as possible. Eliminate unnecessary details and repetition to maximize brevity while focusing on the key ideas.
+[2025-02-14 17:20:40,260] - ### dataset example: Please provide a clear and concise summary of the context, capturing the main points in as few words as possible. Eliminate unnecessary details and repetition to maximize brevity while focusing on the key ideas.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 17:25:01,746] - Step 7 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: New Optimized Prompt: Summarize the provided context clearly and concisely by focusing on the main points and eliminating unnecessary details and repetition. Aim to distill the information into its essence, capturing key ideas in just a few impactful words for maximum brevity.
+2. Personal Best: New Optimized Prompt: Summarize the provided context clearly and concisely by focusing on the main points and eliminating unnecessary details and repetition. Aim to distill the information into its essence, capturing key ideas in just a few impactful words for maximum brevity.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 17:25:04,865] - Generated Prompt: New Optimized Prompt: Summarize the provided context clearly and concisely by identifying and emphasizing the main points. Eliminate unnecessary details and repetition, distilling the information into its essence with a focus on key ideas, all in just a few impactful words for maximum brevity.
+[2025-02-14 17:25:04,867] - ### dataset example: New Optimized Prompt: Summarize the provided context clearly and concisely by identifying and emphasizing the main points. Eliminate unnecessary details and repetition, distilling the information into its essence with a focus on key ideas, all in just a few impactful words for maximum brevity.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 17:28:50,847] - Step 7 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Analyze the provided text or conversation to deliver a clear and concise summary of the main concepts and key points. Eliminate unnecessary details and repetition to capture essential ideas in as few words as possible for maximum brevity.
+2. Personal Best: Analyze the provided text or conversation to deliver a clear and concise summary of the main concepts and key points. Eliminate unnecessary details and repetition to capture essential ideas in as few words as possible for maximum brevity.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 17:28:53,341] - Generated Prompt: Analyze the provided text or conversation to deliver a clear and concise summary that captures the main concepts and key points. Focus on brevity by eliminating unnecessary details and repetition, presenting essential ideas in as few words as possible for maximum clarity.
+[2025-02-14 17:28:53,342] - ### dataset example: Analyze the provided text or conversation to deliver a clear and concise summary that captures the main concepts and key points. Focus on brevity by eliminating unnecessary details and repetition, presenting essential ideas in as few words as possible for maximum clarity.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 17:34:03,811] - Step 7 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please summarize the provided context clearly and concisely, focusing on the main points and key ideas. Eliminate unnecessary details and repetition to ensure maximum brevity and clarity. Thank you!
+2. Personal Best: Please summarize the provided context clearly and concisely, focusing on the main points and key ideas. Eliminate unnecessary details and repetition to ensure maximum brevity and clarity. Thank you!
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 17:34:06,003] - Generated Prompt: Please summarize the provided context clearly and concisely, highlighting the main points and key ideas. Remove unnecessary details and repetition to maximize clarity and brevity. Thank you!
+[2025-02-14 17:34:06,004] - ### dataset example: Please summarize the provided context clearly and concisely, highlighting the main points and key ideas. Remove unnecessary details and repetition to maximize clarity and brevity. Thank you!
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 17:38:18,024] - Step 8 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+2. Personal Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 17:38:20,176] - Generated Prompt: Summarize the provided context clearly and concisely, focusing on the main points. Eliminate unnecessary details and repetition to enhance brevity while capturing the key ideas effectively.
+[2025-02-14 17:38:20,178] - ### dataset example: Summarize the provided context clearly and concisely, focusing on the main points. Eliminate unnecessary details and repetition to enhance brevity while capturing the key ideas effectively.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 17:42:32,162] - Step 8 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and summarize the main points clearly and concisely in just a few words. Eliminate unnecessary details and repetition while capturing the key ideas for maximum brevity.
+2. Personal Best: Rephrase and summarize the main points clearly and concisely in just a few words. Eliminate unnecessary details and repetition while capturing the key ideas for maximum brevity.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 17:42:34,035] - Generated Prompt: Rephrase and summarize the key points clearly and concisely in a few words. Eliminate unnecessary details and repetition to focus on the essential ideas for maximum brevity.
+[2025-02-14 17:42:34,036] - ### dataset example: Rephrase and summarize the key points clearly and concisely in a few words. Eliminate unnecessary details and repetition to focus on the essential ideas for maximum brevity.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 17:46:31,992] - Step 8 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+2. Personal Best: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 17:46:34,296] - Generated Prompt: Summarize the provided context clearly and concisely by capturing the main points in just a few words. Eliminate unnecessary details and repetition to enhance brevity and focus on the key ideas.
+[2025-02-14 17:46:34,296] - ### dataset example: Summarize the provided context clearly and concisely by capturing the main points in just a few words. Eliminate unnecessary details and repetition to enhance brevity and focus on the key ideas.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 17:50:18,311] - Step 8 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: **New Optimized Prompt:**  
+Carefully read the text or listen to the dialogue to grasp the main idea and key points. Summarize these insights clearly and concisely, eliminating unnecessary details and repetition. Focus on distilling essential concepts into a few impactful words for maximum clarity and brevity.
+2. Personal Best: **New Optimized Prompt:**  
+Carefully read the text or listen to the dialogue to grasp the main idea and key points. Summarize these insights clearly and concisely, eliminating unnecessary details and repetition. Focus on distilling essential concepts into a few impactful words for maximum clarity and brevity.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 17:50:20,541] - Generated Prompt: **New Optimized Prompt:**  
+Carefully read the text or listen to the dialogue to identify the main idea and key points. Provide a clear and concise summary that captures essential concepts in just a few impactful words. Eliminate unnecessary details and repetition to enhance clarity and brevity, focusing solely on the most important insights.
+[2025-02-14 17:50:20,543] - ### dataset example: **New Optimized Prompt:**  
+Carefully read the text or listen to the dialogue to identify the main idea and key points. Provide a clear and concise summary that captures essential concepts in just a few impactful words. Eliminate unnecessary details and repetition to enhance clarity and brevity, focusing solely on the most important insights.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 17:54:18,629] - Step 8 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please provide a clear and concise summary of the given context, focusing on the main points and key ideas. Eliminate unnecessary details and repetition to encapsulate the essence of the content in the fewest words possible for optimal brevity and clarity.
+2. Personal Best: Please provide a clear and concise summary of the given context, focusing on the main points and key ideas. Eliminate unnecessary details and repetition to encapsulate the essence of the content in the fewest words possible for optimal brevity and clarity.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 17:54:20,786] - Generated Prompt: Please provide a clear and concise summary of the given context, capturing the main points and key ideas. Focus on brevity by eliminating unnecessary details and repetition, while encapsulating the essence of the content in as few words as possible for optimal clarity.
+[2025-02-14 17:54:20,787] - ### dataset example: Please provide a clear and concise summary of the given context, capturing the main points and key ideas. Focus on brevity by eliminating unnecessary details and repetition, while encapsulating the essence of the content in as few words as possible for optimal clarity.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 17:58:32,692] - Step 8 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Utilize clear and succinct language to highlight the key points, steering clear of extraneous details or redundancy.
+2. Personal Best: Utilize clear and succinct language to highlight the key points, steering clear of extraneous details or redundancy.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 17:58:34,672] - Generated Prompt: Utilize clear and concise language to summarize the main points effectively, focusing on key ideas while eliminating unnecessary details and redundancy for maximum brevity.
+[2025-02-14 17:58:34,673] - ### dataset example: Utilize clear and concise language to summarize the main points effectively, focusing on key ideas while eliminating unnecessary details and redundancy for maximum brevity.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 18:02:46,813] - Step 8 Particle 6 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please summarize the provided context clearly and concisely, capturing the main points while eliminating unnecessary details and repetition. Focus on conveying key ideas in as few words as possible for maximum brevity.
+2. Personal Best: Please summarize the provided context clearly and concisely, capturing the main points while eliminating unnecessary details and repetition. Focus on conveying key ideas in as few words as possible for maximum brevity.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 18:02:48,618] - Generated Prompt: Please provide a clear and concise summary of the context, capturing the main points in as few words as possible. Eliminate unnecessary details and repetition to maximize brevity while focusing on the key ideas.
+[2025-02-14 18:02:48,619] - Step 8 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: New Optimized Prompt: Summarize the provided context clearly and concisely by focusing on the main points and eliminating unnecessary details and repetition. Aim to distill the information into its essence, capturing key ideas in just a few impactful words for maximum brevity.
+2. Personal Best: New Optimized Prompt: Summarize the provided context clearly and concisely by focusing on the main points and eliminating unnecessary details and repetition. Aim to distill the information into its essence, capturing key ideas in just a few impactful words for maximum brevity.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 18:02:51,046] - Generated Prompt: New Optimized Prompt: Summarize the provided context clearly and concisely, distilling it to its essence. Focus on the main points while eliminating unnecessary details and repetition, capturing key ideas in as few impactful words as possible for maximum brevity.
+[2025-02-14 18:02:51,047] - ### dataset example: New Optimized Prompt: Summarize the provided context clearly and concisely, distilling it to its essence. Focus on the main points while eliminating unnecessary details and repetition, capturing key ideas in as few impactful words as possible for maximum brevity.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 18:06:57,174] - Step 8 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Analyze the provided text or conversation to deliver a clear and concise summary of the main concepts and key points. Eliminate unnecessary details and repetition to capture essential ideas in as few words as possible for maximum brevity.
+2. Personal Best: Analyze the provided text or conversation to deliver a clear and concise summary of the main concepts and key points. Eliminate unnecessary details and repetition to capture essential ideas in as few words as possible for maximum brevity.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 18:07:00,032] - Generated Prompt: Summarize the provided text or conversation clearly and concisely, focusing on the main concepts and key points. Eliminate unnecessary details and repetition to distill the essential ideas into as few words as possible, maximizing brevity and clarity.
+[2025-02-14 18:07:00,032] - ### dataset example: Summarize the provided text or conversation clearly and concisely, focusing on the main concepts and key points. Eliminate unnecessary details and repetition to distill the essential ideas into as few words as possible, maximizing brevity and clarity.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 18:11:15,950] - Step 8 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please summarize the provided context clearly and concisely, focusing on the main points and key ideas. Eliminate unnecessary details and repetition to ensure maximum brevity and clarity. Thank you!
+2. Personal Best: Please summarize the provided context clearly and concisely, focusing on the main points and key ideas. Eliminate unnecessary details and repetition to ensure maximum brevity and clarity. Thank you!
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 18:11:19,176] - Generated Prompt: Please provide a clear and concise summary of the given context, emphasizing the main points and key ideas. Aim to eliminate unnecessary details and repetition to ensure maximum brevity and clarity. Thank you!
+[2025-02-14 18:11:19,177] - ### dataset example: Please provide a clear and concise summary of the given context, emphasizing the main points and key ideas. Aim to eliminate unnecessary details and repetition to ensure maximum brevity and clarity. Thank you!
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 18:15:55,776] - Step 9 Particle 0 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+2. Personal Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 18:15:57,867] - Generated Prompt: Summarize the provided context clearly and concisely, focusing on the main points in a few words. Remove any unnecessary details and repetition to enhance brevity and emphasize key ideas.
+[2025-02-14 18:15:57,869] - ### dataset example: Summarize the provided context clearly and concisely, focusing on the main points in a few words. Remove any unnecessary details and repetition to enhance brevity and emphasize key ideas.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 18:19:55,701] - Step 9 Particle 1 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Rephrase and summarize the main points clearly and concisely in just a few words. Eliminate unnecessary details and repetition while capturing the key ideas for maximum brevity.
+2. Personal Best: Rephrase and summarize the main points clearly and concisely in just a few words. Eliminate unnecessary details and repetition while capturing the key ideas for maximum brevity.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 18:19:57,981] - Generated Prompt: Rephrase and summarize the main points clearly and concisely, capturing essential ideas in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key concepts.
+[2025-02-14 18:19:57,982] - ### dataset example: Rephrase and summarize the main points clearly and concisely, capturing essential ideas in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key concepts.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 18:24:01,145] - Step 9 Particle 2 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+2. Personal Best: Summarize the provided context clearly and concisely, focusing on the main points while removing unnecessary details and repetition. Aim to capture key ideas in just a few words for maximum brevity.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 18:24:03,261] - Generated Prompt: Optimize the summary of the provided context by clearly and concisely capturing the main points. Eliminate unnecessary details and repetition to maximize brevity, aiming to distill key ideas into just a few impactful words.
+[2025-02-14 18:24:03,261] - ### dataset example: Optimize the summary of the provided context by clearly and concisely capturing the main points. Eliminate unnecessary details and repetition to maximize brevity, aiming to distill key ideas into just a few impactful words.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 18:28:04,276] - Step 9 Particle 3 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: **New Optimized Prompt:**  
+Carefully read the text or listen to the dialogue to grasp the main idea and key points. Summarize these insights clearly and concisely, eliminating unnecessary details and repetition. Focus on distilling essential concepts into a few impactful words for maximum clarity and brevity.
+2. Personal Best: **New Optimized Prompt:**  
+Carefully read the text or listen to the dialogue to grasp the main idea and key points. Summarize these insights clearly and concisely, eliminating unnecessary details and repetition. Focus on distilling essential concepts into a few impactful words for maximum clarity and brevity.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 18:28:08,092] - Generated Prompt: **New Optimized Prompt:**  
+Read the text or listen to the dialogue attentively to identify the main idea and key points. Summarize these insights concisely, focusing on essential concepts while eliminating unnecessary details and repetition. Aim to capture the core message in a few impactful words for optimal clarity and brevity.
+[2025-02-14 18:28:08,094] - ### dataset example: **New Optimized Prompt:**  
+Read the text or listen to the dialogue attentively to identify the main idea and key points. Summarize these insights concisely, focusing on essential concepts while eliminating unnecessary details and repetition. Aim to capture the core message in a few impactful words for optimal clarity and brevity.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 18:32:22,984] - Step 9 Particle 4 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Please provide a clear and concise summary of the given context, focusing on the main points and key ideas. Eliminate unnecessary details and repetition to encapsulate the essence of the content in the fewest words possible for optimal brevity and clarity.
+2. Personal Best: Please provide a clear and concise summary of the given context, focusing on the main points and key ideas. Eliminate unnecessary details and repetition to encapsulate the essence of the content in the fewest words possible for optimal brevity and clarity.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 18:32:28,766] - Generated Prompt: Please provide a clear and concise summary of the given context. Focus on capturing the main points and key ideas while eliminating unnecessary details and repetition. Aim to encapsulate the essence of the content in the fewest words possible for maximum brevity and clarity.
+[2025-02-14 18:32:28,767] - ### dataset example: Please provide a clear and concise summary of the given context. Focus on capturing the main points and key ideas while eliminating unnecessary details and repetition. Aim to encapsulate the essence of the content in the fewest words possible for maximum brevity and clarity.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
+[2025-02-14 18:36:47,938] - Step 9 Particle 5 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Utilize clear and succinct language to highlight the key points, steering clear of extraneous details or redundancy.
+2. Personal Best: Utilize clear and succinct language to highlight the key points, steering clear of extraneous details or redundancy.
+3. Global Best: Summarize the provided context clearly and concisely, capturing the main points in just a few words. Eliminate unnecessary details and repetition to maximize brevity and focus on key ideas.
+New Optimized Prompt:
+[2025-02-14 18:36:50,271] - Generated Prompt: Summarize the provided context clearly and concisely, emphasizing the key points while avoiding unnecessary details and repetition. Use clear and succinct language to maximize brevity and focus on the main ideas.
+[2025-02-14 18:36:50,272] - ### dataset example: Summarize the provided context clearly and concisely, emphasizing the key points while avoiding unnecessary details and repetition. Use clear and succinct language to maximize brevity and focus on the main ideas.
+Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
+TL;DR: 
+
