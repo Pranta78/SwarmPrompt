@@ -353,6 +353,7 @@ class GAEvoluter(Evoluter):
             self.template = templates_2["sim"]
 
     def evolute(self):
+        print("hello from gaevolute()")
         logger = self.logger
         self.evaluated_prompts, cur_budget = self.init_pop()
         evaluator = self.evaluator
@@ -669,3 +670,189 @@ class DEEvoluter(Evoluter):
         self.marks = [self.prompts2mark[i] for i in self.population]
 
         self.sorted()
+
+
+# cg
+# class PSOEvoluter(Evoluter):
+#     def __init__(self, args, evaluator):
+#         super(PSOEvoluter, self).__init__(args, evaluator)
+#         self.population_size = args.popsize
+#         self.inertia = 0.5
+#         self.cognitive_coeff = 1.5
+#         self.social_coeff = 1.5
+#         self.embedding_dim = 200
+#         self.velocity = np.zeros((self.population_size, self.embedding_dim))
+#         self.personal_best = None
+#         self.global_best = None
+#         self.initialize_population()
+
+#     def initialize_population(self):
+#         """Initialize the population and personal bests."""
+#         # self.population = [self.generate_random_prompt() for _ in range(self.population_size)]
+#         self.evaluated_prompts, cur_budget = self.init_pop()
+#         self.personal_best = list(self.population)
+#         self.global_best = self.get_best_solution(self.population)
+
+#     def evaluate_fitness(self, prompt):
+#         """Evaluate the fitness of a given prompt."""
+#         fitness = self.evaluated_prompts[prompt][0]
+#         return fitness
+
+#     def update_particles(self):
+#         """Update the velocity and position of each particle."""
+#         for i in range(self.population_size):
+#             r1, r2 = np.random.rand(), np.random.rand()
+#             # cognitive_velocity = self.cognitive_coeff * r1 * (self.personal_best[i] - self.population[i])
+#             cognitive_velocity = self.cognitive_coeff * r1 * \
+#                                 (self.evaluate_fitness(self.personal_best[i]) - self.evaluate_fitness(self.population[i]))
+#             # social_velocity = self.social_coeff * r2 * (self.global_best - self.population[i])
+#             social_velocity = self.social_coeff * r2 * \
+#                             (self.evaluate_fitness(self.global_best) - self.evaluate_fitness(self.population[i]))
+#             self.velocity[i] = self.inertia * self.velocity[i] + cognitive_velocity + social_velocity
+#             self.population[i] += self.velocity[i].astype('float64')
+
+#             # Ensure valid prompts (if necessary, apply constraints)
+#             self.population[i] = self.ensure_valid_prompt(self.population[i])
+
+#             # Update personal best
+#             if self.evaluate_fitness(self.population[i]) > self.evaluate_fitness(self.personal_best[i]):
+#                 self.personal_best[i] = self.population[i]
+
+#         # Update global best
+#         self.global_best = self.get_best_solution(self.personal_best)
+
+#     def evolute(self, generations=10):
+#         """Run the PSO algorithm for a specified number of generations."""
+#         for _ in range(generations):
+#             self.update_particles()
+#         return self.global_best
+
+#     def get_best_solution(self, population):
+#         """Find the best solution from a population."""
+#         return max(population, key=self.evaluate_fitness)
+
+#     def ensure_valid_prompt(self, prompt):
+#         """Ensure the prompt is in a valid format (override as needed)."""
+#         return prompt
+
+
+class PSOEvoluter(Evoluter):
+    def __init__(self, args, evaluator):
+        super().__init__(args, evaluator)
+        try:
+            self.template = templates_2[f"{args.task}_pso"]
+        except KeyError:
+            self.template = ("Combine the best aspects of these three prompts to create an improved version:\n"
+                            "1. Current Prompt: <current>\n"
+                            "2. Personal Best: <personal_best>\n"
+                            "3. Global Best: <global_best>\n"
+                            "New Optimized Prompt:")
+
+    def evolute(self):
+        logger = self.logger
+        self.evaluated_prompts, cur_budget = self.init_pop()
+        args = self.args
+        
+        # Initialize personal bests and velocities
+        personal_bests = list(self.population)
+        personal_scores = [self.evaluated_prompts[p][-1] for p in personal_bests]
+        global_best_idx = np.argmax(personal_scores)
+        global_best = personal_bests[global_best_idx]
+        global_score = personal_scores[global_best_idx]
+
+        best_history = []
+        avg_history = []
+
+        for step in range(cur_budget + 1, args.budget):
+            new_population = []
+            total_score = 0
+            step_best = 0
+
+            for i in range(args.popsize):
+                current_prompt = self.population[i]
+                pb_prompt = personal_bests[i]
+                
+                # Generate new prompt using PSO strategy
+                query = self.template.replace("<current>", current_prompt)\
+                                    .replace("<personal_best>", pb_prompt)\
+                                    .replace("<global_best>", global_best)
+                
+                logger.info(f"Step {step} Particle {i} Evolution Query:\n{query}")
+                
+                # Get LLM-generated new prompt
+                new_prompt = llm_query(
+                    client=self.client,
+                    data=query,
+                    type=args.llm_type,
+                    task=False,
+                    temperature=0.7,
+                    **self.llm_config
+                )
+                new_prompt = get_final_prompt(new_prompt)
+                logger.info(f"Generated Prompt: {new_prompt}")
+
+                # Evaluate if not already cached
+                if new_prompt not in self.evaluated_prompts:
+                    eval_result = self.evaluator.forward(new_prompt, self.eval_src, self.eval_tgt)
+                    self.evaluated_prompts[new_prompt] = eval_result["scores"]
+                    self.prompts2mark[new_prompt] = "pso"
+
+                new_score = self.evaluated_prompts[new_prompt][-1]
+                current_score = self.evaluated_prompts[current_prompt][-1]
+
+                # Update personal best
+                if new_score > personal_scores[i]:
+                    personal_bests[i] = new_prompt
+                    personal_scores[i] = new_score
+
+                # Update global best
+                if new_score > global_score:
+                    global_best = new_prompt
+                    global_score = new_score
+
+                # Selection: Keep better of current and new
+                if new_score > current_score:
+                    new_population.append(new_prompt)
+                    total_score += new_score
+                    step_best = max(step_best, new_score)
+                else:
+                    new_population.append(current_prompt)
+                    total_score += current_score
+                    step_best = max(step_best, current_score)
+
+            # Update population and tracking metrics
+            self.population = new_population
+            avg_score = total_score / args.popsize
+            best_history.append(step_best)
+            avg_history.append(avg_score)
+
+            # Write step results
+            self.write_step(step, step_best, avg_score)
+
+            # Final evaluation
+            if step == args.budget - 1:
+                logger.info("Final Evaluation Phase")
+                sorted_pop = sorted(self.population, 
+                                  key=lambda x: self.evaluated_prompts[x][-1], 
+                                  reverse=True)
+                
+                test_prompts = sorted_pop[:3]
+                test_marks = [self.prompts2mark[p] for p in test_prompts]
+                
+                best_score, best_prompt = evaluate_optimized_prompt(
+                    test_prompts,
+                    test_marks,
+                    os.path.join(self.public_out_path, f"step{step}_final_test.txt"),
+                    self.evaluator,
+                    args
+                )
+                logger.info(f"Final Best Score: {best_score}\nPrompt: {best_prompt}")
+
+        # Final processing
+        self.scores = [self.evaluated_prompts[p] for p in self.population]
+        self.marks = [self.prompts2mark[p] for p in self.population]
+        self.sorted()
+
+        logger.info("PSO Optimization Complete")
+        logger.info(f"Best Scores History: {best_history}")
+        logger.info(f"Average Scores History: {avg_history}")

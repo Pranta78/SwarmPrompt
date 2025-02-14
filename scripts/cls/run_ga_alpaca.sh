@@ -9,9 +9,9 @@ BUDGET=10
 POPSIZE=10
 SEED=5
 GA=topk
-LLM_TYPE=davinci
+LLM_TYPE=turbo
 
-for dataset in sst2
+for dataset in sst2-5
 do
 OUT_PATH=outputs/cls/$dataset/alpaca/all/ga/bd${BUDGET}_top${POPSIZE}_para_topk_init/$GA/$LLM_TYPE
 for SEED in 15
@@ -23,7 +23,7 @@ python run.py \
     --batch-size 32 \
     --prompt-num 0 \
     --sample_num 500 \
-    --language_model alpaca \
+    --language_model gpt \
     --budget $BUDGET \
     --popsize $POPSIZE \
     --position demon \

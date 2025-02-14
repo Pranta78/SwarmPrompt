@@ -1,7 +1,7 @@
 davinci:
   default:
     # api_type: 
-    api_key: 
+    api_key: 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
     # api_base: 
     # api_version: 
     # engine: text-davinci-003
@@ -9,15 +9,40 @@ davinci:
 turbo:
   default:
     # api_type: 
-    api_key: 
-    # api_base: 
+    api_key: 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
+    api_base: https://openrouter.ai/api/v1
     # api_version: 
     # engine: 
-    model: gpt-3.5-turbo
+    model: openai/gpt-3.5-turbo-0613
+deepseek:
+  default:
+    # api_type: 
+    api_base: https://openrouter.ai/api/v1
+    api_key: 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
+    # api_version: 
+    # engine: 
+    model: deepseek/deepseek-r1-distill-qwen-32b
 gpt4:
   default:
-    api_type: 
-    api_base: 
-    api_key: 
-    api_version: 
-    engine:
+    # api_type: 
+    api_base: https://openrouter.ai/api/v1
+    api_key: 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
+    # api_version: 
+    # engine:
+    model: openai/gpt-4o-mini
+mistral:
+  default:
+    # api_type: 
+    api_base: https://openrouter.ai/api/v1
+    api_key: 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
+    # api_version: 
+    # engine: 
+    model: mistralai/mistral-7b-instruct:free
+llama:
+  default:
+    # api_type: 
+    api_base: https://openrouter.ai/api/v1
+    api_key: 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
+    # api_version: 
+    # engine: 
+    model: meta-llama/llama-3-8b-instruct:free

@@ -1,6 +1,6 @@
 import json
 import os
-from tqdm import tqdm
+from tqdm.auto import tqdm
 import numpy as np
 import random
 import sys
@@ -11,6 +11,7 @@ from transformers import (
     OPTForCausalLM,
     AutoModelForCausalLM,
     AutoModelForMaskedLM,
+    BitsAndBytesConfig,
     LlamaForCausalLM,
     LlamaTokenizer,
 )
@@ -46,8 +47,9 @@ class Evaluator(object):
         # print(self.template)
         self.model_name = args.language_model.split("/")[-1]
 
-        self.client = None
-        self.llm_config = llm_init(f"./auth.yaml", args.llm_type, args.setting)
+        self.client = llm_init(f"./auth.yaml", args.llm_type)
+        self.llm_config = my_llm_init(f"./auth.yaml", args.llm_type, args.setting)
+
 
         if "gpt" in args.language_model:
             self.tokenizer = None
@@ -60,9 +62,11 @@ class Evaluator(object):
                 padding_side="left",
                 # truncation_side="left"
             )
+            quantization_config = BitsAndBytesConfig(llm_int8_enable_fp32_cpu_offload=True) # load_in_8bit=True
             self.model = LlamaForCausalLM.from_pretrained(
                 'chavinlo/alpaca-native',
-                load_in_8bit=True,
+                # load_in_8bit=True,
+                quantization_config=quantization_config,
                 torch_dtype=torch.float16,
                 device_map="auto",
             )
@@ -297,12 +301,16 @@ class Evaluator(object):
 
 class CLSEvaluator(Evaluator):
     def __init__(self, args):
+        print("Hello from CLSEvaluator init() 1")
         super(CLSEvaluator, self).__init__(args)
+        print("Hello from CLSEvaluator init() 2")
         self.verbalizers = get_dataset_verbalizers(args.dataset)
+        print("Hello from CLSEvaluator init() 3")
         if "gpt" not in args.language_model:
             self.verbalizer_ids = [
                 self.tokenizer.convert_tokens_to_ids(v) for v in self.verbalizers
             ]
+        print("Hello from CLSEvaluator init() 4")
         args.dev_file = (
             f"./data/cls/{args.dataset}/dev_{args.sample_num}.txt"
             if args.dev_file is None

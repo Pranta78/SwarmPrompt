@@ -2,13 +2,13 @@
 
 set -ex
 
-export CUBLAS_WORKSPACE_CONFIG=:16:8  
+export CUBLAS_WORKSPACE_CONFIG=:16:8
 export CUDA_VISIBLE_DEVICES=0
 
 BUDGET=10
 POPSIZE=10
 GA=topk
-LLM_TYPE=davinci
+LLM_TYPE=turbo
 
 for dataset in asset
 do
@@ -17,7 +17,6 @@ for SEED in 5 10 15
 do
 python run.py \
     --seed $SEED \
-    --do_test \
     --dataset $dataset \
     --task sim \
     --batch-size 20 \
@@ -32,7 +31,7 @@ python run.py \
     --initial all \
     --initial_mode para_topk \
     --ga_mode $GA \
-    --cache_path data/sim/$dataset/seed${SEED}/prompts_gpt.json \
+    --cache_path data/sim/$dataset/seed${SEED}/prompts.json \
     --output $OUT_PATH/seed$SEED
 done
 python get_result.py -p $OUT_PATH > $OUT_PATH/result.txt

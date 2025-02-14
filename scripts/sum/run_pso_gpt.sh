@@ -4,21 +4,21 @@ set -ex
 
 export CUBLAS_WORKSPACE_CONFIG=:16:8  
 
-POPSIZE=10
 BUDGET=10
-template=v1
+POPSIZE=10
+TEMPLATE=v1
 initial=all
-LLM_TYPE=gpt4
+LLM_TYPE=deepseek
 
-for dataset in asset
+for dataset in sam
 do
-OUT_PATH=outputs/sim/$dataset/gpt/$initial/de/bd${BUDGET}_top${POPSIZE}_topk_para_init/$template/$LLM_TYPE
+OUT_PATH=outputs/sum/$dataset/gpt/all/pso/bd${BUDGET}_top${POPSIZE}_para_topk_init/${TEMPLATE}/${LLM_TYPE}
 for SEED in 5 10 15
 do
 python run.py \
     --seed $SEED \
     --dataset $dataset \
-    --task sim \
+    --task sum \
     --batch-size 20 \
     --prompt-num 0 \
     --sample_num 10 \
@@ -26,13 +26,14 @@ python run.py \
     --budget $BUDGET \
     --popsize $POPSIZE \
     --position pre \
-    --evo_mode de \
+    --evo_mode pso \
     --llm_type $LLM_TYPE \
     --initial $initial \
     --initial_mode para_topk \
-    --template $template \
-    --cache_path data/sim/$dataset/prompts.json \
-    --output $OUT_PATH/seed${SEED}
+    --cache_path data/sum/$dataset/prompts_auto.json \
+    --template $TEMPLATE \
+    --setting default \
+    --output $OUT_PATH/seed$SEED
 done
 python get_result.py -p $OUT_PATH > $OUT_PATH/result.txt
 done

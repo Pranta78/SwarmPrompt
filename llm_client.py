@@ -3,8 +3,8 @@ import os
 import atexit
 import requests
 import sys
-from tqdm import tqdm
-import openai
+from tqdm.auto import tqdm
+from openai import OpenAI
 from termcolor import colored
 import time
 from utils import read_yaml_file, remove_punctuation, batchify
@@ -18,6 +18,7 @@ def extract_seconds(text, retried=5):
 
 
 def form_request(data, type, **kwargs):
+
     if "davinci" in type:
         request_data = {
             "prompt": data,
@@ -36,6 +37,7 @@ def form_request(data, type, **kwargs):
         messages_list = []
         messages_list.append({"role": "user", "content": data})
         request_data = {
+            "model": type,
             "messages": messages_list,
             "max_tokens": 1000,
             "top_p": 0.95,
@@ -47,56 +49,100 @@ def form_request(data, type, **kwargs):
     # print(request_data)
     return request_data
 
-def llm_init(auth_file="../auth.yaml", llm_type='davinci', setting="default"):
+def my_llm_init(auth_file="../auth.yaml", llm_type='davinci', setting="default"):
+    auth = read_yaml_file(auth_file)[llm_type][setting]
+    # try:
+    #     openai.api_type = auth['api_type']
+    #     openai.api_base = auth["api_base"]
+    #     openai.api_version = auth["api_version"]
+    # except:
+    #     pass
+    # openai.api_key = auth["api_key"]
+    return auth
+
+
+def llm_init(auth_file="../auth.yaml", llm_type='deepseek', setting="default"):
     auth = read_yaml_file(auth_file)[llm_type][setting]
     try:
-        openai.api_type = auth['api_type']
-        openai.api_base = auth["api_base"]
-        openai.api_version = auth["api_version"]
+        client = OpenAI(
+                    base_url=auth["api_base"],
+                    api_key=auth["api_key"],
+                )
     except:
+        print("Error in initializing the client")
         pass
-    openai.api_key = auth["api_key"]
-    return auth
+    return client
+
+
+def api_call(model_name, data):
+    client = llm_init(f"./auth.yaml", model_name)
+
+    # a dictionary named llm_model that maps different LLM names (deepseek, gpt4, turbo, davinci) to their respective model names  
+
+    llm_model = {
+        "deepseek": "deepseek/deepseek-r1-distill-qwen-32b",
+        "gpt4": "openai/gpt-4o-mini",
+        "turbo": "openai/gpt-3.5-turbo",
+        "mistral": "mistralai/mistral-7b-instruct:free",
+        "llama": "meta-llama/llama-3-8b-instruct:free",
+    }
+
+    response = client.chat.completions.create(
+        model=llm_model[model_name],
+        messages=[
+            {
+                "role": "user",
+                "content": data,
+            }
+        ],
+        max_tokens= 1000,
+        top_p= 0.95,
+        frequency_penalty= 0,
+        presence_penalty= 0,
+    )
+
+    return response.choices[0].message.content
 
 
 def llm_query(data, client, type, task, **config):
     hypos = []
     response = None
-    model_name = "davinci" if "davinci" in type else "turbo"
+    # model_name = "davinci" if "davinci" in type else "turbo"
+    model_name = type
+    client = llm_init(f"./auth.yaml", model_name)
+
     # batch
     if isinstance(data, list):
         batch_data = batchify(data, 20)
         for batch in tqdm(batch_data):
             retried = 0
-            request_data = form_request(batch, model_name, **config)
+            # request_data = form_request(batch, model_name, **config)
             if "davinci" in type:
                 # print(request_data)
                 while True:
                     try:
-                        response = openai.Completion.create(**request_data)
-                        response = response["choices"]
+                        response = api_call(model_name, batch)
                         response = [r["text"] for r in response]
                         break
                     except Exception as e:
                         error = str(e)
-                        print("retring...", error)
+                        print("here 1 retring...", error)
                         second = extract_seconds(error, retried)
                         retried = retried + 1
                         time.sleep(second)
             else:
                 response = []
                 for data in tqdm(batch):
-                    request_data = form_request(data, type, **config)
+                    # request_data = form_request(data, type, **config)
                     while True:
                         try:
-                            result = openai.ChatCompletion.create(**request_data)
-                            result = result["choices"][0]["message"]["content"]
+                            result = api_call(model_name, data)
                             # print(result)
                             response.append(result)
                             break
                         except Exception as e:
                             error = str(e)
-                            print("retring...", error)
+                            print("here 2 retring...", error)
                             second = extract_seconds(error, retried)
                             retried = retried + 1
                             time.sleep(second)
@@ -117,17 +163,17 @@ def llm_query(data, client, type, task, **config):
                 print(type)
                 result = ""
                 if "turbo" in type or 'gpt4' in type:
-                    request_data = form_request(data, type, **config)
-                    response = openai.ChatCompletion.create(**request_data)
-                    result = response["choices"][0]["message"]["content"]
+                    # request_data = form_request(data, type, **config)
+                    response = api_call(model_name, data)
+                    result = response.strip()
                     break
                 else:
-                    request_data = form_request(data, type=type, **config)
-                    response = openai.Completion.create(**request_data)["choices"][ 0 ]["text"]
+                    response = api_call(model_name, data)
                     result = response.strip()
+                    break
             except Exception as e:
                 error = str(e)
-                print("retring...", error)
+                print("here 3 retring...", error)
                 second = extract_seconds(error, retried)
                 retried = retried + 1
                 time.sleep(second)

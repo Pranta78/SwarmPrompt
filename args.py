@@ -45,9 +45,9 @@ def parse_args():
         type=str,
         default="de",
         help="mode of the evolution",
-        choices=["de", "ga"],
+        choices=["de", "ga", "pso"],
     )
-    parser.add_argument("--llm_type", type=str, default="davinci", help='llm to generate prompt', choices=['davinci', 'turbo', 'gpt4'])
+    parser.add_argument("--llm_type", type=str, default="davinci", help='llm to generate prompt', choices=['davinci', 'turbo', 'gpt4', 'deepseek', 'mistral', 'llama'])
     parser.add_argument(
         "--initial",
         type=str,
