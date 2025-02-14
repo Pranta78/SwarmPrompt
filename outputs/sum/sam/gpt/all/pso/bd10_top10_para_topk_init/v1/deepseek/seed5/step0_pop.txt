@@ -1,14 +1,18 @@
-manual	Use concise language to summarize the main points, avoiding any unnecessary details or repetition.	0.0841	0.0	0.0841	0.0561
-ape	discuss a dream or a goal.	0.0795	0.0054	0.0795	0.0548
-pso	**Final Optimized Prompt:** "How would you concisely rephrase that in a few words?" 
+manual	How would you rephrase that in a few words?	0.3515	0.0951	0.2942	0.2469
+manual	Use concise language to summarize the main points, avoiding any unnecessary details or repetition.	0.3364	0.1034	0.2981	0.246
+manual	Summarize the given context.	0.3279	0.1002	0.2929	0.2404
+pso	Please summarize the main context, focusing on key points and omitting unnecessary details.	0.3046	0.0886	0.2747	0.2226
+pso	Edit the summary for clarity, coherence, and conciseness by refining for readability and emphasizing key points while removing redundant or unnecessary information.	0.2938	0.0831	0.2694	0.2155
+para	Can you put that differently in fewer words?	0.3387	0.1035	0.3048	0.249
+para	Condense the information by highlighting the key points and omitting superfluous content.	0.3385	0.1146	0.3124	0.2551
+pso	**New Optimized Prompt:**
 
-This prompt effectively combines the need for conciseness with the request for rephrasing, ensuring clarity and brevity.	0.0878	0.0	0.0878	0.0586
-ape	create input-output pairs.	0.0642	0.0118	0.0642	0.0467
-manual	Edit the summary if necessary to ensure clarity and coherence.	0.0652	0.0	0.0652	0.0435
-para	State your ideas clearly and concisely, highlighting the key points while eliminating any superfluous information or repetition.	0.0444	0.0	0.0444	0.0296
-para	Explore a vision or an aspiration.	0.0683	0.0	0.0683	0.0455
-para	Can you paraphrase that concisely?	0.0894	0.0091	0.0894	0.0626
-para	Generate input-output examples.	0.0578	0.0	0.0578	0.0385
-pso	Revise the summary as needed to enhance clarity and coherence.	0.0547	0.0028	0.0547	0.0374
-best score: 0.06262704046974658
-average score: 0.04733154493674866
+"Condense the information by highlighting the key points, capturing the essence of the content while omitting unnecessary details." 
+
+This prompt effectively combines the aspects of condensing, highlighting key points, capturing essence, and omitting superfluous content, ensuring clarity and comprehensiveness.	0.3248	0.1026	0.2911	0.2395
+pso	Please provide a concise overview of the key points, highlighting the most important information while omitting superfluous details.	0.2792	0.0847	0.2514	0.2051
+pso	**Optimized Prompt:**
+
+"Revise the summary to ensure it is clear, coherent, and concise. Focus on highlighting the key points while omitting any superfluous content."	0.2879	0.078	0.2618	0.2092
+best score: 0.2551496864580839
+average score: 0.23293447953178714

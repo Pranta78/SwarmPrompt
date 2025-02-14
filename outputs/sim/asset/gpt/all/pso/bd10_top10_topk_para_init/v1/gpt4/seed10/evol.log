@@ -148,3 +148,50 @@ New Optimized Prompt:
 Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
 The Simplification of the sentence is: 
 
+[2025-02-15 00:50:24,303] - Step 9 Particle 7 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise and simplify the provided information to enhance clarity and understanding while preserving the original meaning. Aim to make the content more accessible and straightforward without altering its essential message.
+2. Personal Best: Revise and simplify the provided information to enhance clarity and understanding while preserving the original meaning. Aim to make the content more accessible and straightforward without altering its essential message.
+3. Global Best: Revise the given sentences to make them simpler and more understandable, while ensuring that their original meaning remains intact.
+New Optimized Prompt:
+[2025-02-15 00:50:26,334] - Generated Prompt: Revise and simplify the provided information to improve clarity and understanding while maintaining the original meaning. Focus on making the content more accessible and straightforward without changing its essential message.
+[2025-02-15 00:50:26,335] - Step 9 Particle 8 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided text to make it simpler and more understandable, while preserving the original meaning.
+2. Personal Best: Revise the provided text to make it simpler and more understandable, while preserving the original meaning.
+3. Global Best: Revise the given sentences to make them simpler and more understandable, while ensuring that their original meaning remains intact.
+New Optimized Prompt:
+[2025-02-15 00:50:28,119] - Generated Prompt: Revise the provided text to enhance clarity and simplicity, while ensuring that the original meaning is maintained.
+[2025-02-15 00:50:28,119] - ### dataset example: Revise the provided text to enhance clarity and simplicity, while ensuring that the original meaning is maintained.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-15 00:54:06,852] - Step 9 Particle 9 Evolution Query:
+Combine the best aspects of these three prompts to create an improved version:
+1. Current Prompt: Revise the provided sentences to enhance clarity and simplicity. Eliminate unnecessary words and expressions while preserving the original meaning. Aim to make the text easily understandable for a wider audience.
+2. Personal Best: Revise the provided sentences to enhance clarity and simplicity. Eliminate unnecessary words and expressions while preserving the original meaning. Aim to make the text easily understandable for a wider audience.
+3. Global Best: Revise the given sentences to make them simpler and more understandable, while ensuring that their original meaning remains intact.
+New Optimized Prompt:
+[2025-02-15 00:54:08,936] - Generated Prompt: Revise the provided sentences to improve clarity and simplicity. Remove any unnecessary words and expressions while maintaining the original meaning. Focus on making the text accessible and easily understandable for a broad audience.
+[2025-02-15 00:54:08,936] - ### dataset example: Revise the provided sentences to improve clarity and simplicity. Remove any unnecessary words and expressions while maintaining the original meaning. Focus on making the text accessible and easily understandable for a broad audience.
+Osbourne later became a judge on the talent shows The X Factor and America's Got Talent.
+The Simplification of the sentence is: 
+
+[2025-02-15 00:57:43,353] - Final Evaluation Phase
+[2025-02-15 00:57:43,354] - ### dataset example: Revise the given sentences to make them simpler and more understandable, while ensuring that their original meaning remains intact.
+One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:10:38,838] - ### dataset example: Revise the provided sentences to make them simpler and more understandable, while ensuring the original meaning is preserved.
+One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:24:21,458] - ### dataset example: Revise the provided text to make it simpler and more understandable, while preserving the original meaning.
+One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.
+The Simplification of the sentence is: 
+
+[2025-02-15 01:37:25,015] - Final Best Score: 48.743768294598794
+Prompt: Revise the provided text to make it simpler and more understandable, while preserving the original meaning.
+[2025-02-15 01:37:25,015] - PSO Optimization Complete
+[2025-02-15 01:37:25,015] - Best Scores History: [48.000850908517265, 48.346038147547915, 48.346038147547915, 48.346038147547915, 48.346038147547915, 48.346038147547915, 48.346038147547915, 48.346038147547915, 48.346038147547915, 48.346038147547915]
+[2025-02-15 01:37:25,016] - Average Scores History: [47.24436877873077, 47.54134776465754, 47.642025415032414, 47.692805613736724, 47.71043167144312, 47.71043167144312, 47.78997597547732, 47.8050594868314, 47.805396523234116, 47.805396523234116]

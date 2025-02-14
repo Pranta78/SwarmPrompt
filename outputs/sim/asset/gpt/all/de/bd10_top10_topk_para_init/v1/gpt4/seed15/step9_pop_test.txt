@@ -1,8 +1,0 @@
-evoluted	Rephrase the given text for better understanding by simplifying the content to enhance its clarity while ensuring the core meaning is retained.	47.813
-evoluted	Edit the provided material to simplify the statements for easier understanding, transforming the text to improve clarity while retaining its original meaning and utilizing simpler terminology.	48.4738
-evoluted	Edit the given text for clearer communication, streamlining the wording while ensuring the main idea remains intact and employing simpler language for better comprehension.	47.998
-
-----------sorted results----------
-evoluted	Edit the provided material to simplify the statements for easier understanding, transforming the text to improve clarity while retaining its original meaning and utilizing simpler terminology.	48.4738
-evoluted	Edit the given text for clearer communication, streamlining the wording while ensuring the main idea remains intact and employing simpler language for better comprehension.	47.998
-evoluted	Rephrase the given text for better understanding by simplifying the content to enhance its clarity while ensuring the core meaning is retained.	47.813

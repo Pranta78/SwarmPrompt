@@ -1,19 +1,5 @@
-[2025-02-15 00:21:15,381] - Step 0 Particle 7 Evolution Query:
-Combine the best aspects of these three prompts to create an improved version:
-1. Current Prompt: 
-2. Personal Best: 
-3. Global Best: Condense the information by highlighting the key points and omitting superfluous content.
-New Optimized Prompt:
-[2025-02-15 00:21:30,425] - Generated Prompt: **New Optimized Prompt:**
-
-"Condense the information by highlighting the key points, capturing the essence of the content while omitting unnecessary details." 
-
-This prompt effectively combines the aspects of condensing, highlighting key points, capturing essence, and omitting superfluous content, ensuring clarity and comprehensiveness.
-[2025-02-15 00:21:30,426] - ### dataset example: **New Optimized Prompt:**
-
-"Condense the information by highlighting the key points, capturing the essence of the content while omitting unnecessary details." 
-
-This prompt effectively combines the aspects of condensing, highlighting key points, capturing essence, and omitting superfluous content, ensuring clarity and comprehensiveness.
-Anne: <file_photo> Nick: Wow, what's that? Anne: You remember the curry wurst you brought me from Berlin? Nick: Yeah, how was it?  Anne: Frankly? I've just thrown it away and used the jar as a pot for this lovely hyacinth!  Nick: You're not only creative, but also have green fingers, wow!
-TL;DR: 
-
+[2025-02-15 01:27:31,410] - Final Best Score: 0.2563821862320553
+Prompt: Can you paraphrase that concisely?
+[2025-02-15 01:27:31,410] - PSO Optimization Complete
+[2025-02-15 01:27:31,410] - Best Scores History: [0.06262704046974658, 0.06262704046974658, 0.06262704046974658, 0.06262704046974658, 0.06262704046974658, 0.06262704046974658, 0.06262704046974658, 0.06262704046974658, 0.06262704046974658, 0.06262704046974658]
+[2025-02-15 01:27:31,410] - Average Scores History: [0.04733154493674866, 0.04851422035813124, 0.05129067693189311, 0.05172606485823478, 0.05184516542433597, 0.05184516542433597, 0.05359126862752903, 0.05359126862752903, 0.053820104561290535, 0.05386995009820157]

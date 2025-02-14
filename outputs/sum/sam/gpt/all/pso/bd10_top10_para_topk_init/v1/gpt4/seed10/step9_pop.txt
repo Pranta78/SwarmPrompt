@@ -1,12 +1,12 @@
-manual	Use concise language to summarize the main points, avoiding any unnecessary details or repetition.	0.3867	0.1325	0.3484	0.2892
-manual	How would you rephrase that in a few words?	0.3802	0.1115	0.3277	0.2731
-manual	Summarize the given context.	0.3573	0.1139	0.3188	0.2633
-manual	Read the text or listen to the dialogue carefully to understand the main idea and the key points that have been discussed.	0.3472	0.1193	0.3139	0.2601
-manual	Please summarize the main context.	0.3368	0.106	0.3079	0.2502
-pso	New Optimized Prompt: Utilize clear and concise language to effectively summarize the key points, maintaining focus by eliminating unnecessary details and repetition.	0.0894	0.0076	0.0894	0.0622
-pso	Can you summarize the main points using concise language and rephrase them in just a few words, avoiding unnecessary details or repetition?	0.1047	0.0149	0.1047	0.0748
-pso	Summarize the provided information in clear and concise language, emphasizing the key points while omitting unnecessary details and repetition for a comprehensive and effective overview.	0.081	0.0054	0.081	0.0558
-para	Pay close attention to the text or audio conversation in order to grasp the central theme and the important details that have been highlighted.	0.0892	0.0093	0.0892	0.0625
-pso	Please provide a concise summary that clearly highlights the main points using precise language for enhanced clarity. Avoid unnecessary details and repetition to ensure the information is straightforward and easy to understand.	0.0946	0.0215	0.0946	0.0702
-best score: 0.28918252531965033
-average score: 0.16615519714524263
+pso	Revise and condense the provided information into a powerful, succinct statement.	0.3853	0.1362	0.3258	0.2824
+pso	Use concise language to clearly summarize the main points, condensing the information effectively while eliminating unnecessary details and repetition to ensure maximum clarity.	0.4048	0.156	0.3664	0.3091
+pso	Condense the provided information, emphasizing the key points and essential details to enhance clarity and comprehension.	0.3792	0.1373	0.3436	0.2867
+pso	Please provide a clear and concise summary of the main context, highlighting key points and essential information while effectively condensing the provided content for maximum clarity and brevity.	0.3731	0.1376	0.341	0.2839
+pso	New Optimized Prompt: Enhance clarity and coherence by editing and condensing the provided summary as needed.	0.3533	0.1213	0.3196	0.2647
+para	Can you summarize that in a few words?	0.4103	0.1564	0.3568	0.3078
+pso	Utilize concise language to distill the main ideas, focusing on clarity and brevity while avoiding unnecessary details and repetition.	0.4048	0.157	0.3655	0.3091
+para	Condense the provided information.	0.4016	0.1635	0.3646	0.3099
+pso	Please provide a concise summary highlighting the key points from the information given.	0.3752	0.1381	0.344	0.2858
+pso	Revise and condense the provided summary to improve clarity, coherence, and readability while retaining all essential information. Focus on presenting the main points concisely and effectively.	0.3456	0.1095	0.3107	0.2553
+best score: 0.3099161431181995
+average score: 0.2894760956633436

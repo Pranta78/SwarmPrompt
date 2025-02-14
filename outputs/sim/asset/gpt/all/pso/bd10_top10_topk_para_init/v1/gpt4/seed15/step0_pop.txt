@@ -1,12 +1,12 @@
-pso	Revise the following sentence to make it easier to understand while preserving its original meaning.	41.4477
-pso	Revise the provided sentences to make them clearer and easier to understand.	46.4822
-pso	Simplify and clarify the information in the given input to make it easier to understand.	41.4477
-pso	Rewrite the provided text in simpler language to make it easier to understand.	37.7106
-pso	Revise the provided sentences to simplify complex structures, remove unnecessary words or phrases, and enhance overall clarity for better understanding.	46.4822
-pso	Simplify the previous sentence while keeping its original meaning clear and intact.	46.4822
-para	Make the provided sentences easier to understand.	46.4822
-pso	Revise and simplify the given information, ensuring clarity and conciseness while retaining the essential meaning.	46.4822
-para	Transform the given text into an easier-to-understand version.	41.4477
-pso	Revise the provided sentences to enhance clarity by simplifying complex structures and eliminating any redundant words or phrases.	46.4822
-best score: 46.48223025112413
-average score: 44.09470105868966
+pso	Rewrite the sentence in simpler terms while maintaining its original meaning.	48.041
+pso	Revise the provided sentences to make them simpler, ensuring that the original meaning is preserved.	49.5198
+pso	Revise and simplify the given information, ensuring that the original meaning is preserved while making it more accessible and clear.	47.9429
+pso	Revise the provided text to make it simpler while ensuring that the original meaning remains intact.	48.873
+pso	Revise the given sentences to simplify complex structures and eliminate unnecessary words, while preserving the original meaning.	48.0533
+para	Make the sentence simpler while preserving its meaning.	49.226
+pso	Revise the provided sentences to make them simpler while preserving the original meaning.	48.7867
+pso	Revise the provided information to make it simpler and more concise, while preserving the original meaning.	48.1217
+pso	Revise the provided text to make it simpler and more straightforward while ensuring the original meaning remains intact.	49.3282
+pso	Revise the provided sentences to simplify them while preserving the original meaning. Eliminate redundant words and expressions to enhance clarity and conciseness.	47.8104
+best score: 49.51979131938029
+average score: 48.57030429492151

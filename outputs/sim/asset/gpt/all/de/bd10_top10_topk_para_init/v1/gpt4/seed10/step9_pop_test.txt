@@ -1,8 +1,0 @@
-evoluted	Convert the provided statement into a clearer form while retaining its essence by simplifying complex sentences and eliminating unnecessary words or phrases.	47.3177
-evoluted	Refine the provided text by transforming it into a more understandable version, enhancing the clarity of the statements while ensuring that the original meaning is preserved.	46.9282
-evoluted	Rephrase the presented information by altering the statement into more digestible language. Transform the supplied statement to make it easier to understand while keeping the initial meaning intact, and break down convoluted sentences and remove redundant words to articulate it clearly and concisely.	47.527
-
-----------sorted results----------
-evoluted	Rephrase the presented information by altering the statement into more digestible language. Transform the supplied statement to make it easier to understand while keeping the initial meaning intact, and break down convoluted sentences and remove redundant words to articulate it clearly and concisely.	47.527
-evoluted	Convert the provided statement into a clearer form while retaining its essence by simplifying complex sentences and eliminating unnecessary words or phrases.	47.3177
-evoluted	Refine the provided text by transforming it into a more understandable version, enhancing the clarity of the statements while ensuring that the original meaning is preserved.	46.9282
